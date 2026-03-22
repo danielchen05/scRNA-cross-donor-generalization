@@ -17,3 +17,11 @@ scRNA-cross-donor-generalization/
 ├── README.md           # Project overview
 └── .gitignore
 ```
+
+## Current Figure Plans (Subject to Change)
+Figure Ideas:  
+Figure 1: Dataset overview: UMAP by cell type, UMAP by donor, donor/cell type composition bar plot  
+Figure 2: Main benchmark: cell-type annotation performance under random split/donor held-out split across representations: bar plot   comparing macro F1 across representations under cell-level and donor-held-out evaluation.  
+Figure 3: Per cell type performance: heatmap of F1 by cell type and method: per-class F1 by method and evaluation scheme   
+Figure 4: ? donor ablation plots  
+Figure 5: confusion matrix for best donor-held-out method (dependent on figure 2, may be skip)  

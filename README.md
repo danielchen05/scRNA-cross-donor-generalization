@@ -22,7 +22,7 @@ scRNA-cross-donor-generalization/
 ## Carol: Preprocessing & Representations
 
 - [ ] Load dataset
-- [ ] Filter healthy donors, downsample (refer to 00_prelim)
+- [ ] Filter healthy donors, downsample (refer to 00_prelim, status=healthy, downsample 1 donor)
 - [ ] Normalize + log transform
 - [ ] Subset adata to HVGs (adata.X should only contain HVGs)
 - [ ] Store full data in adata.raw before subsetting

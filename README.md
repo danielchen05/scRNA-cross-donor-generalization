@@ -1,5 +1,6 @@
 # scRNA-cross-donor-generalization
-Final Research Project Code Repository for JHU EN.580.448 Computational Genomics: Data Analysis
+Final Research Project Code Repository for JHU EN.580.448 Computational Genomics: Data Analysis  
+Proposal Link: https://docs.google.com/document/d/1RDp3KSHCICNNnTg9bc4NFLe74MFOHukmjl1v7DhUTKw/edit?usp=sharing  
 
 ## Repository Structure (Initial Setup)
 

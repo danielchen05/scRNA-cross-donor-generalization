@@ -22,7 +22,7 @@ scRNA-cross-donor-generalization/
 ## Carol: Preprocessing & Representations
 
 - [ ] Load dataset
-- [ ] Filter healthy donors, downsample
+- [ ] Filter healthy donors, downsample (refer to 00_prelim)
 - [ ] Normalize + log transform
 - [ ] Subset adata to HVGs (adata.X should only contain HVGs)
 - [ ] Store full data in adata.raw before subsetting
@@ -30,19 +30,19 @@ scRNA-cross-donor-generalization/
 - [ ] Run Harmony
 - [ ] Extract scVI embeddings from processed data
 - [ ] Sanity-check plots (UMAP, heatmap), generate additional plots if necessary -> Figure 1 (results saved to results/figures using relative paths)
-- [ ] Export processed data (.h5ad, saved in /data. Will not be tracked by Github)
+- [ ] Export processed data (.h5ad, saved in /data. Will not be tracked by Github but should save locally)
 
 Note: Jupyter notebooks go in notebooks/ (ex: 01_preprocessing), also copy the core logic as .py files and save in src/. Import all packages at the beginning of notebooks.
 
 **Suggested Output format (for Daniel):**
 - adata.X -> HVG expression
-- adata.raw -> raw expression
+- adata.raw -> full expression before HVG subsetting
 - adata.obsm["X_pca"]
 - adata.obsm["X_harmony"]
 - adata.obsm["X_scvi"]
 
 ## Daniel: Modeling & Evaluation
-- [ ] Load processed adata object (no additional preprocessing, re-run notebooks)
+- [ ] Load processed adata object (re-run notebooks and generate local copy of processed adata)
 - [ ] Implement logistic regression
 - [ ] Scheme A (random split)
 - [ ] Scheme B (donor-held-out)

@@ -61,3 +61,10 @@ Figure 2: Main benchmark: cell-type annotation performance under random split/do
 Figure 3: Per cell type performance: heatmap of F1 by cell type and method: per-class F1 by method and evaluation scheme   
 Figure 4: ? donor ablation plots  
 Figure 5: confusion matrix for best donor-held-out method (dependent on figure 2, may be skip)  
+
+
+## Intermediate Proposal Feedback
+- [ ] Looking at your preliminary data in Figure 1F, which specific cell types do you plan to assess? There are several rare cell types present, and if the model performance on these is poor regardless of the training scheme, you may decide to focus strictly on more common cell types.   
+- [ ] For your primary supervised model, consider if there are any simple donor-level covariates you should include in your logistic regression.  
+- [ ] Additionally, as a non-required extension if you have the time, you could try using linear mixed models to better reflect how cells are grouped by donor.  
+- [ ] Finally, as a reminder for your final submission, please explicitly state which components are derived from work with a research lab and which parts are unique to this class project. This applies to specific datasets, existing codebases, or preliminary results you have shared. Also, please disclose the specific areas where AI was utilized, such as for code generation, drafting, or data processing.

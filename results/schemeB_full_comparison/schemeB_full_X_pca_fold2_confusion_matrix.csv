@@ -1,0 +1,41 @@
+,B cell,"CD14-low, CD16-positive monocyte",CD14-positive monocyte,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human","CD34-positive, CD38-negative hematopoietic stem cell","CD4-positive, alpha-beta T cell","CD8-positive, alpha-beta T cell","ILC1, human",IgA plasma cell,IgG plasma cell,IgM plasma cell,T follicular helper cell,T-helper 1 cell,T-helper 2 cell,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell",class switched memory B cell,dendritic cell,"dendritic cell, human","effector CD8-positive, alpha-beta T cell","effector memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell",erythrocyte,"erythroid progenitor cell, mammalian",gamma-delta T cell,"group 2 innate lymphoid cell, human",immature B cell,mature NK T cell,mucosal invariant T cell,myeloid dendritic cell,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell",natural killer cell,plasmablast,plasmacytoid dendritic cell,platelet,regulatory T cell,unswitched memory B cell
+B cell,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"CD14-low, CD16-positive monocyte",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+CD14-positive monocyte,0,0,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0
+"CD16-negative, CD56-bright natural killer cell, human",0,0,0,41,8,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"CD16-positive, CD56-dim natural killer cell, human",0,0,0,7,209,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,14,0,0,3,0,0,0,0,0,1,0,0,0,0,0
+"CD34-positive, CD38-negative hematopoietic stem cell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"CD4-positive, alpha-beta T cell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"CD8-positive, alpha-beta T cell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ILC1, human",0,0,0,11,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+IgA plasma cell,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+IgG plasma cell,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+IgM plasma cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+T follicular helper cell,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,3,8,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,2,0,0,0,0,0,0
+T-helper 1 cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+T-helper 2 cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+T-helper 22 cell,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,74,12,0,0,0,0,0,2,0,0,4,0,0,0,6,0,0,2,3,0,0,0,2,0,0
+"central memory CD4-positive, alpha-beta T cell",0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,70,227,0,0,0,3,0,10,1,0,3,0,0,0,9,0,0,68,20,0,0,0,3,0,0
+class switched memory B cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0
+dendritic cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+"dendritic cell, human",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0
+"effector CD8-positive, alpha-beta T cell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,90,0,2,0,0,25,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+"effector memory CD4-positive, alpha-beta T cell",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"effector memory CD8-positive, alpha-beta T cell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,72,0,0,30,0,0,0,8,0,0,0,3,0,0,0,1,0,0
+erythrocyte,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"erythroid progenitor cell, mammalian",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+gamma-delta T cell,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,15,3,0,0,0,1,0,2,0,0,17,0,0,0,3,0,0,0,1,0,0,0,1,0,0
+"group 2 innate lymphoid cell, human",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+immature B cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0
+mature NK T cell,0,0,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,72,0,0,0,0,0,0,0,0,1,0,0
+mucosal invariant T cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,9,0,0,11,0,0,0,49,0,0,3,0,0,0,0,0,0,0
+myeloid dendritic cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0
+naive B cell,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,14,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,208,4,0,0,0,0,0,0
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,36,13,0,0,0,0,0,5,0,0,4,0,0,0,2,0,0,16,80,0,0,0,2,0,0
+natural killer cell,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+plasmablast,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+plasmacytoid dendritic cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0
+platelet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,45,1,0
+regulatory T cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+unswitched memory B cell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0

@@ -1,0 +1,2475 @@
+fold,y_true,y_pred
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,erythrocyte,erythrocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,T-helper 22 cell
+2,T-helper 22 cell,"effector memory CD8-positive, alpha-beta T cell"
+2,IgG plasma cell,IgA plasma cell
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,plasmablast,dendritic cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,class switched memory B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,class switched memory B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"dendritic cell, human","dendritic cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,IgA plasma cell,plasmacytoid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,IgA plasma cell,IgA plasma cell
+2,platelet,platelet
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,gamma-delta T cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,erythrocyte,"central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,erythrocyte,erythrocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,erythrocyte,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,mucosal invariant T cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,erythrocyte,unswitched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,unswitched memory B cell
+2,IgA plasma cell,IgA plasma cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,erythrocyte,erythrocyte
+2,T-helper 22 cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,erythrocyte,"CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,IgA plasma cell,IgA plasma cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 1 cell,gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,immature B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,erythrocyte,erythrocyte
+2,mucosal invariant T cell,gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,class switched memory B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,erythrocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,mucosal invariant T cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,erythrocyte,erythrocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,IgA plasma cell,IgA plasma cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,erythrocyte,erythrocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"ILC1, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,IgA plasma cell,dendritic cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,class switched memory B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell",gamma-delta T cell
+2,naive B cell,unswitched memory B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,gamma-delta T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,immature B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,naive B cell,naive B cell
+2,mucosal invariant T cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,IgA plasma cell,dendritic cell
+2,"ILC1, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,immature B cell,immature B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,immature B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,T-helper 22 cell,T-helper 22 cell
+2,mucosal invariant T cell,"naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,erythrocyte,erythrocyte
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,gamma-delta T cell,mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,erythrocyte,erythrocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,erythrocyte,"central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,immature B cell,immature B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,IgG plasma cell,IgA plasma cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell",gamma-delta T cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mature NK T cell,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"dendritic cell, human","dendritic cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,gamma-delta T cell,T-helper 22 cell
+2,mature NK T cell,mature NK T cell
+2,class switched memory B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,platelet,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,immature B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",platelet
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,naive B cell
+2,immature B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,unswitched memory B cell,naive B cell
+2,erythrocyte,erythrocyte
+2,immature B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,dendritic cell,dendritic cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,IgA plasma cell,IgM plasma cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,immature B cell,immature B cell
+2,mature NK T cell,mature NK T cell
+2,class switched memory B cell,naive B cell
+2,naive B cell,naive B cell
+2,immature B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,platelet,platelet
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,gamma-delta T cell,gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,platelet,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,erythrocyte,CD14-positive monocyte
+2,platelet,platelet
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,unswitched memory B cell,class switched memory B cell
+2,"dendritic cell, human",myeloid dendritic cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,platelet,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,platelet,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,platelet,"central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,T-helper 22 cell,T-helper 22 cell
+2,erythrocyte,erythrocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,immature B cell,naive B cell
+2,naive B cell,naive B cell
+2,T follicular helper cell,"effector memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,unswitched memory B cell,naive B cell
+2,class switched memory B cell,class switched memory B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,erythrocyte,erythrocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,class switched memory B cell,class switched memory B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,platelet,platelet
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,platelet,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,gamma-delta T cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,immature B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell",mucosal invariant T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mature NK T cell,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,erythrocyte,erythrocyte
+2,"dendritic cell, human",myeloid dendritic cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,platelet,platelet
+2,plasmablast,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,unswitched memory B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,naive B cell,immature B cell
+2,platelet,platelet
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T follicular helper cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,immature B cell,immature B cell
+2,T-helper 22 cell,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,myeloid dendritic cell,myeloid dendritic cell
+2,naive B cell,naive B cell
+2,mucosal invariant T cell,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,platelet,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"dendritic cell, human",myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,unswitched memory B cell,naive B cell
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,erythrocyte,erythrocyte
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human",myeloid dendritic cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mucosal invariant T cell,T-helper 22 cell
+2,mucosal invariant T cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human",myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,platelet,"central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,mature NK T cell
+2,platelet,"CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,mature NK T cell,mature NK T cell
+2,class switched memory B cell,class switched memory B cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,immature B cell,immature B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T follicular helper cell,gamma-delta T cell
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell",platelet
+2,T-helper 22 cell,mucosal invariant T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,naive B cell,naive B cell
+2,T-helper 22 cell,T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,class switched memory B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,mucosal invariant T cell
+2,platelet,platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,IgG plasma cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,gamma-delta T cell,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,platelet,platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human",myeloid dendritic cell
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"erythroid progenitor cell, mammalian","CD34-positive, CD38-negative hematopoietic stem cell"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,mucosal invariant T cell
+2,platelet,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,erythrocyte,erythrocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,gamma-delta T cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,immature B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"dendritic cell, human",myeloid dendritic cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,platelet,platelet
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"erythroid progenitor cell, mammalian","erythroid progenitor cell, mammalian"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,naive B cell,naive B cell
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,immature B cell,immature B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,class switched memory B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,erythrocyte,erythrocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,immature B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,class switched memory B cell,unswitched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,immature B cell,naive B cell
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,naive B cell,naive B cell
+2,class switched memory B cell,naive B cell
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,class switched memory B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,platelet,platelet
+2,platelet,platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,platelet,"naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,immature B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,"effector memory CD8-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,class switched memory B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,T-helper 22 cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,gamma-delta T cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"dendritic cell, human","dendritic cell, human"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 1 cell,T-helper 22 cell
+2,"dendritic cell, human","dendritic cell, human"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,unswitched memory B cell,naive B cell
+2,mucosal invariant T cell,gamma-delta T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,naive B cell,naive B cell
+2,platelet,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,"central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"dendritic cell, human",myeloid dendritic cell
+2,gamma-delta T cell,T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T follicular helper cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,class switched memory B cell,class switched memory B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,immature B cell,immature B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,gamma-delta T cell,T-helper 22 cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,mucosal invariant T cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD34-positive, CD38-negative hematopoietic stem cell","erythroid progenitor cell, mammalian"
+2,gamma-delta T cell,gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T-helper 22 cell,T-helper 22 cell
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,platelet,platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,naive B cell,naive B cell
+2,gamma-delta T cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human",erythrocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,"CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,class switched memory B cell,naive B cell
+2,mucosal invariant T cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human",myeloid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,mucosal invariant T cell,gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,immature B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",mature NK T cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,dendritic cell,dendritic cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,IgG plasma cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,"effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,"dendritic cell, human","dendritic cell, human"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,gamma-delta T cell,"CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell",platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,mucosal invariant T cell,gamma-delta T cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,regulatory T cell,"central memory CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,"effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,class switched memory B cell,class switched memory B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,mucosal invariant T cell,gamma-delta T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,mucosal invariant T cell,gamma-delta T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,naive B cell,unswitched memory B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T-helper 22 cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,mucosal invariant T cell
+2,gamma-delta T cell,"effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,"CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,naive B cell,class switched memory B cell
+2,T-helper 22 cell,T-helper 22 cell
+2,gamma-delta T cell,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mature NK T cell,gamma-delta T cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"ILC1, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"ILC1, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mucosal invariant T cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,platelet
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,regulatory T cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T follicular helper cell
+2,T follicular helper cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"ILC1, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,platelet,platelet
+2,unswitched memory B cell,unswitched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,T-helper 22 cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 1 cell,mucosal invariant T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,"central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,platelet,platelet
+2,T-helper 22 cell,T-helper 22 cell
+2,gamma-delta T cell,"naive thymus-derived CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,unswitched memory B cell,unswitched memory B cell
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,gamma-delta T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell",erythrocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,T-helper 22 cell,"naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,class switched memory B cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,mucosal invariant T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,mature NK T cell,"CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mature NK T cell,"effector CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"ILC1, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"effector CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T-helper 22 cell,mucosal invariant T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,IgA plasma cell,IgA plasma cell
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,naive B cell,class switched memory B cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human",myeloid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,platelet,platelet
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,mucosal invariant T cell,gamma-delta T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,erythrocyte,CD14-positive monocyte
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mature NK T cell,"effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell",mature NK T cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,unswitched memory B cell,unswitched memory B cell
+2,B cell,B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,naive B cell,class switched memory B cell
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"dendritic cell, human","dendritic cell, human"
+2,gamma-delta T cell,T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD8-positive, alpha-beta T cell","CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 1 cell,platelet
+2,unswitched memory B cell,B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,"central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD8-positive, alpha-beta T cell","CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,T-helper 22 cell,T-helper 22 cell
+2,platelet,platelet
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,immature B cell,immature B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,erythrocyte,erythrocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,mature NK T cell,"effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mucosal invariant T cell,T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,class switched memory B cell,unswitched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"dendritic cell, human","dendritic cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"dendritic cell, human","dendritic cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell",T-helper 22 cell
+2,mature NK T cell,"CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,erythrocyte,erythrocyte
+2,"dendritic cell, human","dendritic cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,gamma-delta T cell,gamma-delta T cell
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,T-helper 22 cell,T-helper 22 cell
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,erythrocyte,erythrocyte
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,unswitched memory B cell,B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD4-positive, alpha-beta T cell","CD16-negative, CD56-bright natural killer cell, human"
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,"dendritic cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mucosal invariant T cell,gamma-delta T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"ILC1, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"dendritic cell, human","dendritic cell, human"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,T-helper 22 cell,"naive thymus-derived CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,class switched memory B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell",platelet
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,myeloid dendritic cell,"dendritic cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,erythrocyte,erythrocyte
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,mucosal invariant T cell
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,T-helper 22 cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,platelet,platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"dendritic cell, human",myeloid dendritic cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,naive B cell,naive B cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",platelet
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"dendritic cell, human","dendritic cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,class switched memory B cell,class switched memory B cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,class switched memory B cell,class switched memory B cell
+2,naive B cell,naive B cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,IgM plasma cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,B cell,B cell
+2,T follicular helper cell,"central memory CD4-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"dendritic cell, human","dendritic cell, human"
+2,"effector CD8-positive, alpha-beta T cell",platelet
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,T-helper 22 cell,T-helper 22 cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,mucosal invariant T cell,mucosal invariant T cell
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,mucosal invariant T cell,T-helper 22 cell
+2,T-helper 22 cell,T-helper 22 cell
+2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+2,"effector CD8-positive, alpha-beta T cell",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,platelet,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,class switched memory B cell,class switched memory B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector memory CD8-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,myeloid dendritic cell,myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,natural killer cell,natural killer cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,platelet,platelet
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"dendritic cell, human","dendritic cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,"effector memory CD4-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,immature B cell,immature B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,class switched memory B cell,class switched memory B cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,unswitched memory B cell,naive B cell
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,natural killer cell,"CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,dendritic cell,myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"dendritic cell, human",myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,class switched memory B cell,class switched memory B cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,mature NK T cell
+2,"dendritic cell, human","dendritic cell, human"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,dendritic cell,dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"dendritic cell, human","dendritic cell, human"
+2,naive B cell,naive B cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"dendritic cell, human","dendritic cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,immature B cell,immature B cell
+2,mature NK T cell,mature NK T cell
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"dendritic cell, human",myeloid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,platelet,platelet
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human",gamma-delta T cell
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"dendritic cell, human",myeloid dendritic cell
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"dendritic cell, human","dendritic cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,myeloid dendritic cell,myeloid dendritic cell
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,immature B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD14-low, CD16-positive monocyte",mature NK T cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,myeloid dendritic cell,myeloid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,mature NK T cell
+2,unswitched memory B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,dendritic cell,dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","naive thymus-derived CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,platelet,platelet
+2,"ILC1, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,naive B cell,naive B cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,class switched memory B cell,class switched memory B cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,immature B cell,immature B cell
+2,naive B cell,naive B cell
+2,mature NK T cell,mature NK T cell
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"group 2 innate lymphoid cell, human",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,mature NK T cell,mature NK T cell
+2,mature NK T cell,mature NK T cell
+2,immature B cell,naive B cell
+2,naive B cell,naive B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"dendritic cell, human","dendritic cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector memory CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,platelet,platelet
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,naive B cell,naive B cell
+2,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,mature NK T cell,mature NK T cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,immature B cell,immature B cell
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"group 2 innate lymphoid cell, human",gamma-delta T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,platelet,platelet
+2,mature NK T cell,mature NK T cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,dendritic cell,dendritic cell
+2,class switched memory B cell,class switched memory B cell
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,myeloid dendritic cell,myeloid dendritic cell
+2,"dendritic cell, human",myeloid dendritic cell
+2,natural killer cell,"CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,naive B cell,naive B cell
+2,"CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,CD14-positive monocyte,CD14-positive monocyte
+2,class switched memory B cell,naive B cell
+2,"CD16-positive, CD56-dim natural killer cell, human","effector memory CD8-positive, alpha-beta T cell"
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"
+2,CD14-positive monocyte,CD14-positive monocyte
+2,"CD16-positive, CD56-dim natural killer cell, human","effector CD8-positive, alpha-beta T cell"

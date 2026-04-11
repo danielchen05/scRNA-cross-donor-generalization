@@ -2,7 +2,7 @@
 **Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation Benchmarks**  
 Final Research Project Code Repository for JHU EN.580.448 Computational Genomics: Data Analysis  
 - Manuscript: https://docs.google.com/document/d/1ljOWM2J1JYLTrstWga6W-QoZ3kqSHeyz_d5JUgY7Kwo/edit?usp=sharing  
-- Presentation: 
+- Presentation: https://docs.google.com/presentation/d/1lzRSf2f7j7WM2_wLy52AtIn-Ba04y7KW4-_KwZp_7eM/edit?usp=sharing
 - Proposal: https://docs.google.com/document/d/1RDp3KSHCICNNnTg9bc4NFLe74MFOHukmjl1v7DhUTKw/edit?usp=sharing  
 
 ---
@@ -33,7 +33,7 @@ The goal is to quantify how data leakage and dataset structure impact reported m
 
 ![Figure 2: Evaluation strategy comparison](results/figures/figure2_three_panel.png)
 
-**Figure 2.** Random cell-level splits (Scheme A) consistently overestimate performance compared to donor-held-out evaluation (Scheme B) across all transcriptomic representations. Cross-site evaluation further degrades performance, highlighting the impact of distribution shift.
+**Figure 2.** Random cell-level splits (Scheme A) systematically overestimate performance due to donor-level leakage. Donor-held-out evaluation (Scheme B) yields lower but more realistic generalization performance across all transcriptomic representations. Cross-site evaluation further degrades performance, highlighting the impact of distribution shift.
 
 ---
 

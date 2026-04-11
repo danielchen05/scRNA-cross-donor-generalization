@@ -1,0 +1,9 @@
+representation,train_site,test_site,direction,macro_f1,accuracy,n_train_donors,n_test_donors,n_train_cells,n_test_cells,n_classes_used,representation_clean
+X_harmony,Cambridge,Ncl,Cambridge → Ncl,0.7094379997804451,0.781060606060606,11,12,4827,5280,13,harmony
+X_harmony,Ncl,Cambridge,Ncl → Cambridge,0.6629467226638254,0.6592086181893516,12,11,5280,4827,13,harmony
+hvg,Cambridge,Ncl,Cambridge → Ncl,0.7146886208493816,0.7941287878787879,11,12,4827,5280,13,hvg
+hvg,Ncl,Cambridge,Ncl → Cambridge,0.6528570439958039,0.6490573855396726,12,11,5280,4827,13,hvg
+X_pca,Cambridge,Ncl,Cambridge → Ncl,0.7157721976725503,0.8037878787878788,11,12,4827,5280,13,pca
+X_pca,Ncl,Cambridge,Ncl → Cambridge,0.6754724824182746,0.673917547130723,12,11,5280,4827,13,pca
+X_scVI,Cambridge,Ncl,Cambridge → Ncl,0.696263707344616,0.7704545454545455,11,12,4827,5280,13,scvi
+X_scVI,Ncl,Cambridge,Ncl → Cambridge,0.6546393581541049,0.6474000414336026,12,11,5280,4827,13,scvi

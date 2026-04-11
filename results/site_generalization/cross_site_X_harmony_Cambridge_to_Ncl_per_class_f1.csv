@@ -1,0 +1,14 @@
+cell_type,f1,precision,recall,support,representation,train_site,test_site
+CD14-positive monocyte,0.9913151364764269,0.9839901477832512,0.99875,800.0,X_harmony,Cambridge,Ncl
+"CD16-negative, CD56-bright natural killer cell, human",0.8762541806020065,0.9097222222222222,0.8451612903225807,155.0,X_harmony,Cambridge,Ncl
+"CD16-positive, CD56-dim natural killer cell, human",0.9131195335276968,0.9052023121387284,0.9211764705882353,850.0,X_harmony,Cambridge,Ncl
+T-helper 22 cell,0.6269230769230769,0.6269230769230769,0.6269230769230769,260.0,X_harmony,Cambridge,Ncl
+"central memory CD4-positive, alpha-beta T cell",0.24952741020793953,0.16216216216216217,0.5409836065573771,122.0,X_harmony,Cambridge,Ncl
+"effector CD8-positive, alpha-beta T cell",0.7640671273445212,0.6742160278745645,0.8815489749430524,439.0,X_harmony,Cambridge,Ncl
+"effector memory CD8-positive, alpha-beta T cell",0.6891495601173021,0.7208588957055214,0.6601123595505618,356.0,X_harmony,Cambridge,Ncl
+gamma-delta T cell,0.22289156626506024,0.5692307692307692,0.13857677902621723,267.0,X_harmony,Cambridge,Ncl
+mature NK T cell,0.880597014925373,0.9932659932659933,0.7908847184986595,373.0,X_harmony,Cambridge,Ncl
+mucosal invariant T cell,0.5806451612903226,0.5901639344262295,0.5714285714285714,189.0,X_harmony,Cambridge,Ncl
+naive B cell,1.0,1.0,1.0,278.0,X_harmony,Cambridge,Ncl
+"naive thymus-derived CD4-positive, alpha-beta T cell",0.791167192429022,0.8111254851228978,0.7721674876847291,812.0,X_harmony,Cambridge,Ncl
+"naive thymus-derived CD8-positive, alpha-beta T cell",0.637037037037037,0.7263513513513513,0.5672823218997362,379.0,X_harmony,Cambridge,Ncl

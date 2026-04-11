@@ -1,8 +1,9 @@
 # scRNA-cross-donor-generalization
+**Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation Benchmarks**  
 Final Research Project Code Repository for JHU EN.580.448 Computational Genomics: Data Analysis  
-Manuscript: https://docs.google.com/document/d/1ljOWM2J1JYLTrstWga6W-QoZ3kqSHeyz_d5JUgY7Kwo/edit?usp=sharing  
-Presentation: 
-Proposal: https://docs.google.com/document/d/1RDp3KSHCICNNnTg9bc4NFLe74MFOHukmjl1v7DhUTKw/edit?usp=sharing  
+- Manuscript: https://docs.google.com/document/d/1ljOWM2J1JYLTrstWga6W-QoZ3kqSHeyz_d5JUgY7Kwo/edit?usp=sharing  
+- Presentation: 
+- Proposal: https://docs.google.com/document/d/1RDp3KSHCICNNnTg9bc4NFLe74MFOHukmjl1v7DhUTKw/edit?usp=sharing  
 
 ---
 
@@ -21,6 +22,18 @@ Across multiple transcriptomic representations:
 - scVI
 
 The goal is to quantify how data leakage and dataset structure impact reported model performance.
+
+## Key Findings
+
+- Random cell-level splits overestimate performance due to donor-level leakage
+- Donor-held-out evaluation provides a more realistic generalization estimate
+- Batch-aware methods (Harmony, scVI) do not consistently outperform PCA
+
+## Main Result
+
+![Figure 2: Evaluation strategy comparison](results/figures/figure2_three_panel.png)
+
+**Figure 2.** Random cell-level splits (Scheme A) consistently overestimate performance compared to donor-held-out evaluation (Scheme B) across all transcriptomic representations. Cross-site evaluation further degrades performance, highlighting the impact of distribution shift.
 
 ---
 
@@ -77,8 +90,10 @@ Including:
 
 Data is loaded via:
 
-`import pertpy as pt`  
-`adata = pt.data.stephenson_2021_subsampled()`
+```python
+import pertpy as pt  
+adata = pt.data.stephenson_2021_subsampled()
+```
 
 Alternatively, preprocessed `.h5ad` files are provided in:
 

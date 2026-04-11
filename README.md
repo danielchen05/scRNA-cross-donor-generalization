@@ -1,7 +1,7 @@
 # scRNA-cross-donor-generalization
 Final Research Project Code Repository for JHU EN.580.448 Computational Genomics: Data Analysis  
 Manuscript: https://docs.google.com/document/d/1ljOWM2J1JYLTrstWga6W-QoZ3kqSHeyz_d5JUgY7Kwo/edit?usp=sharing  
-Presentation:  
+Presentation: 
 Proposal: https://docs.google.com/document/d/1RDp3KSHCICNNnTg9bc4NFLe74MFOHukmjl1v7DhUTKw/edit?usp=sharing  
 
 ---
@@ -25,6 +25,7 @@ The goal is to quantify how data leakage and dataset structure impact reported m
 ---
 
 ## Repository Structure
+```
 scRNA-cross-donor-generalization/
 │
 ├── data/ # Processed AnnData objects and metadata
@@ -33,12 +34,14 @@ scRNA-cross-donor-generalization/
 ├── results/ # All outputs (figures, tables, metrics)
 ├── requirements.txt # Python dependencies
 └── README.md # This file
+```
 
 ### Key Notes
 
 - The **main pipeline starts from `01_preprocessing.ipynb`**
 - `00_prelim_viz.ipynb` is **exploratory only** and not required
 - All results in the manuscript are generated from the notebooks
+- Core logic is modularized in `src/`, but all analyses can (and should) be run directly from notebooks
 
 ---
 
@@ -98,7 +101,7 @@ Detailed breakdowns of evaluation schemes are in:
 - `schemeA_*`: random split experiments  
 - `schemeB_*`: donor-held-out experiments  
 
-Additional documentation is provided within subdirectories:
+Additional detailed documentation is provided within subdirectories:
 - `data/README.md`: dataset details and preprocessing
 - `results/README.md`: detailed description of output structure and evaluation schemes
 

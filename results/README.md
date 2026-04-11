@@ -4,6 +4,7 @@ This directory contains all outputs generated from the evaluation pipelines desc
 
 - `03-Random-Split.ipynb` (Scheme A: random cell-level split) 
 - `04-donor-held-out.ipynb` (Scheme B: donor-held-out evaluation)
+- `06-other-explorations.ipynb` (Additional Data Explorations)
 
 These results support all figures, tables, and analyses in the manuscript.
 
@@ -40,6 +41,16 @@ These results support all figures, tables, and analyses in the manuscript.
 
 ---
 
+### Supplementary Analyses
+
+- **supp_excluded_celltypes/**  
+  Donor-held-out evaluation on excluded (filtered-out) cell types only.  
+  Used to assess how sparsity and low representation impact classification performance.
+
+- **supp_glmm_s3/**  
+  Mixed-effects modeling analysis (GLMM) evaluating correctness while accounting for donor-level variation as a random effect.  
+  Used to validate robustness of evaluation strategy beyond standard metrics.
+
 ### Aggregated Outputs
 
 - **tables/**
@@ -49,7 +60,12 @@ These results support all figures, tables, and analyses in the manuscript.
   - `donor_ablation_summary.csv`: Donor ablation results (performance vs # training donors)
 
 - **figures/**
-  Final figures generated from the above results. `dataset_overview.png` and `figure*` and `supplementary*` are used in the final manuscript.
+  Final figures generated from all analyses, including:
+  - Main figures (`figure*`)
+  - Supplementary figures (`supplementary*`)
+  - Dataset overview visualizations
+
+  These correspond directly to figures referenced in the manuscript.
 
 ---
 
@@ -77,6 +93,16 @@ For Scheme B (cross-validation):
 - Aggregated confusion matrices across folds
 - Mean per-class performance across folds
 
+For supplementary GLMM analysis (`supp_glmm_s3/`):
+
+- `glmm_input_predictions.csv`  
+  Combined prediction-level dataset across all splits and representations
+
+- `glmm_predicted_probabilities.csv`  
+  Estimated probability of correct classification under each evaluation scheme
+
+These outputs are used to quantify evaluation bias while accounting for donor-level random effects.
+
 ---
 
 ## Donor Ablation Analysis
@@ -102,6 +128,18 @@ To regenerate these results:
 3. Execute:
    - `03-Random-Split.ipynb`
    - `04-donor-held-out.ipynb`
+   - `05-visualizations.ipynb`
+   - `06-other-explorations.ipynb`
 4. Outputs will be written automatically to this `results/` directory
 
 Refer to the main repository `README.md` for full pipeline setup.
+
+---
+
+## Naming Conventions
+
+- `schemeA`: Random cell-level split (potential donor leakage)
+- `schemeB`: Donor-held-out evaluation (no donor overlap)
+- `filtered`: Dataset restricted to well-represented cell types
+- `full`: All cell types included
+- `supp_*`: Supplementary analyses not part of the main evaluation pipeline

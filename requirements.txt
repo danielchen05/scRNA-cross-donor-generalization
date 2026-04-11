@@ -1,1 +1,11 @@
-placeholder for all Python dependencies.
+numpy
+pandas
+scanpy
+anndata
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+harmonypy
+scvi-tools # only needed if users want to re-compute scVI representations (they are provided with the data, so not strictly needed)
+pertpy # not strictly needed, only used for downloading data

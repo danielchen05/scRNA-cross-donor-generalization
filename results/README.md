@@ -4,9 +4,10 @@ This directory contains all outputs generated from the evaluation pipelines desc
 
 - `03-Random-Split.ipynb` (Scheme A: random cell-level split) 
 - `04-donor-held-out.ipynb` (Scheme B: donor-held-out evaluation)
+- `05-visualizations.ipynb` (Visualizations based on Scheme A and B)
 - `06-other-explorations.ipynb` (Additional Data Explorations)
 
-These results support all figures, tables, and analyses in the manuscript.
+These results support all figures, tables, and analyses in the manuscript, including evaluation under cell-level, donor-level, and site-level generalization settings.
 
 ---
 
@@ -41,6 +42,14 @@ These results support all figures, tables, and analyses in the manuscript.
 
 ---
 
+### Cross-Site Generalization
+
+- **site_generalization/**  
+  Cross-site evaluation where models are trained on all donors from one site and tested on donors from a different site (e.g., Cambridge → Newcastle, and vice versa).  
+  This setting introduces a stronger distribution shift than donor-held-out evaluation and is used to assess robustness to site-level variation.
+
+---
+
 ### Supplementary Analyses
 
 - **supp_excluded_celltypes/**  
@@ -58,6 +67,7 @@ These results support all figures, tables, and analyses in the manuscript.
   - `schemeB_summary.csv`: Summary across Scheme B filtered experiments
   - `schemeB_filtered_vs_full.csv`: Comparison of filtered vs full datasets
   - `donor_ablation_summary.csv`: Donor ablation results (performance vs # training donors)
+  - `cross_site_summary.csv`: Cross-site generalization results (train on one site, test on another)
 
 - **figures/**
   Final figures generated from all analyses, including:
@@ -101,7 +111,23 @@ For supplementary GLMM analysis (`supp_glmm_s3/`):
 - `glmm_predicted_probabilities.csv`  
   Estimated probability of correct classification under each evaluation scheme
 
-These outputs are used to quantify evaluation bias while accounting for donor-level random effects.
+These outputs are used to quantify evaluation bias while accounting for donor-level random effects.  
+
+For cross-site generalization (`site_generalization/`):
+
+- `cross_site_metrics.csv`  
+  Summary performance for each train→test site direction
+
+- `*_predictions.csv`  
+  Model predictions for each direction
+
+- `*_per_class_f1.csv`  
+  Per-cell-type performance under cross-site transfer
+
+- `*_confusion_matrix.csv`  
+  Confusion matrices for each direction
+
+These outputs quantify model performance under site-level distribution shift.
 
 ---
 

@@ -1,11 +1,13 @@
 # scRNA-cross-donor-generalization
+
 **Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation Benchmarks**  
-This repository contains all code and results required to reproduce the analyses in the associated manuscript.  
-Final Research Project for JHU EN.580.448 Computational Genomics: Data Analysis  
+This repository contains all code and results required to reproduce the analyses in the associated manuscript.   
+
 - Manuscript: https://docs.google.com/document/d/1ljOWM2J1JYLTrstWga6W-QoZ3kqSHeyz_d5JUgY7Kwo/edit?usp=sharing  
 - Presentation: https://docs.google.com/presentation/d/1lzRSf2f7j7WM2_wLy52AtIn-Ba04y7KW4-_KwZp_7eM/edit?usp=sharing
 - Proposal: https://docs.google.com/document/d/1RDp3KSHCICNNnTg9bc4NFLe74MFOHukmjl1v7DhUTKw/edit?usp=sharing  
 
+Final Research Project for JHU EN.580.448 (Computational Genomics: Data Analysis).  
 ---
 
 ## Overview
@@ -13,14 +15,10 @@ Final Research Project for JHU EN.580.448 Computational Genomics: Data Analysis
 This project investigates how evaluation strategy affects the measured performance of scRNA-seq cell type classification models.
 
 We compare:
-- **Random cell-level splits (Scheme A)** - a commonly used but potentially biased evaluation
-- **Donor-held-out evaluation (Scheme B)** - a more realistic cross-donor generalization setting
+- **Scheme A (Random cell-level split)** – commonly used but biased
+- **Scheme B (Donor-held-out)** – more realistic cross-donor evaluation
 
-Across multiple transcriptomic representations:
-- HVG (highly variable genes)
-- PCA
-- Harmony
-- scVI
+Representations: HVG, PCA, Harmony, scVI
 
 The goal is to quantify how data leakage and dataset structure impact reported model performance.
 

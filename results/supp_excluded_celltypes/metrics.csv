@@ -1,0 +1,5 @@
+scheme,dataset,batch,representation,macro_f1_mean,macro_f1_std,accuracy_mean,accuracy_std,n_folds,mean_train_cells,mean_test_cells,mean_n_classes_used,batch_covariate,mean_n_batch_features
+donor_held_out,excluded_only,no,X_pca,0.6183520847834957,0.07502152245149299,0.793272665430385,0.019944461960324966,5,945.6,236.4,27.0,None,0.0
+donor_held_out,excluded_only,no,X_scVI,0.6169775750237938,0.07371469971689633,0.7957855259427008,0.024446724443715488,5,945.6,236.4,27.0,None,0.0
+donor_held_out,excluded_only,no,hvg,0.5952763563544687,0.05548457671279099,0.8085637883632029,0.017130190408056935,5,945.6,236.4,27.0,None,0.0
+donor_held_out,excluded_only,no,X_harmony,0.5573452616439432,0.05017479248924375,0.7798402838735357,0.019011645734243774,5,945.6,236.4,27.0,None,0.0

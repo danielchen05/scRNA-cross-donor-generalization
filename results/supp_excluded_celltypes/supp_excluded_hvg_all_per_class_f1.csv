@@ -1,0 +1,136 @@
+cell_type,f1,precision,recall,support,fold
+B cell,0.4,0.5,0.3333333333333333,3.0,1
+"CD14-low, CD16-positive monocyte",1.0,1.0,1.0,1.0,1
+"CD34-positive, CD38-negative hematopoietic stem cell",0.5,1.0,0.3333333333333333,3.0,1
+"CD4-positive, alpha-beta T cell",0.0,0.0,0.0,2.0,1
+"CD8-positive, alpha-beta T cell",0.0,0.0,0.0,3.0,1
+"ILC1, human",0.8571428571428571,0.75,1.0,3.0,1
+IgA plasma cell,0.7499999999999999,1.0,0.6,5.0,1
+IgG plasma cell,0.0,0.0,0.0,0.0,1
+IgM plasma cell,0.0,0.0,0.0,2.0,1
+T follicular helper cell,0.8253968253968254,0.7222222222222222,0.9629629629629629,27.0,1
+T-helper 1 cell,0.0,0.0,0.0,1.0,1
+T-helper 2 cell,0.0,0.0,0.0,1.0,1
+class switched memory B cell,0.9130434782608695,0.875,0.9545454545454546,44.0,1
+dendritic cell,0.8571428571428571,1.0,0.75,4.0,1
+"dendritic cell, human",0.8292682926829269,0.8947368421052632,0.7727272727272727,22.0,1
+"effector memory CD4-positive, alpha-beta T cell",0.36363636363636365,0.6666666666666666,0.25,8.0,1
+erythrocyte,1.0,1.0,1.0,1.0,1
+"erythroid progenitor cell, mammalian",0.7499999999999999,0.6,1.0,3.0,1
+"group 2 innate lymphoid cell, human",0.0,0.0,0.0,0.0,1
+immature B cell,0.8235294117647057,0.75,0.9130434782608695,23.0,1
+myeloid dendritic cell,0.8666666666666666,0.8125,0.9285714285714286,28.0,1
+natural killer cell,0.8000000000000002,0.8,0.8,5.0,1
+plasmablast,0.0,0.0,0.0,3.0,1
+plasmacytoid dendritic cell,1.0,1.0,1.0,22.0,1
+platelet,0.9454545454545454,0.896551724137931,1.0,26.0,1
+regulatory T cell,0.0,0.0,0.0,3.0,1
+unswitched memory B cell,0.7272727272727272,0.8,0.6666666666666666,6.0,1
+B cell,0.0,0.0,0.0,4.0,2
+"CD14-low, CD16-positive monocyte",0.6666666666666666,0.5,1.0,1.0,2
+"CD34-positive, CD38-negative hematopoietic stem cell",1.0,1.0,1.0,1.0,2
+"CD4-positive, alpha-beta T cell",0.0,0.0,0.0,0.0,2
+"CD8-positive, alpha-beta T cell",0.3333333333333333,0.3333333333333333,0.3333333333333333,3.0,2
+"ILC1, human",0.967741935483871,1.0,0.9375,16.0,2
+IgA plasma cell,0.7999999999999999,0.7272727272727273,0.8888888888888888,9.0,2
+IgG plasma cell,0.0,0.0,0.0,4.0,2
+IgM plasma cell,0.0,0.0,0.0,1.0,2
+T follicular helper cell,0.7391304347826088,0.6538461538461539,0.85,20.0,2
+T-helper 1 cell,0.4,1.0,0.25,4.0,2
+T-helper 2 cell,0.0,0.0,0.0,0.0,2
+class switched memory B cell,0.8222222222222222,0.7551020408163265,0.9024390243902439,41.0,2
+dendritic cell,0.9090909090909091,1.0,0.8333333333333334,6.0,2
+"dendritic cell, human",0.6956521739130435,0.8275862068965517,0.6,40.0,2
+"effector memory CD4-positive, alpha-beta T cell",0.0,0.0,0.0,1.0,2
+erythrocyte,0.8750000000000001,1.0,0.7777777777777778,27.0,2
+"erythroid progenitor cell, mammalian",1.0,1.0,1.0,2.0,2
+"group 2 innate lymphoid cell, human",0.0,0.0,0.0,2.0,2
+immature B cell,0.9310344827586207,0.9,0.9642857142857143,28.0,2
+myeloid dendritic cell,0.7536231884057971,0.6046511627906976,1.0,26.0,2
+natural killer cell,0.5,1.0,0.3333333333333333,3.0,2
+plasmablast,0.0,0.0,0.0,2.0,2
+plasmacytoid dendritic cell,1.0,1.0,1.0,13.0,2
+platelet,0.9174311926605504,0.9090909090909091,0.9259259259259259,54.0,2
+regulatory T cell,0.6666666666666666,1.0,0.5,2.0,2
+unswitched memory B cell,0.5833333333333334,0.6363636363636364,0.5384615384615384,13.0,2
+B cell,0.0,0.0,0.0,3.0,3
+"CD14-low, CD16-positive monocyte",1.0,1.0,1.0,3.0,3
+"CD34-positive, CD38-negative hematopoietic stem cell",0.6666666666666666,1.0,0.5,6.0,3
+"CD4-positive, alpha-beta T cell",1.0,1.0,1.0,1.0,3
+"CD8-positive, alpha-beta T cell",0.0,0.0,0.0,0.0,3
+"ILC1, human",0.8,0.6666666666666666,1.0,4.0,3
+IgA plasma cell,1.0,1.0,1.0,2.0,3
+IgG plasma cell,0.0,0.0,0.0,2.0,3
+IgM plasma cell,0.0,0.0,0.0,0.0,3
+T follicular helper cell,0.8518518518518519,0.7540983606557377,0.9787234042553191,47.0,3
+T-helper 1 cell,0.0,0.0,0.0,0.0,3
+T-helper 2 cell,0.0,0.0,0.0,0.0,3
+class switched memory B cell,0.7906976744186047,0.68,0.9444444444444444,18.0,3
+dendritic cell,0.8,1.0,0.6666666666666666,3.0,3
+"dendritic cell, human",0.6666666666666666,0.5714285714285714,0.8,20.0,3
+"effector memory CD4-positive, alpha-beta T cell",0.0,0.0,0.0,8.0,3
+erythrocyte,0.9523809523809523,1.0,0.9090909090909091,11.0,3
+"erythroid progenitor cell, mammalian",0.6666666666666666,0.5,1.0,2.0,3
+"group 2 innate lymphoid cell, human",0.0,0.0,0.0,1.0,3
+immature B cell,0.8,0.7142857142857143,0.9090909090909091,11.0,3
+myeloid dendritic cell,0.7272727272727272,0.8,0.6666666666666666,30.0,3
+natural killer cell,0.6666666666666666,0.5,1.0,1.0,3
+plasmablast,0.0,0.0,0.0,1.0,3
+plasmacytoid dendritic cell,0.9565217391304348,1.0,0.9166666666666666,12.0,3
+platelet,0.9197080291970803,1.0,0.8513513513513513,74.0,3
+regulatory T cell,0.0,0.0,0.0,1.0,3
+unswitched memory B cell,0.2222222222222222,0.3333333333333333,0.16666666666666666,6.0,3
+B cell,0.4,1.0,0.25,4.0,4
+"CD14-low, CD16-positive monocyte",1.0,1.0,1.0,2.0,4
+"CD34-positive, CD38-negative hematopoietic stem cell",0.0,0.0,0.0,0.0,4
+"CD4-positive, alpha-beta T cell",1.0,1.0,1.0,1.0,4
+"CD8-positive, alpha-beta T cell",0.5,1.0,0.3333333333333333,3.0,4
+"ILC1, human",0.8750000000000001,0.7777777777777778,1.0,7.0,4
+IgA plasma cell,1.0,1.0,1.0,2.0,4
+IgG plasma cell,0.0,0.0,0.0,0.0,4
+IgM plasma cell,0.0,0.0,0.0,2.0,4
+T follicular helper cell,0.9454545454545454,0.9629629629629629,0.9285714285714286,28.0,4
+T-helper 1 cell,0.0,0.0,0.0,1.0,4
+T-helper 2 cell,0.0,0.0,0.0,1.0,4
+class switched memory B cell,0.846153846153846,0.7333333333333333,1.0,11.0,4
+dendritic cell,1.0,1.0,1.0,1.0,4
+"dendritic cell, human",0.7441860465116279,0.7272727272727273,0.7619047619047619,21.0,4
+"effector memory CD4-positive, alpha-beta T cell",0.8571428571428571,1.0,0.75,4.0,4
+erythrocyte,0.9090909090909091,1.0,0.8333333333333334,6.0,4
+"erythroid progenitor cell, mammalian",1.0,1.0,1.0,4.0,4
+"group 2 innate lymphoid cell, human",0.0,0.0,0.0,1.0,4
+immature B cell,0.9473684210526316,0.9,1.0,9.0,4
+myeloid dendritic cell,0.7058823529411765,0.7058823529411765,0.7058823529411765,17.0,4
+natural killer cell,0.7499999999999999,0.6,1.0,3.0,4
+plasmablast,0.0,0.0,0.0,0.0,4
+plasmacytoid dendritic cell,0.9333333333333333,1.0,0.875,8.0,4
+platelet,0.9047619047619048,0.8636363636363636,0.95,20.0,4
+regulatory T cell,0.0,0.0,0.0,0.0,4
+unswitched memory B cell,0.6666666666666666,0.6666666666666666,0.6666666666666666,6.0,4
+B cell,0.33333333333333337,1.0,0.2,5.0,5
+"CD14-low, CD16-positive monocyte",0.6666666666666666,1.0,0.5,6.0,5
+"CD34-positive, CD38-negative hematopoietic stem cell",1.0,1.0,1.0,1.0,5
+"CD4-positive, alpha-beta T cell",0.0,0.0,0.0,0.0,5
+"CD8-positive, alpha-beta T cell",1.0,1.0,1.0,1.0,5
+"ILC1, human",0.6666666666666666,0.5,1.0,3.0,5
+IgA plasma cell,0.8,1.0,0.6666666666666666,3.0,5
+IgG plasma cell,0.0,0.0,0.0,2.0,5
+IgM plasma cell,0.0,0.0,0.0,0.0,5
+T follicular helper cell,0.7368421052631579,0.5833333333333334,1.0,7.0,5
+T-helper 1 cell,0.0,0.0,0.0,6.0,5
+T-helper 2 cell,0.0,0.0,0.0,1.0,5
+class switched memory B cell,0.8571428571428571,0.8,0.9230769230769231,39.0,5
+dendritic cell,1.0,1.0,1.0,2.0,5
+"dendritic cell, human",0.7999999999999999,0.7777777777777778,0.8235294117647058,17.0,5
+"effector memory CD4-positive, alpha-beta T cell",0.0,0.0,0.0,0.0,5
+erythrocyte,0.9333333333333333,1.0,0.875,8.0,5
+"erythroid progenitor cell, mammalian",1.0,1.0,1.0,1.0,5
+"group 2 innate lymphoid cell, human",0.0,0.0,0.0,2.0,5
+immature B cell,0.7272727272727272,0.6666666666666666,0.8,10.0,5
+myeloid dendritic cell,0.8333333333333333,0.7692307692307693,0.9090909090909091,11.0,5
+natural killer cell,0.8,1.0,0.6666666666666666,6.0,5
+plasmablast,0.0,0.0,0.0,1.0,5
+plasmacytoid dendritic cell,1.0,1.0,1.0,10.0,5
+platelet,0.9056603773584906,0.8275862068965517,1.0,24.0,5
+regulatory T cell,0.6666666666666666,1.0,0.5,2.0,5
+unswitched memory B cell,0.6923076923076923,0.6923076923076923,0.6923076923076923,13.0,5

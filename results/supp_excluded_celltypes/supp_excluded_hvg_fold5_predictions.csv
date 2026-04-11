@@ -1,0 +1,182 @@
+fold,y_true,y_pred
+5,IgA plasma cell,class switched memory B cell
+5,T follicular helper cell,T follicular helper cell
+5,platelet,platelet
+5,platelet,platelet
+5,platelet,platelet
+5,platelet,platelet
+5,class switched memory B cell,class switched memory B cell
+5,IgA plasma cell,IgA plasma cell
+5,"group 2 innate lymphoid cell, human",platelet
+5,T-helper 1 cell,platelet
+5,platelet,platelet
+5,class switched memory B cell,class switched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,T-helper 1 cell,platelet
+5,erythrocyte,erythrocyte
+5,T-helper 1 cell,platelet
+5,platelet,platelet
+5,unswitched memory B cell,class switched memory B cell
+5,erythrocyte,erythrocyte
+5,class switched memory B cell,class switched memory B cell
+5,platelet,platelet
+5,T-helper 1 cell,platelet
+5,T-helper 1 cell,T follicular helper cell
+5,unswitched memory B cell,class switched memory B cell
+5,"ILC1, human","ILC1, human"
+5,class switched memory B cell,class switched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,erythrocyte,erythrocyte
+5,platelet,platelet
+5,erythrocyte,erythrocyte
+5,class switched memory B cell,class switched memory B cell
+5,platelet,platelet
+5,platelet,platelet
+5,class switched memory B cell,immature B cell
+5,platelet,platelet
+5,class switched memory B cell,class switched memory B cell
+5,B cell,class switched memory B cell
+5,erythrocyte,erythrocyte
+5,"dendritic cell, human","dendritic cell, human"
+5,class switched memory B cell,class switched memory B cell
+5,T follicular helper cell,T follicular helper cell
+5,platelet,platelet
+5,platelet,platelet
+5,T-helper 1 cell,T follicular helper cell
+5,regulatory T cell,T follicular helper cell
+5,erythrocyte,erythrocyte
+5,T follicular helper cell,T follicular helper cell
+5,regulatory T cell,regulatory T cell
+5,immature B cell,immature B cell
+5,T follicular helper cell,T follicular helper cell
+5,platelet,platelet
+5,"ILC1, human","ILC1, human"
+5,"CD8-positive, alpha-beta T cell","CD8-positive, alpha-beta T cell"
+5,class switched memory B cell,immature B cell
+5,"ILC1, human","ILC1, human"
+5,class switched memory B cell,class switched memory B cell
+5,platelet,platelet
+5,class switched memory B cell,class switched memory B cell
+5,immature B cell,immature B cell
+5,T follicular helper cell,T follicular helper cell
+5,class switched memory B cell,class switched memory B cell
+5,"dendritic cell, human",myeloid dendritic cell
+5,erythrocyte,erythrocyte
+5,platelet,platelet
+5,platelet,platelet
+5,platelet,platelet
+5,erythrocyte,T follicular helper cell
+5,"dendritic cell, human","dendritic cell, human"
+5,immature B cell,immature B cell
+5,platelet,platelet
+5,myeloid dendritic cell,myeloid dendritic cell
+5,immature B cell,immature B cell
+5,"dendritic cell, human","dendritic cell, human"
+5,"dendritic cell, human",myeloid dendritic cell
+5,"dendritic cell, human","dendritic cell, human"
+5,"dendritic cell, human","dendritic cell, human"
+5,platelet,platelet
+5,platelet,platelet
+5,class switched memory B cell,class switched memory B cell
+5,IgA plasma cell,IgA plasma cell
+5,platelet,platelet
+5,T-helper 2 cell,T follicular helper cell
+5,unswitched memory B cell,unswitched memory B cell
+5,immature B cell,class switched memory B cell
+5,unswitched memory B cell,unswitched memory B cell
+5,IgG plasma cell,immature B cell
+5,myeloid dendritic cell,myeloid dendritic cell
+5,class switched memory B cell,class switched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,"CD14-low, CD16-positive monocyte","dendritic cell, human"
+5,class switched memory B cell,class switched memory B cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,"group 2 innate lymphoid cell, human","ILC1, human"
+5,"CD14-low, CD16-positive monocyte","CD14-low, CD16-positive monocyte"
+5,"dendritic cell, human","dendritic cell, human"
+5,myeloid dendritic cell,myeloid dendritic cell
+5,natural killer cell,natural killer cell
+5,immature B cell,class switched memory B cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,unswitched memory B cell,unswitched memory B cell
+5,immature B cell,immature B cell
+5,immature B cell,immature B cell
+5,dendritic cell,dendritic cell
+5,platelet,platelet
+5,B cell,B cell
+5,IgG plasma cell,class switched memory B cell
+5,platelet,platelet
+5,class switched memory B cell,class switched memory B cell
+5,"dendritic cell, human","dendritic cell, human"
+5,myeloid dendritic cell,myeloid dendritic cell
+5,B cell,unswitched memory B cell
+5,"dendritic cell, human","dendritic cell, human"
+5,class switched memory B cell,class switched memory B cell
+5,"dendritic cell, human","dendritic cell, human"
+5,class switched memory B cell,class switched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,B cell,unswitched memory B cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,myeloid dendritic cell,myeloid dendritic cell
+5,myeloid dendritic cell,myeloid dendritic cell
+5,immature B cell,immature B cell
+5,B cell,unswitched memory B cell
+5,unswitched memory B cell,unswitched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,T follicular helper cell,T follicular helper cell
+5,unswitched memory B cell,unswitched memory B cell
+5,unswitched memory B cell,unswitched memory B cell
+5,"dendritic cell, human","dendritic cell, human"
+5,natural killer cell,natural killer cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,"CD34-positive, CD38-negative hematopoietic stem cell","CD34-positive, CD38-negative hematopoietic stem cell"
+5,myeloid dendritic cell,myeloid dendritic cell
+5,myeloid dendritic cell,"dendritic cell, human"
+5,unswitched memory B cell,unswitched memory B cell
+5,natural killer cell,"ILC1, human"
+5,class switched memory B cell,class switched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,"dendritic cell, human",myeloid dendritic cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,class switched memory B cell,class switched memory B cell
+5,natural killer cell,natural killer cell
+5,class switched memory B cell,class switched memory B cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,class switched memory B cell,class switched memory B cell
+5,"dendritic cell, human","dendritic cell, human"
+5,"CD14-low, CD16-positive monocyte","CD14-low, CD16-positive monocyte"
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,class switched memory B cell,unswitched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,"erythroid progenitor cell, mammalian","erythroid progenitor cell, mammalian"
+5,immature B cell,immature B cell
+5,class switched memory B cell,class switched memory B cell
+5,"CD14-low, CD16-positive monocyte","dendritic cell, human"
+5,"dendritic cell, human","dendritic cell, human"
+5,class switched memory B cell,class switched memory B cell
+5,natural killer cell,"ILC1, human"
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,unswitched memory B cell,class switched memory B cell
+5,myeloid dendritic cell,myeloid dendritic cell
+5,dendritic cell,dendritic cell
+5,"dendritic cell, human","dendritic cell, human"
+5,class switched memory B cell,class switched memory B cell
+5,"CD14-low, CD16-positive monocyte","CD14-low, CD16-positive monocyte"
+5,T follicular helper cell,T follicular helper cell
+5,class switched memory B cell,class switched memory B cell
+5,unswitched memory B cell,unswitched memory B cell
+5,unswitched memory B cell,unswitched memory B cell
+5,natural killer cell,natural killer cell
+5,class switched memory B cell,class switched memory B cell
+5,class switched memory B cell,class switched memory B cell
+5,"CD14-low, CD16-positive monocyte","dendritic cell, human"
+5,"dendritic cell, human","dendritic cell, human"
+5,class switched memory B cell,class switched memory B cell
+5,plasmablast,class switched memory B cell
+5,plasmacytoid dendritic cell,plasmacytoid dendritic cell
+5,class switched memory B cell,class switched memory B cell
+5,unswitched memory B cell,immature B cell
+5,myeloid dendritic cell,myeloid dendritic cell
+5,myeloid dendritic cell,myeloid dendritic cell

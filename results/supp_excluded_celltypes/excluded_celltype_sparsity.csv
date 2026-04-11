@@ -1,0 +1,29 @@
+cell_type,n_cells,n_donors
+monocyte,1,1
+T-helper 2 cell,3,3
+"CD4-positive, alpha-beta T cell",4,4
+IgM plasma cell,5,5
+"group 2 innate lymphoid cell, human",6,5
+plasmablast,7,7
+regulatory T cell,8,4
+IgG plasma cell,8,5
+"CD8-positive, alpha-beta T cell",10,6
+"CD34-positive, CD38-negative hematopoietic stem cell",11,8
+T-helper 1 cell,12,7
+"erythroid progenitor cell, mammalian",12,8
+"CD14-low, CD16-positive monocyte",13,7
+dendritic cell,16,11
+natural killer cell,18,9
+B cell,19,13
+"effector memory CD4-positive, alpha-beta T cell",21,11
+IgA plasma cell,21,13
+"ILC1, human",33,14
+unswitched memory B cell,44,17
+erythrocyte,53,10
+plasmacytoid dendritic cell,65,19
+immature B cell,81,22
+myeloid dendritic cell,112,22
+"dendritic cell, human",120,22
+T follicular helper cell,129,19
+class switched memory B cell,153,23
+platelet,198,21

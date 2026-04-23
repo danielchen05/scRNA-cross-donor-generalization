@@ -67,6 +67,7 @@ These results support all figures, tables, and analyses in the manuscript, inclu
   - `schemeB_summary.csv`: Summary across Scheme B filtered experiments
   - `schemeB_filtered_vs_full.csv`: Comparison of filtered vs full datasets
   - `donor_ablation_summary.csv`: Donor ablation results (performance vs # training donors)
+  - `tcell_donor_ablation_summary.csv`: T-cell specific donor ablation results (performance vs # training donors)
   - `cross_site_summary.csv`: Cross-site generalization results (train on one site, test on another)
 
 - **figures/**
@@ -141,7 +142,11 @@ Performed under Scheme B using the filtered dataset:
   - `donor_ablation_raw.csv`
   - `donor_ablation_summary.csv`
 
-This analysis quantifies how training donor diversity affects generalization.
+This analysis quantifies how training donor diversity affects generalization. 
+
+Additional t-cell subtype ablation analysis is performed. Results are saved in:
+- `tcell_donor_ablation_raw.csv`
+- `tcell_donor_ablation_summary.csv`
 
 ---
 

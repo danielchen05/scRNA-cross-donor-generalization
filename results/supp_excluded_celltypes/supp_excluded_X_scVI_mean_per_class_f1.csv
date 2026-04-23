@@ -16,13 +16,13 @@ dendritic cell,0.6706959706959708,0.7476190476190476,0.7,3.2
 "CD4-positive, alpha-beta T cell",0.6,0.6,0.6,0.8
 B cell,0.5930769230769231,0.65,0.5766666666666667,3.8
 natural killer cell,0.5711111111111111,0.7,0.5599999999999999,3.6
-"CD34-positive, CD38-negative hematopoietic stem cell",0.4333333333333333,0.5333333333333333,0.4,2.2
 "CD8-positive, alpha-beta T cell",0.4333333333333333,0.5333333333333333,0.4,2.0
+"CD34-positive, CD38-negative hematopoietic stem cell",0.4333333333333333,0.5333333333333333,0.4,2.2
 T-helper 1 cell,0.37142857142857144,0.5333333333333333,0.33333333333333337,2.4
 unswitched memory B cell,0.3705050505050505,0.5322222222222222,0.2897435897435897,8.8
 "effector memory CD4-positive, alpha-beta T cell",0.19444444444444445,0.35,0.175,4.2
-IgM plasma cell,0.0,0.0,0.0,1.0
-IgG plasma cell,0.0,0.0,0.0,1.6
 T-helper 2 cell,0.0,0.0,0.0,0.6
 "group 2 innate lymphoid cell, human",0.0,0.0,0.0,1.2
+IgM plasma cell,0.0,0.0,0.0,1.0
 plasmablast,0.0,0.0,0.0,1.4
+IgG plasma cell,0.0,0.0,0.0,1.6

@@ -22,7 +22,7 @@ regulatory T cell,0.3333333333333333,0.4,0.3,1.6
 T-helper 1 cell,0.17142857142857143,0.3333333333333333,0.13333333333333333,2.4
 "group 2 innate lymphoid cell, human",0.13333333333333333,0.2,0.1,1.2
 unswitched memory B cell,0.09611111111111112,0.2333333333333333,0.0641025641025641,8.8
-IgG plasma cell,0.0,0.0,0.0,1.6
-IgM plasma cell,0.0,0.0,0.0,1.0
 T-helper 2 cell,0.0,0.0,0.0,0.6
+IgM plasma cell,0.0,0.0,0.0,1.0
+IgG plasma cell,0.0,0.0,0.0,1.6
 plasmablast,0.0,0.0,0.0,1.4

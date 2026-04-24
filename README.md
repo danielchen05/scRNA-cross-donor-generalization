@@ -3,6 +3,8 @@
 **Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation**  
 This repository contains all code and results required to reproduce the analyses in the associated manuscript.   
 
+## Resources
+- **Full reproducible snapshot (code + data)**: https://doi.org/10.5281/zenodo.19717560
 - Manuscript: https://docs.google.com/document/d/1ljOWM2J1JYLTrstWga6W-QoZ3kqSHeyz_d5JUgY7Kwo/edit?usp=sharing  
 - Presentation: https://docs.google.com/presentation/d/1lzRSf2f7j7WM2_wLy52AtIn-Ba04y7KW4-_KwZp_7eM/edit?usp=sharing
 - Proposal: https://docs.google.com/document/d/1RDp3KSHCICNNnTg9bc4NFLe74MFOHukmjl1v7DhUTKw/edit?usp=sharing  
@@ -87,17 +89,9 @@ Including:
 - Per-class F1 scores
 
 ## Data
+Preprocessed `.h5ad` files are provided in:
 
-Data is loaded via:
-
-```python
-import pertpy as pt  
-adata = pt.data.stephenson_2021_subsampled()
-```
-
-Alternatively, preprocessed `.h5ad` files are provided in:
-
-`data/`
+`data/` in the Zenodo repository snapshot.
 
 ### Key files:
 

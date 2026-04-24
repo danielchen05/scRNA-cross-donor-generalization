@@ -14,7 +14,7 @@ adata = pt.data.stephenson_2021_subsampled()
 ```
 
 (2) Using pre-saved `.h5ad` files:  
-Preprocessed data objects are provided with source code submission to avoid dependency and compatibility issues with the `pertpy` package.
+Preprocessed data objects are provided with source code submission and Zenodo snapshot to avoid dependency and compatibility issues with the `pertpy` package.
 
 ---
 

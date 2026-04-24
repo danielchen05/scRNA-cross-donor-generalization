@@ -14,13 +14,13 @@ adata = pt.data.stephenson_2021_subsampled()
 ```
 
 (2) Using pre-saved `.h5ad` files:  
-Preprocessed data objects are provided with source code submission and Zenodo snapshot to avoid dependency and compatibility issues with the `pertpy` package.
+Preprocessed data objects are provided with Zenodo snapshot to avoid dependency and compatibility issues with the `pertpy` package.
 
 ---
 
 ### Provided Data Files
 
-All `.h5ad` files will be included in the source code submission (but are not hosted on GitHub due to size constraints).
+All `.h5ad` files will be included in the Zenodo snapshot (but are not hosted on GitHub due to size constraints).
 
 - `stephenson_2021_subsampled.h5ad`  
   Raw downsampled dataset equivalent to the output from `pertpy`.
@@ -51,4 +51,4 @@ All `.h5ad` files will be included in the source code submission (but are not ho
 ### Notes on Data Availability
 
 - Due to file size limitations, `.h5ad` files are not included in the GitHub repository.  
-- These files will be provided alongside the final source code submission.
+- These files will be provided in the Zenodo snapshot.

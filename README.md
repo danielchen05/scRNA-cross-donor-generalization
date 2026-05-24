@@ -1,3 +1,11 @@
+# Spring 2026 class project archive
+
+This folder contains the original 1-dataset analysis as part of final project for JHU BME EN.580.448 Computational Genomics: Data Analysis.  
+
+It is preserved for provenance only. The extended multi-cohort benchmark is implemented in the top-level directories.
+
+Archived results are not used for the final extended benchmark unless explicitly stated.
+
 # scRNA-cross-donor-generalization
 
 **Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation**  

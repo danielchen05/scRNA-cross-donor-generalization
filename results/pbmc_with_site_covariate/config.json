@@ -1,0 +1,31 @@
+{
+  "dataset_name": "pbmc_with_site_covariate",
+  "adata_path": "data/PBMC_Stephenson/stephenson_benchmark_ready.h5ad",
+  "output_dir": "results",
+  "celltype_col": "cell_type",
+  "donor_col": "patient_id",
+  "batch_col": "Site",
+  "group_col": "Site",
+  "rename_obs": {},
+  "representations": {
+    "hvg": "hvg",
+    "pca": "X_pca",
+    "harmony": "X_harmony",
+    "scvi": "X_scVI",
+    "scanorama": "X_scanorama"
+  },
+  "min_cells": 200,
+  "min_donors": 5,
+  "run_random_split": true,
+  "run_donor_cv": true,
+  "run_group_transfer": false,
+  "run_donor_ablation": false,
+  "test_size": 0.2,
+  "n_folds": 5,
+  "random_state": 42,
+  "group_transfer_pairs": [],
+  "donor_ablation_k_values": [],
+  "donor_ablation_n_repeats": 5,
+  "save_filtered_adata": false,
+  "verbose": true
+}

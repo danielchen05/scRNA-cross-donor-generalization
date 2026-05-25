@@ -1,0 +1,42 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+"CD16-positive, CD56-dim natural killer cell, human",1582,23,True,True,True
+"naive thymus-derived CD4-positive, alpha-beta T cell",1479,21,True,True,True
+CD14-positive monocyte,1153,23,True,True,True
+"central memory CD4-positive, alpha-beta T cell",1115,21,True,True,True
+"naive thymus-derived CD8-positive, alpha-beta T cell",781,21,True,True,True
+T-helper 22 cell,669,21,True,True,True
+"effector CD8-positive, alpha-beta T cell",656,20,True,True,True
+naive B cell,624,23,True,True,True
+"effector memory CD8-positive, alpha-beta T cell",592,21,True,True,True
+mature NK T cell,449,22,True,True,True
+gamma-delta T cell,414,21,True,True,True
+mucosal invariant T cell,346,21,True,True,True
+"CD16-negative, CD56-bright natural killer cell, human",247,23,True,True,True
+platelet,198,21,False,True,False
+class switched memory B cell,153,23,False,True,False
+T follicular helper cell,129,19,False,True,False
+"dendritic cell, human",120,22,False,True,False
+myeloid dendritic cell,112,22,False,True,False
+immature B cell,81,22,False,True,False
+plasmacytoid dendritic cell,65,19,False,True,False
+erythrocyte,53,10,False,True,False
+unswitched memory B cell,44,17,False,True,False
+"ILC1, human",33,14,False,True,False
+IgA plasma cell,21,13,False,True,False
+"effector memory CD4-positive, alpha-beta T cell",21,11,False,True,False
+B cell,19,13,False,True,False
+natural killer cell,18,9,False,True,False
+dendritic cell,16,11,False,True,False
+"CD14-low, CD16-positive monocyte",13,7,False,True,False
+"erythroid progenitor cell, mammalian",12,8,False,True,False
+T-helper 1 cell,12,7,False,True,False
+"CD34-positive, CD38-negative hematopoietic stem cell",11,8,False,True,False
+"CD8-positive, alpha-beta T cell",10,6,False,True,False
+IgG plasma cell,8,5,False,True,False
+regulatory T cell,8,4,False,False,False
+plasmablast,7,7,False,True,False
+"group 2 innate lymphoid cell, human",6,5,False,True,False
+IgM plasma cell,5,5,False,True,False
+"CD4-positive, alpha-beta T cell",4,4,False,False,False
+T-helper 2 cell,3,3,False,False,False
+monocyte,1,1,False,False,False

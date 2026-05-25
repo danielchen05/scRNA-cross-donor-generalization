@@ -47,21 +47,23 @@ def coerce_obs_to_str(adata, columns: list[str], copy: bool = True):
     return adata
 
 
-def drop_missing_obs_values(adata, columns: list[str], copy: bool = True):
-    """Drop cells with missing values in required metadata columns."""
-    if copy:
-        adata = adata.copy()
+def drop_missing_obs_values(adata, cols, copy=True):
+    adata = adata.copy() if copy else adata
 
-    require_obs_columns(adata, columns)
+    mask = pd.Series(True, index=adata.obs.index)
 
-    obs = adata.obs[columns].copy()
-    mask = obs.notna().all(axis=1)
-    for col in columns:
-        values = obs[col].astype(str).str.lower()
-        mask &= ~values.isin(["nan", "none", "na", "unknown", ""])
+    for col in cols:
+        values = adata.obs[col]
 
-    return adata[mask.to_numpy()].copy()
+        missing = values.isna()
 
+        if values.dtype == "object" or pd.api.types.is_categorical_dtype(values):
+            values_str = values.astype(str).str.strip()
+            missing = missing | values_str.eq("") | values_str.eq("nan") | values_str.eq("None")
+
+        mask = mask & ~missing
+
+    return adata[mask].copy()
 
 def standardize_metadata(
     adata,

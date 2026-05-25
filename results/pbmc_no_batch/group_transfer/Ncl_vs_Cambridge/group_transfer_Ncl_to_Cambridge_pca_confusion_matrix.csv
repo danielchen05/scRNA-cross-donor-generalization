@@ -1,0 +1,14 @@
+,CD14-positive monocyte,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human",T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell,mature NK T cell,mucosal invariant T cell,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
+CD14-positive monocyte,340,0,0,0,0,0,0,0,12,0,0,0,1
+"CD16-negative, CD56-bright natural killer cell, human",0,78,11,0,0,0,0,2,0,1,0,0,0
+"CD16-positive, CD56-dim natural killer cell, human",0,12,714,0,0,0,0,6,0,0,0,0,0
+T-helper 22 cell,0,0,0,358,5,0,3,6,0,30,0,3,4
+"central memory CD4-positive, alpha-beta T cell",0,0,1,423,102,3,11,14,1,23,0,265,150
+"effector CD8-positive, alpha-beta T cell",0,0,5,3,2,144,12,47,1,1,0,0,2
+"effector memory CD8-positive, alpha-beta T cell",0,0,0,1,2,16,130,45,0,40,0,0,2
+gamma-delta T cell,0,0,1,71,2,2,5,50,0,15,0,1,0
+mature NK T cell,1,0,4,0,0,10,0,5,54,2,0,0,0
+mucosal invariant T cell,0,0,0,12,0,0,4,13,0,121,0,6,1
+naive B cell,0,0,0,0,0,0,0,0,0,0,346,0,0
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,29,1,0,0,3,0,19,0,597,18
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,105,9,0,20,8,0,6,0,35,219

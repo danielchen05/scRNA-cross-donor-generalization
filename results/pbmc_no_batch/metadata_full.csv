@@ -1,0 +1,11 @@
+field,value
+n_cells,11290
+n_features,2000
+celltype_col,cell_type
+donor_col,patient_id
+n_celltypes,41
+n_donors,23
+batch_col,
+n_batches,
+group_col,Site
+n_groups,2

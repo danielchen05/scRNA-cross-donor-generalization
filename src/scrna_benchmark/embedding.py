@@ -16,7 +16,6 @@ def compute_hvg_subset(
     adata,
     n_top_genes: int = 2000,
     batch_key: str | None = None,
-    flavor: str = "seurat_v3",
     layer: str | None = None,
     copy: bool = True,
 ):
@@ -36,7 +35,6 @@ def compute_hvg_subset(
         adata_hvg,
         n_top_genes=n_top_genes,
         batch_key=batch_key,
-        flavor=flavor,
         layer=layer,
         subset=False,
     )
@@ -60,7 +58,7 @@ def compute_pca(
     except ImportError as exc:
         raise ImportError("compute_pca requires scanpy.") from exc
 
-    sc.pp.pca(
+    sc.tl.pca(
         adata,
         n_comps=n_comps,
         zero_center=zero_center,
@@ -77,58 +75,44 @@ def compute_harmony(
     adata,
     batch_col: str,
     basis: str = "X_pca",
-    key_added: str = "X_pca_harmony",
+    key_added: str = "X_harmony",
+    n_comps: int | None = 15,
     **kwargs,
 ):
-    """Run Harmony batch correction on a PCA-like representation."""
-    if basis not in adata.obsm:
-        raise KeyError(f"{basis} not found in adata.obsm. Run PCA first.")
+    import numpy as np
+    import harmonypy as hm
+
     if batch_col not in adata.obs.columns:
         raise KeyError(f"{batch_col} not found in adata.obs.")
 
-    try:
-        import scanpy.external as sce
-    except ImportError as exc:
-        raise ImportError("compute_harmony requires scanpy.external/harmonypy.") from exc
-
-    sce.pp.harmony_integrate(
-        adata,
-        key=batch_col,
-        basis=basis,
-        adjusted_basis=key_added,
-        **kwargs,
-    )
-    return adata
-
-
-def compute_scanorama(
-    adata,
-    batch_col: str,
-    basis: str = "X_pca",
-    key_added: str = "X_scanorama",
-    **kwargs,
-):
-    """Run Scanorama integration and store the corrected representation.
-
-    This uses scanpy.external.pp.scanorama_integrate if available.
-    """
     if basis not in adata.obsm:
-        raise KeyError(f"{basis} not found in adata.obsm. Run PCA first.")
-    if batch_col not in adata.obs.columns:
-        raise KeyError(f"{batch_col} not found in adata.obs.")
+        raise KeyError(f"{basis} not found in adata.obsm.")
 
-    try:
-        import scanpy.external as sce
-    except ImportError as exc:
-        raise ImportError("compute_scanorama requires scanpy.external and scanorama.") from exc
+    X = np.asarray(adata.obsm[basis])
 
-    sce.pp.scanorama_integrate(
-        adata,
-        key=batch_col,
-        basis=basis,
-        adjusted_basis=key_added,
+    ho = hm.run_harmony(
+        X,
+        adata.obs,
+        batch_col,
         **kwargs,
     )
+
+    Z = ho.Z_corr
+
+    # harmonypy may return PCs x cells, so transpose if needed
+    if Z.shape[0] != adata.n_obs and Z.shape[1] == adata.n_obs:
+        Z = Z.T
+
+    if Z.shape[0] != adata.n_obs:
+        raise ValueError(
+            f"Harmony output has shape {Z.shape}, expected first dimension {adata.n_obs}."
+        )
+
+    if n_comps is not None:
+        Z = Z[:, :n_comps]
+
+    adata.obsm[key_added] = Z.copy()
+
     return adata
 
 

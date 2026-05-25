@@ -1,0 +1,9 @@
+direction,group_col,train_group,test_group,representation,rep_key,macro_f1,accuracy,n_train_cells,n_test_cells,n_classes_used,n_train_donors,n_test_donors,batch_covariate,n_batch_features,pair
+Cambridge_to_Ncl,Site,Cambridge,Ncl,hvg,hvg,0.7146886208493816,0.7941287878787879,4827,5280,13,11,12,None,0,Cambridge_vs_Ncl
+Cambridge_to_Ncl,Site,Cambridge,Ncl,pca,X_pca,0.7157721976725503,0.8037878787878788,4827,5280,13,11,12,None,0,Cambridge_vs_Ncl
+Cambridge_to_Ncl,Site,Cambridge,Ncl,harmony,X_harmony,0.7094379997804451,0.781060606060606,4827,5280,13,11,12,None,0,Cambridge_vs_Ncl
+Cambridge_to_Ncl,Site,Cambridge,Ncl,scvi,X_scVI,0.696263707344616,0.7704545454545455,4827,5280,13,11,12,None,0,Cambridge_vs_Ncl
+Ncl_to_Cambridge,Site,Ncl,Cambridge,hvg,hvg,0.6528570439958039,0.6490573855396726,5280,4827,13,12,11,None,0,Cambridge_vs_Ncl
+Ncl_to_Cambridge,Site,Ncl,Cambridge,pca,X_pca,0.6754724824182746,0.673917547130723,5280,4827,13,12,11,None,0,Cambridge_vs_Ncl
+Ncl_to_Cambridge,Site,Ncl,Cambridge,harmony,X_harmony,0.6629467226638254,0.6592086181893516,5280,4827,13,12,11,None,0,Cambridge_vs_Ncl
+Ncl_to_Cambridge,Site,Ncl,Cambridge,scvi,X_scVI,0.6546393581541049,0.6474000414336026,5280,4827,13,12,11,None,0,Cambridge_vs_Ncl

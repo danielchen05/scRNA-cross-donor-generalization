@@ -1,0 +1,8 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+Myeloid cells,16600,166,True,True,True
+CD4+ T cells,16600,166,True,True,True
+TRAV1-2- CD8+ T cells,16575,166,True,True,True
+NK cells,16464,166,True,True,True
+B cells,16297,166,True,True,True
+gd T cells,14085,166,True,True,True
+MAIT cells,12061,166,True,True,True

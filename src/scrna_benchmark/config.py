@@ -48,6 +48,9 @@ class DatasetConfig:
     n_folds: int = 5
     random_state: int = 42
 
+    random_split_n_repeats: int = 5
+    random_split_seeds: list[int] | None = None
+
     group_transfer_pairs: list[tuple[str, str]] = field(default_factory=list)
     donor_ablation_k_values: list[int] = field(default_factory=list)
     donor_ablation_n_repeats: int = 5
@@ -65,6 +68,10 @@ class DatasetConfig:
             raise ValueError("test_size must be between 0 and 1.")
         if self.n_folds < 2:
             raise ValueError("n_folds must be at least 2.")
+        if self.random_split_n_repeats < 1:
+            raise ValueError("random_split_n_repeats must be at least 1.")
+        if self.random_split_seeds is not None and len(self.random_split_seeds) == 0:
+            raise ValueError("random_split_seeds must be None or a non-empty list.")
 
     @property
     def dataset_output_dir(self) -> Path:

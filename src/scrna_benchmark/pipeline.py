@@ -140,16 +140,41 @@ def run_dataset_benchmark(config: DatasetConfig) -> dict[str, object]:
     outputs: dict[str, object] = {"prepared": prepared}
 
     if config.run_random_split:
-        random_metrics = run_random_split_experiment(
-            adata=adata,
-            representations=config.representations,
-            results_dir=config.random_output_dir,
-            scheme_label="random_split",
-            celltype_col=config.celltype_col,
-            batch_col=config.batch_col,
-            test_size=config.test_size,
-            random_state=config.random_state,
+        if config.random_split_seeds is not None:
+            random_seeds = config.random_split_seeds
+        else:
+            random_seeds = [
+                config.random_state + i
+                for i in range(config.random_split_n_repeats)
+            ]
+
+        random_tables = []
+
+        for seed in random_seeds:
+            seed_dir = config.random_output_dir / f"seed_{seed}"
+
+            metrics_df = run_random_split_experiment(
+                adata=adata,
+                representations=config.representations,
+                results_dir=seed_dir,
+                scheme_label="random_split",
+                celltype_col=config.celltype_col,
+                batch_col=config.batch_col,
+                test_size=config.test_size,
+                random_state=seed,
+            )
+
+            metrics_df["repeat_seed"] = seed
+            random_tables.append(metrics_df)
+
+        random_metrics = pd.concat(random_tables, ignore_index=True)
+
+        config.random_output_dir.mkdir(parents=True, exist_ok=True)
+        random_metrics.to_csv(
+            config.random_output_dir / "random_split_repeated_metrics.csv",
+            index=False,
         )
+
         outputs["random_split_metrics"] = random_metrics
 
     if config.run_donor_cv:

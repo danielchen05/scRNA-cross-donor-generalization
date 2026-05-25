@@ -165,12 +165,28 @@ def run_donor_cv_experiment(
             index=False,
         )
 
+        label_col = celltype_col
+
+        if label_col not in per_class_all.columns:
+            if "cell_type" in per_class_all.columns:
+                label_col = "cell_type"
+            else:
+                raise KeyError(
+                    f"Could not find cell-type label column in per-class metrics. "
+                    f"Tried '{celltype_col}' and 'cell_type'. "
+                    f"Available columns: {per_class_all.columns.tolist()}"
+                )
+
         per_class_mean = (
             per_class_all
-            .groupby("cell_type", as_index=False)[["f1", "precision", "recall", "support"]]
+            .groupby(label_col, as_index=False)[["f1", "precision", "recall", "support"]]
             .mean()
             .sort_values("f1", ascending=False)
         )
+
+        if label_col != "cell_type":
+            per_class_mean = per_class_mean.rename(columns={label_col: "cell_type"})
+
         per_class_mean.to_csv(
             results_dir / f"{scheme_label}_{rep_label}_mean_per_class_f1.csv",
             index=False,

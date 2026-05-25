@@ -106,8 +106,8 @@ def filter_celltypes_by_support(
         min_donors=min_donors,
     )
 
-    kept_celltypes = support_df.loc[support_df["keep"], "cell_type"].tolist()
-    excluded_celltypes = support_df.loc[~support_df["keep"], "cell_type"].tolist()
+    kept_celltypes = support_df.loc[support_df["keep"], celltype_col].tolist()
+    excluded_celltypes = support_df.loc[~support_df["keep"], celltype_col].tolist()
 
     adata_filtered = adata[
         adata.obs[celltype_col].astype(str).isin(kept_celltypes)

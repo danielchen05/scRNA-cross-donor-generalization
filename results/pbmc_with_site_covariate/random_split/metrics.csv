@@ -1,6 +1,0 @@
-scheme,representation,macro_f1,accuracy,n_cells_used,n_classes_used,batch_covariate,n_batch_features
-random_split,hvg,0.7739640037184101,0.8086053412462908,10108,13,Site,2
-random_split,pca,0.8050933546015677,0.8293768545994066,10108,13,Site,2
-random_split,harmony,0.7858539755839151,0.8160237388724035,10108,13,Site,2
-random_split,scvi,0.781892604809712,0.8140454995054401,10108,13,Site,2
-random_split,scanorama,0.41938400503906786,0.5390702274975272,10108,13,Site,2

@@ -1167,7 +1167,7 @@ CD14-positive monocyte,CD14-positive monocyte
 "naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
 "central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
 "effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
-naive B cell,naive B cell
+naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
 T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
 gamma-delta T cell,T-helper 22 cell
 "central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"

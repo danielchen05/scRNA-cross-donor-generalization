@@ -3321,7 +3321,7 @@ fold,y_true,y_pred
 2,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
 2,"central memory CD4-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
 2,"effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
-2,naive B cell,naive B cell
+2,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
 2,T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell"
 2,gamma-delta T cell,T-helper 22 cell
 2,"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"

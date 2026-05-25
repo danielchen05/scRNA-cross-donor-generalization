@@ -1,5 +1,5 @@
 field,value
-n_cells,10108
+n_cells,10107
 n_features,2000
 celltype_col,cell_type
 donor_col,patient_id

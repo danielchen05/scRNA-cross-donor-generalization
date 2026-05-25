@@ -921,7 +921,7 @@ T-helper 22 cell,T-helper 22 cell
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 mature NK T cell,mature NK T cell
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
-"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
+"CD16-positive, CD56-dim natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
 mucosal invariant T cell,mucosal invariant T cell
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 "CD16-positive, CD56-dim natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"

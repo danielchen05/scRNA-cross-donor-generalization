@@ -1,0 +1,1 @@
+Add note here regarding dataset access. Add data folders organized by source here, such as `blood_atlas`, `kidney`, etc. This folder except the README is not tracked by Github.

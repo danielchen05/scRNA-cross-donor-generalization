@@ -1,0 +1,7 @@
+,pancreatic A cell,pancreatic D cell,pancreatic acinar cell,pancreatic ductal cell,pancreatic stellate cell,type B pancreatic cell
+pancreatic A cell,423,0,0,0,0,2
+pancreatic D cell,0,90,0,0,0,1
+pancreatic acinar cell,0,0,25,0,0,0
+pancreatic ductal cell,0,1,0,61,0,0
+pancreatic stellate cell,0,0,0,0,58,1
+type B pancreatic cell,2,0,0,0,0,775

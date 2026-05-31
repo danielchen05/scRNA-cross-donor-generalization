@@ -1,0 +1,7 @@
+cell_type,f1,precision,recall,support
+pancreatic A cell,0.9976958525345622,1.0,0.9954022988505747,435.0
+pancreatic D cell,1.0,1.0,1.0,61.0
+pancreatic acinar cell,1.0,1.0,1.0,98.0
+pancreatic ductal cell,0.9900990099009901,0.9900990099009901,0.9900990099009901,101.0
+pancreatic stellate cell,1.0,1.0,1.0,110.0
+type B pancreatic cell,0.9984177215189874,0.9968404423380727,1.0,631.0

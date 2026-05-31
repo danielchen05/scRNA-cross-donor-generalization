@@ -1,0 +1,10 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+epithelial cell of proximal tubule,5740,19,True,True,True
+mononuclear phagocyte,719,15,True,True,True
+T cell,619,11,True,True,True
+kidney loop of Henle cortical thick ascending limb epithelial cell,527,18,True,True,True
+natural killer cell,345,10,True,True,True
+kidney capillary endothelial cell,254,18,True,True,True
+kidney loop of Henle descending limb epithelial cell,208,19,True,True,True
+renal principal cell,199,18,False,True,False
+renal alpha-intercalated cell,135,19,False,True,False

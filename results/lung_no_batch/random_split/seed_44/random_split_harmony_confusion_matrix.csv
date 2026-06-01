@@ -1,0 +1,19 @@
+,AT1,AT2,B cell lineage,Basal,Dendritic cells,EC arterial,EC capillary,EC venous,Fibroblasts,Innate lymphoid cell NK,Lymphatic EC mature,Macrophages,Mast cells,Monocytes,Multiciliated lineage,Secretory,Submucosal Secretory,T cell lineage
+AT1,481,11,0,6,0,0,1,0,0,0,0,1,1,0,0,14,0,0
+AT2,14,952,0,10,2,0,1,1,0,1,2,3,0,2,0,16,0,0
+B cell lineage,0,1,466,0,29,0,3,1,0,0,0,4,0,1,0,0,0,54
+Basal,2,2,1,818,1,0,1,0,0,0,0,1,0,1,0,60,0,1
+Dendritic cells,0,3,43,0,828,0,0,0,0,0,0,78,0,57,0,2,1,2
+EC arterial,0,1,0,0,0,296,91,154,1,0,2,0,0,1,0,1,0,0
+EC capillary,2,1,0,0,0,46,431,25,2,0,2,0,0,1,0,0,1,1
+EC venous,0,0,1,0,0,91,61,712,0,1,2,0,1,0,0,2,0,0
+Fibroblasts,0,2,0,1,0,0,0,0,718,0,2,0,0,3,1,0,0,0
+Innate lymphoid cell NK,0,0,0,0,0,0,0,0,0,512,0,0,0,0,0,0,0,108
+Lymphatic EC mature,0,0,0,1,0,0,3,1,0,0,376,0,0,1,0,0,0,0
+Macrophages,0,1,3,1,79,0,1,0,0,0,0,1085,0,136,0,4,0,1
+Mast cells,0,0,0,0,0,0,0,0,0,1,0,0,440,0,0,0,1,1
+Monocytes,0,2,4,0,58,1,0,0,0,2,1,132,0,975,0,1,0,2
+Multiciliated lineage,0,3,0,3,0,0,0,1,0,0,0,1,0,3,1350,24,3,2
+Secretory,11,30,2,72,2,0,0,0,0,0,0,0,0,2,8,1128,65,4
+Submucosal Secretory,0,1,1,4,0,0,0,0,0,0,0,0,0,0,0,119,205,0
+T cell lineage,2,3,17,6,0,0,2,0,0,107,0,2,0,6,1,2,0,962

@@ -1,0 +1,5 @@
+scheme,representation,macro_f1,accuracy,n_cells_used,n_classes_used,batch_covariate,n_batch_features
+random_split,hvg,0.9305341844634376,0.9263157894736842,73622,18,None,0
+random_split,pca,0.8865277059519524,0.8873344651952462,73622,18,None,0
+random_split,harmony,0.8630616775204287,0.8684550084889644,73622,18,None,0
+random_split,scvi,0.9384391294690513,0.9339898132427844,73622,18,None,0

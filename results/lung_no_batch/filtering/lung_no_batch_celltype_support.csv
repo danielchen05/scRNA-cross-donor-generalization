@@ -1,0 +1,21 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+Multiciliated lineage,6950,99,True,True,True
+Secretory,6622,103,True,True,True
+Macrophages,6553,90,True,True,True
+Monocytes,5892,86,True,True,True
+T cell lineage,5551,93,True,True,True
+Dendritic cells,5072,88,True,True,True
+AT2,5018,70,True,True,True
+Basal,4438,86,True,True,True
+EC venous,4355,82,True,True,True
+Fibroblasts,3635,83,True,True,True
+Innate lymphoid cell NK,3101,71,True,True,True
+B cell lineage,2793,85,True,True,True
+EC arterial,2735,74,True,True,True
+AT1,2574,62,True,True,True
+EC capillary,2558,67,True,True,True
+Mast cells,2215,78,True,True,True
+Lymphatic EC mature,1909,66,True,True,True
+Submucosal Secretory,1651,44,True,True,True
+SM activated stress response,302,18,False,True,False
+Lymphatic EC differentiating,274,34,False,True,False

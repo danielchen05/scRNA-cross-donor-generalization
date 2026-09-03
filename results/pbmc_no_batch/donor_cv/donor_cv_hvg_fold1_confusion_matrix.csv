@@ -1,14 +1,14 @@
 ,CD14-positive monocyte,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human",T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell,mature NK T cell,mucosal invariant T cell,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
 CD14-positive monocyte,237,0,0,0,0,0,0,0,2,0,0,0,0
 "CD16-negative, CD56-bright natural killer cell, human",0,53,4,0,0,0,0,1,0,0,0,0,0
-"CD16-positive, CD56-dim natural killer cell, human",0,4,464,0,1,10,0,12,2,0,0,2,0
-T-helper 22 cell,0,0,0,45,9,0,1,2,0,5,0,4,0
-"central memory CD4-positive, alpha-beta T cell",0,0,1,14,72,2,3,2,0,2,0,25,2
-"effector CD8-positive, alpha-beta T cell",0,0,2,0,1,113,21,9,8,0,0,1,0
-"effector memory CD8-positive, alpha-beta T cell",0,0,0,8,2,14,124,12,1,7,0,1,12
-gamma-delta T cell,0,0,2,7,5,7,2,38,0,8,0,8,4
-mature NK T cell,3,0,2,1,0,10,4,0,99,0,0,2,0
-mucosal invariant T cell,0,0,0,4,1,1,7,5,0,46,0,5,1
-naive B cell,0,0,0,0,1,0,0,0,0,0,163,0,0
-"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,5,18,0,0,3,0,1,0,214,3
-"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,4,2,1,6,2,0,0,0,8,134
+"CD16-positive, CD56-dim natural killer cell, human",0,5,465,0,1,10,0,10,2,0,0,2,0
+T-helper 22 cell,0,0,0,44,9,0,1,2,0,5,0,5,0
+"central memory CD4-positive, alpha-beta T cell",0,0,1,14,70,2,3,1,0,2,0,26,4
+"effector CD8-positive, alpha-beta T cell",0,0,2,0,1,114,20,9,8,0,0,1,0
+"effector memory CD8-positive, alpha-beta T cell",0,0,0,10,2,15,117,12,1,8,0,2,14
+gamma-delta T cell,0,0,2,8,5,6,2,40,0,6,0,8,4
+mature NK T cell,3,0,2,1,0,8,4,0,101,0,0,2,0
+mucosal invariant T cell,0,0,0,5,1,1,7,5,0,45,0,5,1
+naive B cell,0,0,0,0,1,0,0,0,0,0,162,1,0
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,5,19,0,0,3,0,1,0,213,3
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,3,1,1,9,2,0,0,0,9,132

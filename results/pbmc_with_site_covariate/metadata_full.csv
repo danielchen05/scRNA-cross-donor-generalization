@@ -1,6 +1,6 @@
 field,value
 n_cells,11290
-n_features,2000
+n_features,1000
 celltype_col,cell_type
 donor_col,patient_id
 n_celltypes,41

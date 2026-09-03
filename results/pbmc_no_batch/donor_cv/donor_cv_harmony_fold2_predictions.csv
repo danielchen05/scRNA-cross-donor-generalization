@@ -141,7 +141,7 @@ gamma-delta T cell,T-helper 22 cell
 "central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
 "central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 "central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
-"CD16-positive, CD56-dim natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
+"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
 "central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
 "central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
 "CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
@@ -1845,7 +1845,7 @@ CD14-positive monocyte,CD14-positive monocyte
 "CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
 CD14-positive monocyte,CD14-positive monocyte
 mature NK T cell,mature NK T cell
-"CD16-positive, CD56-dim natural killer cell, human",gamma-delta T cell
+"CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
 CD14-positive monocyte,CD14-positive monocyte
 CD14-positive monocyte,CD14-positive monocyte
 mature NK T cell,mature NK T cell

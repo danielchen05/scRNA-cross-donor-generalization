@@ -1639,7 +1639,7 @@ naive B cell,naive B cell
 mature NK T cell,mature NK T cell
 T-helper 22 cell,T-helper 22 cell
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
-mucosal invariant T cell,"effector memory CD8-positive, alpha-beta T cell"
+mucosal invariant T cell,gamma-delta T cell
 CD14-positive monocyte,CD14-positive monocyte
 "effector memory CD8-positive, alpha-beta T cell",mucosal invariant T cell
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"

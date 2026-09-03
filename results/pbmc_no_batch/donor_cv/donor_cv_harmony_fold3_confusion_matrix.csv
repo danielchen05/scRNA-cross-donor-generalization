@@ -8,7 +8,7 @@ T-helper 22 cell,0,0,0,88,24,0,1,0,0,2,0,6,3
 "effector memory CD8-positive, alpha-beta T cell",0,0,1,0,2,4,75,5,0,2,0,0,15
 gamma-delta T cell,0,0,9,12,9,9,23,36,0,3,1,5,2
 mature NK T cell,4,0,2,0,0,20,1,2,70,0,0,2,0
-mucosal invariant T cell,0,0,0,3,2,2,8,4,0,54,0,4,3
+mucosal invariant T cell,0,0,0,3,2,2,9,4,0,54,0,4,2
 naive B cell,0,0,0,0,0,0,0,0,0,0,90,0,0
 "naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,5,44,0,0,0,0,0,0,342,8
 "naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,6,12,0,1,1,0,1,0,32,97

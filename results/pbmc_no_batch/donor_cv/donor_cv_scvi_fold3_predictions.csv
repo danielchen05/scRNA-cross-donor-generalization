@@ -15,7 +15,7 @@ T-helper 22 cell,T-helper 22 cell
 "central memory CD4-positive, alpha-beta T cell",T-helper 22 cell
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
 naive B cell,naive B cell
-"effector CD8-positive, alpha-beta T cell",mature NK T cell
+"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
 mature NK T cell,mature NK T cell
 naive B cell,naive B cell
 naive B cell,naive B cell

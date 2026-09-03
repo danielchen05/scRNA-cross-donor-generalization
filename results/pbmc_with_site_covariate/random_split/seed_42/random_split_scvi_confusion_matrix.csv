@@ -10,5 +10,5 @@ gamma-delta T cell,0,1,6,9,8,10,11,30,1,5,0,1,1
 mature NK T cell,2,0,2,0,0,17,1,1,66,0,0,0,1
 mucosal invariant T cell,0,0,0,7,2,0,10,3,0,40,0,6,1
 naive B cell,0,0,0,0,0,0,0,0,0,0,125,0,0
-"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,8,27,0,0,2,0,1,0,245,13
-"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,15,19,0,3,4,0,1,0,25,89
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,7,28,0,0,2,0,1,0,246,12
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,16,19,0,2,4,0,1,0,25,89

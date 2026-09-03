@@ -1207,7 +1207,7 @@ mucosal invariant T cell,"naive thymus-derived CD4-positive, alpha-beta T cell"
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
 "central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
-gamma-delta T cell,gamma-delta T cell
+gamma-delta T cell,"effector CD8-positive, alpha-beta T cell"
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 mature NK T cell,mature NK T cell
@@ -1741,7 +1741,7 @@ CD14-positive monocyte,CD14-positive monocyte
 mature NK T cell,"effector CD8-positive, alpha-beta T cell"
 "central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
 "effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
-"effector memory CD8-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
+"effector memory CD8-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 "effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
 CD14-positive monocyte,CD14-positive monocyte
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
@@ -1800,7 +1800,7 @@ mature NK T cell,mature NK T cell
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"
 "effector memory CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell"
 naive B cell,naive B cell
-"central memory CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
+"central memory CD4-positive, alpha-beta T cell","central memory CD4-positive, alpha-beta T cell"
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"

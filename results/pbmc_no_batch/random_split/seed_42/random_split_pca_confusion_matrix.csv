@@ -2,10 +2,10 @@
 CD14-positive monocyte,230,0,0,0,0,0,0,0,1,0,0,0,0
 "CD16-negative, CD56-bright natural killer cell, human",0,43,5,1,0,0,0,0,0,0,0,0,0
 "CD16-positive, CD56-dim natural killer cell, human",0,3,305,0,0,2,0,5,2,0,0,0,0
-T-helper 22 cell,0,0,0,96,19,0,2,1,0,6,0,6,4
+T-helper 22 cell,0,0,0,95,19,0,2,1,0,6,0,6,5
 "central memory CD4-positive, alpha-beta T cell",0,0,1,12,163,1,4,1,0,3,0,32,6
 "effector CD8-positive, alpha-beta T cell",0,0,2,0,1,119,4,3,1,0,0,0,1
-"effector memory CD8-positive, alpha-beta T cell",0,0,0,0,3,4,92,6,0,6,0,1,6
+"effector memory CD8-positive, alpha-beta T cell",0,0,0,0,3,4,93,6,0,6,0,1,5
 gamma-delta T cell,0,0,4,7,14,5,6,34,2,9,0,2,0
 mature NK T cell,2,0,1,0,0,17,2,2,66,0,0,0,0
 mucosal invariant T cell,0,0,0,3,2,0,6,5,0,46,0,5,2

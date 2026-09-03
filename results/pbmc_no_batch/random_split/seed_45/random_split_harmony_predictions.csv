@@ -1583,7 +1583,7 @@ CD14-positive monocyte,CD14-positive monocyte
 mature NK T cell,mature NK T cell
 "CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
 "CD16-negative, CD56-bright natural killer cell, human","CD16-negative, CD56-bright natural killer cell, human"
-"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell"
+"effector CD8-positive, alpha-beta T cell","CD16-positive, CD56-dim natural killer cell, human"
 "naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
 "naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell"
 "CD16-positive, CD56-dim natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human"

@@ -39,7 +39,6 @@ def _fit_predict_logreg(X_train, X_test, y_train, random_state=42):
     clf = LogisticRegression(
         max_iter=5000,
         random_state=random_state,
-        n_jobs=-1,
     )
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)
@@ -119,7 +118,6 @@ def run_random_split_logreg(
     clf = LogisticRegression(
         max_iter=5000,
         random_state=random_state,
-        n_jobs=-1,
     )
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)
@@ -239,7 +237,6 @@ def run_donor_split_logreg(
     clf = LogisticRegression(
         max_iter=5000,
         random_state=random_state,
-        n_jobs=-1,
     )
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)

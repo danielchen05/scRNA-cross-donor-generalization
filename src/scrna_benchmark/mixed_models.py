@@ -519,3 +519,70 @@ def save_glmm_outputs(
             out_dir / f"{prefix}_{safe_rep}_fixed_effects.csv",
             index=False,
         )
+
+
+def run_correctness_glmm_analysis(
+    adata,
+    representations,
+    out_dir,
+    celltype_col="cell_type",
+    donor_col="patient_id",
+    site_col=None,
+    batch_col=None,
+    test_size=0.2,
+    n_random_repeats=5,
+    n_folds=5,
+    random_state=42,
+    dataset_name=None,
+    verbose=True,
+):
+    """
+    Run the complete correctness-GLMM sensitivity analysis.
+
+    Workflow
+    --------
+    1. Collect prediction-level metadata for repeated random splits.
+    2. Collect prediction-level metadata for donor-held-out CV.
+    3. Fit one correctness GLMM per representation.
+    4. Save prediction-level input and GLMM summaries.
+    """
+    pred_df = collect_scheme_prediction_metadata(
+        adata=adata,
+        representations=representations,
+        celltype_col=celltype_col,
+        donor_col=donor_col,
+        site_col=site_col,
+        batch_col=batch_col,
+        test_size=test_size,
+        n_random_repeats=n_random_repeats,
+        n_folds=n_folds,
+        random_state=random_state,
+        dataset_name=dataset_name,
+        verbose=verbose,
+    )
+
+    summary_df, coef_parts, fitted = fit_glmm_by_representation(
+        pred_df=pred_df,
+        donor_col=donor_col,
+        representation_col="representation",
+        scheme_col="scheme",
+        outcome_col="correct",
+        reference_scheme="donor_held_out",
+        comparison_scheme="random",
+        verbose=verbose,
+    )
+
+    save_glmm_outputs(
+        pred_df=pred_df,
+        summary_df=summary_df,
+        coef_parts=coef_parts,
+        out_dir=out_dir,
+        prefix="correctness_glmm",
+    )
+
+    return {
+        "predictions": pred_df,
+        "summary": summary_df,
+        "coefficients": coef_parts,
+        "fitted": fitted,
+    }

@@ -208,3 +208,4 @@ __marimo__/
 *.h5ad
 data/
 !data/README.md
+results/lung_no_batch_L4/mixed_models/

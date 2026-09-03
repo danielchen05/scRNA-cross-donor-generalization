@@ -124,7 +124,7 @@ EC general capillary,EC general capillary
 Suprabasal,Suprabasal
 Interstitial macrophages,Alveolar macrophages
 Multiciliated,Multiciliated
-Classical monocytes,Non-classical monocytes
+Classical monocytes,Classical monocytes
 Goblet,Club
 Alveolar fibroblasts,Alveolar fibroblasts
 Suprabasal,Suprabasal
@@ -584,7 +584,7 @@ Club,Club
 DC2,DC2
 Suprabasal,Suprabasal
 NK cells,NK cells
-Adventitial fibroblasts,Alveolar fibroblasts
+Adventitial fibroblasts,Peribronchial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 DC2,DC2
 EC venous pulmonary,EC venous systemic
@@ -658,7 +658,7 @@ SMG duct,SMG duct
 Basal resting,Basal resting
 Classical monocytes,Classical monocytes
 CD4 T cells,CD4 T cells
-Adventitial fibroblasts,Peribronchial fibroblasts
+Adventitial fibroblasts,Adventitial fibroblasts
 CD8 T cells,CD4 T cells
 Deuterosomal,Deuterosomal
 Interstitial macrophages,Interstitial macrophages
@@ -768,7 +768,7 @@ Classical monocytes,Classical monocytes
 DC2,DC2
 Interstitial macrophages,Interstitial macrophages
 Classical monocytes,Classical monocytes
-Goblet,Goblet
+Goblet,Transitional Club-AT2
 Peribronchial fibroblasts,Alveolar fibroblasts
 Transitional Club-AT2,Transitional Club-AT2
 Deuterosomal,Multiciliated
@@ -1173,7 +1173,7 @@ CD8 T cells,CD8 T cells
 AT2 proliferating,AT2 proliferating
 Alveolar macrophages,Alveolar macrophages
 EC venous systemic,EC general capillary
-Pericytes,Pericytes
+Pericytes,Alveolar macrophages
 Non-classical monocytes,Non-classical monocytes
 Adventitial fibroblasts,Adventitial fibroblasts
 Basal resting,Basal resting
@@ -1185,7 +1185,7 @@ CD4 T cells,CD4 T cells
 Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
 Interstitial macrophages,Alveolar macrophages
-Basal resting,Classical monocytes
+Basal resting,EC aerocyte capillary
 Multiciliated,Multiciliated
 Basal resting,Basal resting
 EC aerocyte capillary,EC aerocyte capillary
@@ -1287,7 +1287,7 @@ Adventitial fibroblasts,Adventitial fibroblasts
 CD4 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
 EC aerocyte capillary,EC aerocyte capillary
-Ionocyte,CD4 T cells
+Ionocyte,Ionocyte
 Hillock-like,Hillock-like
 Alveolar macrophages,Alveolar macrophages
 Adventitial fibroblasts,Adventitial fibroblasts
@@ -1704,7 +1704,7 @@ Basal resting,Basal resting
 Alveolar macrophages,Alveolar macrophages
 Interstitial macrophages,Alveolar macrophages
 Multiciliated,Multiciliated
-Ionocyte,Plasma cells
+Ionocyte,Ionocyte
 EC general capillary,Plasma cells
 Goblet,Goblet
 CD4 T cells,CD4 T cells
@@ -2480,7 +2480,7 @@ SMG duct,SMG duct
 Suprabasal,Hillock-like
 Goblet,Goblet
 DC2,DC2
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,DC2
 Alveolar macrophages,Alveolar macrophages
 Transitional Club-AT2,SMG duct
 Non-classical monocytes,Non-classical monocytes
@@ -2560,7 +2560,7 @@ Multiciliated,Multiciliated
 Goblet,Club
 Goblet,Goblet
 NK cells,NK cells
-Goblet,Multiciliated
+Goblet,Deuterosomal
 NK cells,NK cells
 Club,Transitional Club-AT2
 Basal resting,CD4 T cells
@@ -2613,7 +2613,7 @@ Multiciliated,Multiciliated
 Multiciliated,Multiciliated
 Alveolar macrophages,Alveolar macrophages
 NK cells,NK cells
-EC venous pulmonary,EC venous systemic
+EC venous pulmonary,EC venous pulmonary
 Non-classical monocytes,Classical monocytes
 CD4 T cells,CD4 T cells
 Non-classical monocytes,Non-classical monocytes
@@ -2827,7 +2827,7 @@ Goblet,Goblet
 NK cells,NK cells
 DC2,DC2
 Peribronchial fibroblasts,Alveolar fibroblasts
-EC general capillary,EC general capillary
+EC general capillary,Non-classical monocytes
 Classical monocytes,Classical monocytes
 DC2,Interstitial macrophages
 Basal resting,Suprabasal
@@ -3305,7 +3305,7 @@ EC venous systemic,EC venous systemic
 DC2,DC2
 Suprabasal,Suprabasal
 EC venous systemic,EC venous systemic
-Interstitial macrophages,DC2
+Interstitial macrophages,Non-classical monocytes
 Pericytes,Pericytes
 Alveolar fibroblasts,Alveolar fibroblasts
 Club,Club
@@ -3324,7 +3324,7 @@ Interstitial macrophages,Interstitial macrophages
 Multiciliated,Multiciliated
 Goblet,Goblet
 Basal resting,Basal resting
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,Alveolar macrophages
 Alveolar fibroblasts,Peribronchial fibroblasts
 Peribronchial fibroblasts,Alveolar fibroblasts
 Multiciliated,Deuterosomal
@@ -3629,7 +3629,7 @@ CD8 T cells,CD4 T cells
 Classical monocytes,Classical monocytes
 Plasma cells,Plasma cells
 Club,Suprabasal
-Club,Transitional Club-AT2
+Club,Goblet
 Plasma cells,Plasma cells
 DC2,DC2
 AT2 proliferating,AT2 proliferating
@@ -3856,7 +3856,7 @@ SMG serous,SMG serous
 CD8 T cells,NK cells
 NK cells,NK cells
 CD8 T cells,CD8 T cells
-Multiciliated,Plasma cells
+Multiciliated,Ionocyte
 Multiciliated,Multiciliated
 EC venous systemic,EC venous pulmonary
 Alveolar macrophages,Alveolar macrophages
@@ -4707,7 +4707,7 @@ Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Deuterosomal,Deuterosomal
 CD8 T cells,NK cells
-Goblet,SMG duct
+Goblet,Transitional Club-AT2
 EC venous systemic,EC venous systemic
 Multiciliated,Multiciliated
 Adventitial fibroblasts,Adventitial fibroblasts
@@ -5058,7 +5058,7 @@ SMG duct,Transitional Club-AT2
 EC venous pulmonary,EC venous systemic
 EC venous pulmonary,EC venous pulmonary
 Non-classical monocytes,Interstitial macrophages
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,Alveolar macrophages
 Classical monocytes,Classical monocytes
 Multiciliated,Multiciliated
 Classical monocytes,Classical monocytes
@@ -5242,7 +5242,7 @@ B cells,B cells
 Alveolar macrophages,Alveolar macrophages
 Goblet,Alveolar macrophages
 Transitional Club-AT2,Transitional Club-AT2
-Transitional Club-AT2,SMG duct
+Transitional Club-AT2,Transitional Club-AT2
 Multiciliated,Multiciliated
 DC2,DC2
 Goblet,Goblet
@@ -5323,7 +5323,7 @@ Plasma cells,Plasma cells
 Interstitial macrophages,Alveolar macrophages
 EC venous pulmonary,EC venous pulmonary
 Classical monocytes,Classical monocytes
-Interstitial macrophages,Non-classical monocytes
+Interstitial macrophages,Interstitial macrophages
 EC venous systemic,EC general capillary
 Non-classical monocytes,Interstitial macrophages
 Alveolar macrophages,Alveolar macrophages
@@ -5907,7 +5907,7 @@ Multiciliated,Multiciliated
 CD8 T cells,CD8 T cells
 Interstitial macrophages,Interstitial macrophages
 Adventitial fibroblasts,Adventitial fibroblasts
-Peribronchial fibroblasts,Peribronchial fibroblasts
+Peribronchial fibroblasts,Alveolar fibroblasts
 Multiciliated,Multiciliated
 CD4 T cells,CD4 T cells
 EC venous systemic,EC venous pulmonary
@@ -6298,7 +6298,7 @@ Classical monocytes,Interstitial macrophages
 Interstitial macrophages,Alveolar macrophages
 Basal resting,Basal resting
 Goblet,Club
-Deuterosomal,Transitional Club-AT2
+Deuterosomal,Deuterosomal
 Interstitial macrophages,Interstitial macrophages
 Hillock-like,Basal resting
 Goblet,Transitional Club-AT2
@@ -6375,7 +6375,7 @@ NK cells,CD8 T cells
 CD4 T cells,CD4 T cells
 Deuterosomal,Deuterosomal
 Multiciliated,Multiciliated
-Plasma cells,CD4 T cells
+Plasma cells,Plasma cells
 AT2 proliferating,AT2 proliferating
 Non-classical monocytes,Non-classical monocytes
 Multiciliated,Multiciliated
@@ -6753,7 +6753,7 @@ Non-classical monocytes,Classical monocytes
 Interstitial macrophages,Interstitial macrophages
 DC2,DC2
 CD4 T cells,CD4 T cells
-Multiciliated,Deuterosomal
+Multiciliated,Multiciliated
 CD8 T cells,CD8 T cells
 EC venous systemic,EC venous systemic
 SMG duct,SMG duct
@@ -6830,7 +6830,7 @@ Alveolar macrophages,Alveolar macrophages
 Non-classical monocytes,Interstitial macrophages
 Non-classical monocytes,Alveolar macrophages
 Multiciliated,Multiciliated
-B cells,DC2
+B cells,B cells
 EC general capillary,EC general capillary
 Club,Club
 Multiciliated,Multiciliated
@@ -7473,7 +7473,7 @@ EC venous pulmonary,EC venous pulmonary
 Suprabasal,Suprabasal
 Multiciliated,Multiciliated
 Goblet,Plasma cells
-Suprabasal,Club
+Suprabasal,Suprabasal
 Alveolar macrophages,Alveolar macrophages
 EC venous systemic,EC venous systemic
 CD8 T cells,CD8 T cells
@@ -8283,7 +8283,7 @@ CD4 T cells,CD4 T cells
 DC2,DC2
 Non-classical monocytes,Classical monocytes
 CD4 T cells,CD4 T cells
-B cells,B cells
+B cells,DC2
 Multiciliated,Multiciliated
 Club,Suprabasal
 Alveolar macrophages,Non-classical monocytes
@@ -8635,7 +8635,7 @@ SMG serous,SMG serous
 Suprabasal,Suprabasal
 CD8 T cells,CD8 T cells
 Transitional Club-AT2,Transitional Club-AT2
-Suprabasal,Suprabasal
+Suprabasal,Club
 Multiciliated,Multiciliated
 Suprabasal,Suprabasal
 Basal resting,Hillock-like
@@ -11003,7 +11003,7 @@ Multiciliated,Multiciliated
 Suprabasal,Suprabasal
 SMG duct,SMG duct
 Goblet,Club
-EC general capillary,EC venous systemic
+EC general capillary,EC general capillary
 B cells,B cells
 Plasma cells,Plasma cells
 Club,Basal resting
@@ -11072,7 +11072,7 @@ CD8 T cells,CD8 T cells
 Goblet,Goblet
 DC2,Plasma cells
 NK cells,CD8 T cells
-Multiciliated,Goblet
+Multiciliated,Multiciliated
 CD4 T cells,CD4 T cells
 Multiciliated,Multiciliated
 Alveolar macrophages,Alveolar macrophages
@@ -11296,7 +11296,7 @@ CD4 T cells,CD4 T cells
 Alveolar macrophages,Alveolar macrophages
 EC venous pulmonary,EC venous pulmonary
 EC general capillary,EC general capillary
-Plasma cells,Ionocyte
+Plasma cells,Plasma cells
 Transitional Club-AT2,Transitional Club-AT2
 Alveolar macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
@@ -11535,7 +11535,7 @@ AT2 proliferating,AT2 proliferating
 Goblet,Goblet
 EC venous pulmonary,EC venous systemic
 DC2,DC2
-Classical monocytes,Suprabasal
+Classical monocytes,Hillock-like
 CD8 T cells,CD4 T cells
 Basal resting,Basal resting
 Classical monocytes,Classical monocytes
@@ -11611,7 +11611,7 @@ Pericytes,Pericytes
 Non-classical monocytes,Interstitial macrophages
 Club,Suprabasal
 Non-classical monocytes,Non-classical monocytes
-Club,Suprabasal
+Club,Club
 CD8 T cells,Goblet
 CD8 T cells,CD8 T cells
 Basal resting,Basal resting
@@ -11762,7 +11762,7 @@ Alveolar macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
 Suprabasal,Suprabasal
 Alveolar fibroblasts,Alveolar fibroblasts
-Classical monocytes,Interstitial macrophages
+Classical monocytes,Non-classical monocytes
 Alveolar macrophages,Alveolar macrophages
 AT2 proliferating,AT2 proliferating
 AT2 proliferating,Transitional Club-AT2
@@ -12312,7 +12312,7 @@ Alveolar macrophages,Alveolar macrophages
 Club,Club
 CD4 T cells,CD8 T cells
 Multiciliated,Multiciliated
-Goblet,Club
+Goblet,Transitional Club-AT2
 Multiciliated,Multiciliated
 Alveolar macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
@@ -13057,7 +13057,7 @@ EC venous systemic,EC venous systemic
 Interstitial macrophages,Interstitial macrophages
 EC venous pulmonary,EC venous pulmonary
 Classical monocytes,Classical monocytes
-Non-classical monocytes,Interstitial macrophages
+Non-classical monocytes,Classical monocytes
 EC venous systemic,EC venous systemic
 Alveolar fibroblasts,Adventitial fibroblasts
 Multiciliated,Multiciliated
@@ -13305,7 +13305,7 @@ Goblet,Club
 Classical monocytes,Interstitial macrophages
 Multiciliated,Multiciliated
 Adventitial fibroblasts,Adventitial fibroblasts
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,Alveolar macrophages
 EC venous pulmonary,EC venous systemic
 DC2,Non-classical monocytes
 Classical monocytes,Classical monocytes
@@ -13751,7 +13751,7 @@ Suprabasal,Suprabasal
 CD8 T cells,CD8 T cells
 DC2,DC2
 CD8 T cells,CD4 T cells
-CD8 T cells,CD8 T cells
+CD8 T cells,CD4 T cells
 DC2,DC2
 EC venous systemic,EC aerocyte capillary
 Plasma cells,Plasma cells
@@ -13947,7 +13947,7 @@ Basal resting,Basal resting
 Multiciliated,Multiciliated
 SMG duct,Goblet
 Plasma cells,Plasma cells
-Transitional Club-AT2,Transitional Club-AT2
+Transitional Club-AT2,SMG duct
 NK cells,NK cells
 Alveolar macrophages,Alveolar macrophages
 Goblet,Goblet
@@ -14851,7 +14851,7 @@ CD4 T cells,CD4 T cells
 Non-classical monocytes,Interstitial macrophages
 CD4 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
-EC general capillary,EC general capillary
+EC general capillary,Ionocyte
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 DC2,DC2
@@ -14864,7 +14864,7 @@ Classical monocytes,Classical monocytes
 SMG duct,Transitional Club-AT2
 Club,Goblet
 EC general capillary,EC general capillary
-B cells,DC2
+B cells,B cells
 Alveolar macrophages,Alveolar macrophages
 CD8 T cells,CD8 T cells
 Transitional Club-AT2,Transitional Club-AT2
@@ -14897,7 +14897,7 @@ EC venous systemic,EC venous pulmonary
 EC aerocyte capillary,EC aerocyte capillary
 Alveolar macrophages,Alveolar macrophages
 Adventitial fibroblasts,Alveolar fibroblasts
-DC2,Non-classical monocytes
+DC2,DC2
 Suprabasal,Basal resting
 Basal resting,Basal resting
 Club,Club
@@ -16360,7 +16360,7 @@ EC aerocyte capillary,EC aerocyte capillary
 Interstitial macrophages,Interstitial macrophages
 EC venous pulmonary,EC venous systemic
 Alveolar fibroblasts,Alveolar fibroblasts
-Alveolar fibroblasts,Pericytes
+Alveolar fibroblasts,Alveolar fibroblasts
 Multiciliated,Multiciliated
 Goblet,Deuterosomal
 EC venous systemic,EC venous systemic

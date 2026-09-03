@@ -33,6 +33,6 @@
     80
   ],
   "donor_ablation_n_repeats": 5,
-  "save_filtered_adata": true,
+  "save_filtered_adata": false,
   "verbose": true
 }

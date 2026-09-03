@@ -136,7 +136,7 @@ fold,y_true,y_pred
 1,CD8 T cells,CD4 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,NK cells
-1,CD8 T cells,NK cells
+1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD4 T cells
@@ -202,7 +202,7 @@ fold,y_true,y_pred
 1,Club,Club
 1,Club,Club
 1,Club,Basal resting
-1,Club,Transitional Club-AT2
+1,Club,Club
 1,Club,Club
 1,Club,Club
 1,Club,Goblet
@@ -346,7 +346,7 @@ fold,y_true,y_pred
 1,DC2,Interstitial macrophages
 1,DC2,DC2
 1,DC2,DC2
-1,DC2,Classical monocytes
+1,DC2,DC2
 1,DC2,Alveolar macrophages
 1,DC2,Interstitial macrophages
 1,DC2,Alveolar macrophages
@@ -866,7 +866,7 @@ fold,y_true,y_pred
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,NK cells
-1,CD8 T cells,CD4 T cells
+1,CD8 T cells,Transitional Club-AT2
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
@@ -986,7 +986,7 @@ fold,y_true,y_pred
 1,Club,Club
 1,Club,Club
 1,Club,Club
-1,Club,Club
+1,Club,Suprabasal
 1,Club,Suprabasal
 1,Club,Club
 1,Club,Goblet
@@ -1597,7 +1597,7 @@ fold,y_true,y_pred
 1,DC2,Non-classical monocytes
 1,DC2,Plasma cells
 1,DC2,Alveolar macrophages
-1,DC2,Non-classical monocytes
+1,DC2,DC2
 1,DC2,Alveolar macrophages
 1,DC2,DC2
 1,DC2,DC2
@@ -2244,7 +2244,7 @@ fold,y_true,y_pred
 1,Goblet,Transitional Club-AT2
 1,Goblet,Club
 1,Goblet,Transitional Club-AT2
-1,Goblet,Goblet
+1,Goblet,Transitional Club-AT2
 1,Goblet,Club
 1,Goblet,Goblet
 1,Goblet,Club
@@ -2685,7 +2685,7 @@ fold,y_true,y_pred
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
-1,CD8 T cells,Basal resting
+1,CD8 T cells,Hillock-like
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
@@ -2834,7 +2834,7 @@ fold,y_true,y_pred
 1,DC2,Interstitial macrophages
 1,DC2,B cells
 1,DC2,DC2
-1,DC2,B cells
+1,DC2,DC2
 1,DC2,Interstitial macrophages
 1,DC2,DC2
 1,DC2,DC2
@@ -2966,7 +2966,7 @@ fold,y_true,y_pred
 1,Deuterosomal,Goblet
 1,Deuterosomal,Club
 1,Deuterosomal,Goblet
-1,Deuterosomal,Deuterosomal
+1,Deuterosomal,Goblet
 1,Deuterosomal,Deuterosomal
 1,Deuterosomal,Deuterosomal
 1,Deuterosomal,Multiciliated
@@ -3152,33 +3152,33 @@ fold,y_true,y_pred
 1,Goblet,Goblet
 1,Goblet,Goblet
 1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
+1,Goblet,Goblet
 1,Goblet,Club
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
-1,Goblet,Goblet
 1,Goblet,Club
-1,Goblet,Goblet
 1,Goblet,Goblet
 1,Goblet,Goblet
 1,Goblet,Goblet
@@ -3195,7 +3195,7 @@ fold,y_true,y_pred
 1,Goblet,Goblet
 1,Goblet,Goblet
 1,Goblet,Goblet
-1,Goblet,Goblet
+1,Goblet,Club
 1,Hillock-like,Hillock-like
 1,Hillock-like,Hillock-like
 1,Hillock-like,Hillock-like
@@ -4058,7 +4058,7 @@ fold,y_true,y_pred
 1,Deuterosomal,Multiciliated
 1,Deuterosomal,Multiciliated
 1,Deuterosomal,Deuterosomal
-1,Deuterosomal,Multiciliated
+1,Deuterosomal,Deuterosomal
 1,Deuterosomal,Goblet
 1,Deuterosomal,Deuterosomal
 1,Deuterosomal,Deuterosomal
@@ -4126,7 +4126,7 @@ fold,y_true,y_pred
 1,EC venous systemic,EC general capillary
 1,EC venous systemic,EC venous pulmonary
 1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC venous pulmonary
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC general capillary
 1,EC venous systemic,EC venous pulmonary
@@ -4422,7 +4422,7 @@ fold,y_true,y_pred
 1,SMG duct,AT2 proliferating
 1,SMG duct,SMG duct
 1,SMG duct,AT2 proliferating
-1,SMG duct,Transitional Club-AT2
+1,SMG duct,SMG duct
 1,SMG duct,SMG duct
 1,SMG duct,B cells
 1,SMG duct,Transitional Club-AT2
@@ -4946,7 +4946,7 @@ fold,y_true,y_pred
 1,Club,Suprabasal
 1,Club,Deuterosomal
 1,Club,Club
-1,Club,Suprabasal
+1,Club,Club
 1,Club,Club
 1,Club,Club
 1,Club,Club
@@ -5136,25 +5136,25 @@ fold,y_true,y_pred
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC general capillary
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC venous pulmonary
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC general capillary
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC general capillary
+1,EC venous systemic,EC venous pulmonary
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC venous systemic
+1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC general capillary
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC venous pulmonary
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC general capillary
 1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC general capillary
-1,EC venous systemic,EC venous pulmonary
-1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC general capillary
-1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC venous pulmonary
-1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC general capillary
-1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC general capillary
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC venous systemic
@@ -5168,7 +5168,7 @@ fold,y_true,y_pred
 1,EC venous systemic,EC venous pulmonary
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC venous systemic
-1,EC venous systemic,EC general capillary
+1,EC venous systemic,EC aerocyte capillary
 1,EC venous systemic,EC general capillary
 1,EC venous systemic,EC venous systemic
 1,EC venous systemic,EC venous systemic
@@ -5334,7 +5334,7 @@ fold,y_true,y_pred
 1,Interstitial macrophages,Classical monocytes
 1,Interstitial macrophages,Alveolar macrophages
 1,Interstitial macrophages,Alveolar macrophages
-1,Interstitial macrophages,Alveolar macrophages
+1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Alveolar macrophages
 1,Interstitial macrophages,Alveolar macrophages
 1,Ionocyte,CD4 T cells
@@ -5783,7 +5783,7 @@ fold,y_true,y_pred
 1,Alveolar fibroblasts,Peribronchial fibroblasts
 1,Alveolar fibroblasts,Alveolar fibroblasts
 1,Alveolar fibroblasts,Alveolar fibroblasts
-1,Alveolar fibroblasts,Alveolar fibroblasts
+1,Alveolar fibroblasts,Peribronchial fibroblasts
 1,Alveolar fibroblasts,Adventitial fibroblasts
 1,Alveolar fibroblasts,Alveolar fibroblasts
 1,Alveolar fibroblasts,Pericytes
@@ -5920,7 +5920,7 @@ fold,y_true,y_pred
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
-1,Classical monocytes,Classical monocytes
+1,Classical monocytes,Interstitial macrophages
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
@@ -6276,7 +6276,7 @@ fold,y_true,y_pred
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,Alveolar macrophages
-1,Non-classical monocytes,Non-classical monocytes
+1,Non-classical monocytes,Interstitial macrophages
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,Non-classical monocytes
@@ -6511,7 +6511,7 @@ fold,y_true,y_pred
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
-1,Classical monocytes,Classical monocytes
+1,Classical monocytes,Interstitial macrophages
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
@@ -6633,7 +6633,7 @@ fold,y_true,y_pred
 1,Interstitial macrophages,DC2
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Interstitial macrophages
-1,Interstitial macrophages,Classical monocytes
+1,Interstitial macrophages,Non-classical monocytes
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,DC2
 1,Interstitial macrophages,Interstitial macrophages
@@ -6749,7 +6749,7 @@ fold,y_true,y_pred
 1,Plasma cells,CD4 T cells
 1,Plasma cells,Plasma cells
 1,Plasma cells,CD4 T cells
-1,Plasma cells,CD4 T cells
+1,Plasma cells,Plasma cells
 1,Plasma cells,CD4 T cells
 1,Plasma cells,Plasma cells
 1,Plasma cells,Plasma cells
@@ -6789,7 +6789,7 @@ fold,y_true,y_pred
 1,Plasma cells,Ionocyte
 1,Plasma cells,CD4 T cells
 1,Plasma cells,CD4 T cells
-1,Plasma cells,CD4 T cells
+1,Plasma cells,Plasma cells
 1,Plasma cells,Plasma cells
 1,Plasma cells,Plasma cells
 1,Plasma cells,CD4 T cells
@@ -6801,7 +6801,7 @@ fold,y_true,y_pred
 1,Plasma cells,Multiciliated
 1,Plasma cells,Plasma cells
 1,Plasma cells,CD4 T cells
-1,Plasma cells,CD4 T cells
+1,Plasma cells,Plasma cells
 1,Plasma cells,Ionocyte
 1,Plasma cells,CD4 T cells
 1,Plasma cells,Plasma cells
@@ -7164,7 +7164,7 @@ fold,y_true,y_pred
 1,DC2,B cells
 1,DC2,DC2
 1,DC2,DC2
-1,DC2,B cells
+1,DC2,DC2
 1,DC2,DC2
 1,DC2,DC2
 1,DC2,Interstitial macrophages
@@ -8020,7 +8020,7 @@ fold,y_true,y_pred
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC general capillary
-1,EC aerocyte capillary,EC general capillary
+1,EC aerocyte capillary,EC venous systemic
 1,EC aerocyte capillary,EC general capillary
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
@@ -8392,7 +8392,7 @@ fold,y_true,y_pred
 1,EC venous systemic,EC venous pulmonary
 1,EC venous systemic,EC venous pulmonary
 1,Goblet,Transitional Club-AT2
-1,Interstitial macrophages,Classical monocytes
+1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,DC2
 1,Interstitial macrophages,DC2
@@ -8541,7 +8541,7 @@ fold,y_true,y_pred
 1,Multiciliated,Multiciliated
 1,Multiciliated,Multiciliated
 1,Multiciliated,Multiciliated
-1,Multiciliated,Peribronchial fibroblasts
+1,Multiciliated,Adventitial fibroblasts
 1,Multiciliated,Plasma cells
 1,Multiciliated,Multiciliated
 1,Multiciliated,Multiciliated
@@ -8650,7 +8650,7 @@ fold,y_true,y_pred
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,DC2
 1,Non-classical monocytes,Alveolar macrophages
-1,Non-classical monocytes,Non-classical monocytes
+1,Non-classical monocytes,Interstitial macrophages
 1,Non-classical monocytes,Interstitial macrophages
 1,Non-classical monocytes,Interstitial macrophages
 1,Non-classical monocytes,Interstitial macrophages
@@ -8840,7 +8840,7 @@ fold,y_true,y_pred
 1,Plasma cells,Plasma cells
 1,Plasma cells,Plasma cells
 1,Plasma cells,Interstitial macrophages
-1,Plasma cells,Interstitial macrophages
+1,Plasma cells,Alveolar macrophages
 1,Plasma cells,Plasma cells
 1,Plasma cells,Alveolar macrophages
 1,Plasma cells,Plasma cells
@@ -9850,7 +9850,7 @@ fold,y_true,y_pred
 1,SMG duct,SMG duct
 1,SMG duct,SMG duct
 1,SMG duct,SMG duct
-1,SMG duct,Club
+1,SMG duct,Suprabasal
 1,SMG duct,SMG duct
 1,SMG duct,Suprabasal
 1,SMG duct,SMG duct
@@ -10429,7 +10429,7 @@ fold,y_true,y_pred
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Interstitial macrophages
-1,Interstitial macrophages,Interstitial macrophages
+1,Interstitial macrophages,Alveolar macrophages
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Alveolar macrophages
@@ -10461,7 +10461,7 @@ fold,y_true,y_pred
 1,Interstitial macrophages,Classical monocytes
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Interstitial macrophages
-1,Interstitial macrophages,Classical monocytes
+1,Interstitial macrophages,Non-classical monocytes
 1,Interstitial macrophages,Non-classical monocytes
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,DC2
@@ -10809,7 +10809,7 @@ fold,y_true,y_pred
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,Non-classical monocytes
 1,CD8 T cells,CD8 T cells
-1,CD8 T cells,Alveolar macrophages
+1,CD8 T cells,Pericytes
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
@@ -10834,7 +10834,7 @@ fold,y_true,y_pred
 1,CD8 T cells,Non-classical monocytes
 1,CD8 T cells,NK cells
 1,CD8 T cells,Alveolar macrophages
-1,CD8 T cells,B cells
+1,CD8 T cells,CD4 T cells
 1,CD8 T cells,CD4 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
@@ -11072,7 +11072,7 @@ fold,y_true,y_pred
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
-1,EC general capillary,EC venous pulmonary
+1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
 1,EC general capillary,Alveolar macrophages
@@ -11963,7 +11963,7 @@ fold,y_true,y_pred
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,NK cells
 1,CD8 T cells,CD8 T cells
-1,CD8 T cells,NK cells
+1,CD8 T cells,CD8 T cells
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
 1,Classical monocytes,Classical monocytes
@@ -12183,19 +12183,19 @@ fold,y_true,y_pred
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
-1,EC aerocyte capillary,EC venous systemic
-1,EC aerocyte capillary,EC aerocyte capillary
-1,EC aerocyte capillary,EC aerocyte capillary
-1,EC aerocyte capillary,EC general capillary
-1,EC aerocyte capillary,EC aerocyte capillary
-1,EC aerocyte capillary,EC aerocyte capillary
-1,EC aerocyte capillary,EC aerocyte capillary
-1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC general capillary
 1,EC aerocyte capillary,EC aerocyte capillary
+1,EC aerocyte capillary,EC aerocyte capillary
+1,EC aerocyte capillary,EC aerocyte capillary
+1,EC aerocyte capillary,EC aerocyte capillary
+1,EC aerocyte capillary,EC aerocyte capillary
+1,EC aerocyte capillary,EC aerocyte capillary
+1,EC aerocyte capillary,EC aerocyte capillary
+1,EC aerocyte capillary,EC general capillary
+1,EC aerocyte capillary,EC general capillary
 1,EC aerocyte capillary,EC general capillary
 1,EC aerocyte capillary,EC aerocyte capillary
 1,EC aerocyte capillary,EC aerocyte capillary
@@ -12502,7 +12502,7 @@ fold,y_true,y_pred
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Alveolar macrophages
 1,Interstitial macrophages,Interstitial macrophages
-1,Interstitial macrophages,Interstitial macrophages
+1,Interstitial macrophages,Alveolar macrophages
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Alveolar macrophages
 1,Interstitial macrophages,Interstitial macrophages
@@ -12684,7 +12684,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,NK cells,NK cells
-1,NK cells,NK cells
+1,NK cells,CD8 T cells
 1,NK cells,NK cells
 1,NK cells,CD8 T cells
 1,NK cells,NK cells
@@ -12916,7 +12916,7 @@ fold,y_true,y_pred
 1,Transitional Club-AT2,Transitional Club-AT2
 1,Transitional Club-AT2,Transitional Club-AT2
 1,Transitional Club-AT2,Transitional Club-AT2
-1,Transitional Club-AT2,AT2 proliferating
+1,Transitional Club-AT2,Transitional Club-AT2
 1,Transitional Club-AT2,Transitional Club-AT2
 1,Transitional Club-AT2,Transitional Club-AT2
 1,Transitional Club-AT2,Transitional Club-AT2
@@ -13499,7 +13499,7 @@ fold,y_true,y_pred
 1,Club,Club
 1,Club,Club
 1,Club,Club
-1,Club,Goblet
+1,Club,Club
 1,Club,Club
 1,Club,Club
 1,Club,Club
@@ -13596,7 +13596,7 @@ fold,y_true,y_pred
 1,DC2,DC2
 1,DC2,DC2
 1,DC2,DC2
-1,DC2,Interstitial macrophages
+1,DC2,DC2
 1,DC2,DC2
 1,DC2,DC2
 1,DC2,DC2
@@ -13657,7 +13657,7 @@ fold,y_true,y_pred
 1,DC2,DC2
 1,DC2,DC2
 1,DC2,DC2
-1,Deuterosomal,Goblet
+1,Deuterosomal,Deuterosomal
 1,Deuterosomal,Deuterosomal
 1,Deuterosomal,Multiciliated
 1,Deuterosomal,Deuterosomal
@@ -14159,7 +14159,7 @@ fold,y_true,y_pred
 1,Transitional Club-AT2,Club
 1,Transitional Club-AT2,Club
 1,Transitional Club-AT2,Transitional Club-AT2
-1,Transitional Club-AT2,Club
+1,Transitional Club-AT2,Goblet
 1,Transitional Club-AT2,Transitional Club-AT2
 1,Transitional Club-AT2,Club
 1,Transitional Club-AT2,Goblet
@@ -15021,7 +15021,7 @@ fold,y_true,y_pred
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
-1,EC general capillary,EC general capillary
+1,EC general capillary,EC venous systemic
 1,EC general capillary,EC venous systemic
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
@@ -15522,7 +15522,7 @@ fold,y_true,y_pred
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,Interstitial macrophages
 1,Non-classical monocytes,Non-classical monocytes
-1,Non-classical monocytes,Non-classical monocytes
+1,Non-classical monocytes,Classical monocytes
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,Non-classical monocytes
 1,Non-classical monocytes,Non-classical monocytes
@@ -16406,7 +16406,7 @@ fold,y_true,y_pred
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
-1,EC general capillary,EC general capillary
+1,EC general capillary,EC venous systemic
 1,EC general capillary,EC venous systemic
 1,EC general capillary,EC venous pulmonary
 1,EC general capillary,EC general capillary
@@ -16717,7 +16717,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,NK cells,NK cells
-1,NK cells,NK cells
+1,NK cells,CD8 T cells
 1,NK cells,CD8 T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
@@ -17103,7 +17103,7 @@ fold,y_true,y_pred
 1,Alveolar fibroblasts,Alveolar fibroblasts
 1,Alveolar fibroblasts,Adventitial fibroblasts
 1,Alveolar fibroblasts,Alveolar fibroblasts
-1,Alveolar fibroblasts,Peribronchial fibroblasts
+1,Alveolar fibroblasts,Alveolar fibroblasts
 1,Alveolar fibroblasts,Alveolar fibroblasts
 1,Alveolar fibroblasts,Alveolar fibroblasts
 1,Alveolar fibroblasts,Alveolar fibroblasts
@@ -17459,7 +17459,7 @@ fold,y_true,y_pred
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
-1,CD8 T cells,Ionocyte
+1,CD8 T cells,CD4 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD4 T cells
 1,CD8 T cells,CD4 T cells
@@ -17492,7 +17492,7 @@ fold,y_true,y_pred
 1,CD8 T cells,Ionocyte
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
-1,CD8 T cells,B cells
+1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
 1,CD8 T cells,CD8 T cells
@@ -17674,7 +17674,7 @@ fold,y_true,y_pred
 1,Club,Goblet
 1,Club,Club
 1,Club,Club
-1,Club,Deuterosomal
+1,Club,Club
 1,Club,Club
 1,Club,Club
 1,Club,Club
@@ -17962,7 +17962,7 @@ fold,y_true,y_pred
 1,EC general capillary,Ionocyte
 1,EC general capillary,EC venous systemic
 1,EC general capillary,EC general capillary
-1,EC general capillary,EC venous systemic
+1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
 1,EC general capillary,EC general capillary
@@ -18268,7 +18268,7 @@ fold,y_true,y_pred
 1,Interstitial macrophages,Classical monocytes
 1,Interstitial macrophages,Non-classical monocytes
 1,Interstitial macrophages,DC2
-1,Interstitial macrophages,Club
+1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,DC2
 1,Interstitial macrophages,Interstitial macrophages
 1,Interstitial macrophages,Interstitial macrophages
@@ -19381,7 +19381,7 @@ fold,y_true,y_pred
 2,DC2,DC2
 2,DC2,B cells
 2,DC2,Interstitial macrophages
-2,DC2,B cells
+2,DC2,DC2
 2,DC2,DC2
 2,DC2,DC2
 2,DC2,DC2
@@ -20286,7 +20286,7 @@ fold,y_true,y_pred
 2,Interstitial macrophages,Classical monocytes
 2,Interstitial macrophages,Interstitial macrophages
 2,Interstitial macrophages,Interstitial macrophages
-2,Interstitial macrophages,Non-classical monocytes
+2,Interstitial macrophages,Classical monocytes
 2,Interstitial macrophages,Interstitial macrophages
 2,Interstitial macrophages,Classical monocytes
 2,Interstitial macrophages,Classical monocytes
@@ -20431,7 +20431,7 @@ fold,y_true,y_pred
 2,Peribronchial fibroblasts,Alveolar fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
-2,Peribronchial fibroblasts,Peribronchial fibroblasts
+2,Peribronchial fibroblasts,Adventitial fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
@@ -20468,7 +20468,7 @@ fold,y_true,y_pred
 2,SMG duct,SMG duct
 2,SMG duct,Transitional Club-AT2
 2,SMG duct,Goblet
-2,SMG duct,SMG duct
+2,SMG duct,Transitional Club-AT2
 2,SMG duct,SMG duct
 2,SMG duct,SMG duct
 2,SMG duct,SMG duct
@@ -21215,7 +21215,7 @@ fold,y_true,y_pred
 2,Interstitial macrophages,Alveolar macrophages
 2,Interstitial macrophages,DC2
 2,Interstitial macrophages,DC2
-2,Interstitial macrophages,DC2
+2,Interstitial macrophages,B cells
 2,Interstitial macrophages,Interstitial macrophages
 2,Interstitial macrophages,Alveolar macrophages
 2,Interstitial macrophages,Interstitial macrophages
@@ -21427,7 +21427,7 @@ fold,y_true,y_pred
 2,Transitional Club-AT2,Transitional Club-AT2
 2,Transitional Club-AT2,Transitional Club-AT2
 2,Transitional Club-AT2,Transitional Club-AT2
-2,Transitional Club-AT2,Transitional Club-AT2
+2,Transitional Club-AT2,Club
 2,Transitional Club-AT2,Transitional Club-AT2
 2,Transitional Club-AT2,Transitional Club-AT2
 2,Transitional Club-AT2,Transitional Club-AT2
@@ -21517,7 +21517,7 @@ fold,y_true,y_pred
 2,Transitional Club-AT2,Suprabasal
 2,Transitional Club-AT2,Goblet
 2,Adventitial fibroblasts,Adventitial fibroblasts
-2,Adventitial fibroblasts,Adventitial fibroblasts
+2,Adventitial fibroblasts,Peribronchial fibroblasts
 2,Alveolar fibroblasts,Alveolar fibroblasts
 2,Alveolar macrophages,Interstitial macrophages
 2,B cells,B cells
@@ -21673,7 +21673,7 @@ fold,y_true,y_pred
 2,CD4 T cells,CD4 T cells
 2,CD4 T cells,CD4 T cells
 2,CD4 T cells,CD4 T cells
-2,CD4 T cells,CD4 T cells
+2,CD4 T cells,CD8 T cells
 2,CD4 T cells,CD8 T cells
 2,CD4 T cells,CD4 T cells
 2,CD4 T cells,CD4 T cells
@@ -21943,7 +21943,7 @@ fold,y_true,y_pred
 2,Club,Goblet
 2,Club,Goblet
 2,Club,Goblet
-2,Club,Goblet
+2,Club,Club
 2,Club,Club
 2,Club,Club
 2,Club,Goblet
@@ -22240,7 +22240,7 @@ fold,y_true,y_pred
 2,EC venous systemic,EC venous systemic
 2,EC venous systemic,EC venous systemic
 2,EC venous systemic,EC aerocyte capillary
-2,EC venous systemic,EC venous pulmonary
+2,EC venous systemic,EC venous systemic
 2,EC venous systemic,EC venous systemic
 2,EC venous systemic,EC venous pulmonary
 2,EC venous systemic,EC venous systemic
@@ -22770,7 +22770,7 @@ fold,y_true,y_pred
 2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
-2,Suprabasal,Suprabasal
+2,Suprabasal,Club
 2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
@@ -22825,7 +22825,7 @@ fold,y_true,y_pred
 2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
 2,Transitional Club-AT2,Goblet
-2,Transitional Club-AT2,DC2
+2,Transitional Club-AT2,Transitional Club-AT2
 2,Transitional Club-AT2,SMG duct
 2,Transitional Club-AT2,Transitional Club-AT2
 2,Transitional Club-AT2,Transitional Club-AT2
@@ -23084,7 +23084,7 @@ fold,y_true,y_pred
 2,CD8 T cells,CD8 T cells
 2,CD8 T cells,CD8 T cells
 2,CD8 T cells,CD8 T cells
-2,CD8 T cells,CD8 T cells
+2,CD8 T cells,NK cells
 2,CD8 T cells,CD8 T cells
 2,CD8 T cells,CD4 T cells
 2,CD8 T cells,Transitional Club-AT2
@@ -23747,7 +23747,7 @@ fold,y_true,y_pred
 2,Peribronchial fibroblasts,Alveolar fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
-2,Peribronchial fibroblasts,Adventitial fibroblasts
+2,Peribronchial fibroblasts,Peribronchial fibroblasts
 2,Peribronchial fibroblasts,Adventitial fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
 2,Peribronchial fibroblasts,Alveolar fibroblasts
@@ -24408,7 +24408,7 @@ fold,y_true,y_pred
 2,Club,Goblet
 2,Club,Club
 2,Club,Club
-2,Club,Goblet
+2,Club,Club
 2,Club,Club
 2,Club,Goblet
 2,Club,Club
@@ -25718,7 +25718,7 @@ fold,y_true,y_pred
 2,Goblet,Goblet
 2,Goblet,Goblet
 2,Goblet,Goblet
-2,Goblet,Club
+2,Goblet,Transitional Club-AT2
 2,Goblet,Goblet
 2,Goblet,Transitional Club-AT2
 2,Goblet,Goblet
@@ -25991,7 +25991,7 @@ fold,y_true,y_pred
 2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
-2,Suprabasal,Hillock-like
+2,Suprabasal,Suprabasal
 2,Suprabasal,Suprabasal
 2,Suprabasal,Hillock-like
 2,Suprabasal,Club
@@ -26332,7 +26332,7 @@ fold,y_true,y_pred
 2,SMG duct,SMG duct
 2,SMG duct,SMG serous
 2,SMG duct,SMG duct
-2,SMG duct,SMG duct
+2,SMG duct,Suprabasal
 2,SMG duct,SMG duct
 2,SMG duct,Transitional Club-AT2
 2,SMG duct,Goblet
@@ -26404,7 +26404,7 @@ fold,y_true,y_pred
 2,Suprabasal,SMG duct
 2,Suprabasal,Hillock-like
 2,Suprabasal,Basal resting
-2,Suprabasal,Suprabasal
+2,Suprabasal,Basal resting
 2,Suprabasal,Basal resting
 2,Suprabasal,Basal resting
 2,Suprabasal,Hillock-like
@@ -27196,7 +27196,7 @@ fold,y_true,y_pred
 2,CD8 T cells,CD4 T cells
 2,CD8 T cells,CD8 T cells
 2,CD8 T cells,CD4 T cells
-2,CD8 T cells,CD4 T cells
+2,CD8 T cells,CD8 T cells
 2,CD8 T cells,CD8 T cells
 2,CD8 T cells,CD8 T cells
 2,CD8 T cells,CD8 T cells
@@ -27393,7 +27393,7 @@ fold,y_true,y_pred
 2,DC2,DC2
 2,DC2,DC2
 2,DC2,DC2
-2,DC2,DC2
+2,DC2,Interstitial macrophages
 2,DC2,DC2
 2,DC2,Interstitial macrophages
 2,DC2,Interstitial macrophages
@@ -27896,7 +27896,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,NK cells,CD8 T cells
 2,NK cells,CD8 T cells
-2,NK cells,CD8 T cells
+2,NK cells,NK cells
 2,NK cells,CD8 T cells
 2,NK cells,CD8 T cells
 2,NK cells,CD8 T cells
@@ -27981,7 +27981,7 @@ fold,y_true,y_pred
 2,Non-classical monocytes,Classical monocytes
 2,Non-classical monocytes,Non-classical monocytes
 2,Non-classical monocytes,Interstitial macrophages
-2,Non-classical monocytes,Classical monocytes
+2,Non-classical monocytes,Interstitial macrophages
 2,Non-classical monocytes,Classical monocytes
 2,Non-classical monocytes,Interstitial macrophages
 2,Non-classical monocytes,Classical monocytes
@@ -28803,7 +28803,7 @@ fold,y_true,y_pred
 2,Non-classical monocytes,Classical monocytes
 2,Non-classical monocytes,Classical monocytes
 2,Non-classical monocytes,Non-classical monocytes
-2,Non-classical monocytes,Classical monocytes
+2,Non-classical monocytes,Non-classical monocytes
 2,Non-classical monocytes,Non-classical monocytes
 2,Non-classical monocytes,Classical monocytes
 2,Non-classical monocytes,DC2
@@ -29180,7 +29180,7 @@ fold,y_true,y_pred
 2,Interstitial macrophages,Interstitial macrophages
 2,Interstitial macrophages,Interstitial macrophages
 2,Interstitial macrophages,Interstitial macrophages
-2,Interstitial macrophages,Interstitial macrophages
+2,Interstitial macrophages,Alveolar macrophages
 2,Interstitial macrophages,Interstitial macrophages
 2,Interstitial macrophages,Interstitial macrophages
 2,Interstitial macrophages,Interstitial macrophages
@@ -29391,7 +29391,7 @@ fold,y_true,y_pred
 2,Non-classical monocytes,Interstitial macrophages
 2,Non-classical monocytes,Non-classical monocytes
 2,Plasma cells,Plasma cells
-2,Transitional Club-AT2,SMG duct
+2,Transitional Club-AT2,Multiciliated
 2,Transitional Club-AT2,Basal resting
 2,Transitional Club-AT2,Basal resting
 2,Transitional Club-AT2,Transitional Club-AT2
@@ -30490,7 +30490,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,NK cells,NK cells
 2,NK cells,NK cells
-2,NK cells,CD8 T cells
+2,NK cells,NK cells
 2,NK cells,NK cells
 2,NK cells,CD8 T cells
 2,NK cells,CD8 T cells
@@ -30970,7 +30970,7 @@ fold,y_true,y_pred
 2,Adventitial fibroblasts,Adventitial fibroblasts
 2,Adventitial fibroblasts,Adventitial fibroblasts
 2,Adventitial fibroblasts,Adventitial fibroblasts
-2,Adventitial fibroblasts,Adventitial fibroblasts
+2,Adventitial fibroblasts,Alveolar fibroblasts
 2,Adventitial fibroblasts,Alveolar fibroblasts
 2,Adventitial fibroblasts,Adventitial fibroblasts
 2,Adventitial fibroblasts,Adventitial fibroblasts
@@ -31499,7 +31499,7 @@ fold,y_true,y_pred
 2,Deuterosomal,Multiciliated
 2,Deuterosomal,Multiciliated
 2,Deuterosomal,Multiciliated
-2,Deuterosomal,Multiciliated
+2,Deuterosomal,Deuterosomal
 2,Deuterosomal,Multiciliated
 2,Deuterosomal,Deuterosomal
 2,Deuterosomal,Deuterosomal
@@ -31805,7 +31805,7 @@ fold,y_true,y_pred
 2,Goblet,Transitional Club-AT2
 2,Goblet,Multiciliated
 2,Goblet,Alveolar macrophages
-2,Goblet,Goblet
+2,Goblet,SMG duct
 2,Goblet,Club
 2,Goblet,Transitional Club-AT2
 2,Interstitial macrophages,Interstitial macrophages
@@ -31912,7 +31912,7 @@ fold,y_true,y_pred
 2,Ionocyte,Club
 2,Ionocyte,Ionocyte
 2,Ionocyte,Basal resting
-2,Ionocyte,Ionocyte
+2,Ionocyte,Club
 2,Ionocyte,Basal resting
 2,Ionocyte,Ionocyte
 2,Multiciliated,Multiciliated
@@ -33002,7 +33002,7 @@ fold,y_true,y_pred
 2,Alveolar macrophages,Non-classical monocytes
 2,Alveolar macrophages,Alveolar macrophages
 2,Alveolar macrophages,Alveolar macrophages
-2,Alveolar macrophages,Interstitial macrophages
+2,Alveolar macrophages,Alveolar macrophages
 2,Alveolar macrophages,Alveolar macrophages
 2,Alveolar macrophages,Alveolar macrophages
 2,Alveolar macrophages,Alveolar macrophages
@@ -33360,7 +33360,7 @@ fold,y_true,y_pred
 2,NK cells,CD8 T cells
 2,NK cells,NK cells
 2,NK cells,CD8 T cells
-2,NK cells,CD8 T cells
+2,NK cells,NK cells
 2,NK cells,NK cells
 2,NK cells,CD8 T cells
 2,NK cells,CD8 T cells
@@ -34781,7 +34781,7 @@ fold,y_true,y_pred
 3,Goblet,Goblet
 3,Goblet,Suprabasal
 3,Goblet,Goblet
-3,Goblet,Transitional Club-AT2
+3,Goblet,Goblet
 3,Goblet,Goblet
 3,Goblet,Club
 3,Goblet,Goblet
@@ -35323,7 +35323,7 @@ fold,y_true,y_pred
 3,Club,Suprabasal
 3,Club,Club
 3,Club,Goblet
-3,Club,Transitional Club-AT2
+3,Club,Club
 3,Club,Ionocyte
 3,Club,Suprabasal
 3,Club,Transitional Club-AT2
@@ -35897,7 +35897,7 @@ fold,y_true,y_pred
 3,Suprabasal,Suprabasal
 3,Suprabasal,Suprabasal
 3,Suprabasal,Transitional Club-AT2
-3,Suprabasal,Basal resting
+3,Suprabasal,Suprabasal
 3,Suprabasal,Basal resting
 3,Suprabasal,Suprabasal
 3,Suprabasal,Basal resting
@@ -36192,7 +36192,7 @@ fold,y_true,y_pred
 3,Goblet,Goblet
 3,Goblet,Goblet
 3,Goblet,Goblet
-3,Goblet,Suprabasal
+3,Goblet,Ionocyte
 3,Goblet,Goblet
 3,Goblet,Goblet
 3,Goblet,Club
@@ -36687,7 +36687,7 @@ fold,y_true,y_pred
 3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD4 T cells
-3,CD4 T cells,CD8 T cells
+3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD8 T cells
 3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD4 T cells
@@ -36780,7 +36780,7 @@ fold,y_true,y_pred
 3,Club,Suprabasal
 3,Club,Club
 3,Club,Goblet
-3,Club,Club
+3,Club,Goblet
 3,Club,Club
 3,Club,Club
 3,Club,Club
@@ -37396,7 +37396,7 @@ fold,y_true,y_pred
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
-3,SMG duct,Goblet
+3,SMG duct,SMG duct
 3,SMG duct,SMG duct
 3,SMG duct,Transitional Club-AT2
 3,SMG serous,SMG serous
@@ -37475,7 +37475,7 @@ fold,y_true,y_pred
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
-3,SMG serous,SMG serous
+3,SMG serous,SMG duct
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
@@ -37496,7 +37496,7 @@ fold,y_true,y_pred
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,SMG duct
-3,SMG serous,SMG serous
+3,SMG serous,SMG duct
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,Suprabasal,Basal resting
@@ -38189,7 +38189,7 @@ fold,y_true,y_pred
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC general capillary
-3,EC venous systemic,EC general capillary
+3,EC venous systemic,EC aerocyte capillary
 3,EC venous systemic,EC general capillary
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
@@ -38647,7 +38647,7 @@ fold,y_true,y_pred
 3,AT2 proliferating,AT2 proliferating
 3,AT2 proliferating,AT2 proliferating
 3,AT2 proliferating,AT2 proliferating
-3,AT2 proliferating,Suprabasal
+3,AT2 proliferating,AT2 proliferating
 3,AT2 proliferating,AT2 proliferating
 3,AT2 proliferating,AT2 proliferating
 3,AT2 proliferating,Suprabasal
@@ -38790,7 +38790,7 @@ fold,y_true,y_pred
 3,Alveolar macrophages,Alveolar macrophages
 3,Alveolar macrophages,Alveolar macrophages
 3,Alveolar macrophages,Alveolar macrophages
-3,Alveolar macrophages,Non-classical monocytes
+3,Alveolar macrophages,DC2
 3,Alveolar macrophages,CD8 T cells
 3,Alveolar macrophages,Alveolar macrophages
 3,Alveolar macrophages,Alveolar macrophages
@@ -38809,7 +38809,7 @@ fold,y_true,y_pred
 3,Alveolar macrophages,Interstitial macrophages
 3,Alveolar macrophages,Non-classical monocytes
 3,Alveolar macrophages,Alveolar macrophages
-3,Alveolar macrophages,Interstitial macrophages
+3,Alveolar macrophages,CD8 T cells
 3,Alveolar macrophages,Alveolar macrophages
 3,Alveolar macrophages,Alveolar macrophages
 3,Alveolar macrophages,Non-classical monocytes
@@ -39107,7 +39107,7 @@ fold,y_true,y_pred
 3,EC venous pulmonary,EC venous pulmonary
 3,EC venous pulmonary,EC venous systemic
 3,EC venous pulmonary,EC venous pulmonary
-3,EC venous pulmonary,EC venous pulmonary
+3,EC venous pulmonary,Classical monocytes
 3,EC venous pulmonary,EC venous systemic
 3,EC venous pulmonary,EC venous systemic
 3,EC venous pulmonary,EC venous systemic
@@ -39149,7 +39149,7 @@ fold,y_true,y_pred
 3,Interstitial macrophages,DC2
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Non-classical monocytes
-3,Interstitial macrophages,Interstitial macrophages
+3,Interstitial macrophages,Alveolar macrophages
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
@@ -39365,7 +39365,7 @@ fold,y_true,y_pred
 3,Non-classical monocytes,DC2
 3,Non-classical monocytes,Interstitial macrophages
 3,Non-classical monocytes,Non-classical monocytes
-3,Non-classical monocytes,DC2
+3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
@@ -40085,7 +40085,7 @@ fold,y_true,y_pred
 3,EC venous systemic,EC venous pulmonary
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
-3,EC venous systemic,EC venous systemic
+3,EC venous systemic,EC general capillary
 3,EC venous systemic,EC general capillary
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC general capillary
@@ -40523,7 +40523,7 @@ fold,y_true,y_pred
 3,Adventitial fibroblasts,Peribronchial fibroblasts
 3,Adventitial fibroblasts,Adventitial fibroblasts
 3,Adventitial fibroblasts,Pericytes
-3,Adventitial fibroblasts,Adventitial fibroblasts
+3,Adventitial fibroblasts,Alveolar fibroblasts
 3,Adventitial fibroblasts,Pericytes
 3,Adventitial fibroblasts,Plasma cells
 3,Alveolar fibroblasts,Pericytes
@@ -40539,7 +40539,7 @@ fold,y_true,y_pred
 3,Alveolar fibroblasts,Alveolar fibroblasts
 3,Alveolar fibroblasts,Pericytes
 3,Alveolar fibroblasts,Alveolar fibroblasts
-3,Alveolar fibroblasts,EC general capillary
+3,Alveolar fibroblasts,Pericytes
 3,Alveolar macrophages,Interstitial macrophages
 3,Alveolar macrophages,Alveolar macrophages
 3,Alveolar macrophages,Alveolar macrophages
@@ -40941,7 +40941,7 @@ fold,y_true,y_pred
 3,CD8 T cells,CD8 T cells
 3,CD8 T cells,CD8 T cells
 3,CD8 T cells,CD8 T cells
-3,CD8 T cells,CD8 T cells
+3,CD8 T cells,NK cells
 3,CD8 T cells,CD8 T cells
 3,CD8 T cells,CD8 T cells
 3,CD8 T cells,CD8 T cells
@@ -41220,7 +41220,7 @@ fold,y_true,y_pred
 3,DC2,Interstitial macrophages
 3,DC2,DC2
 3,DC2,DC2
-3,DC2,CD8 T cells
+3,DC2,NK cells
 3,DC2,DC2
 3,DC2,DC2
 3,DC2,DC2
@@ -42049,15 +42049,15 @@ fold,y_true,y_pred
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
-3,SMG duct,Transitional Club-AT2
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
-3,SMG duct,Transitional Club-AT2
 3,SMG duct,SMG duct
 3,SMG duct,Transitional Club-AT2
+3,SMG duct,SMG duct
+3,SMG duct,SMG duct
 3,SMG duct,Transitional Club-AT2
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
@@ -42083,17 +42083,17 @@ fold,y_true,y_pred
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
+3,SMG serous,Transitional Club-AT2
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
-3,SMG serous,SMG duct
 3,SMG serous,SMG duct
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,SMG serous
 3,SMG serous,Transitional Club-AT2
-3,SMG serous,SMG serous
+3,SMG serous,Transitional Club-AT2
 3,SMG serous,SMG serous
 3,SMG serous,Transitional Club-AT2
 3,SMG serous,SMG serous
@@ -42963,7 +42963,7 @@ fold,y_true,y_pred
 3,SMG duct,Transitional Club-AT2
 3,SMG duct,SMG duct
 3,SMG duct,SMG duct
-3,SMG duct,SMG serous
+3,SMG duct,SMG duct
 3,SMG duct,SMG duct
 3,SMG duct,Suprabasal
 3,SMG duct,Transitional Club-AT2
@@ -43164,7 +43164,7 @@ fold,y_true,y_pred
 3,Basal resting,Basal resting
 3,Basal resting,Hillock-like
 3,Basal resting,Basal resting
-3,Basal resting,Basal resting
+3,Basal resting,Suprabasal
 3,Basal resting,Suprabasal
 3,Basal resting,Hillock-like
 3,Basal resting,Basal resting
@@ -43208,7 +43208,7 @@ fold,y_true,y_pred
 3,Club,Club
 3,Club,Suprabasal
 3,Club,Hillock-like
-3,Club,Suprabasal
+3,Club,Club
 3,Club,Goblet
 3,Club,Club
 3,Club,Club
@@ -43346,7 +43346,7 @@ fold,y_true,y_pred
 3,Hillock-like,Hillock-like
 3,Hillock-like,Hillock-like
 3,Hillock-like,Suprabasal
-3,Hillock-like,Hillock-like
+3,Hillock-like,Suprabasal
 3,Hillock-like,Hillock-like
 3,Hillock-like,Suprabasal
 3,Hillock-like,Hillock-like
@@ -44225,7 +44225,7 @@ fold,y_true,y_pred
 3,Suprabasal,Suprabasal
 3,Suprabasal,Suprabasal
 3,Suprabasal,Club
-3,Suprabasal,Suprabasal
+3,Suprabasal,Club
 3,Suprabasal,Suprabasal
 3,Suprabasal,Suprabasal
 3,Suprabasal,Suprabasal
@@ -44443,7 +44443,7 @@ fold,y_true,y_pred
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Classical monocytes
-3,Interstitial macrophages,Alveolar macrophages
+3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Alveolar macrophages
 3,Interstitial macrophages,Alveolar macrophages
 3,Interstitial macrophages,Interstitial macrophages
@@ -45026,7 +45026,7 @@ fold,y_true,y_pred
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
-3,Non-classical monocytes,Non-classical monocytes
+3,Non-classical monocytes,DC2
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,DC2
 3,Non-classical monocytes,Non-classical monocytes
@@ -45114,7 +45114,7 @@ fold,y_true,y_pred
 3,AT2 proliferating,AT2 proliferating
 3,AT2 proliferating,AT2 proliferating
 3,AT2 proliferating,AT2 proliferating
-3,Adventitial fibroblasts,Peribronchial fibroblasts
+3,Adventitial fibroblasts,Adventitial fibroblasts
 3,Alveolar macrophages,Club
 3,Alveolar macrophages,Interstitial macrophages
 3,Alveolar macrophages,Alveolar macrophages
@@ -45304,7 +45304,7 @@ fold,y_true,y_pred
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
-3,Interstitial macrophages,Non-classical monocytes
+3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Interstitial macrophages
@@ -46312,7 +46312,7 @@ fold,y_true,y_pred
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,DC2
-3,Non-classical monocytes,Classical monocytes
+3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,DC2
 3,Non-classical monocytes,DC2
@@ -46588,7 +46588,7 @@ fold,y_true,y_pred
 3,Alveolar fibroblasts,Alveolar fibroblasts
 3,Alveolar fibroblasts,Alveolar fibroblasts
 3,Alveolar fibroblasts,Alveolar fibroblasts
-3,Alveolar fibroblasts,Alveolar fibroblasts
+3,Alveolar fibroblasts,Pericytes
 3,Alveolar fibroblasts,Ionocyte
 3,Alveolar fibroblasts,Alveolar fibroblasts
 3,Alveolar fibroblasts,Alveolar fibroblasts
@@ -47318,7 +47318,7 @@ fold,y_true,y_pred
 3,DC2,DC2
 3,DC2,DC2
 3,DC2,DC2
-3,DC2,Non-classical monocytes
+3,DC2,DC2
 3,DC2,DC2
 3,DC2,DC2
 3,DC2,Alveolar macrophages
@@ -47334,7 +47334,7 @@ fold,y_true,y_pred
 3,Deuterosomal,Multiciliated
 3,Deuterosomal,Multiciliated
 3,Deuterosomal,Deuterosomal
-3,Deuterosomal,Multiciliated
+3,Deuterosomal,Deuterosomal
 3,Deuterosomal,Multiciliated
 3,Deuterosomal,Deuterosomal
 3,Deuterosomal,Multiciliated
@@ -47598,13 +47598,13 @@ fold,y_true,y_pred
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
-3,EC venous systemic,EC venous pulmonary
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous systemic
-3,EC venous systemic,Plasma cells
+3,EC venous systemic,EC venous systemic
+3,EC venous systemic,Basal resting
 3,EC venous systemic,EC venous systemic
 3,EC venous systemic,EC venous pulmonary
 3,EC venous systemic,EC venous systemic
@@ -47688,7 +47688,7 @@ fold,y_true,y_pred
 3,Interstitial macrophages,DC2
 3,Interstitial macrophages,Alveolar macrophages
 3,Interstitial macrophages,DC2
-3,Interstitial macrophages,DC2
+3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Alveolar macrophages
 3,Interstitial macrophages,Non-classical monocytes
 3,Interstitial macrophages,DC2
@@ -47699,7 +47699,7 @@ fold,y_true,y_pred
 3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,Non-classical monocytes
 3,Interstitial macrophages,Alveolar macrophages
-3,Interstitial macrophages,DC2
+3,Interstitial macrophages,Interstitial macrophages
 3,Interstitial macrophages,DC2
 3,Interstitial macrophages,DC2
 3,Interstitial macrophages,Classical monocytes
@@ -48156,7 +48156,7 @@ fold,y_true,y_pred
 3,Plasma cells,Plasma cells
 3,Plasma cells,Plasma cells
 3,Plasma cells,Plasma cells
-3,Plasma cells,AT2 proliferating
+3,Plasma cells,Plasma cells
 3,Plasma cells,Plasma cells
 3,Plasma cells,Plasma cells
 3,Plasma cells,Plasma cells
@@ -48245,7 +48245,7 @@ fold,y_true,y_pred
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,AT2 proliferating
 3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,AT2 proliferating
+3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,AT2 proliferating
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
@@ -48284,7 +48284,7 @@ fold,y_true,y_pred
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,SMG serous
+3,Transitional Club-AT2,SMG duct
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
@@ -48997,7 +48997,7 @@ fold,y_true,y_pred
 3,Non-classical monocytes,Classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
-3,Non-classical monocytes,Non-classical monocytes
+3,Non-classical monocytes,Interstitial macrophages
 3,Peribronchial fibroblasts,Alveolar fibroblasts
 3,Pericytes,Pericytes
 3,Pericytes,Pericytes
@@ -49805,7 +49805,7 @@ fold,y_true,y_pred
 3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD4 T cells
-3,CD4 T cells,CD4 T cells
+3,CD4 T cells,B cells
 3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD4 T cells
 3,CD4 T cells,CD4 T cells
@@ -50530,7 +50530,7 @@ fold,y_true,y_pred
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Classical monocytes
-3,Non-classical monocytes,Non-classical monocytes
+3,Non-classical monocytes,Classical monocytes
 3,Non-classical monocytes,Classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
 3,Non-classical monocytes,Non-classical monocytes
@@ -51442,7 +51442,7 @@ fold,y_true,y_pred
 3,EC aerocyte capillary,EC aerocyte capillary
 3,EC aerocyte capillary,EC aerocyte capillary
 3,EC aerocyte capillary,EC aerocyte capillary
-3,EC aerocyte capillary,EC general capillary
+3,EC aerocyte capillary,EC aerocyte capillary
 3,EC general capillary,EC general capillary
 3,EC general capillary,EC general capillary
 3,EC general capillary,EC general capillary
@@ -51471,7 +51471,7 @@ fold,y_true,y_pred
 3,EC general capillary,EC general capillary
 3,EC general capillary,EC general capillary
 3,EC general capillary,EC general capillary
-3,EC general capillary,EC venous systemic
+3,EC general capillary,EC venous pulmonary
 3,EC general capillary,EC general capillary
 3,EC general capillary,EC general capillary
 3,EC general capillary,EC general capillary
@@ -52051,7 +52051,7 @@ fold,y_true,y_pred
 3,Non-classical monocytes,Non-classical monocytes
 3,Peribronchial fibroblasts,Adventitial fibroblasts
 3,Peribronchial fibroblasts,Alveolar fibroblasts
-3,Peribronchial fibroblasts,Adventitial fibroblasts
+3,Peribronchial fibroblasts,Peribronchial fibroblasts
 3,Peribronchial fibroblasts,Peribronchial fibroblasts
 3,Peribronchial fibroblasts,Adventitial fibroblasts
 3,Peribronchial fibroblasts,Alveolar fibroblasts
@@ -52104,7 +52104,7 @@ fold,y_true,y_pred
 3,Pericytes,Pericytes
 3,Pericytes,Pericytes
 3,Pericytes,Pericytes
-3,Pericytes,Pericytes
+3,Pericytes,Alveolar fibroblasts
 3,Pericytes,Pericytes
 3,Pericytes,Pericytes
 3,Pericytes,Pericytes
@@ -52235,6 +52235,19 @@ fold,y_true,y_pred
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,SMG duct
 3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,AT2 proliferating
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,SMG duct
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
+3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,SMG duct
@@ -52244,19 +52257,6 @@ fold,y_true,y_pred
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,Transitional Club-AT2
-3,Transitional Club-AT2,SMG duct
 3,Transitional Club-AT2,Transitional Club-AT2
 3,Transitional Club-AT2,SMG duct
 3,Transitional Club-AT2,Transitional Club-AT2
@@ -52438,7 +52438,7 @@ fold,y_true,y_pred
 4,DC2,DC2
 4,DC2,B cells
 4,DC2,DC2
-4,DC2,Classical monocytes
+4,DC2,DC2
 4,DC2,DC2
 4,DC2,DC2
 4,DC2,B cells
@@ -53147,7 +53147,7 @@ fold,y_true,y_pred
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Interstitial macrophages
 4,Classical monocytes,Classical monocytes
-4,Classical monocytes,Interstitial macrophages
+4,Classical monocytes,Non-classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
@@ -53437,7 +53437,7 @@ fold,y_true,y_pred
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous pulmonary
-4,EC venous pulmonary,EC venous pulmonary
+4,EC venous pulmonary,EC general capillary
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous pulmonary
@@ -54938,7 +54938,7 @@ fold,y_true,y_pred
 4,DC2,DC2
 4,DC2,DC2
 4,DC2,B cells
-4,DC2,DC2
+4,DC2,B cells
 4,DC2,Classical monocytes
 4,DC2,DC2
 4,DC2,DC2
@@ -54984,7 +54984,7 @@ fold,y_true,y_pred
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous systemic
-4,EC venous pulmonary,EC venous systemic
+4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous systemic
@@ -55397,7 +55397,7 @@ fold,y_true,y_pred
 4,Alveolar macrophages,Alveolar macrophages
 4,Alveolar macrophages,Alveolar macrophages
 4,Alveolar macrophages,Alveolar macrophages
-4,Alveolar macrophages,Alveolar macrophages
+4,Alveolar macrophages,Interstitial macrophages
 4,Alveolar macrophages,Alveolar macrophages
 4,Alveolar macrophages,Alveolar macrophages
 4,Alveolar macrophages,Alveolar macrophages
@@ -55554,7 +55554,7 @@ fold,y_true,y_pred
 4,CD4 T cells,CD8 T cells
 4,CD4 T cells,CD8 T cells
 4,CD4 T cells,CD8 T cells
-4,CD4 T cells,CD8 T cells
+4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD8 T cells
 4,CD4 T cells,CD8 T cells
 4,CD4 T cells,CD8 T cells
@@ -56247,13 +56247,13 @@ fold,y_true,y_pred
 4,Club,Club
 4,Club,SMG duct
 4,Club,Transitional Club-AT2
-4,Club,Club
+4,Club,CD4 T cells
 4,Club,Club
 4,Club,Club
 4,Club,Transitional Club-AT2
 4,Club,Transitional Club-AT2
 4,Club,AT2 proliferating
-4,Club,AT2 proliferating
+4,Club,Ionocyte
 4,Club,Suprabasal
 4,Club,Suprabasal
 4,Club,Suprabasal
@@ -56337,7 +56337,7 @@ fold,y_true,y_pred
 4,Goblet,Goblet
 4,Goblet,Goblet
 4,Goblet,Club
-4,Goblet,Transitional Club-AT2
+4,Goblet,Goblet
 4,Goblet,Deuterosomal
 4,Goblet,AT2 proliferating
 4,Goblet,Goblet
@@ -56507,7 +56507,7 @@ fold,y_true,y_pred
 4,SMG serous,SMG serous
 4,SMG serous,SMG serous
 4,SMG serous,SMG serous
-4,Suprabasal,Suprabasal
+4,Suprabasal,Ionocyte
 4,Suprabasal,AT2 proliferating
 4,Suprabasal,Suprabasal
 4,Suprabasal,Hillock-like
@@ -56989,7 +56989,7 @@ fold,y_true,y_pred
 4,B cells,B cells
 4,B cells,CD4 T cells
 4,B cells,B cells
-4,B cells,B cells
+4,B cells,DC2
 4,B cells,B cells
 4,B cells,B cells
 4,B cells,B cells
@@ -57477,7 +57477,7 @@ fold,y_true,y_pred
 4,EC general capillary,EC aerocyte capillary
 4,Goblet,Goblet
 4,Goblet,Goblet
-4,Goblet,Goblet
+4,Goblet,Club
 4,Goblet,Goblet
 4,Goblet,Goblet
 4,Goblet,Goblet
@@ -57659,7 +57659,7 @@ fold,y_true,y_pred
 4,Interstitial macrophages,DC2
 4,Interstitial macrophages,Classical monocytes
 4,Interstitial macrophages,Classical monocytes
-4,Interstitial macrophages,Non-classical monocytes
+4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Classical monocytes
 4,Interstitial macrophages,Non-classical monocytes
@@ -57729,7 +57729,7 @@ fold,y_true,y_pred
 4,Ionocyte,Ionocyte
 4,Ionocyte,Club
 4,Ionocyte,Ionocyte
-4,Ionocyte,Basal resting
+4,Ionocyte,CD4 T cells
 4,Ionocyte,CD4 T cells
 4,Ionocyte,Ionocyte
 4,Ionocyte,Multiciliated
@@ -58177,7 +58177,7 @@ fold,y_true,y_pred
 4,SMG duct,Club
 4,SMG duct,Club
 4,SMG duct,Goblet
-4,SMG duct,SMG duct
+4,SMG duct,SMG serous
 4,SMG duct,SMG duct
 4,SMG duct,Goblet
 4,SMG duct,SMG duct
@@ -58246,12 +58246,12 @@ fold,y_true,y_pred
 4,SMG duct,SMG duct
 4,SMG duct,SMG duct
 4,SMG duct,SMG duct
-4,SMG duct,SMG duct
-4,SMG duct,SMG duct
-4,SMG duct,Goblet
-4,SMG duct,Goblet
+4,SMG duct,SMG serous
 4,SMG duct,SMG duct
 4,SMG duct,Goblet
+4,SMG duct,Goblet
+4,SMG duct,SMG duct
+4,SMG duct,SMG duct
 4,SMG duct,SMG duct
 4,SMG duct,SMG duct
 4,SMG duct,Club
@@ -59372,12 +59372,12 @@ fold,y_true,y_pred
 4,Suprabasal,Hillock-like
 4,Suprabasal,Suprabasal
 4,Suprabasal,Suprabasal
-4,Suprabasal,Club
+4,Suprabasal,Deuterosomal
 4,Suprabasal,Club
 4,Suprabasal,Suprabasal
 4,Suprabasal,Basal resting
 4,Suprabasal,Suprabasal
-4,Suprabasal,Adventitial fibroblasts
+4,Suprabasal,Pericytes
 4,Suprabasal,Suprabasal
 4,Suprabasal,Suprabasal
 4,Suprabasal,Suprabasal
@@ -59569,7 +59569,7 @@ fold,y_true,y_pred
 4,Goblet,Goblet
 4,Goblet,Goblet
 4,Goblet,Goblet
-4,Goblet,Club
+4,Goblet,Goblet
 4,Goblet,Goblet
 4,Goblet,CD4 T cells
 4,Goblet,Plasma cells
@@ -60520,7 +60520,7 @@ fold,y_true,y_pred
 4,Alveolar macrophages,Alveolar macrophages
 4,Alveolar macrophages,Alveolar macrophages
 4,B cells,B cells
-4,B cells,DC2
+4,B cells,B cells
 4,Basal resting,Basal resting
 4,Basal resting,Basal resting
 4,CD4 T cells,CD4 T cells
@@ -60621,7 +60621,7 @@ fold,y_true,y_pred
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
-4,Classical monocytes,Classical monocytes
+4,Classical monocytes,Interstitial macrophages
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Interstitial macrophages
@@ -60757,7 +60757,7 @@ fold,y_true,y_pred
 4,Interstitial macrophages,Alveolar macrophages
 4,Interstitial macrophages,Classical monocytes
 4,Interstitial macrophages,Interstitial macrophages
-4,Interstitial macrophages,Classical monocytes
+4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Alveolar macrophages
 4,Interstitial macrophages,Alveolar macrophages
 4,Interstitial macrophages,Interstitial macrophages
@@ -60873,7 +60873,7 @@ fold,y_true,y_pred
 4,Non-classical monocytes,Interstitial macrophages
 4,Non-classical monocytes,DC2
 4,Non-classical monocytes,Non-classical monocytes
-4,Non-classical monocytes,Non-classical monocytes
+4,Non-classical monocytes,Interstitial macrophages
 4,Non-classical monocytes,Interstitial macrophages
 4,Non-classical monocytes,Non-classical monocytes
 4,Non-classical monocytes,Non-classical monocytes
@@ -60937,7 +60937,7 @@ fold,y_true,y_pred
 4,Non-classical monocytes,Non-classical monocytes
 4,Non-classical monocytes,Interstitial macrophages
 4,Non-classical monocytes,Non-classical monocytes
-4,Non-classical monocytes,Alveolar macrophages
+4,Non-classical monocytes,Interstitial macrophages
 4,Non-classical monocytes,Non-classical monocytes
 4,Non-classical monocytes,DC2
 4,Non-classical monocytes,Interstitial macrophages
@@ -61103,7 +61103,7 @@ fold,y_true,y_pred
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
-4,Classical monocytes,Non-classical monocytes
+4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
@@ -61167,7 +61167,7 @@ fold,y_true,y_pred
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
-4,Classical monocytes,Non-classical monocytes
+4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Non-classical monocytes
 4,Classical monocytes,DC2
@@ -61412,7 +61412,7 @@ fold,y_true,y_pred
 4,Transitional Club-AT2,SMG duct
 4,Transitional Club-AT2,Transitional Club-AT2
 4,Transitional Club-AT2,SMG duct
-4,AT2 proliferating,Transitional Club-AT2
+4,AT2 proliferating,AT2 proliferating
 4,Alveolar fibroblasts,Adventitial fibroblasts
 4,Alveolar macrophages,Alveolar macrophages
 4,Alveolar macrophages,Alveolar macrophages
@@ -61692,7 +61692,7 @@ fold,y_true,y_pred
 4,Interstitial macrophages,Alveolar macrophages
 4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Alveolar macrophages
-4,Interstitial macrophages,Alveolar macrophages
+4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Alveolar macrophages
 4,Interstitial macrophages,Alveolar macrophages
 4,Interstitial macrophages,Interstitial macrophages
@@ -61812,7 +61812,7 @@ fold,y_true,y_pred
 4,Non-classical monocytes,Non-classical monocytes
 4,Non-classical monocytes,Classical monocytes
 4,Non-classical monocytes,Alveolar macrophages
-4,Non-classical monocytes,DC2
+4,Non-classical monocytes,Non-classical monocytes
 4,Non-classical monocytes,Alveolar macrophages
 4,Non-classical monocytes,Non-classical monocytes
 4,Non-classical monocytes,Alveolar macrophages
@@ -62249,7 +62249,7 @@ fold,y_true,y_pred
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
-4,Classical monocytes,Classical monocytes
+4,Classical monocytes,Non-classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Interstitial macrophages
 4,Classical monocytes,Classical monocytes
@@ -62381,7 +62381,7 @@ fold,y_true,y_pred
 4,EC general capillary,EC venous systemic
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC general capillary
-4,EC general capillary,EC venous systemic
+4,EC general capillary,EC general capillary
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC venous systemic
@@ -62507,7 +62507,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,NK cells,CD8 T cells
+4,NK cells,NK cells
 4,NK cells,NK cells
 4,NK cells,NK cells
 4,NK cells,CD8 T cells
@@ -63010,7 +63010,7 @@ fold,y_true,y_pred
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
-4,CD4 T cells,CD4 T cells
+4,CD4 T cells,Plasma cells
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
@@ -63051,7 +63051,7 @@ fold,y_true,y_pred
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
-4,CD4 T cells,Ionocyte
+4,CD4 T cells,Plasma cells
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
 4,CD4 T cells,CD4 T cells
@@ -63282,7 +63282,7 @@ fold,y_true,y_pred
 4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Interstitial macrophages
-4,Interstitial macrophages,Interstitial macrophages
+4,Interstitial macrophages,Plasma cells
 4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Interstitial macrophages
 4,Interstitial macrophages,Interstitial macrophages
@@ -63475,7 +63475,7 @@ fold,y_true,y_pred
 4,Transitional Club-AT2,Transitional Club-AT2
 4,Transitional Club-AT2,Goblet
 4,Transitional Club-AT2,Transitional Club-AT2
-4,Transitional Club-AT2,AT2 proliferating
+4,Transitional Club-AT2,Transitional Club-AT2
 4,Transitional Club-AT2,Transitional Club-AT2
 4,Transitional Club-AT2,Transitional Club-AT2
 4,Transitional Club-AT2,Transitional Club-AT2
@@ -63672,7 +63672,7 @@ fold,y_true,y_pred
 4,Adventitial fibroblasts,Adventitial fibroblasts
 4,Adventitial fibroblasts,Adventitial fibroblasts
 4,Adventitial fibroblasts,Adventitial fibroblasts
-4,Adventitial fibroblasts,Peribronchial fibroblasts
+4,Adventitial fibroblasts,Alveolar fibroblasts
 4,Adventitial fibroblasts,Adventitial fibroblasts
 4,Adventitial fibroblasts,Adventitial fibroblasts
 4,Adventitial fibroblasts,Adventitial fibroblasts
@@ -64395,7 +64395,7 @@ fold,y_true,y_pred
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC venous pulmonary
-4,EC general capillary,EC general capillary
+4,EC general capillary,Non-classical monocytes
 4,EC general capillary,EC general capillary
 4,EC general capillary,Interstitial macrophages
 4,EC general capillary,EC general capillary
@@ -64430,7 +64430,7 @@ fold,y_true,y_pred
 4,EC general capillary,EC venous systemic
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC venous systemic
-4,EC general capillary,EC venous systemic
+4,EC general capillary,EC general capillary
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC general capillary
 4,EC general capillary,EC venous systemic
@@ -65478,7 +65478,7 @@ fold,y_true,y_pred
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
-4,Classical monocytes,Plasma cells
+4,Classical monocytes,Interstitial macrophages
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Non-classical monocytes
 4,Classical monocytes,Classical monocytes
@@ -65489,7 +65489,7 @@ fold,y_true,y_pred
 4,Classical monocytes,DC2
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
-4,Classical monocytes,Classical monocytes
+4,Classical monocytes,Interstitial macrophages
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
 4,Classical monocytes,Classical monocytes
@@ -65631,7 +65631,7 @@ fold,y_true,y_pred
 4,EC venous pulmonary,EC venous systemic
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC venous systemic
-4,EC venous pulmonary,EC venous pulmonary
+4,EC venous pulmonary,EC venous systemic
 4,EC venous pulmonary,EC venous systemic
 4,EC venous pulmonary,EC venous pulmonary
 4,EC venous pulmonary,EC general capillary
@@ -65959,7 +65959,7 @@ fold,y_true,y_pred
 4,Suprabasal,Suprabasal
 4,Transitional Club-AT2,Transitional Club-AT2
 4,Transitional Club-AT2,Transitional Club-AT2
-4,Transitional Club-AT2,Suprabasal
+4,Transitional Club-AT2,Basal resting
 4,Transitional Club-AT2,Club
 4,Transitional Club-AT2,Transitional Club-AT2
 4,Transitional Club-AT2,Transitional Club-AT2
@@ -67073,16 +67073,16 @@ fold,y_true,y_pred
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Alveolar macrophages,Club
 5,Alveolar macrophages,Alveolar macrophages
+5,B cells,B cells
+5,B cells,B cells
 5,B cells,DC2
 5,B cells,B cells
-5,B cells,DC2
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
-5,B cells,B cells
 5,Basal resting,Basal resting
 5,Basal resting,Basal resting
 5,Basal resting,Basal resting
@@ -67091,7 +67091,7 @@ fold,y_true,y_pred
 5,Basal resting,Basal resting
 5,Basal resting,Basal resting
 5,Basal resting,Basal resting
-5,Basal resting,Ionocyte
+5,Basal resting,EC general capillary
 5,Basal resting,Basal resting
 5,Basal resting,Basal resting
 5,Basal resting,Basal resting
@@ -67225,7 +67225,7 @@ fold,y_true,y_pred
 5,Club,Transitional Club-AT2
 5,Club,Club
 5,Club,Club
-5,Club,Club
+5,Club,Transitional Club-AT2
 5,Club,Transitional Club-AT2
 5,Club,Club
 5,Club,Transitional Club-AT2
@@ -67282,7 +67282,7 @@ fold,y_true,y_pred
 5,Club,Transitional Club-AT2
 5,Club,Suprabasal
 5,Club,Ionocyte
-5,Club,Club
+5,Club,Transitional Club-AT2
 5,Club,Club
 5,Club,Goblet
 5,Club,Suprabasal
@@ -67330,7 +67330,7 @@ fold,y_true,y_pred
 5,DC2,Non-classical monocytes
 5,Deuterosomal,Deuterosomal
 5,Deuterosomal,Deuterosomal
-5,Deuterosomal,Multiciliated
+5,Deuterosomal,Deuterosomal
 5,Deuterosomal,Deuterosomal
 5,Deuterosomal,Deuterosomal
 5,Deuterosomal,Multiciliated
@@ -67615,7 +67615,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Adventitial fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
@@ -67652,7 +67652,7 @@ fold,y_true,y_pred
 5,Suprabasal,Basal resting
 5,Suprabasal,Basal resting
 5,Suprabasal,Basal resting
-5,Adventitial fibroblasts,CD8 T cells
+5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
@@ -67745,7 +67745,7 @@ fold,y_true,y_pred
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD8 T cells
 5,CD4 T cells,CD4 T cells
-5,CD4 T cells,Plasma cells
+5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
@@ -68317,7 +68317,7 @@ fold,y_true,y_pred
 5,Transitional Club-AT2,Transitional Club-AT2
 5,Transitional Club-AT2,Transitional Club-AT2
 5,Transitional Club-AT2,Transitional Club-AT2
-5,Transitional Club-AT2,Club
+5,Transitional Club-AT2,Transitional Club-AT2
 5,Transitional Club-AT2,Transitional Club-AT2
 5,Transitional Club-AT2,Transitional Club-AT2
 5,Transitional Club-AT2,Club
@@ -68389,14 +68389,14 @@ fold,y_true,y_pred
 5,Adventitial fibroblasts,Pericytes
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
-5,Adventitial fibroblasts,Alveolar fibroblasts
+5,Adventitial fibroblasts,Peribronchial fibroblasts
 5,Adventitial fibroblasts,Peribronchial fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Peribronchial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
-5,Adventitial fibroblasts,Alveolar fibroblasts
+5,Adventitial fibroblasts,Peribronchial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
@@ -68412,7 +68412,7 @@ fold,y_true,y_pred
 5,Adventitial fibroblasts,Peribronchial fibroblasts
 5,Adventitial fibroblasts,Peribronchial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
-5,Adventitial fibroblasts,Peribronchial fibroblasts
+5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
@@ -68462,7 +68462,7 @@ fold,y_true,y_pred
 5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,Alveolar macrophages
-5,Alveolar macrophages,Interstitial macrophages
+5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,Alveolar macrophages
@@ -68667,7 +68667,7 @@ fold,y_true,y_pred
 5,CD4 T cells,CD8 T cells
 5,CD4 T cells,CD8 T cells
 5,CD4 T cells,Plasma cells
-5,CD4 T cells,CD4 T cells
+5,CD4 T cells,CD8 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
@@ -68924,7 +68924,7 @@ fold,y_true,y_pred
 5,EC venous pulmonary,EC venous systemic
 5,EC venous pulmonary,EC venous systemic
 5,EC venous pulmonary,EC venous pulmonary
-5,EC venous pulmonary,EC venous pulmonary
+5,EC venous pulmonary,EC venous systemic
 5,EC venous pulmonary,EC venous pulmonary
 5,EC venous pulmonary,EC venous pulmonary
 5,EC venous pulmonary,EC venous systemic
@@ -69228,7 +69228,7 @@ fold,y_true,y_pred
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
-5,Non-classical monocytes,DC2
+5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Non-classical monocytes
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Classical monocytes
@@ -69529,7 +69529,7 @@ fold,y_true,y_pred
 5,DC2,DC2
 5,DC2,DC2
 5,DC2,DC2
-5,DC2,DC2
+5,DC2,Non-classical monocytes
 5,DC2,DC2
 5,DC2,DC2
 5,DC2,B cells
@@ -69831,7 +69831,7 @@ fold,y_true,y_pred
 5,AT2 proliferating,AT2 proliferating
 5,AT2 proliferating,AT2 proliferating
 5,AT2 proliferating,AT2 proliferating
-5,AT2 proliferating,Transitional Club-AT2
+5,AT2 proliferating,AT2 proliferating
 5,AT2 proliferating,AT2 proliferating
 5,AT2 proliferating,AT2 proliferating
 5,AT2 proliferating,Transitional Club-AT2
@@ -70474,7 +70474,7 @@ fold,y_true,y_pred
 5,DC2,Non-classical monocytes
 5,DC2,Classical monocytes
 5,DC2,DC2
-5,DC2,Interstitial macrophages
+5,DC2,Non-classical monocytes
 5,DC2,DC2
 5,DC2,Non-classical monocytes
 5,DC2,DC2
@@ -70980,7 +70980,7 @@ fold,y_true,y_pred
 5,Non-classical monocytes,DC2
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Non-classical monocytes
-5,Non-classical monocytes,DC2
+5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,DC2
 5,Non-classical monocytes,DC2
@@ -71076,7 +71076,7 @@ fold,y_true,y_pred
 5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
@@ -71084,7 +71084,7 @@ fold,y_true,y_pred
 5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Plasma cells,Plasma cells
 5,Plasma cells,CD8 T cells
 5,Plasma cells,Plasma cells
@@ -71125,7 +71125,7 @@ fold,y_true,y_pred
 5,Plasma cells,Plasma cells
 5,Plasma cells,Plasma cells
 5,Plasma cells,Plasma cells
-5,Plasma cells,Plasma cells
+5,Plasma cells,CD4 T cells
 5,Plasma cells,Plasma cells
 5,Plasma cells,Plasma cells
 5,Plasma cells,Plasma cells
@@ -71217,7 +71217,7 @@ fold,y_true,y_pred
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
-5,Adventitial fibroblasts,Alveolar fibroblasts
+5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Adventitial fibroblasts,Alveolar fibroblasts
@@ -71319,7 +71319,7 @@ fold,y_true,y_pred
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar fibroblasts,Peribronchial fibroblasts
 5,Alveolar fibroblasts,Peribronchial fibroblasts
-5,Alveolar fibroblasts,Alveolar fibroblasts
+5,Alveolar fibroblasts,Peribronchial fibroblasts
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar fibroblasts,Alveolar fibroblasts
@@ -71502,14 +71502,33 @@ fold,y_true,y_pred
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,DC2
+5,B cells,B cells
+5,B cells,DC2
+5,B cells,B cells
+5,B cells,B cells
+5,B cells,B cells
 5,B cells,Plasma cells
+5,B cells,DC2
 5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
+5,B cells,Plasma cells
+5,B cells,Plasma cells
+5,B cells,DC2
+5,B cells,DC2
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
@@ -71517,25 +71536,6 @@ fold,y_true,y_pred
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,DC2
-5,B cells,B cells
-5,B cells,DC2
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,Plasma cells
-5,B cells,DC2
-5,B cells,B cells
-5,B cells,Plasma cells
-5,B cells,Plasma cells
-5,B cells,DC2
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
-5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
@@ -72113,7 +72113,7 @@ fold,y_true,y_pred
 5,EC venous systemic,EC venous systemic
 5,EC venous systemic,EC venous systemic
 5,EC venous systemic,EC venous systemic
-5,EC venous systemic,EC venous systemic
+5,EC venous systemic,EC general capillary
 5,EC venous systemic,EC venous systemic
 5,EC venous systemic,EC venous systemic
 5,EC venous systemic,EC venous systemic
@@ -72622,7 +72622,7 @@ fold,y_true,y_pred
 5,Club,Suprabasal
 5,Club,Goblet
 5,Club,Suprabasal
-5,Club,Club
+5,Club,Goblet
 5,Club,Club
 5,Club,Suprabasal
 5,Club,Club
@@ -73028,37 +73028,26 @@ fold,y_true,y_pred
 5,SMG duct,Transitional Club-AT2
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,Transitional Club-AT2
+5,SMG duct,Transitional Club-AT2
 5,SMG duct,SMG serous
 5,SMG duct,SMG duct
 5,SMG duct,Transitional Club-AT2
-5,SMG duct,Transitional Club-AT2
-5,SMG duct,SMG serous
-5,SMG duct,SMG duct
-5,SMG duct,Transitional Club-AT2
-5,SMG duct,SMG duct
-5,SMG duct,SMG duct
-5,SMG duct,Transitional Club-AT2
-5,SMG duct,SMG duct
-5,SMG duct,SMG duct
-5,SMG duct,SMG duct
-5,SMG duct,SMG duct
-5,SMG duct,SMG duct
-5,SMG duct,SMG duct
-5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,Transitional Club-AT2
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
-5,SMG duct,SMG serous
-5,SMG duct,SMG duct
-5,SMG duct,SMG serous
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
-5,SMG duct,SMG serous
 5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,Transitional Club-AT2
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,SMG serous
@@ -73068,6 +73057,17 @@ fold,y_true,y_pred
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,SMG duct
+5,SMG duct,SMG serous
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG serous
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
+5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,SMG serous
 5,SMG duct,SMG duct
@@ -73104,7 +73104,7 @@ fold,y_true,y_pred
 5,SMG duct,SMG duct
 5,SMG duct,SMG serous
 5,SMG duct,Transitional Club-AT2
-5,SMG duct,SMG serous
+5,SMG duct,SMG duct
 5,SMG duct,SMG duct
 5,SMG duct,Transitional Club-AT2
 5,SMG duct,SMG duct
@@ -73808,13 +73808,13 @@ fold,y_true,y_pred
 5,Goblet,Club
 5,Goblet,Transitional Club-AT2
 5,Goblet,Goblet
-5,Goblet,Club
-5,Goblet,Goblet
-5,Goblet,Transitional Club-AT2
 5,Goblet,Transitional Club-AT2
 5,Goblet,Goblet
 5,Goblet,Transitional Club-AT2
 5,Goblet,Transitional Club-AT2
+5,Goblet,Goblet
+5,Goblet,Transitional Club-AT2
+5,Goblet,Transitional Club-AT2
 5,Goblet,Club
 5,Goblet,Transitional Club-AT2
 5,Goblet,Transitional Club-AT2
@@ -73844,7 +73844,7 @@ fold,y_true,y_pred
 5,Goblet,Transitional Club-AT2
 5,Goblet,Goblet
 5,Goblet,Club
-5,Goblet,Club
+5,Goblet,Goblet
 5,Goblet,Transitional Club-AT2
 5,Goblet,Club
 5,Goblet,Goblet
@@ -74243,7 +74243,7 @@ fold,y_true,y_pred
 5,Adventitial fibroblasts,Adventitial fibroblasts
 5,Basal resting,Basal resting
 5,Basal resting,Basal resting
-5,Basal resting,B cells
+5,Basal resting,DC2
 5,Basal resting,Transitional Club-AT2
 5,Basal resting,Club
 5,Basal resting,Basal resting
@@ -74305,7 +74305,7 @@ fold,y_true,y_pred
 5,Basal resting,Basal resting
 5,Basal resting,Transitional Club-AT2
 5,Basal resting,Basal resting
-5,Basal resting,Basal resting
+5,Basal resting,Suprabasal
 5,Basal resting,Club
 5,Basal resting,Basal resting
 5,Basal resting,Suprabasal
@@ -74434,7 +74434,7 @@ fold,y_true,y_pred
 5,Goblet,Club
 5,Goblet,SMG duct
 5,Goblet,Club
-5,Goblet,Club
+5,Goblet,Transitional Club-AT2
 5,Goblet,Goblet
 5,Goblet,Goblet
 5,Goblet,Club
@@ -74562,7 +74562,7 @@ fold,y_true,y_pred
 5,Multiciliated,Multiciliated
 5,Multiciliated,Multiciliated
 5,Multiciliated,Deuterosomal
-5,Multiciliated,Deuterosomal
+5,Multiciliated,Multiciliated
 5,Multiciliated,Deuterosomal
 5,Multiciliated,Multiciliated
 5,Multiciliated,Deuterosomal
@@ -74671,7 +74671,7 @@ fold,y_true,y_pred
 5,Suprabasal,Suprabasal
 5,Suprabasal,Suprabasal
 5,Suprabasal,Suprabasal
-5,Suprabasal,Club
+5,Suprabasal,Suprabasal
 5,Suprabasal,Club
 5,Suprabasal,Transitional Club-AT2
 5,Suprabasal,Suprabasal
@@ -74720,7 +74720,7 @@ fold,y_true,y_pred
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
-5,B cells,B cells
+5,B cells,CD8 T cells
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,B cells
@@ -75180,7 +75180,7 @@ fold,y_true,y_pred
 5,Club,Goblet
 5,Club,Goblet
 5,Club,Club
-5,Club,Suprabasal
+5,Club,Club
 5,Club,Club
 5,Club,SMG serous
 5,Club,Goblet
@@ -75235,7 +75235,7 @@ fold,y_true,y_pred
 5,Club,Goblet
 5,Club,Club
 5,Club,Goblet
-5,Club,Club
+5,Club,Goblet
 5,Club,Suprabasal
 5,Club,Club
 5,Club,Club
@@ -75274,7 +75274,7 @@ fold,y_true,y_pred
 5,DC2,DC2
 5,DC2,Basal resting
 5,DC2,DC2
-5,DC2,DC2
+5,DC2,Non-classical monocytes
 5,DC2,Non-classical monocytes
 5,DC2,DC2
 5,DC2,Alveolar macrophages
@@ -75315,7 +75315,7 @@ fold,y_true,y_pred
 5,DC2,DC2
 5,DC2,DC2
 5,DC2,DC2
-5,DC2,B cells
+5,DC2,DC2
 5,DC2,Non-classical monocytes
 5,DC2,DC2
 5,DC2,DC2
@@ -75341,7 +75341,7 @@ fold,y_true,y_pred
 5,DC2,Interstitial macrophages
 5,DC2,DC2
 5,DC2,DC2
-5,DC2,DC2
+5,DC2,Alveolar macrophages
 5,DC2,DC2
 5,DC2,DC2
 5,DC2,DC2
@@ -75579,7 +75579,7 @@ fold,y_true,y_pred
 5,Goblet,Goblet
 5,Goblet,Goblet
 5,Goblet,Goblet
-5,Goblet,Club
+5,Goblet,Goblet
 5,Goblet,Multiciliated
 5,Goblet,Goblet
 5,Goblet,Goblet
@@ -75716,6 +75716,10 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
+5,NK cells,CD8 T cells
+5,NK cells,NK cells
+5,NK cells,NK cells
+5,NK cells,CD8 T cells
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
@@ -75727,10 +75731,6 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
-5,NK cells,CD8 T cells
-5,NK cells,NK cells
-5,NK cells,NK cells
-5,NK cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
@@ -75750,10 +75750,10 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
-5,Non-classical monocytes,Non-classical monocytes
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
+5,Non-classical monocytes,Interstitial macrophages
 5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Peribronchial fibroblasts,Adventitial fibroblasts
@@ -75801,28 +75801,28 @@ fold,y_true,y_pred
 5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Adventitial fibroblasts
-5,Peribronchial fibroblasts,Peribronchial fibroblasts
-5,Peribronchial fibroblasts,Peribronchial fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Adventitial fibroblasts
-5,Peribronchial fibroblasts,Adventitial fibroblasts
-5,Peribronchial fibroblasts,Adventitial fibroblasts
-5,Peribronchial fibroblasts,Adventitial fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Adventitial fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
-5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Peribronchial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Adventitial fibroblasts
+5,Peribronchial fibroblasts,Adventitial fibroblasts
+5,Peribronchial fibroblasts,Adventitial fibroblasts
+5,Peribronchial fibroblasts,Adventitial fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Adventitial fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Peribronchial fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
+5,Peribronchial fibroblasts,Adventitial fibroblasts
+5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
 5,Peribronchial fibroblasts,Adventitial fibroblasts
 5,Peribronchial fibroblasts,Alveolar fibroblasts
@@ -76107,7 +76107,7 @@ fold,y_true,y_pred
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar fibroblasts,Adventitial fibroblasts
 5,Alveolar fibroblasts,Adventitial fibroblasts
-5,Alveolar fibroblasts,Ionocyte
+5,Alveolar fibroblasts,Pericytes
 5,Alveolar fibroblasts,Adventitial fibroblasts
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar macrophages,Alveolar macrophages
@@ -76253,7 +76253,7 @@ fold,y_true,y_pred
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,DC2
-5,B cells,B cells
+5,B cells,DC2
 5,B cells,B cells
 5,B cells,B cells
 5,B cells,CD8 T cells
@@ -76298,7 +76298,7 @@ fold,y_true,y_pred
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD8 T cells
-5,CD4 T cells,CD8 T cells
+5,CD4 T cells,Goblet
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
@@ -76357,7 +76357,7 @@ fold,y_true,y_pred
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
-5,CD4 T cells,CD4 T cells
+5,CD4 T cells,CD8 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
 5,CD4 T cells,CD4 T cells
@@ -76529,12 +76529,12 @@ fold,y_true,y_pred
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
-5,Classical monocytes,Classical monocytes
-5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Interstitial macrophages
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Interstitial macrophages
+5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Interstitial macrophages
+5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
@@ -76652,12 +76652,12 @@ fold,y_true,y_pred
 5,Club,Goblet
 5,Club,Goblet
 5,Club,Suprabasal
-5,Club,Suprabasal
+5,Club,Club
 5,Club,Goblet
 5,Club,Goblet
 5,Club,Club
 5,Club,Goblet
-5,Club,Club
+5,Club,Goblet
 5,Club,Goblet
 5,Club,Goblet
 5,Club,Suprabasal
@@ -76702,7 +76702,7 @@ fold,y_true,y_pred
 5,DC2,Interstitial macrophages
 5,DC2,DC2
 5,DC2,DC2
-5,DC2,DC2
+5,DC2,B cells
 5,DC2,Interstitial macrophages
 5,DC2,DC2
 5,DC2,Non-classical monocytes
@@ -76731,7 +76731,7 @@ fold,y_true,y_pred
 5,DC2,DC2
 5,DC2,DC2
 5,DC2,Interstitial macrophages
-5,DC2,DC2
+5,DC2,Non-classical monocytes
 5,DC2,Alveolar macrophages
 5,DC2,Interstitial macrophages
 5,DC2,Interstitial macrophages
@@ -77117,7 +77117,7 @@ fold,y_true,y_pred
 5,Ionocyte,AT2 proliferating
 5,Ionocyte,Goblet
 5,Ionocyte,Alveolar macrophages
-5,Ionocyte,Ionocyte
+5,Ionocyte,Goblet
 5,Ionocyte,Ionocyte
 5,Ionocyte,AT2 proliferating
 5,Ionocyte,Ionocyte
@@ -77326,7 +77326,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,NK cells,CD8 T cells
 5,NK cells,CD8 T cells
-5,Non-classical monocytes,Alveolar macrophages
+5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Alveolar macrophages
 5,Non-classical monocytes,DC2
 5,Non-classical monocytes,Non-classical monocytes
@@ -77335,7 +77335,7 @@ fold,y_true,y_pred
 5,Non-classical monocytes,Alveolar macrophages
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Non-classical monocytes
-5,Non-classical monocytes,Non-classical monocytes
+5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Non-classical monocytes
@@ -77483,7 +77483,7 @@ fold,y_true,y_pred
 5,Plasma cells,Plasma cells
 5,Plasma cells,Basal resting
 5,Plasma cells,CD4 T cells
-5,Plasma cells,Plasma cells
+5,Plasma cells,Ionocyte
 5,Plasma cells,CD4 T cells
 5,Plasma cells,Plasma cells
 5,Plasma cells,CD4 T cells
@@ -77548,7 +77548,7 @@ fold,y_true,y_pred
 5,Plasma cells,Plasma cells
 5,Plasma cells,CD4 T cells
 5,Plasma cells,Plasma cells
-5,Plasma cells,Plasma cells
+5,Plasma cells,Ionocyte
 5,Plasma cells,B cells
 5,Plasma cells,Plasma cells
 5,Plasma cells,B cells
@@ -77658,7 +77658,7 @@ fold,y_true,y_pred
 5,Suprabasal,Hillock-like
 5,Suprabasal,Alveolar macrophages
 5,Suprabasal,Hillock-like
-5,Suprabasal,Suprabasal
+5,Suprabasal,Hillock-like
 5,Suprabasal,Hillock-like
 5,Suprabasal,Hillock-like
 5,Suprabasal,Hillock-like
@@ -77926,7 +77926,7 @@ fold,y_true,y_pred
 5,Goblet,Club
 5,Goblet,Goblet
 5,Goblet,Club
-5,Goblet,Goblet
+5,Goblet,Club
 5,Goblet,Club
 5,Goblet,Goblet
 5,Goblet,Goblet
@@ -77961,7 +77961,7 @@ fold,y_true,y_pred
 5,Goblet,Goblet
 5,Goblet,Club
 5,Goblet,Club
-5,Goblet,Goblet
+5,Goblet,Club
 5,Goblet,Goblet
 5,Goblet,Goblet
 5,Goblet,Transitional Club-AT2
@@ -78073,7 +78073,7 @@ fold,y_true,y_pred
 5,Hillock-like,Hillock-like
 5,Hillock-like,Club
 5,Hillock-like,Club
-5,Hillock-like,Club
+5,Hillock-like,Hillock-like
 5,Hillock-like,Suprabasal
 5,Hillock-like,Hillock-like
 5,Hillock-like,Suprabasal
@@ -78339,7 +78339,7 @@ fold,y_true,y_pred
 5,Suprabasal,Club
 5,Suprabasal,Suprabasal
 5,Suprabasal,Basal resting
-5,Suprabasal,Suprabasal
+5,Suprabasal,Club
 5,Suprabasal,Club
 5,Suprabasal,Club
 5,Suprabasal,Basal resting
@@ -78461,7 +78461,7 @@ fold,y_true,y_pred
 5,Club,Club
 5,Club,Club
 5,Club,Suprabasal
-5,Club,Club
+5,Club,Goblet
 5,Club,SMG duct
 5,Club,Club
 5,Club,Suprabasal
@@ -78967,7 +78967,7 @@ fold,y_true,y_pred
 5,Alveolar macrophages,Interstitial macrophages
 5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,Alveolar macrophages
-5,Alveolar macrophages,Alveolar macrophages
+5,Alveolar macrophages,Interstitial macrophages
 5,Alveolar macrophages,DC2
 5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,Alveolar macrophages
@@ -80540,7 +80540,7 @@ fold,y_true,y_pred
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
-5,Classical monocytes,Classical monocytes
+5,Classical monocytes,Interstitial macrophages
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
 5,Classical monocytes,Classical monocytes
@@ -80826,7 +80826,7 @@ fold,y_true,y_pred
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Non-classical monocytes
 5,Non-classical monocytes,Non-classical monocytes
-5,Non-classical monocytes,DC2
+5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Interstitial macrophages
 5,Non-classical monocytes,Non-classical monocytes
 5,Non-classical monocytes,Alveolar macrophages
@@ -80883,7 +80883,7 @@ fold,y_true,y_pred
 5,Transitional Club-AT2,Transitional Club-AT2
 5,AT2 proliferating,Ionocyte
 5,Alveolar macrophages,Alveolar macrophages
-5,Alveolar macrophages,Interstitial macrophages
+5,Alveolar macrophages,Alveolar macrophages
 5,Alveolar macrophages,DC2
 5,Alveolar macrophages,Interstitial macrophages
 5,Alveolar macrophages,Alveolar macrophages
@@ -81204,7 +81204,7 @@ fold,y_true,y_pred
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar fibroblasts,Peribronchial fibroblasts
-5,Alveolar fibroblasts,Alveolar fibroblasts
+5,Alveolar fibroblasts,Peribronchial fibroblasts
 5,Alveolar fibroblasts,Pericytes
 5,Alveolar fibroblasts,Alveolar fibroblasts
 5,Alveolar fibroblasts,Alveolar fibroblasts
@@ -81412,7 +81412,7 @@ fold,y_true,y_pred
 5,CD8 T cells,NK cells
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
-5,CD8 T cells,CD8 T cells
+5,CD8 T cells,Interstitial macrophages
 5,CD8 T cells,CD4 T cells
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
@@ -81813,7 +81813,7 @@ fold,y_true,y_pred
 5,EC general capillary,Alveolar macrophages
 5,EC general capillary,EC general capillary
 5,EC general capillary,EC general capillary
-5,EC general capillary,EC aerocyte capillary
+5,EC general capillary,Pericytes
 5,EC general capillary,EC general capillary
 5,EC general capillary,EC general capillary
 5,EC general capillary,EC general capillary
@@ -81870,7 +81870,7 @@ fold,y_true,y_pred
 5,EC general capillary,EC general capillary
 5,EC general capillary,EC general capillary
 5,EC general capillary,EC general capillary
-5,EC general capillary,EC venous systemic
+5,EC general capillary,EC general capillary
 5,EC general capillary,EC general capillary
 5,EC general capillary,EC general capillary
 5,EC general capillary,EC venous systemic
@@ -81958,7 +81958,7 @@ fold,y_true,y_pred
 5,EC venous pulmonary,EC venous pulmonary
 5,EC venous pulmonary,EC venous pulmonary
 5,EC venous pulmonary,EC venous systemic
-5,EC venous pulmonary,EC venous systemic
+5,EC venous pulmonary,EC general capillary
 5,EC venous pulmonary,EC venous pulmonary
 5,EC venous pulmonary,EC venous pulmonary
 5,EC venous pulmonary,EC venous systemic
@@ -82331,7 +82331,7 @@ fold,y_true,y_pred
 5,Pericytes,Pericytes
 5,Pericytes,Pericytes
 5,Pericytes,Pericytes
-5,Pericytes,Pericytes
+5,Pericytes,Alveolar macrophages
 5,Pericytes,Pericytes
 5,Pericytes,Pericytes
 5,Pericytes,Pericytes
@@ -82655,7 +82655,7 @@ fold,y_true,y_pred
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
-5,CD8 T cells,Plasma cells
+5,CD8 T cells,CD4 T cells
 5,CD8 T cells,NK cells
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD4 T cells
@@ -82703,7 +82703,7 @@ fold,y_true,y_pred
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
-5,CD8 T cells,CD4 T cells
+5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,CD8 T cells
 5,CD8 T cells,NK cells

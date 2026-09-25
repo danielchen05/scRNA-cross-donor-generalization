@@ -1,0 +1,65 @@
+dataset_name: pbmc
+input_path: data/PBMC_Stephenson/stephenson_2021_subsampled.h5ad
+output_path: data/PBMC_Stephenson/stephenson_benchmark_ready.h5ad
+qc_output_dir: results/preprocessing/pbmc
+celltype_col: cell_type
+donor_col: patient_id
+filters:
+- column: Status
+  op: eq
+  value: Healthy
+metadata_from_obs: {}
+support:
+  min_cells: 200
+  min_donors: 5
+  stage: after_downsampling
+downsample:
+  group_cols:
+  - patient_id
+  max_cells_per_group: 500
+  random_state: 42
+  rng: random_state
+  sample_full_groups: false
+gene_filter:
+  exclude_var_if_true: []
+  min_cells: null
+counts:
+  source: X
+  target_sum: 10000
+  require_integer_like: false
+  prepare_from_counts: false
+hvg:
+  n_top_genes: 1000
+  batch_key: patient_id
+pca:
+  n_comps_compute: 50
+  n_comps_keep: 15
+  random_state: 42
+harmony:
+  enabled: true
+  batch_key: patient_id
+  basis: X_pca
+  key_added: X_harmony
+  n_comps: null
+  kwargs: {}
+scvi:
+  enabled: false
+  batch_key: patient_id
+  layer: counts
+  key_added: X_scVI
+  n_latent: 15
+  max_epochs: 200
+  early_stopping: true
+  random_state: 42
+  model_kwargs: {}
+  train_kwargs: {}
+expected:
+  n_cells: 10107
+  n_donors: 23
+  n_celltypes: 13
+  n_hvg: 1000
+representations:
+  hvg: hvg
+  pca: X_pca
+  harmony: X_harmony
+  scvi: X_scVI

@@ -1,0 +1,81 @@
+{
+  "dataset_name": "pbmc",
+  "stages": {
+    "loaded": {
+      "n_cells": 62509,
+      "n_genes": 16299,
+      "n_donors": 119,
+      "n_celltypes": 46
+    },
+    "after_dataset_filters": {
+      "n_cells": 11790,
+      "n_genes": 16299,
+      "n_donors": 23,
+      "n_celltypes": 41
+    },
+    "after_downsampling": {
+      "n_cells": 11290,
+      "n_genes": 16299,
+      "n_donors": 23,
+      "n_celltypes": 41
+    },
+    "after_celltype_support_filter": {
+      "n_cells": 10107,
+      "n_genes": 16299,
+      "n_donors": 23,
+      "n_celltypes": 13
+    },
+    "after_gene_filtering": {
+      "n_cells": 10107,
+      "n_genes": 16299,
+      "n_donors": 23,
+      "n_celltypes": 13
+    },
+    "benchmark_ready": {
+      "n_cells": 10107,
+      "n_genes": 1000,
+      "n_donors": 23,
+      "n_celltypes": 13
+    }
+  },
+  "expected_checks": {
+    "n_cells": {
+      "expected": 10107,
+      "observed": 10107,
+      "ok": true
+    },
+    "n_donors": {
+      "expected": 23,
+      "observed": 23,
+      "ok": true
+    },
+    "n_celltypes": {
+      "expected": 13,
+      "observed": 13,
+      "ok": true
+    },
+    "n_hvg": {
+      "expected": 1000,
+      "observed": 1000,
+      "ok": true
+    }
+  },
+  "representations": {
+    "hvg": [
+      10107,
+      1000
+    ],
+    "pca": [
+      10107,
+      15
+    ],
+    "harmony": [
+      10107,
+      15
+    ],
+    "scvi": [
+      10107,
+      10
+    ]
+  }
+}

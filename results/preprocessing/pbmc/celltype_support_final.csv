@@ -1,0 +1,14 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+"CD16-positive, CD56-dim natural killer cell, human",1582,23,True,True,True
+"naive thymus-derived CD4-positive, alpha-beta T cell",1479,21,True,True,True
+CD14-positive monocyte,1153,23,True,True,True
+"central memory CD4-positive, alpha-beta T cell",1115,21,True,True,True
+"naive thymus-derived CD8-positive, alpha-beta T cell",781,21,True,True,True
+T-helper 22 cell,669,21,True,True,True
+"effector CD8-positive, alpha-beta T cell",656,20,True,True,True
+naive B cell,624,23,True,True,True
+"effector memory CD8-positive, alpha-beta T cell",592,21,True,True,True
+mature NK T cell,449,22,True,True,True
+gamma-delta T cell,414,21,True,True,True
+mucosal invariant T cell,346,21,True,True,True
+"CD16-negative, CD56-bright natural killer cell, human",247,23,True,True,True

@@ -1,14 +1,14 @@
 ,CD14-positive monocyte,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human",T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell,mature NK T cell,mucosal invariant T cell,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
 CD14-positive monocyte,230,0,0,0,0,0,0,0,1,0,0,0,0
-"CD16-negative, CD56-bright natural killer cell, human",0,44,4,1,0,0,0,0,0,0,0,0,0
-"CD16-positive, CD56-dim natural killer cell, human",0,6,297,0,0,11,0,2,1,0,0,0,0
-T-helper 22 cell,0,0,0,89,23,0,2,2,0,7,0,7,4
-"central memory CD4-positive, alpha-beta T cell",0,0,2,20,154,0,4,0,0,3,0,35,5
-"effector CD8-positive, alpha-beta T cell",0,0,10,0,1,108,5,6,1,0,0,0,0
-"effector memory CD8-positive, alpha-beta T cell",0,0,0,2,2,6,82,9,0,9,0,0,8
-gamma-delta T cell,0,1,5,11,10,12,9,25,0,8,0,2,0
+"CD16-negative, CD56-bright natural killer cell, human",0,42,5,1,0,0,1,0,0,0,0,0,0
+"CD16-positive, CD56-dim natural killer cell, human",0,6,296,0,0,10,2,3,0,0,0,0,0
+T-helper 22 cell,0,0,0,96,23,0,0,4,0,6,0,4,1
+"central memory CD4-positive, alpha-beta T cell",0,0,2,21,152,0,5,1,0,1,0,34,7
+"effector CD8-positive, alpha-beta T cell",0,0,5,1,0,112,4,9,0,0,0,0,0
+"effector memory CD8-positive, alpha-beta T cell",0,0,0,2,1,5,83,11,0,6,0,0,10
+gamma-delta T cell,0,0,4,9,14,11,10,24,0,9,0,2,0
 mature NK T cell,2,0,2,0,0,17,3,0,66,0,0,0,0
-mucosal invariant T cell,0,0,0,5,2,0,7,5,0,45,0,2,3
+mucosal invariant T cell,0,0,0,6,1,1,6,6,0,47,0,1,1
 naive B cell,0,0,0,0,0,0,0,0,0,0,125,0,0
-"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,3,18,0,0,1,0,0,0,268,6
-"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,10,16,0,0,1,0,0,0,25,104
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,5,27,0,1,1,0,0,0,255,7
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,7,12,0,2,0,0,0,0,21,114

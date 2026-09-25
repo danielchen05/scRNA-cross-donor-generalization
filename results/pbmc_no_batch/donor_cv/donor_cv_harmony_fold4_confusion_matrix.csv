@@ -1,14 +1,14 @@
 ,CD14-positive monocyte,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human",T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell,mature NK T cell,mucosal invariant T cell,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
-CD14-positive monocyte,155,0,0,0,0,0,0,0,3,0,0,0,0
-"CD16-negative, CD56-bright natural killer cell, human",0,20,3,0,0,0,0,1,0,0,0,0,0
-"CD16-positive, CD56-dim natural killer cell, human",0,1,252,0,0,9,0,2,0,0,0,0,0
-T-helper 22 cell,0,0,0,110,67,0,2,3,0,4,0,7,10
-"central memory CD4-positive, alpha-beta T cell",0,0,1,11,117,2,6,1,0,0,0,30,6
-"effector CD8-positive, alpha-beta T cell",0,0,12,0,0,94,8,2,1,0,0,0,0
-"effector memory CD8-positive, alpha-beta T cell",0,0,0,0,1,4,98,6,0,9,0,0,11
-gamma-delta T cell,0,1,4,15,20,5,7,12,0,6,0,4,0
-mature NK T cell,1,0,4,0,0,12,2,1,62,0,0,0,0
-mucosal invariant T cell,0,1,1,8,2,0,0,2,0,42,0,3,1
+CD14-positive monocyte,156,0,0,0,0,0,0,0,2,0,0,0,0
+"CD16-negative, CD56-bright natural killer cell, human",0,19,3,0,0,0,1,1,0,0,0,0,0
+"CD16-positive, CD56-dim natural killer cell, human",0,1,253,0,0,8,0,2,0,0,0,0,0
+T-helper 22 cell,0,0,0,111,75,0,2,1,0,3,0,6,5
+"central memory CD4-positive, alpha-beta T cell",0,0,1,14,113,2,4,3,0,0,0,29,8
+"effector CD8-positive, alpha-beta T cell",0,0,7,1,0,103,6,0,0,0,0,0,0
+"effector memory CD8-positive, alpha-beta T cell",0,1,0,0,1,2,101,6,0,5,0,0,13
+gamma-delta T cell,0,1,3,18,21,3,6,13,0,5,0,4,0
+mature NK T cell,1,0,5,0,0,12,2,0,62,0,0,0,0
+mucosal invariant T cell,0,0,1,9,4,0,2,1,0,40,0,3,0
 naive B cell,0,0,0,0,0,0,0,0,0,0,60,0,0
-"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,1,27,0,0,0,0,1,0,262,9
-"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,11,37,0,4,1,0,1,0,17,96
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,1,26,0,0,1,0,1,0,261,10
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,5,33,0,6,0,0,1,0,15,107

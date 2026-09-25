@@ -32,6 +32,9 @@ class FilterRule:
 class SupportConfig:
     min_cells: int = 200
     min_donors: int = 5
+    # Most datasets define cell-type eligibility before downsampling. PBMC's
+    # legacy workflow applies the same support rule after its donor cap.
+    stage: str = "before_downsampling"
 
 
 @dataclass
@@ -40,6 +43,10 @@ class DownsampleConfig:
     max_cells_per_group: int = 500
     random_state: int = 42
     rng: str = "random_state"  # random_state (legacy) or default_rng
+    # None preserves the existing dataset-specific behavior: RandomState samples
+    # every group; default_rng samples only oversized groups. PBMC explicitly
+    # sets False to reproduce its original donor-cap loop.
+    sample_full_groups: bool | None = None
 
 
 @dataclass
@@ -53,6 +60,9 @@ class CountsConfig:
     source: str = "raw"  # raw, X, or layer:<name>
     target_sum: float = 1e4
     require_integer_like: bool = True
+    # True: rebuild normalized/log1p X from raw counts (kidney/pancreas/lung).
+    # False: retain the input X as the feature matrix (PBMC legacy object).
+    prepare_from_counts: bool = True
 
 
 @dataclass
@@ -220,11 +230,14 @@ def _downsample(
     max_cells: int,
     random_state: int,
     rng: str = "random_state",
+    sample_full_groups: bool | None = None,
 ):
     """Deterministically downsample within metadata groups.
 
     ``random_state`` preserves the legacy kidney/pancreas NumPy RandomState
     behavior. ``default_rng`` reproduces the lung preparation notebook.
+    ``sample_full_groups=False`` reproduces PBMC, where ``choice`` was called
+    only when a donor exceeded the cap.
     """
     _require_obs_columns(adata, group_cols)
     if max_cells <= 0:
@@ -237,20 +250,17 @@ def _downsample(
     else:
         raise ValueError("downsample.rng must be 'random_state' or 'default_rng'")
 
+    if sample_full_groups is None:
+        # Backward-compatible defaults used by the already-refactored datasets.
+        sample_full_groups = rng == "random_state"
+
     keep: list[str] = []
     grouped = adata.obs.groupby(group_cols, observed=True, sort=True).groups
     for _, idx in grouped.items():
         idx = np.asarray(list(idx), dtype=object)
         n = min(len(idx), max_cells)
-
-        # Preserve each legacy workflow exactly. Kidney/pancreas always called
-        # RandomState.choice (even when retaining the whole group), whereas
-        # the lung notebook called default_rng.choice only for oversized groups.
-        if rng == "random_state":
+        if sample_full_groups or len(idx) > max_cells:
             idx = generator.choice(idx, n, replace=False)
-        elif len(idx) > max_cells:
-            idx = generator.choice(idx, max_cells, replace=False)
-
         keep.extend(idx.tolist())
     return adata[keep].copy()
 
@@ -437,55 +447,92 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         adata, config.celltype_col, config.donor_col
     )
 
-    support_before = summarize_celltype_support(
-        adata,
-        celltype_col=config.celltype_col,
-        donor_col=config.donor_col,
-        min_cells=config.support.min_cells,
-        min_donors=config.support.min_donors,
-    )
-    adata, _, _, _ = filter_celltypes_by_support(
-        adata,
-        celltype_col=config.celltype_col,
-        donor_col=config.donor_col,
-        min_cells=config.support.min_cells,
-        min_donors=config.support.min_donors,
-    )
-    # Freeze the supported label set before downsampling. The support rule
-    # determines eligibility; downsampling may reduce retained labels below the
-    # original cell-count threshold without invalidating them.
-    supported_celltypes = set(
-        adata.obs[config.celltype_col].astype(str).unique()
-    )
-    stage_summaries["after_celltype_support_filter"] = _summary(
-        adata, config.celltype_col, config.donor_col
-    )
-
-    adata = _downsample(
-        adata,
-        group_cols=config.downsample.group_cols,
-        max_cells=config.downsample.max_cells_per_group,
-        random_state=config.downsample.random_state,
-        rng=config.downsample.rng,
-    )
-    stage_summaries["after_downsampling"] = _summary(
-        adata, config.celltype_col, config.donor_col
-    )
-
-    downsampled_celltypes = set(
-        adata.obs[config.celltype_col].astype(str).unique()
-    )
-    unexpected_celltypes = sorted(downsampled_celltypes - supported_celltypes)
-    if unexpected_celltypes:
+    support_stage = config.support.stage
+    if support_stage not in {"before_downsampling", "after_downsampling"}:
         raise ValueError(
-            "Downsampled object contains cell types that were not present "
-            f"after the support filter: {unexpected_celltypes}"
+            "support.stage must be 'before_downsampling' or 'after_downsampling'"
         )
-    lost_celltypes = sorted(supported_celltypes - downsampled_celltypes)
-    if lost_celltypes:
-        raise ValueError(
-            "Downsampling completely removed cell types that passed the "
-            f"support filter: {lost_celltypes}"
+
+    support_before: pd.DataFrame
+    supported_celltypes: set[str]
+
+    if support_stage == "before_downsampling":
+        support_before = summarize_celltype_support(
+            adata,
+            celltype_col=config.celltype_col,
+            donor_col=config.donor_col,
+            min_cells=config.support.min_cells,
+            min_donors=config.support.min_donors,
+        )
+        adata, _, _, _ = filter_celltypes_by_support(
+            adata,
+            celltype_col=config.celltype_col,
+            donor_col=config.donor_col,
+            min_cells=config.support.min_cells,
+            min_donors=config.support.min_donors,
+        )
+        supported_celltypes = set(adata.obs[config.celltype_col].astype(str).unique())
+        stage_summaries["after_celltype_support_filter"] = _summary(
+            adata, config.celltype_col, config.donor_col
+        )
+
+        adata = _downsample(
+            adata,
+            group_cols=config.downsample.group_cols,
+            max_cells=config.downsample.max_cells_per_group,
+            random_state=config.downsample.random_state,
+            rng=config.downsample.rng,
+            sample_full_groups=config.downsample.sample_full_groups,
+        )
+        stage_summaries["after_downsampling"] = _summary(
+            adata, config.celltype_col, config.donor_col
+        )
+
+        downsampled_celltypes = set(adata.obs[config.celltype_col].astype(str).unique())
+        unexpected_celltypes = sorted(downsampled_celltypes - supported_celltypes)
+        if unexpected_celltypes:
+            raise ValueError(
+                "Downsampled object contains cell types that were not present "
+                f"after the support filter: {unexpected_celltypes}"
+            )
+        lost_celltypes = sorted(supported_celltypes - downsampled_celltypes)
+        if lost_celltypes:
+            raise ValueError(
+                "Downsampling completely removed cell types that passed the "
+                f"support filter: {lost_celltypes}"
+            )
+    else:
+        # PBMC legacy order: apply the donor cap first, then define the supported
+        # benchmark label set from the capped object.
+        adata = _downsample(
+            adata,
+            group_cols=config.downsample.group_cols,
+            max_cells=config.downsample.max_cells_per_group,
+            random_state=config.downsample.random_state,
+            rng=config.downsample.rng,
+            sample_full_groups=config.downsample.sample_full_groups,
+        )
+        stage_summaries["after_downsampling"] = _summary(
+            adata, config.celltype_col, config.donor_col
+        )
+
+        support_before = summarize_celltype_support(
+            adata,
+            celltype_col=config.celltype_col,
+            donor_col=config.donor_col,
+            min_cells=config.support.min_cells,
+            min_donors=config.support.min_donors,
+        )
+        adata, _, _, _ = filter_celltypes_by_support(
+            adata,
+            celltype_col=config.celltype_col,
+            donor_col=config.donor_col,
+            min_cells=config.support.min_cells,
+            min_donors=config.support.min_donors,
+        )
+        supported_celltypes = set(adata.obs[config.celltype_col].astype(str).unique())
+        stage_summaries["after_celltype_support_filter"] = _summary(
+            adata, config.celltype_col, config.donor_col
         )
 
     adata = _apply_gene_filters(adata, config.gene_filter, sc)
@@ -493,17 +540,26 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         adata, config.celltype_col, config.donor_col
     )
 
-    raw_counts = _extract_counts(adata, config.counts.source)
-    if config.counts.require_integer_like and not _is_integer_like(raw_counts):
+    source_counts = None
+    if config.counts.prepare_from_counts:
+        source_counts = _extract_counts(adata, config.counts.source)
+        if config.counts.require_integer_like and not _is_integer_like(source_counts):
+            raise ValueError(
+                f"Counts source '{config.counts.source}' is not integer-like for {config.dataset_name}"
+            )
+
+        # Kidney/pancreas/lung rebuild the feature matrix from raw counts.
+        adata.X = source_counts.copy()
+        sc.pp.normalize_total(adata, target_sum=config.counts.target_sum)
+        sc.pp.log1p(adata)
+    elif config.scvi.enabled:
         raise ValueError(
-            f"Counts source '{config.counts.source}' is not integer-like for {config.dataset_name}"
+            "counts.prepare_from_counts=False cannot be combined with scvi.enabled=True; "
+            "training scVI requires a raw-count layer."
         )
 
-    # Re-normalize from raw counts for a consistent HVG feature matrix.
-    adata.X = raw_counts.copy()
-    sc.pp.normalize_total(adata, target_sum=config.counts.target_sum)
-    sc.pp.log1p(adata)
-    # Preserve the full normalized gene matrix before HVG restriction.
+    # Preserve the full feature matrix before HVG restriction. For PBMC this is
+    # the normalized/log-transformed X already supplied by the source object.
     adata.raw = adata.copy()
 
     sc.pp.highly_variable_genes(
@@ -520,9 +576,14 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
             f"Expected {config.hvg.n_top_genes} HVGs, got {int(hvg_mask.sum())}"
         )
 
-    raw_counts_hvg = raw_counts[:, hvg_mask].copy()
+    if source_counts is not None:
+        source_counts_hvg = source_counts[:, hvg_mask].copy()
+    else:
+        source_counts_hvg = None
+
     adata = adata[:, hvg_mask].copy()
-    adata.layers[config.scvi.layer] = raw_counts_hvg
+    if source_counts_hvg is not None:
+        adata.layers[config.scvi.layer] = source_counts_hvg
 
     compute_pca(
         adata,
@@ -555,6 +616,11 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
             train_kwargs=train_kwargs,
             **config.scvi.model_kwargs,
         )
+    elif config.scvi.key_added not in adata.obsm:
+        raise KeyError(
+            f"scvi.enabled=False but existing embedding '{config.scvi.key_added}' "
+            "was not found in the input AnnData."
+        )
 
     validate_representations(adata, config.representations)
     support_after = summarize_celltype_support(
@@ -564,12 +630,9 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         min_cells=config.support.min_cells,
         min_donors=config.support.min_donors,
     )
-    # Do not re-apply the original support threshold after downsampling.
-    # Instead verify that the final object contains exactly the label set
-    # frozen at the support-filter stage.
-    final_celltypes = set(
-        adata.obs[config.celltype_col].astype(str).unique()
-    )
+
+    # Verify that later feature/representation steps did not alter the frozen label set.
+    final_celltypes = set(adata.obs[config.celltype_col].astype(str).unique())
     unexpected_celltypes = sorted(final_celltypes - supported_celltypes)
     if unexpected_celltypes:
         raise ValueError(
@@ -597,3 +660,4 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         expected_checks=expected_checks,
     )
     return adata
+

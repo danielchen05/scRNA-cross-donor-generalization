@@ -1,0 +1,14 @@
+cell_type,n_cells
+"CD16-positive, CD56-dim natural killer cell, human",1582
+"naive thymus-derived CD4-positive, alpha-beta T cell",1479
+CD14-positive monocyte,1153
+"central memory CD4-positive, alpha-beta T cell",1115
+"naive thymus-derived CD8-positive, alpha-beta T cell",781
+T-helper 22 cell,669
+"effector CD8-positive, alpha-beta T cell",656
+naive B cell,624
+"effector memory CD8-positive, alpha-beta T cell",592
+mature NK T cell,449
+gamma-delta T cell,414
+mucosal invariant T cell,346
+"CD16-negative, CD56-bright natural killer cell, human",247

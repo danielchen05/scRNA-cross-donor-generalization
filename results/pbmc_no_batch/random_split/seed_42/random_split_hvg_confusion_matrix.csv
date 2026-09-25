@@ -1,14 +1,14 @@
 ,CD14-positive monocyte,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human",T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell,mature NK T cell,mucosal invariant T cell,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
-CD14-positive monocyte,226,0,0,1,0,0,0,0,1,0,0,2,1
+CD14-positive monocyte,227,0,0,2,0,0,0,0,2,0,0,0,0
 "CD16-negative, CD56-bright natural killer cell, human",0,45,3,0,0,0,0,1,0,0,0,0,0
-"CD16-positive, CD56-dim natural killer cell, human",0,2,304,0,0,4,1,5,0,0,0,0,1
-T-helper 22 cell,0,0,0,82,34,0,2,10,0,2,0,3,1
-"central memory CD4-positive, alpha-beta T cell",0,0,1,17,153,0,2,2,0,5,0,35,8
-"effector CD8-positive, alpha-beta T cell",0,0,1,1,0,118,5,2,4,0,0,0,0
-"effector memory CD8-positive, alpha-beta T cell",0,0,0,2,0,6,82,10,0,12,0,0,6
-gamma-delta T cell,0,0,0,7,4,3,6,49,0,8,0,4,2
-mature NK T cell,2,0,2,0,0,10,4,1,71,0,0,0,0
-mucosal invariant T cell,0,0,0,8,1,0,8,6,0,36,0,9,1
-naive B cell,0,0,0,0,0,0,0,0,0,0,124,1,0
-"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,7,29,0,0,2,0,4,0,249,5
-"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,4,7,0,4,3,0,1,0,14,123
+"CD16-positive, CD56-dim natural killer cell, human",0,3,303,0,0,5,0,4,0,1,0,0,1
+T-helper 22 cell,0,0,0,88,21,0,2,7,0,6,0,6,4
+"central memory CD4-positive, alpha-beta T cell",0,0,0,24,151,0,2,4,1,2,0,33,6
+"effector CD8-positive, alpha-beta T cell",0,0,0,1,0,116,7,4,3,0,0,0,0
+"effector memory CD8-positive, alpha-beta T cell",0,0,0,2,1,6,86,8,0,8,0,1,6
+gamma-delta T cell,0,0,2,8,11,5,4,41,1,7,0,2,2
+mature NK T cell,2,0,5,1,0,8,5,0,69,0,0,0,0
+mucosal invariant T cell,0,0,0,9,1,0,6,5,0,40,0,8,0
+naive B cell,0,0,0,0,0,0,0,0,0,0,125,0,0
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,9,26,0,0,2,0,2,0,250,7
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,5,8,0,5,1,0,0,0,9,128

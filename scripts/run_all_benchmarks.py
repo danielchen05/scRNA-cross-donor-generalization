@@ -7,16 +7,21 @@ import sys
 
 from _common import bootstrap_repo
 
+
 DEFAULT_CONFIGS = [
     Path("configs/benchmarks/kidney.yaml"),
     Path("configs/benchmarks/pancreas.yaml"),
     Path("configs/benchmarks/lung_no_batch.yaml"),
     Path("configs/benchmarks/lung_with_batch.yaml"),
+    Path("configs/benchmarks/pbmc_no_batch.yaml"),
+    Path("configs/benchmarks/pbmc_with_site.yaml"),
 ]
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run kidney + pancreas + lung plot-free benchmarks.")
+    parser = argparse.ArgumentParser(
+        description="Run all configured plot-free benchmarks."
+    )
     parser.add_argument(
         "--clean-output",
         action="store_true",
@@ -26,7 +31,12 @@ def main() -> None:
 
     root = bootstrap_repo()
     for config in DEFAULT_CONFIGS:
-        cmd = [sys.executable, str(root / "scripts" / "run_benchmark.py"), "--config", str(config)]
+        cmd = [
+            sys.executable,
+            str(root / "scripts" / "run_benchmark.py"),
+            "--config",
+            str(config),
+        ]
         if args.clean_output:
             cmd.append("--clean-output")
         print("\n$", " ".join(cmd))

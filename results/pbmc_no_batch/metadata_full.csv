@@ -1,9 +1,9 @@
 field,value
-n_cells,11290
+n_cells,10107
 n_features,1000
 celltype_col,cell_type
 donor_col,patient_id
-n_celltypes,41
+n_celltypes,13
 n_donors,23
 batch_col,
 n_batches,

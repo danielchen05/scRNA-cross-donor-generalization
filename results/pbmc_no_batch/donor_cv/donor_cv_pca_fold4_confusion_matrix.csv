@@ -1,14 +1,14 @@
 ,CD14-positive monocyte,"CD16-negative, CD56-bright natural killer cell, human","CD16-positive, CD56-dim natural killer cell, human",T-helper 22 cell,"central memory CD4-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell","effector memory CD8-positive, alpha-beta T cell",gamma-delta T cell,mature NK T cell,mucosal invariant T cell,naive B cell,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell"
-CD14-positive monocyte,156,0,0,0,0,0,0,0,2,0,0,0,0
-"CD16-negative, CD56-bright natural killer cell, human",0,20,4,0,0,0,0,0,0,0,0,0,0
+CD14-positive monocyte,157,0,0,0,0,0,0,0,1,0,0,0,0
+"CD16-negative, CD56-bright natural killer cell, human",0,18,6,0,0,0,0,0,0,0,0,0,0
 "CD16-positive, CD56-dim natural killer cell, human",0,3,261,0,0,0,0,0,0,0,0,0,0
-T-helper 22 cell,0,0,0,130,51,0,1,1,0,4,0,9,7
-"central memory CD4-positive, alpha-beta T cell",0,0,1,17,134,2,4,3,0,1,0,10,2
-"effector CD8-positive, alpha-beta T cell",0,0,3,1,0,107,5,1,0,0,0,0,0
-"effector memory CD8-positive, alpha-beta T cell",0,0,0,0,0,3,107,5,0,4,0,0,10
-gamma-delta T cell,0,0,4,11,23,2,10,13,0,5,0,5,1
-mature NK T cell,1,0,2,0,0,14,1,1,63,0,0,0,0
-mucosal invariant T cell,0,0,0,8,2,1,2,2,0,41,0,3,1
+T-helper 22 cell,0,0,0,135,46,0,2,1,0,4,0,10,5
+"central memory CD4-positive, alpha-beta T cell",0,0,1,18,128,2,4,3,0,1,0,11,6
+"effector CD8-positive, alpha-beta T cell",0,0,3,1,0,106,5,0,2,0,0,0,0
+"effector memory CD8-positive, alpha-beta T cell",0,0,0,0,0,2,108,5,0,3,0,0,11
+gamma-delta T cell,0,0,4,13,22,2,8,14,0,5,0,5,1
+mature NK T cell,1,0,2,0,0,15,2,0,62,0,0,0,0
+mucosal invariant T cell,0,0,0,9,1,1,4,2,0,40,0,3,0
 naive B cell,0,0,0,0,0,0,0,0,0,0,60,0,0
-"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,7,27,0,0,1,0,1,0,255,9
-"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,17,40,0,4,0,0,0,0,15,91
+"naive thymus-derived CD4-positive, alpha-beta T cell",0,0,0,6,24,0,0,1,0,3,0,258,8
+"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,0,5,37,0,5,0,0,0,0,12,108

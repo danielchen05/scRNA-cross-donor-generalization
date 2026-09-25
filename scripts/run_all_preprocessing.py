@@ -10,11 +10,12 @@ from _common import bootstrap_repo
 DEFAULT_CONFIGS = [
     Path("configs/preprocessing/kidney.yaml"),
     Path("configs/preprocessing/pancreas.yaml"),
+    Path("configs/preprocessing/lung.yaml"),
 ]
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run kidney + pancreas preprocessing.")
+    parser = argparse.ArgumentParser(description="Run kidney + pancreas + lung preprocessing.")
     parser.add_argument("--force", action="store_true", help="Overwrite benchmark-ready files")
     args = parser.parse_args()
 

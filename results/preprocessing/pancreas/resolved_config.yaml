@@ -19,6 +19,10 @@ downsample:
   - donor_id
   max_cells_per_group: 500
   random_state: 42
+  rng: random_state
+gene_filter:
+  exclude_var_if_true: []
+  min_cells: null
 counts:
   source: raw
   target_sum: 10000
@@ -43,7 +47,7 @@ scvi:
   layer: counts
   key_added: X_scVI
   n_latent: 15
-  max_epochs: 200
+  max_epochs: null
   early_stopping: true
   random_state: 42
   model_kwargs: {}

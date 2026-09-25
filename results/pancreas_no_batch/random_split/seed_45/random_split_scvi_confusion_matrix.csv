@@ -4,7 +4,7 @@ leukocyte,0,10,0,0,0,0,0,0,0
 pancreatic A cell,0,0,488,0,0,1,2,0,0
 pancreatic D cell,0,0,0,84,0,0,0,0,2
 pancreatic PP cell,0,0,1,0,25,0,0,0,0
-pancreatic acinar cell,0,0,1,0,0,88,0,0,0
-pancreatic ductal cell,0,0,0,0,0,2,143,1,0
+pancreatic acinar cell,0,0,1,0,0,87,1,0,0
+pancreatic ductal cell,0,0,0,0,0,2,144,0,0
 pancreatic stellate cell,0,0,0,0,0,0,0,68,1
-type B pancreatic cell,0,0,2,1,0,0,0,0,747
+type B pancreatic cell,0,0,2,2,0,0,0,0,746

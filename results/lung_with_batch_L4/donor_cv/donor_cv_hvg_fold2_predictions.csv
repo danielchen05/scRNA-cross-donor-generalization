@@ -507,7 +507,7 @@ Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
-Alveolar macrophages,Interstitial macrophages
+Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Interstitial macrophages
 Alveolar macrophages,Interstitial macrophages
 Alveolar macrophages,Interstitial macrophages
@@ -1239,7 +1239,7 @@ Club,Club
 Club,Club
 Club,Goblet
 Club,Club
-Club,Club
+Club,Goblet
 Club,Club
 Club,Club
 Club,Club
@@ -1761,6 +1761,11 @@ SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
 SMG serous,SMG serous
 SMG serous,SMG serous
 SMG serous,SMG serous
@@ -2104,13 +2109,13 @@ EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
-EC venous pulmonary,EC venous pulmonary
+EC venous pulmonary,EC venous systemic
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous systemic
 EC venous pulmonary,EC venous pulmonary
-EC venous pulmonary,EC venous systemic
+EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
@@ -2499,7 +2504,7 @@ Goblet,Transitional Club-AT2
 Interstitial macrophages,DC2
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
-Interstitial macrophages,DC2
+Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,Basal resting
 Interstitial macrophages,DC2
@@ -3108,7 +3113,7 @@ CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
-CD8 T cells,CD8 T cells
+CD8 T cells,CD4 T cells
 CD8 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
@@ -3315,8 +3320,15 @@ DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
-DC2,Multiciliated
+DC2,Classical monocytes
 DC2,DC2
+DC2,DC2
+DC2,DC2
+DC2,DC2
+DC2,Transitional Club-AT2
+DC2,DC2
+DC2,DC2
+DC2,Interstitial macrophages
 DC2,DC2
 DC2,DC2
 DC2,DC2
@@ -3327,14 +3339,7 @@ DC2,Interstitial macrophages
 DC2,DC2
 DC2,DC2
 DC2,DC2
-DC2,DC2
-DC2,DC2
-DC2,DC2
-DC2,Interstitial macrophages
-DC2,DC2
-DC2,DC2
-DC2,DC2
-DC2,DC2
+DC2,Transitional Club-AT2
 DC2,DC2
 DC2,DC2
 DC2,Basal resting
@@ -3354,7 +3359,7 @@ DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
-DC2,Interstitial macrophages
+DC2,Classical monocytes
 DC2,DC2
 DC2,DC2
 DC2,DC2
@@ -3414,11 +3419,11 @@ Deuterosomal,Goblet
 Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
+Deuterosomal,Goblet
 Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
-Deuterosomal,Deuterosomal
-Deuterosomal,Deuterosomal
+Deuterosomal,Goblet
 Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
@@ -3497,7 +3502,7 @@ Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
 Deuterosomal,Multiciliated
 Deuterosomal,Deuterosomal
-Deuterosomal,Goblet
+Deuterosomal,Deuterosomal
 EC general capillary,EC venous systemic
 EC general capillary,EC general capillary
 EC general capillary,EC general capillary
@@ -3521,7 +3526,7 @@ EC venous pulmonary,EC venous systemic
 EC venous pulmonary,EC venous systemic
 EC venous pulmonary,Classical monocytes
 EC venous systemic,EC venous systemic
-EC venous systemic,EC venous pulmonary
+EC venous systemic,EC venous systemic
 EC venous systemic,EC venous systemic
 EC venous systemic,EC venous systemic
 EC venous systemic,EC venous systemic
@@ -4020,7 +4025,7 @@ Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Hillock-like
 Suprabasal,Basal resting
-Suprabasal,Goblet
+Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Basal resting
@@ -4151,7 +4156,7 @@ B cells,B cells
 B cells,B cells
 B cells,B cells
 B cells,B cells
-B cells,Classical monocytes
+B cells,DC2
 B cells,B cells
 B cells,B cells
 B cells,B cells
@@ -4705,7 +4710,7 @@ DC2,DC2
 DC2,DC2
 DC2,Plasma cells
 DC2,DC2
-DC2,Alveolar macrophages
+DC2,DC2
 DC2,NK cells
 DC2,DC2
 DC2,DC2
@@ -4738,7 +4743,7 @@ DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
-DC2,DC2
+DC2,Goblet
 DC2,DC2
 DC2,DC2
 DC2,Transitional Club-AT2
@@ -4846,7 +4851,7 @@ Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
-Goblet,Hillock-like
+Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
@@ -5084,6 +5089,13 @@ SMG duct,Goblet
 SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
 SMG serous,SMG serous
 SMG serous,SMG serous
 SMG serous,SMG serous
@@ -5107,10 +5119,10 @@ Suprabasal,Basal resting
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
-Suprabasal,Suprabasal
-Suprabasal,Suprabasal
-Suprabasal,Suprabasal
 Suprabasal,Basal resting
+Suprabasal,Suprabasal
+Suprabasal,Suprabasal
+Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
@@ -5270,7 +5282,7 @@ Basal resting,Basal resting
 Basal resting,Suprabasal
 Basal resting,Basal resting
 Basal resting,Basal resting
-Basal resting,Suprabasal
+Basal resting,Basal resting
 Basal resting,Basal resting
 Basal resting,Basal resting
 Basal resting,Basal resting
@@ -5382,7 +5394,7 @@ CD4 T cells,CD8 T cells
 CD4 T cells,CD4 T cells
 CD4 T cells,CD4 T cells
 CD4 T cells,CD4 T cells
-CD4 T cells,CD4 T cells
+CD4 T cells,CD8 T cells
 CD4 T cells,CD4 T cells
 CD4 T cells,CD4 T cells
 CD4 T cells,CD4 T cells
@@ -5547,7 +5559,7 @@ CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
-CD8 T cells,CD4 T cells
+CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
@@ -5778,7 +5790,7 @@ DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,Club
-DC2,Alveolar macrophages
+DC2,DC2
 DC2,DC2
 DC2,Interstitial macrophages
 DC2,Interstitial macrophages
@@ -5803,7 +5815,7 @@ DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
-DC2,DC2
+DC2,Basal resting
 DC2,DC2
 DC2,DC2
 DC2,DC2
@@ -6223,8 +6235,10 @@ SMG duct,SMG duct
 SMG duct,Club
 SMG duct,Club
 SMG duct,Goblet
+SMG duct,Club
 SMG duct,SMG duct
-SMG duct,SMG duct
+SMG mucous,SMG serous
+SMG mucous,SMG mucous
 SMG serous,SMG serous
 SMG serous,SMG serous
 Suprabasal,Basal resting
@@ -6333,7 +6347,7 @@ Transitional Club-AT2,Club
 Transitional Club-AT2,Club
 Transitional Club-AT2,Goblet
 Transitional Club-AT2,Goblet
-Transitional Club-AT2,SMG duct
+Transitional Club-AT2,Goblet
 Transitional Club-AT2,SMG duct
 Basal resting,Basal resting
 Basal resting,Basal resting
@@ -7019,7 +7033,7 @@ Goblet,Goblet
 Goblet,Club
 Goblet,Goblet
 Goblet,Goblet
-Goblet,Multiciliated
+Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
@@ -7239,7 +7253,7 @@ Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
-Suprabasal,Club
+Suprabasal,Hillock-like
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
@@ -7521,39 +7535,39 @@ Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
-Hillock-like,Goblet
-Hillock-like,Hillock-like
-Hillock-like,Suprabasal
-Hillock-like,Suprabasal
 Hillock-like,Suprabasal
 Hillock-like,Hillock-like
 Hillock-like,Suprabasal
-Hillock-like,Hillock-like
 Hillock-like,Suprabasal
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
-Hillock-like,Basal resting
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
-Hillock-like,Hillock-like
+Hillock-like,Suprabasal
 Hillock-like,Hillock-like
 Hillock-like,Suprabasal
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Basal resting
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Suprabasal
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
+Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
@@ -7609,7 +7623,7 @@ Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
-Hillock-like,Basal resting
+Hillock-like,Hillock-like
 Hillock-like,Basal resting
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
@@ -7970,7 +7984,7 @@ Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Suprabasal
-Goblet,Goblet
+Goblet,Multiciliated
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
@@ -8553,7 +8567,7 @@ CD8 T cells,NK cells
 CD8 T cells,NK cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
-CD8 T cells,CD8 T cells
+CD8 T cells,B cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
@@ -8575,7 +8589,7 @@ Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
-Classical monocytes,Classical monocytes
+Classical monocytes,Non-classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
@@ -8642,7 +8656,7 @@ Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
-Classical monocytes,Classical monocytes
+Classical monocytes,Non-classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
@@ -8679,7 +8693,7 @@ DC2,Non-classical monocytes
 DC2,Non-classical monocytes
 DC2,Interstitial macrophages
 DC2,DC2
-DC2,Interstitial macrophages
+DC2,DC2
 DC2,DC2
 DC2,Interstitial macrophages
 DC2,DC2
@@ -8964,7 +8978,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Non-classical monocytes
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,DC2
 Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
@@ -9034,7 +9048,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,DC2
 Interstitial macrophages,Suprabasal
 Interstitial macrophages,Interstitial macrophages
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,Non-classical monocytes
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Alveolar macrophages
@@ -9136,7 +9150,7 @@ Multiciliated,Multiciliated
 Multiciliated,Multiciliated
 Multiciliated,Club
 Multiciliated,Multiciliated
-Multiciliated,Multiciliated
+Multiciliated,Plasma cells
 Multiciliated,Multiciliated
 Multiciliated,Multiciliated
 Multiciliated,Multiciliated
@@ -9241,7 +9255,7 @@ Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Interstitial macrophages
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
-Non-classical monocytes,Classical monocytes
+Non-classical monocytes,DC2
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,DC2
 Non-classical monocytes,Non-classical monocytes
@@ -9291,7 +9305,7 @@ Non-classical monocytes,Classical monocytes
 Non-classical monocytes,DC2
 Non-classical monocytes,Classical monocytes
 Non-classical monocytes,Plasma cells
-Non-classical monocytes,Alveolar macrophages
+Non-classical monocytes,DC2
 Non-classical monocytes,Club
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Classical monocytes
@@ -9299,7 +9313,7 @@ Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Classical monocytes
 Non-classical monocytes,Classical monocytes
-Non-classical monocytes,Non-classical monocytes
+Non-classical monocytes,DC2
 Non-classical monocytes,Classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Classical monocytes
@@ -9313,7 +9327,7 @@ Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
-Non-classical monocytes,Classical monocytes
+Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Interstitial macrophages
@@ -9659,7 +9673,7 @@ Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
-Classical monocytes,Classical monocytes
+Classical monocytes,Non-classical monocytes
 Classical monocytes,Non-classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
@@ -9856,7 +9870,7 @@ EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
-EC venous pulmonary,EC venous pulmonary
+EC venous pulmonary,EC venous systemic
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
 EC venous pulmonary,EC venous pulmonary
@@ -9954,7 +9968,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
@@ -11444,7 +11458,7 @@ Club,Club
 Club,Club
 Club,Club
 Club,Goblet
-Club,Goblet
+Club,Suprabasal
 Club,Transitional Club-AT2
 Club,Club
 Club,Goblet
@@ -11459,14 +11473,14 @@ Club,Suprabasal
 Club,Goblet
 Club,Goblet
 Club,Transitional Club-AT2
-DC2,Alveolar macrophages
+DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,Classical monocytes
-DC2,DC2
+DC2,Interstitial macrophages
 DC2,DC2
 DC2,DC2
 DC2,DC2
@@ -12215,7 +12229,7 @@ Adventitial fibroblasts,Alveolar fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
-Adventitial fibroblasts,Adventitial fibroblasts
+Adventitial fibroblasts,Peribronchial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Alveolar fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
@@ -12227,7 +12241,7 @@ Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
-Adventitial fibroblasts,Adventitial fibroblasts
+Adventitial fibroblasts,Transitional Club-AT2
 Adventitial fibroblasts,Transitional Club-AT2
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
@@ -12288,7 +12302,7 @@ Adventitial fibroblasts,Adventitial fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
-Alveolar fibroblasts,Adventitial fibroblasts
+Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Peribronchial fibroblasts
@@ -12559,7 +12573,7 @@ Classical monocytes,Non-classical monocytes
 Classical monocytes,Non-classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
-Classical monocytes,Non-classical monocytes
+Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
@@ -12663,7 +12677,7 @@ Club,Club
 Club,Club
 Club,Club
 Club,Club
-Club,Club
+Club,Transitional Club-AT2
 Club,Suprabasal
 Club,Classical monocytes
 Club,Club
@@ -13007,7 +13021,7 @@ EC venous pulmonary,EC venous pulmonary
 EC venous systemic,EC venous systemic
 EC venous systemic,EC venous pulmonary
 EC venous systemic,EC venous pulmonary
-EC venous systemic,EC venous systemic
+EC venous systemic,EC venous pulmonary
 EC venous systemic,EC venous systemic
 EC venous systemic,EC venous systemic
 EC venous systemic,EC venous pulmonary
@@ -13072,7 +13086,7 @@ EC venous systemic,EC venous systemic
 EC venous systemic,EC venous systemic
 Goblet,Goblet
 Goblet,Transitional Club-AT2
-Goblet,Non-classical monocytes
+Goblet,Alveolar macrophages
 Goblet,Multiciliated
 Goblet,Transitional Club-AT2
 Goblet,Suprabasal
@@ -13177,7 +13191,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,DC2
 Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
@@ -13470,6 +13484,7 @@ Pericytes,Pericytes
 Pericytes,Pericytes
 Plasma cells,Plasma cells
 Plasma cells,Plasma cells
+SMG mucous,SMG duct
 Suprabasal,Suprabasal
 Suprabasal,Basal resting
 Suprabasal,Suprabasal
@@ -13501,7 +13516,7 @@ Transitional Club-AT2,Transitional Club-AT2
 Transitional Club-AT2,Goblet
 Transitional Club-AT2,Transitional Club-AT2
 Transitional Club-AT2,Goblet
-Transitional Club-AT2,Goblet
+Transitional Club-AT2,Transitional Club-AT2
 Transitional Club-AT2,Club
 Transitional Club-AT2,Transitional Club-AT2
 Transitional Club-AT2,Transitional Club-AT2
@@ -13767,7 +13782,7 @@ CD8 T cells,NK cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
-CD8 T cells,CD4 T cells
+CD8 T cells,CD8 T cells
 CD8 T cells,NK cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
@@ -14171,7 +14186,7 @@ Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
-Non-classical monocytes,Interstitial macrophages
+Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Non-classical monocytes
 Non-classical monocytes,Interstitial macrophages
 Non-classical monocytes,Non-classical monocytes
@@ -14216,7 +14231,7 @@ Transitional Club-AT2,Transitional Club-AT2
 Transitional Club-AT2,Transitional Club-AT2
 Transitional Club-AT2,Transitional Club-AT2
 Transitional Club-AT2,Transitional Club-AT2
-Adventitial fibroblasts,Adventitial fibroblasts
+Adventitial fibroblasts,Transitional Club-AT2
 Adventitial fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar macrophages,Alveolar macrophages
@@ -14534,7 +14549,7 @@ Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
 Classical monocytes,Classical monocytes
-Classical monocytes,Classical monocytes
+Classical monocytes,Alveolar macrophages
 Classical monocytes,Interstitial macrophages
 Classical monocytes,Alveolar macrophages
 Classical monocytes,Classical monocytes
@@ -14587,7 +14602,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
-Interstitial macrophages,Classical monocytes
+Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,DC2
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
@@ -14631,7 +14646,7 @@ NK cells,CD8 T cells
 NK cells,CD8 T cells
 NK cells,NK cells
 NK cells,NK cells
-NK cells,NK cells
+NK cells,Non-classical monocytes
 NK cells,NK cells
 NK cells,NK cells
 NK cells,NK cells
@@ -14719,7 +14734,7 @@ Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
-Alveolar fibroblasts,Alveolar fibroblasts
+Alveolar fibroblasts,Peribronchial fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Adventitial fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
@@ -14953,11 +14968,6 @@ CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
-CD8 T cells,CD8 T cells
-CD8 T cells,CD8 T cells
-CD8 T cells,CD8 T cells
-CD8 T cells,CD8 T cells
-CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
@@ -14965,6 +14975,11 @@ CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
+CD8 T cells,CD8 T cells
+CD8 T cells,CD8 T cells
+CD8 T cells,CD8 T cells
+CD8 T cells,CD4 T cells
+CD8 T cells,CD4 T cells
 CD8 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
@@ -15268,7 +15283,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
-Interstitial macrophages,Classical monocytes
+Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Classical monocytes
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages

@@ -25,6 +25,12 @@
       "n_donors": 17,
       "n_celltypes": 9
     },
+    "after_gene_filtering": {
+      "n_cells": 8500,
+      "n_genes": 26936,
+      "n_donors": 17,
+      "n_celltypes": 9
+    },
     "benchmark_ready": {
       "n_cells": 8500,
       "n_genes": 1000,

@@ -2,4 +2,4 @@ scheme,representation,macro_f1,accuracy,n_cells_used,n_classes_used,batch_covari
 random_split,hvg,0.9871142786327395,0.9923529411764705,8500,9,None,0
 random_split,pca,0.9836615030684048,0.9888235294117647,8500,9,None,0
 random_split,harmony,0.9851261396891071,0.99,8500,9,None,0
-random_split,scvi,0.9886477925331403,0.991764705882353,8500,9,None,0
+random_split,scvi,0.9881164919652259,0.9911764705882353,8500,9,None,0

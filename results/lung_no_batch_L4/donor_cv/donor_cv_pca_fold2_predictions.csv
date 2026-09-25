@@ -1172,7 +1172,7 @@ Club,Club
 Club,Club
 Club,Club
 Club,Goblet
-Club,Goblet
+Club,SMG mucous
 Club,Club
 Club,Club
 Club,Club
@@ -1209,7 +1209,7 @@ Club,Goblet
 Club,Club
 Club,Club
 Club,Club
-Club,Goblet
+Club,SMG mucous
 Club,Club
 Club,Club
 Club,Club
@@ -1248,7 +1248,7 @@ Club,Goblet
 Club,Club
 Club,Club
 Club,Club
-Club,Goblet
+Club,SMG mucous
 Club,Club
 Club,Club
 Club,Club
@@ -1473,9 +1473,9 @@ EC venous systemic,EC venous systemic
 Goblet,Goblet
 Goblet,Club
 Goblet,Goblet
-Goblet,Goblet
+Goblet,SMG mucous
 Goblet,Club
-Goblet,Goblet
+Goblet,SMG mucous
 Goblet,Goblet
 Goblet,Club
 Goblet,Goblet
@@ -1494,7 +1494,7 @@ Goblet,Goblet
 Goblet,Deuterosomal
 Goblet,Club
 Goblet,Club
-Goblet,Deuterosomal
+Goblet,SMG mucous
 Goblet,Goblet
 Goblet,Club
 Goblet,Club
@@ -1507,12 +1507,12 @@ Goblet,Club
 Goblet,Club
 Goblet,Goblet
 Goblet,Club
-Goblet,Goblet
+Goblet,SMG mucous
 Goblet,Club
 Goblet,Club
 Goblet,Club
 Goblet,Ionocyte
-Goblet,Deuterosomal
+Goblet,SMG mucous
 Goblet,Club
 Goblet,Club
 Goblet,Club
@@ -1742,7 +1742,7 @@ Plasma cells,Plasma cells
 Plasma cells,Plasma cells
 SMG duct,SMG duct
 SMG duct,SMG duct
-SMG duct,SMG duct
+SMG duct,Goblet
 SMG duct,Goblet
 SMG duct,Goblet
 SMG duct,Goblet
@@ -1751,7 +1751,7 @@ SMG duct,SMG serous
 SMG duct,SMG duct
 SMG duct,Goblet
 SMG duct,SMG duct
-SMG duct,SMG serous
+SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG serous
 SMG duct,SMG duct
@@ -1761,6 +1761,11 @@ SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
 SMG serous,SMG serous
 SMG serous,SMG serous
 SMG serous,SMG serous
@@ -2194,7 +2199,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,DC2
 Interstitial macrophages,Alveolar macrophages
-Interstitial macrophages,Alveolar macrophages
+Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,DC2
 Interstitial macrophages,DC2
@@ -2494,7 +2499,7 @@ EC venous systemic,EC venous pulmonary
 EC venous systemic,EC venous pulmonary
 EC venous systemic,EC venous pulmonary
 Goblet,Multiciliated
-Goblet,Plasma cells
+Goblet,Club
 Goblet,Transitional Club-AT2
 Interstitial macrophages,DC2
 Interstitial macrophages,Interstitial macrophages
@@ -2523,7 +2528,7 @@ Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,B cells
 Interstitial macrophages,Alveolar macrophages
-Interstitial macrophages,Interstitial macrophages
+Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
 Interstitial macrophages,Alveolar macrophages
 Interstitial macrophages,Interstitial macrophages
@@ -2678,7 +2683,7 @@ Plasma cells,Plasma cells
 Plasma cells,Plasma cells
 Plasma cells,Plasma cells
 Plasma cells,Plasma cells
-Plasma cells,Plasma cells
+Plasma cells,Ionocyte
 Plasma cells,Plasma cells
 Plasma cells,Plasma cells
 Plasma cells,Plasma cells
@@ -3254,7 +3259,7 @@ Club,Club
 Club,Club
 Club,Club
 Club,Goblet
-Club,Ionocyte
+Club,Goblet
 Club,Club
 Club,Club
 Club,Club
@@ -3465,7 +3470,7 @@ Deuterosomal,Multiciliated
 Deuterosomal,Multiciliated
 Deuterosomal,Deuterosomal
 Deuterosomal,Goblet
-Deuterosomal,Multiciliated
+Deuterosomal,Deuterosomal
 Deuterosomal,Goblet
 Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
@@ -3998,7 +4003,7 @@ SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,Goblet
 SMG duct,SMG duct
-SMG duct,SMG duct
+SMG duct,Goblet
 SMG duct,Suprabasal
 SMG duct,SMG duct
 SMG duct,Goblet
@@ -5069,7 +5074,7 @@ SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
-SMG duct,SMG duct
+SMG duct,Goblet
 SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
@@ -5084,6 +5089,13 @@ SMG duct,Goblet
 SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,SMG duct
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
+SMG mucous,SMG duct
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
 SMG serous,SMG serous
 SMG serous,SMG serous
 SMG serous,SMG serous
@@ -5777,7 +5789,7 @@ DC2,DC2
 DC2,Alveolar macrophages
 DC2,DC2
 DC2,DC2
-DC2,Alveolar macrophages
+DC2,DC2
 DC2,DC2
 DC2,DC2
 DC2,DC2
@@ -6213,7 +6225,7 @@ SMG duct,SMG duct
 SMG duct,Goblet
 SMG duct,SMG duct
 SMG duct,SMG duct
-SMG duct,SMG duct
+SMG duct,Goblet
 SMG duct,SMG duct
 SMG duct,SMG duct
 SMG duct,Goblet
@@ -6225,6 +6237,8 @@ SMG duct,Goblet
 SMG duct,Goblet
 SMG duct,Goblet
 SMG duct,SMG duct
+SMG mucous,SMG mucous
+SMG mucous,SMG mucous
 SMG serous,SMG serous
 SMG serous,SMG serous
 Suprabasal,Suprabasal
@@ -6477,7 +6491,7 @@ Goblet,Goblet
 Goblet,Club
 Goblet,Goblet
 Goblet,Suprabasal
-Goblet,SMG duct
+Goblet,SMG mucous
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
@@ -6959,7 +6973,7 @@ Club,Goblet
 Club,Club
 Club,Suprabasal
 Club,Goblet
-Club,Club
+Club,Suprabasal
 Club,Goblet
 Club,Goblet
 Club,Goblet
@@ -7030,7 +7044,7 @@ Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
-Goblet,Club
+Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
 Goblet,Goblet
@@ -7089,7 +7103,7 @@ Hillock-like,Hillock-like
 Hillock-like,Suprabasal
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
-Hillock-like,Hillock-like
+Hillock-like,Suprabasal
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
 Hillock-like,Hillock-like
@@ -7690,7 +7704,7 @@ Suprabasal,Club
 Suprabasal,Hillock-like
 Suprabasal,Hillock-like
 Suprabasal,Hillock-like
-Suprabasal,Suprabasal
+Suprabasal,SMG duct
 Suprabasal,Hillock-like
 Suprabasal,Basal resting
 Suprabasal,Basal resting
@@ -7866,7 +7880,7 @@ Deuterosomal,Multiciliated
 Deuterosomal,Goblet
 Deuterosomal,Deuterosomal
 Deuterosomal,Ionocyte
-Deuterosomal,Multiciliated
+Deuterosomal,Deuterosomal
 Deuterosomal,Deuterosomal
 Deuterosomal,Multiciliated
 Deuterosomal,Multiciliated
@@ -8238,7 +8252,7 @@ Suprabasal,Suprabasal
 Suprabasal,Hillock-like
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
-Suprabasal,Suprabasal
+Suprabasal,Hillock-like
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
@@ -11292,7 +11306,7 @@ CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
-CD8 T cells,NK cells
+CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
 CD8 T cells,CD8 T cells
@@ -12337,7 +12351,7 @@ Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Adventitial fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
-Alveolar fibroblasts,Alveolar fibroblasts
+Alveolar fibroblasts,Adventitial fibroblasts
 Alveolar fibroblasts,Adventitial fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
 Alveolar fibroblasts,Alveolar fibroblasts
@@ -12472,7 +12486,7 @@ Basal resting,Suprabasal
 Basal resting,Basal resting
 Basal resting,Suprabasal
 Basal resting,Basal resting
-Basal resting,Suprabasal
+Basal resting,Basal resting
 Basal resting,Basal resting
 Basal resting,Basal resting
 Basal resting,Suprabasal
@@ -12882,7 +12896,7 @@ EC general capillary,EC general capillary
 EC general capillary,EC general capillary
 EC general capillary,EC venous systemic
 EC general capillary,EC general capillary
-EC general capillary,EC venous systemic
+EC general capillary,EC general capillary
 EC general capillary,EC general capillary
 EC general capillary,EC general capillary
 EC general capillary,EC general capillary
@@ -13092,7 +13106,7 @@ Goblet,Transitional Club-AT2
 Goblet,Transitional Club-AT2
 Goblet,Transitional Club-AT2
 Goblet,Transitional Club-AT2
-Goblet,Multiciliated
+Goblet,Transitional Club-AT2
 Goblet,Alveolar macrophages
 Goblet,Transitional Club-AT2
 Goblet,Club
@@ -13247,7 +13261,7 @@ Multiciliated,Multiciliated
 Multiciliated,Multiciliated
 Multiciliated,Multiciliated
 Multiciliated,Multiciliated
-Multiciliated,Deuterosomal
+Multiciliated,Multiciliated
 Multiciliated,Multiciliated
 Multiciliated,Multiciliated
 Multiciliated,Multiciliated
@@ -13470,6 +13484,7 @@ Pericytes,Pericytes
 Pericytes,Pericytes
 Plasma cells,EC venous pulmonary
 Plasma cells,EC venous systemic
+SMG mucous,SMG duct
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
 Suprabasal,Suprabasal
@@ -14693,7 +14708,7 @@ Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
-Adventitial fibroblasts,Peribronchial fibroblasts
+Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
 Adventitial fibroblasts,Adventitial fibroblasts
@@ -14736,7 +14751,7 @@ Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
-Alveolar macrophages,Interstitial macrophages
+Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
 Alveolar macrophages,Alveolar macrophages
@@ -14950,7 +14965,7 @@ CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells
-CD8 T cells,NK cells
+CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD8 T cells
 CD8 T cells,CD4 T cells

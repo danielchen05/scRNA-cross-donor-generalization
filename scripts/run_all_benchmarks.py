@@ -10,11 +10,13 @@ from _common import bootstrap_repo
 DEFAULT_CONFIGS = [
     Path("configs/benchmarks/kidney.yaml"),
     Path("configs/benchmarks/pancreas.yaml"),
+    Path("configs/benchmarks/lung_no_batch.yaml"),
+    Path("configs/benchmarks/lung_with_batch.yaml"),
 ]
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run kidney + pancreas plot-free benchmarks.")
+    parser = argparse.ArgumentParser(description="Run kidney + pancreas + lung plot-free benchmarks.")
     parser.add_argument(
         "--clean-output",
         action="store_true",

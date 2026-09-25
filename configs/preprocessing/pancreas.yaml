@@ -51,7 +51,7 @@ scvi:
   layer: counts
   key_added: X_scVI
   n_latent: 15
-  max_epochs: 200
+  max_epochs: null
   early_stopping: true
   random_state: 42
   model_kwargs: {}

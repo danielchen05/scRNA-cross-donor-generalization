@@ -255,7 +255,7 @@ fold,y_true,y_pred
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-1,epithelial cell of proximal tubule,kidney loop of Henle descending limb epithelial cell
+1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,mononuclear phagocyte,mononuclear phagocyte
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -332,7 +332,7 @@ fold,y_true,y_pred
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
+1,epithelial cell of proximal tubule,T cell
 1,kidney loop of Henle descending limb epithelial cell,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
@@ -423,7 +423,7 @@ fold,y_true,y_pred
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-1,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
+1,kidney loop of Henle descending limb epithelial cell,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -683,7 +683,7 @@ fold,y_true,y_pred
 1,mononuclear phagocyte,mononuclear phagocyte
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-1,T cell,natural killer cell
+1,T cell,T cell
 1,T cell,T cell
 1,mononuclear phagocyte,mononuclear phagocyte
 1,T cell,T cell
@@ -1192,7 +1192,7 @@ fold,y_true,y_pred
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,natural killer cell,natural killer cell
-1,T cell,natural killer cell
+1,T cell,T cell
 1,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 1,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -1785,7 +1785,7 @@ fold,y_true,y_pred
 1,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-1,kidney capillary endothelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+1,kidney capillary endothelial cell,kidney capillary endothelial cell
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 1,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -2437,7 +2437,7 @@ fold,y_true,y_pred
 2,mononuclear phagocyte,mononuclear phagocyte
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-2,renal principal cell,epithelial cell of proximal tubule
+2,renal principal cell,renal principal cell
 2,natural killer cell,natural killer cell
 2,T cell,T cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -2852,7 +2852,7 @@ fold,y_true,y_pred
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,mononuclear phagocyte,mononuclear phagocyte
 2,mononuclear phagocyte,mononuclear phagocyte
-2,natural killer cell,T cell
+2,natural killer cell,natural killer cell
 2,natural killer cell,natural killer cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,renal alpha-intercalated cell,renal alpha-intercalated cell
@@ -3068,7 +3068,7 @@ fold,y_true,y_pred
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-2,T cell,mononuclear phagocyte
+2,T cell,T cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,T cell,T cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -3188,7 +3188,7 @@ fold,y_true,y_pred
 2,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-2,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+2,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,mononuclear phagocyte,mononuclear phagocyte
@@ -3330,7 +3330,7 @@ fold,y_true,y_pred
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 2,natural killer cell,natural killer cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-2,natural killer cell,T cell
+2,natural killer cell,natural killer cell
 2,renal principal cell,renal principal cell
 2,renal principal cell,renal principal cell
 2,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -3838,7 +3838,7 @@ fold,y_true,y_pred
 3,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 3,natural killer cell,natural killer cell
 3,mononuclear phagocyte,mononuclear phagocyte
-3,natural killer cell,natural killer cell
+3,natural killer cell,T cell
 3,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 3,kidney capillary endothelial cell,kidney capillary endothelial cell
 3,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
@@ -6087,7 +6087,7 @@ fold,y_true,y_pred
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-4,mononuclear phagocyte,mononuclear phagocyte
+4,mononuclear phagocyte,T cell
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,T cell,T cell
 4,mononuclear phagocyte,mononuclear phagocyte
@@ -6978,7 +6978,7 @@ fold,y_true,y_pred
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-4,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
+4,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 4,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 4,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -7167,7 +7167,7 @@ fold,y_true,y_pred
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-4,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
+4,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 4,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -7940,7 +7940,7 @@ fold,y_true,y_pred
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,T cell,T cell
 5,mononuclear phagocyte,mononuclear phagocyte
-5,renal principal cell,kidney loop of Henle descending limb epithelial cell
+5,renal principal cell,renal principal cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -7951,7 +7951,7 @@ fold,y_true,y_pred
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+5,kidney loop of Henle cortical thick ascending limb epithelial cell,natural killer cell
 5,renal principal cell,renal principal cell
 5,mononuclear phagocyte,mononuclear phagocyte
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -7983,7 +7983,7 @@ fold,y_true,y_pred
 5,T cell,T cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-5,T cell,T cell
+5,T cell,natural killer cell
 5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,renal principal cell,renal principal cell
 5,mononuclear phagocyte,mononuclear phagocyte
@@ -8080,7 +8080,7 @@ fold,y_true,y_pred
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,T cell,T cell
 5,T cell,T cell
-5,renal principal cell,renal alpha-intercalated cell
+5,renal principal cell,renal principal cell
 5,epithelial cell of proximal tubule,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,mononuclear phagocyte,mononuclear phagocyte
 5,renal principal cell,renal principal cell
@@ -8143,7 +8143,7 @@ fold,y_true,y_pred
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,T cell,T cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-5,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
+5,kidney loop of Henle descending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,natural killer cell,natural killer cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -8295,7 +8295,7 @@ fold,y_true,y_pred
 5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,renal alpha-intercalated cell,renal alpha-intercalated cell
-5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,renal alpha-intercalated cell,renal alpha-intercalated cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -8410,7 +8410,7 @@ fold,y_true,y_pred
 5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,kidney capillary endothelial cell,kidney capillary endothelial cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
-5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 5,renal principal cell,renal principal cell
 5,epithelial cell of proximal tubule,epithelial cell of proximal tubule
 5,kidney capillary endothelial cell,kidney capillary endothelial cell
@@ -8551,7 +8551,7 @@ fold,y_true,y_pred
 5,natural killer cell,T cell
 5,mononuclear phagocyte,mononuclear phagocyte
 5,T cell,T cell
-5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 5,mononuclear phagocyte,mononuclear phagocyte

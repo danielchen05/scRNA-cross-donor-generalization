@@ -3,8 +3,8 @@ endothelial cell,33,0,0,0,0,0,0,0,0
 leukocyte,0,9,0,0,0,1,0,0,0
 pancreatic A cell,0,0,491,0,0,0,0,0,0
 pancreatic D cell,0,0,0,84,0,0,0,0,2
-pancreatic PP cell,0,0,3,0,23,0,0,0,0
+pancreatic PP cell,0,0,2,0,24,0,0,0,0
 pancreatic acinar cell,0,0,1,0,0,87,1,0,0
 pancreatic ductal cell,0,0,0,0,0,2,144,0,0
-pancreatic stellate cell,1,0,0,0,0,0,0,68,0
-type B pancreatic cell,0,0,3,3,0,0,0,0,744
+pancreatic stellate cell,0,0,0,0,0,0,0,69,0
+type B pancreatic cell,0,0,3,4,0,0,0,0,743

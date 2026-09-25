@@ -13,8 +13,8 @@
     "harmony": "X_harmony",
     "scvi": "X_scVI"
   },
-  "min_cells": 500,
-  "min_donors": 10,
+  "min_cells": null,
+  "min_donors": null,
   "run_random_split": true,
   "run_donor_cv": true,
   "run_group_transfer": false,

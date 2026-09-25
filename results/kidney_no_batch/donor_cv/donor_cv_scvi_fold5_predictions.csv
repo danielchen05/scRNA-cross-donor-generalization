@@ -108,7 +108,7 @@ epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 T cell,T cell
 mononuclear phagocyte,mononuclear phagocyte
-renal principal cell,kidney loop of Henle descending limb epithelial cell
+renal principal cell,renal principal cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -119,7 +119,7 @@ T cell,T cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
-kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+kidney loop of Henle cortical thick ascending limb epithelial cell,natural killer cell
 renal principal cell,renal principal cell
 mononuclear phagocyte,mononuclear phagocyte
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -151,7 +151,7 @@ epithelial cell of proximal tubule,epithelial cell of proximal tubule
 T cell,T cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
-T cell,T cell
+T cell,natural killer cell
 kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 renal principal cell,renal principal cell
 mononuclear phagocyte,mononuclear phagocyte
@@ -248,7 +248,7 @@ epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 T cell,T cell
 T cell,T cell
-renal principal cell,renal alpha-intercalated cell
+renal principal cell,renal principal cell
 epithelial cell of proximal tubule,kidney loop of Henle cortical thick ascending limb epithelial cell
 mononuclear phagocyte,mononuclear phagocyte
 renal principal cell,renal principal cell
@@ -311,7 +311,7 @@ kidney capillary endothelial cell,kidney capillary endothelial cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 T cell,T cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
-kidney loop of Henle descending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
+kidney loop of Henle descending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 natural killer cell,natural killer cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -463,7 +463,7 @@ kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop o
 kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 renal alpha-intercalated cell,renal alpha-intercalated cell
-kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 renal alpha-intercalated cell,renal alpha-intercalated cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
@@ -578,7 +578,7 @@ kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop o
 kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 kidney capillary endothelial cell,kidney capillary endothelial cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
-kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 renal principal cell,renal principal cell
 epithelial cell of proximal tubule,epithelial cell of proximal tubule
 kidney capillary endothelial cell,kidney capillary endothelial cell
@@ -719,7 +719,7 @@ epithelial cell of proximal tubule,epithelial cell of proximal tubule
 natural killer cell,T cell
 mononuclear phagocyte,mononuclear phagocyte
 T cell,T cell
-kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
+kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell
 kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell
 mononuclear phagocyte,mononuclear phagocyte

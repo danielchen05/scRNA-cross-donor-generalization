@@ -1,47 +1,73 @@
 from __future__ import annotations
+
 """Deterministic preprocessing for benchmark-ready scRNA-seq AnnData objects.
+
 The preprocessing stage owns all choices that define the frozen cell population and
 representations used by downstream benchmarking. It intentionally performs no plotting.
 """
+
 from dataclasses import asdict, dataclass, field
 from importlib import metadata as importlib_metadata
 import json
 from pathlib import Path
 from typing import Any
+
 import numpy as np
 import pandas as pd
 import yaml
+
 from .embedding import compute_harmony, compute_pca, compute_scvi_latent
 from .filtering import filter_celltypes_by_support, summarize_celltype_support
 from .representations import validate_representations
+
+
 @dataclass
 class FilterRule:
     column: str
     op: str = "eq"
     value: Any = None
+
+
 @dataclass
 class SupportConfig:
     min_cells: int = 200
     min_donors: int = 5
+
+
 @dataclass
 class DownsampleConfig:
     group_cols: list[str] = field(default_factory=lambda: ["donor_id"])
     max_cells_per_group: int = 500
     random_state: int = 42
+    rng: str = "random_state"  # random_state (legacy) or default_rng
+
+
+@dataclass
+class GeneFilterConfig:
+    exclude_var_if_true: list[str] = field(default_factory=list)
+    min_cells: int | None = None
+
+
 @dataclass
 class CountsConfig:
     source: str = "raw"  # raw, X, or layer:<name>
     target_sum: float = 1e4
     require_integer_like: bool = True
+
+
 @dataclass
 class HVGConfig:
     n_top_genes: int = 1000
     batch_key: str | None = "donor_id"
+
+
 @dataclass
 class PCAConfig:
     n_comps_compute: int = 50
     n_comps_keep: int = 15
     random_state: int = 42
+
+
 @dataclass
 class HarmonyConfig:
     enabled: bool = True
@@ -50,6 +76,8 @@ class HarmonyConfig:
     key_added: str = "X_harmony"
     n_comps: int = 15
     kwargs: dict[str, Any] = field(default_factory=dict)
+
+
 @dataclass
 class SCVIConfig:
     enabled: bool = True
@@ -62,12 +90,16 @@ class SCVIConfig:
     random_state: int = 42
     model_kwargs: dict[str, Any] = field(default_factory=dict)
     train_kwargs: dict[str, Any] = field(default_factory=dict)
+
+
 @dataclass
 class ExpectedConfig:
     n_cells: int | None = None
     n_donors: int | None = None
     n_celltypes: int | None = None
     n_hvg: int | None = None
+
+
 @dataclass
 class PreprocessingConfig:
     dataset_name: str
@@ -80,6 +112,7 @@ class PreprocessingConfig:
     metadata_from_obs: dict[str, str] = field(default_factory=dict)
     support: SupportConfig = field(default_factory=SupportConfig)
     downsample: DownsampleConfig = field(default_factory=DownsampleConfig)
+    gene_filter: GeneFilterConfig = field(default_factory=GeneFilterConfig)
     counts: CountsConfig = field(default_factory=CountsConfig)
     hvg: HVGConfig = field(default_factory=HVGConfig)
     pca: PCAConfig = field(default_factory=PCAConfig)
@@ -94,22 +127,29 @@ class PreprocessingConfig:
             "scvi": "X_scVI",
         }
     )
+
     def __post_init__(self) -> None:
         self.input_path = Path(self.input_path)
         self.output_path = Path(self.output_path)
         self.qc_output_dir = Path(self.qc_output_dir)
+
     def to_dict(self) -> dict[str, Any]:
         out = asdict(self)
         out["input_path"] = str(self.input_path)
         out["output_path"] = str(self.output_path)
         out["qc_output_dir"] = str(self.qc_output_dir)
         return out
+
+
 def _coerce_filter_rules(items: list[dict[str, Any]] | None) -> list[FilterRule]:
     return [FilterRule(**item) for item in (items or [])]
+
+
 def load_preprocessing_config(path: str | Path) -> PreprocessingConfig:
     path = Path(path)
     with path.open("r", encoding="utf-8") as handle:
         raw = yaml.safe_load(handle)
+
     return PreprocessingConfig(
         dataset_name=raw["dataset_name"],
         input_path=raw["input_path"],
@@ -121,6 +161,7 @@ def load_preprocessing_config(path: str | Path) -> PreprocessingConfig:
         metadata_from_obs=raw.get("metadata_from_obs", {}),
         support=SupportConfig(**raw.get("support", {})),
         downsample=DownsampleConfig(**raw.get("downsample", {})),
+        gene_filter=GeneFilterConfig(**raw.get("gene_filter", {})),
         counts=CountsConfig(**raw.get("counts", {})),
         hvg=HVGConfig(**raw.get("hvg", {})),
         pca=PCAConfig(**raw.get("pca", {})),
@@ -132,10 +173,14 @@ def load_preprocessing_config(path: str | Path) -> PreprocessingConfig:
             {"hvg": "hvg", "pca": "X_pca", "harmony": "X_harmony", "scvi": "X_scVI"},
         ),
     )
+
+
 def _require_obs_columns(adata, columns: list[str]) -> None:
     missing = [c for c in columns if c not in adata.obs.columns]
     if missing:
         raise KeyError(f"Missing required adata.obs columns: {missing}")
+
+
 def _apply_filters(adata, rules: list[FilterRule]):
     out = adata
     for rule in rules:
@@ -151,29 +196,79 @@ def _apply_filters(adata, rules: list[FilterRule]):
         elif rule.op == "not_in":
             excluded = {str(x) for x in rule.value}
             mask = ~series.astype(str).isin(excluded)
+        elif rule.op == "notna":
+            mask = series.notna()
+        elif rule.op == "isna":
+            mask = series.isna()
         else:
             raise ValueError(f"Unsupported filter op: {rule.op}")
         out = out[mask.to_numpy()].copy()
     return out
+
+
 def _assign_metadata(adata, mapping: dict[str, str]) -> None:
     if not mapping:
         return
     _require_obs_columns(adata, list(mapping.values()))
     for target, source in mapping.items():
         adata.obs[target] = adata.obs[source].astype(str)
-def _legacy_downsample(adata, group_cols: list[str], max_cells: int, random_state: int):
-    """Downsample with NumPy RandomState to match legacy np.random.seed/choice behavior."""
+
+
+def _downsample(
+    adata,
+    group_cols: list[str],
+    max_cells: int,
+    random_state: int,
+    rng: str = "random_state",
+):
+    """Deterministically downsample within metadata groups.
+
+    ``random_state`` preserves the legacy kidney/pancreas NumPy RandomState
+    behavior. ``default_rng`` reproduces the lung preparation notebook.
+    """
     _require_obs_columns(adata, group_cols)
     if max_cells <= 0:
         raise ValueError("max_cells_per_group must be positive")
-    rng = np.random.RandomState(random_state)
+
+    if rng == "random_state":
+        generator = np.random.RandomState(random_state)
+    elif rng == "default_rng":
+        generator = np.random.default_rng(random_state)
+    else:
+        raise ValueError("downsample.rng must be 'random_state' or 'default_rng'")
+
     keep: list[str] = []
     grouped = adata.obs.groupby(group_cols, observed=True, sort=True).groups
     for _, idx in grouped.items():
         idx = np.asarray(list(idx), dtype=object)
         n = min(len(idx), max_cells)
-        keep.extend(rng.choice(idx, n, replace=False).tolist())
+
+        # Preserve each legacy workflow exactly. Kidney/pancreas always called
+        # RandomState.choice (even when retaining the whole group), whereas
+        # the lung notebook called default_rng.choice only for oversized groups.
+        if rng == "random_state":
+            idx = generator.choice(idx, n, replace=False)
+        elif len(idx) > max_cells:
+            idx = generator.choice(idx, max_cells, replace=False)
+
+        keep.extend(idx.tolist())
     return adata[keep].copy()
+
+
+def _apply_gene_filters(adata, config: GeneFilterConfig, sc):
+    """Apply optional gene-level eligibility filters before count recovery/HVG selection."""
+    out = adata
+    for column in config.exclude_var_if_true:
+        if column in out.var.columns:
+            mask = ~out.var[column].astype(bool).to_numpy()
+            out = out[:, mask].copy()
+    if config.min_cells is not None:
+        if config.min_cells <= 0:
+            raise ValueError("gene_filter.min_cells must be positive when provided")
+        sc.pp.filter_genes(out, min_cells=config.min_cells)
+    return out
+
+
 def _extract_counts(adata, source: str):
     if source == "raw":
         if adata.raw is None:
@@ -191,17 +286,23 @@ def _extract_counts(adata, source: str):
             raise KeyError(f"Layer '{layer}' not found in adata.layers")
         return adata.layers[layer].copy()
     raise ValueError("counts.source must be one of: raw, X, layer:<name>")
+
+
 def _sample_values(matrix, n: int = 10000) -> np.ndarray:
     if hasattr(matrix, "data") and not isinstance(matrix, np.ndarray):
         vals = np.asarray(matrix.data)
     else:
         vals = np.asarray(matrix).ravel()
     return vals[: min(n, len(vals))]
+
+
 def _is_integer_like(matrix, atol: float = 1e-8) -> bool:
     vals = _sample_values(matrix)
     if len(vals) == 0:
         return True
     return bool(np.allclose(vals, np.round(vals), atol=atol))
+
+
 def _software_versions() -> dict[str, str | None]:
     packages = [
         "numpy",
@@ -221,6 +322,8 @@ def _software_versions() -> dict[str, str | None]:
         except importlib_metadata.PackageNotFoundError:
             versions[package] = None
     return versions
+
+
 def _summary(adata, celltype_col: str, donor_col: str) -> dict[str, int]:
     return {
         "n_cells": int(adata.n_obs),
@@ -228,6 +331,8 @@ def _summary(adata, celltype_col: str, donor_col: str) -> dict[str, int]:
         "n_donors": int(adata.obs[donor_col].astype(str).nunique()),
         "n_celltypes": int(adata.obs[celltype_col].astype(str).nunique()),
     }
+
+
 def _validate_expected(adata, config: PreprocessingConfig) -> dict[str, Any]:
     observed = _summary(adata, config.celltype_col, config.donor_col)
     observed["n_hvg"] = int(adata.n_vars)
@@ -241,6 +346,8 @@ def _validate_expected(adata, config: PreprocessingConfig) -> dict[str, Any]:
         if obs != exp:
             raise ValueError(f"Expected {key}={exp}, observed {obs} for {config.dataset_name}")
     return checks
+
+
 def _save_qc_artifacts(
     *,
     adata,
@@ -252,22 +359,28 @@ def _save_qc_artifacts(
 ) -> None:
     out = config.qc_output_dir
     out.mkdir(parents=True, exist_ok=True)
+
     support_before.to_csv(out / "celltype_support_before_filter.csv", index=False)
     support_after.to_csv(out / "celltype_support_final.csv", index=False)
+
     adata.obs[config.donor_col].astype(str).value_counts().rename_axis(config.donor_col).rename(
         "n_cells"
     ).reset_index().to_csv(out / "donor_counts_final.csv", index=False)
+
     adata.obs[config.celltype_col].astype(str).value_counts().rename_axis(config.celltype_col).rename(
         "n_cells"
     ).reset_index().to_csv(out / "celltype_counts_final.csv", index=False)
+
     pd.crosstab(
         adata.obs[config.donor_col].astype(str),
         adata.obs[config.celltype_col].astype(str),
     ).to_csv(out / "donor_by_celltype_final.csv")
+
     pd.Series(adata.obs_names.astype(str), name="obs_name").to_csv(
         out / "selected_cells.csv", index=False
     )
     pd.Series(adata.var_names.astype(str), name="gene").to_csv(out / "hvg_genes.csv", index=False)
+
     with (out / "preprocessing_summary.json").open("w", encoding="utf-8") as handle:
         json.dump(
             {
@@ -286,10 +399,14 @@ def _save_qc_artifacts(
             handle,
             indent=2,
         )
+
     with (out / "software_versions.json").open("w", encoding="utf-8") as handle:
         json.dump(_software_versions(), handle, indent=2)
+
     with (out / "resolved_config.yaml").open("w", encoding="utf-8") as handle:
         yaml.safe_dump(config.to_dict(), handle, sort_keys=False)
+
+
 def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
     """Create one frozen benchmark-ready AnnData object and QC/provenance tables."""
     try:
@@ -297,17 +414,20 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         import scanpy as sc
     except ImportError as exc:
         raise ImportError("run_preprocessing requires anndata and scanpy") from exc
+
     if config.output_path.exists() and not force:
         raise FileExistsError(
             f"Output already exists: {config.output_path}. Use force=True / --force to overwrite."
         )
     if not config.input_path.exists():
         raise FileNotFoundError(config.input_path)
+
     adata = ad.read_h5ad(config.input_path)
     _require_obs_columns(adata, [config.celltype_col, config.donor_col])
     stage_summaries: dict[str, dict[str, int]] = {
         "loaded": _summary(adata, config.celltype_col, config.donor_col)
     }
+
     adata = _apply_filters(adata, config.filters)
     _assign_metadata(adata, config.metadata_from_obs)
     for col in [config.celltype_col, config.donor_col, *config.metadata_from_obs.keys()]:
@@ -316,6 +436,7 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
     stage_summaries["after_dataset_filters"] = _summary(
         adata, config.celltype_col, config.donor_col
     )
+
     support_before = summarize_celltype_support(
         adata,
         celltype_col=config.celltype_col,
@@ -330,64 +451,61 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         min_cells=config.support.min_cells,
         min_donors=config.support.min_donors,
     )
-
-    # Freeze the supported label set before donor-level downsampling.
-    #
-    # The support rule defines which cell types enter the benchmark.
-    # Downsampling can later reduce a retained cell type below min_cells
-    # without making that label invalid.
+    # Freeze the supported label set before downsampling. The support rule
+    # determines eligibility; downsampling may reduce retained labels below the
+    # original cell-count threshold without invalidating them.
     supported_celltypes = set(
         adata.obs[config.celltype_col].astype(str).unique()
     )
-
     stage_summaries["after_celltype_support_filter"] = _summary(
         adata, config.celltype_col, config.donor_col
     )
-    adata = _legacy_downsample(
+
+    adata = _downsample(
         adata,
         group_cols=config.downsample.group_cols,
         max_cells=config.downsample.max_cells_per_group,
         random_state=config.downsample.random_state,
+        rng=config.downsample.rng,
     )
     stage_summaries["after_downsampling"] = _summary(
         adata, config.celltype_col, config.donor_col
     )
 
-    # Downsampling must not change the frozen set of benchmark cell types.
-    # Check this before PCA/Harmony/scVI so failures occur before model training.
     downsampled_celltypes = set(
         adata.obs[config.celltype_col].astype(str).unique()
     )
-
-    unexpected_celltypes = sorted(
-        downsampled_celltypes - supported_celltypes
-    )
+    unexpected_celltypes = sorted(downsampled_celltypes - supported_celltypes)
     if unexpected_celltypes:
         raise ValueError(
             "Downsampled object contains cell types that were not present "
             f"after the support filter: {unexpected_celltypes}"
         )
-
-    lost_celltypes = sorted(
-        supported_celltypes - downsampled_celltypes
-    )
+    lost_celltypes = sorted(supported_celltypes - downsampled_celltypes)
     if lost_celltypes:
         raise ValueError(
             "Downsampling completely removed cell types that passed the "
             f"support filter: {lost_celltypes}"
         )
 
+    adata = _apply_gene_filters(adata, config.gene_filter, sc)
+    stage_summaries["after_gene_filtering"] = _summary(
+        adata, config.celltype_col, config.donor_col
+    )
+
     raw_counts = _extract_counts(adata, config.counts.source)
     if config.counts.require_integer_like and not _is_integer_like(raw_counts):
         raise ValueError(
             f"Counts source '{config.counts.source}' is not integer-like for {config.dataset_name}"
         )
+
     # Re-normalize from raw counts for a consistent HVG feature matrix.
     adata.X = raw_counts.copy()
     sc.pp.normalize_total(adata, target_sum=config.counts.target_sum)
     sc.pp.log1p(adata)
     # Preserve the full normalized gene matrix before HVG restriction.
     adata.raw = adata.copy()
+
     sc.pp.highly_variable_genes(
         adata,
         n_top_genes=config.hvg.n_top_genes,
@@ -401,15 +519,18 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         raise ValueError(
             f"Expected {config.hvg.n_top_genes} HVGs, got {int(hvg_mask.sum())}"
         )
+
     raw_counts_hvg = raw_counts[:, hvg_mask].copy()
     adata = adata[:, hvg_mask].copy()
     adata.layers[config.scvi.layer] = raw_counts_hvg
+
     compute_pca(
         adata,
         n_comps=config.pca.n_comps_compute,
         random_state=config.pca.random_state,
     )
     adata.obsm["X_pca"] = np.asarray(adata.obsm["X_pca"])[:, : config.pca.n_comps_keep].copy()
+
     if config.harmony.enabled:
         compute_harmony(
             adata,
@@ -419,6 +540,7 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
             n_comps=config.harmony.n_comps,
             **config.harmony.kwargs,
         )
+
     if config.scvi.enabled:
         train_kwargs = dict(config.scvi.train_kwargs)
         train_kwargs.setdefault("early_stopping", config.scvi.early_stopping)
@@ -433,6 +555,7 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
             train_kwargs=train_kwargs,
             **config.scvi.model_kwargs,
         )
+
     validate_representations(adata, config.representations)
     support_after = summarize_celltype_support(
         adata,
@@ -441,27 +564,19 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
         min_cells=config.support.min_cells,
         min_donors=config.support.min_donors,
     )
-
     # Do not re-apply the original support threshold after downsampling.
-    # A retained label may legitimately have fewer than min_cells after
-    # donor-level subsampling. Instead, verify that the final object contains
-    # exactly the label set frozen by the support-filter stage.
+    # Instead verify that the final object contains exactly the label set
+    # frozen at the support-filter stage.
     final_celltypes = set(
         adata.obs[config.celltype_col].astype(str).unique()
     )
-
-    unexpected_celltypes = sorted(
-        final_celltypes - supported_celltypes
-    )
+    unexpected_celltypes = sorted(final_celltypes - supported_celltypes)
     if unexpected_celltypes:
         raise ValueError(
             "Final object contains cell types that were not present after "
             f"the support filter: {unexpected_celltypes}"
         )
-
-    lost_celltypes = sorted(
-        supported_celltypes - final_celltypes
-    )
+    lost_celltypes = sorted(supported_celltypes - final_celltypes)
     if lost_celltypes:
         raise ValueError(
             "Final object is missing cell types that passed the support "
@@ -470,6 +585,7 @@ def run_preprocessing(config: PreprocessingConfig, *, force: bool = False):
 
     expected_checks = _validate_expected(adata, config)
     stage_summaries["benchmark_ready"] = _summary(adata, config.celltype_col, config.donor_col)
+
     config.output_path.parent.mkdir(parents=True, exist_ok=True)
     adata.write(config.output_path)
     _save_qc_artifacts(

@@ -94,34 +94,40 @@ def compute_scvi_latent(
     train_kwargs: dict | None = None,
     **model_kwargs,
 ):
-    """Train scVI and store the latent embedding in ``adata.obsm[key_added]``.
-
-    ``model_kwargs`` are passed to ``scvi.model.SCVI`` while ``train_kwargs`` are
-    passed to ``model.train``. This keeps training controls such as
-    ``early_stopping=True`` out of the model constructor.
-    """
+    """Train scVI and store the latent embedding in adata.obsm[key_added]."""
     try:
         import scvi
     except ImportError as exc:
         raise ImportError("compute_scvi_latent requires scvi-tools.") from exc
 
     scvi.settings.seed = random_state
+
     setup_kwargs = {}
     if batch_col is not None:
         if batch_col not in adata.obs.columns:
             raise KeyError(f"{batch_col} not found in adata.obs.")
         setup_kwargs["batch_key"] = batch_col
+
     if layer is not None:
         setup_kwargs["layer"] = layer
 
     scvi.model.SCVI.setup_anndata(adata, **setup_kwargs)
-    model = scvi.model.SCVI(adata, n_latent=n_latent, **model_kwargs)
+
+    model = scvi.model.SCVI(
+        adata,
+        n_latent=n_latent,
+        **model_kwargs,
+    )
 
     train_kwargs = dict(train_kwargs or {})
-    if max_epochs is not None:
-        train_kwargs.setdefault("max_epochs", max_epochs)
-    model.train(**train_kwargs)
+
+    model.train(
+        max_epochs=max_epochs,
+        **train_kwargs,
+    )
+
     adata.obsm[key_added] = model.get_latent_representation()
+
     return adata, model
 
 

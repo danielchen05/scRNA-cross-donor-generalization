@@ -352,7 +352,7 @@ type B pancreatic cell,type B pancreatic cell
 pancreatic ductal cell,pancreatic ductal cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic ductal cell,pancreatic ductal cell
-pancreatic acinar cell,pancreatic acinar cell
+pancreatic acinar cell,pancreatic ductal cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic acinar cell,pancreatic acinar cell
@@ -1007,7 +1007,7 @@ pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
 pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,pancreatic D cell
 pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
 endothelial cell,endothelial cell

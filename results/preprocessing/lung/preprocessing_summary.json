@@ -1,0 +1,81 @@
+{
+  "dataset_name": "lung",
+  "stages": {
+    "loaded": {
+      "n_cells": 584944,
+      "n_genes": 27402,
+      "n_donors": 107,
+      "n_celltypes": 50
+    },
+    "after_dataset_filters": {
+      "n_cells": 441942,
+      "n_genes": 27402,
+      "n_donors": 104,
+      "n_celltypes": 38
+    },
+    "after_celltype_support_filter": {
+      "n_cells": 439931,
+      "n_genes": 27402,
+      "n_donors": 104,
+      "n_celltypes": 31
+    },
+    "after_downsampling": {
+      "n_cells": 83966,
+      "n_genes": 27402,
+      "n_donors": 104,
+      "n_celltypes": 31
+    },
+    "after_gene_filtering": {
+      "n_cells": 83966,
+      "n_genes": 22921,
+      "n_donors": 104,
+      "n_celltypes": 31
+    },
+    "benchmark_ready": {
+      "n_cells": 83966,
+      "n_genes": 1000,
+      "n_donors": 104,
+      "n_celltypes": 31
+    }
+  },
+  "expected_checks": {
+    "n_cells": {
+      "expected": 83966,
+      "observed": 83966,
+      "ok": true
+    },
+    "n_donors": {
+      "expected": 104,
+      "observed": 104,
+      "ok": true
+    },
+    "n_celltypes": {
+      "expected": 31,
+      "observed": 31,
+      "ok": true
+    },
+    "n_hvg": {
+      "expected": 1000,
+      "observed": 1000,
+      "ok": true
+    }
+  },
+  "representations": {
+    "hvg": [
+      83966,
+      1000
+    ],
+    "pca": [
+      83966,
+      15
+    ],
+    "harmony": [
+      83966,
+      15
+    ],
+    "scvi": [
+      83966,
+      15
+    ]
+  }
+}

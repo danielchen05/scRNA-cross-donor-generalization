@@ -1,0 +1,39 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+Alveolar macrophages,64229,81,True,True,True
+Suprabasal,40448,74,True,True,True
+Basal resting,38717,74,True,True,True
+Multiciliated,38675,99,True,True,True
+Goblet,38449,82,True,True,True
+Club,35972,79,True,True,True
+Interstitial macrophages,32066,88,True,True,True
+CD8 T cells,26699,83,True,True,True
+CD4 T cells,18433,85,True,True,True
+Classical monocytes,16537,84,True,True,True
+NK cells,12675,71,True,True,True
+Adventitial fibroblasts,9978,70,True,True,True
+DC2,8731,88,True,True,True
+Non-classical monocytes,8113,80,True,True,True
+EC general capillary,7994,66,True,True,True
+EC venous systemic,6028,72,True,True,True
+EC venous pulmonary,5310,68,True,True,True
+Hillock-like,4585,37,True,True,True
+Transitional Club-AT2,4428,85,True,True,True
+B cells,4264,74,True,True,True
+Alveolar fibroblasts,3659,61,True,True,True
+SMG serous,2864,21,True,True,True
+EC aerocyte capillary,2225,44,True,True,True
+Plasma cells,1577,67,True,True,True
+Peribronchial fibroblasts,1538,56,True,True,True
+Pericytes,1442,35,True,True,True
+SMG duct,1271,42,True,True,True
+Deuterosomal,993,69,True,True,True
+AT2 proliferating,956,46,True,True,True
+Ionocyte,538,49,True,True,True
+SMG mucous,537,19,True,True,True
+T cells proliferating,471,47,False,True,False
+Plasmacytoid DCs,438,41,False,True,False
+DC1,275,50,False,True,False
+Migratory DCs,274,50,False,True,False
+Subpleural fibroblasts,242,16,False,True,False
+Tuft,165,30,False,True,False
+Neuroendocrine,146,34,False,True,False

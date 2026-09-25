@@ -34,7 +34,7 @@ fold,y_true,y_pred
 1,pancreatic A cell,pancreatic A cell
 1,pancreatic A cell,pancreatic A cell
 1,pancreatic A cell,pancreatic A cell
-1,type B pancreatic cell,pancreatic D cell
+1,type B pancreatic cell,type B pancreatic cell
 1,pancreatic A cell,pancreatic A cell
 1,pancreatic A cell,pancreatic A cell
 1,pancreatic stellate cell,pancreatic stellate cell
@@ -495,7 +495,7 @@ fold,y_true,y_pred
 1,type B pancreatic cell,type B pancreatic cell
 1,pancreatic ductal cell,pancreatic ductal cell
 1,pancreatic A cell,pancreatic A cell
-1,pancreatic ductal cell,pancreatic acinar cell
+1,pancreatic ductal cell,pancreatic ductal cell
 1,pancreatic A cell,pancreatic A cell
 1,pancreatic D cell,pancreatic D cell
 1,pancreatic acinar cell,pancreatic acinar cell
@@ -1377,7 +1377,7 @@ fold,y_true,y_pred
 1,pancreatic A cell,pancreatic A cell
 1,type B pancreatic cell,type B pancreatic cell
 1,type B pancreatic cell,type B pancreatic cell
-1,pancreatic A cell,pancreatic acinar cell
+1,pancreatic A cell,pancreatic A cell
 1,pancreatic A cell,pancreatic A cell
 1,pancreatic A cell,pancreatic A cell
 1,type B pancreatic cell,type B pancreatic cell
@@ -1644,7 +1644,7 @@ fold,y_true,y_pred
 1,type B pancreatic cell,type B pancreatic cell
 1,type B pancreatic cell,type B pancreatic cell
 1,pancreatic A cell,pancreatic A cell
-1,pancreatic PP cell,pancreatic PP cell
+1,pancreatic PP cell,pancreatic A cell
 1,type B pancreatic cell,type B pancreatic cell
 1,type B pancreatic cell,type B pancreatic cell
 1,pancreatic D cell,pancreatic D cell
@@ -2539,7 +2539,7 @@ fold,y_true,y_pred
 2,pancreatic A cell,pancreatic A cell
 2,type B pancreatic cell,type B pancreatic cell
 2,pancreatic D cell,type B pancreatic cell
-2,pancreatic ductal cell,pancreatic ductal cell
+2,pancreatic ductal cell,pancreatic A cell
 2,pancreatic A cell,pancreatic A cell
 2,type B pancreatic cell,type B pancreatic cell
 2,type B pancreatic cell,type B pancreatic cell
@@ -2753,7 +2753,7 @@ fold,y_true,y_pred
 2,pancreatic A cell,pancreatic A cell
 2,pancreatic D cell,pancreatic D cell
 2,type B pancreatic cell,type B pancreatic cell
-2,pancreatic acinar cell,pancreatic acinar cell
+2,pancreatic acinar cell,pancreatic ductal cell
 2,type B pancreatic cell,type B pancreatic cell
 2,pancreatic A cell,pancreatic A cell
 2,type B pancreatic cell,type B pancreatic cell
@@ -2775,7 +2775,7 @@ fold,y_true,y_pred
 2,pancreatic acinar cell,pancreatic acinar cell
 2,pancreatic D cell,pancreatic D cell
 2,type B pancreatic cell,type B pancreatic cell
-2,pancreatic ductal cell,pancreatic A cell
+2,pancreatic ductal cell,pancreatic ductal cell
 2,type B pancreatic cell,type B pancreatic cell
 2,pancreatic A cell,pancreatic A cell
 2,pancreatic ductal cell,pancreatic ductal cell
@@ -3702,7 +3702,7 @@ fold,y_true,y_pred
 2,type B pancreatic cell,type B pancreatic cell
 2,pancreatic A cell,pancreatic A cell
 2,type B pancreatic cell,type B pancreatic cell
-2,endothelial cell,endothelial cell
+2,endothelial cell,pancreatic acinar cell
 2,type B pancreatic cell,type B pancreatic cell
 2,type B pancreatic cell,type B pancreatic cell
 2,pancreatic A cell,pancreatic A cell
@@ -3710,7 +3710,7 @@ fold,y_true,y_pred
 2,pancreatic acinar cell,pancreatic acinar cell
 2,pancreatic A cell,pancreatic A cell
 2,pancreatic PP cell,pancreatic PP cell
-2,pancreatic stellate cell,endothelial cell
+2,pancreatic stellate cell,pancreatic stellate cell
 2,pancreatic ductal cell,pancreatic ductal cell
 2,type B pancreatic cell,type B pancreatic cell
 2,type B pancreatic cell,type B pancreatic cell
@@ -4886,7 +4886,7 @@ fold,y_true,y_pred
 3,pancreatic D cell,type B pancreatic cell
 3,pancreatic ductal cell,pancreatic ductal cell
 3,pancreatic A cell,pancreatic A cell
-3,pancreatic stellate cell,type B pancreatic cell
+3,pancreatic stellate cell,pancreatic stellate cell
 3,type B pancreatic cell,type B pancreatic cell
 3,type B pancreatic cell,type B pancreatic cell
 3,pancreatic A cell,pancreatic A cell
@@ -7352,7 +7352,7 @@ fold,y_true,y_pred
 5,pancreatic ductal cell,pancreatic ductal cell
 5,type B pancreatic cell,type B pancreatic cell
 5,pancreatic ductal cell,pancreatic ductal cell
-5,pancreatic acinar cell,pancreatic acinar cell
+5,pancreatic acinar cell,pancreatic ductal cell
 5,type B pancreatic cell,type B pancreatic cell
 5,type B pancreatic cell,type B pancreatic cell
 5,pancreatic acinar cell,pancreatic acinar cell
@@ -8007,7 +8007,7 @@ fold,y_true,y_pred
 5,pancreatic stellate cell,pancreatic stellate cell
 5,pancreatic A cell,pancreatic A cell
 5,pancreatic stellate cell,pancreatic stellate cell
-5,type B pancreatic cell,type B pancreatic cell
+5,type B pancreatic cell,pancreatic D cell
 5,pancreatic PP cell,pancreatic PP cell
 5,type B pancreatic cell,type B pancreatic cell
 5,endothelial cell,endothelial cell

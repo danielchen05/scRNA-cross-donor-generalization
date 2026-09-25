@@ -1,0 +1,91 @@
+dataset_name: lung
+input_path: data/lung/lung.h5ad
+output_path: data/lung/lung_benchmark_ready.h5ad
+qc_output_dir: results/preprocessing/lung
+
+celltype_col: cell_type
+donor_col: donor_id
+
+# Match the legacy lung preparation notebook: clean healthy lung benchmark,
+# valid donor IDs, and Level-4 annotations only.
+filters:
+  - column: disease
+    op: eq
+    value: normal
+  - column: lung_condition
+    op: eq
+    value: Healthy
+  - column: donor_id
+    op: notna
+  - column: ann_level_4
+    op: not_in
+    value: ["None", "nan", "NaN", "unknown", "Rare"]
+
+metadata_from_obs:
+  cell_type: ann_level_4
+  sample_id: sample
+  batch: dataset
+
+support:
+  min_cells: 500
+  min_donors: 10
+
+downsample:
+  group_cols: [donor_id, cell_type]
+  max_cells_per_group: 100
+  random_state: 42
+  # The legacy lung notebook used np.random.default_rng(42).
+  rng: default_rng
+
+# Lung-specific gene eligibility steps from the original notebook.
+gene_filter:
+  exclude_var_if_true: [feature_is_filtered]
+  min_cells: 20
+
+counts:
+  source: raw
+  target_sum: 10000
+  require_integer_like: true
+
+hvg:
+  n_top_genes: 1000
+  batch_key: batch
+
+pca:
+  n_comps_compute: 50
+  n_comps_keep: 15
+  random_state: 42
+
+harmony:
+  enabled: true
+  batch_key: batch
+  basis: X_pca
+  key_added: X_harmony
+  n_comps: 15
+  kwargs: {}
+
+scvi:
+  enabled: true
+  batch_key: batch
+  layer: counts
+  key_added: X_scVI
+  n_latent: 15
+  max_epochs: null
+  early_stopping: true
+  random_state: 42
+  model_kwargs: {}
+  train_kwargs:
+    datasplitter_kwargs:
+      num_workers: 16
+
+representations:
+  hvg: hvg
+  pca: X_pca
+  harmony: X_harmony
+  scvi: X_scVI
+
+expected:
+  n_cells: 83966
+  n_donors: 104
+  n_celltypes: 31
+  n_hvg: 1000

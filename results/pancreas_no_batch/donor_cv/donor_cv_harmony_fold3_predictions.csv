@@ -1,512 +1,88 @@
 y_true,y_pred
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
 pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic acinar cell,pancreatic acinar cell
 type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
+pancreatic stellate cell,endothelial cell
 pancreatic D cell,pancreatic D cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
 pancreatic A cell,pancreatic A cell
 pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
 pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
+pancreatic PP cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic acinar cell,pancreatic acinar cell
 pancreatic A cell,pancreatic A cell
@@ -515,525 +91,986 @@ pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic PP cell,pancreatic PP cell
+endothelial cell,endothelial cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+leukocyte,leukocyte
+pancreatic A cell,pancreatic A cell
+endothelial cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+pancreatic acinar cell,pancreatic acinar cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+leukocyte,leukocyte
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+leukocyte,leukocyte
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,pancreatic D cell
+type B pancreatic cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic PP cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic PP cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+endothelial cell,endothelial cell
+type B pancreatic cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+leukocyte,leukocyte
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic PP cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic PP cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+leukocyte,leukocyte
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+leukocyte,leukocyte
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+pancreatic D cell,pancreatic D cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic D cell,pancreatic D cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic acinar cell,pancreatic acinar cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic D cell,pancreatic D cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+pancreatic D cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic D cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+pancreatic stellate cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic D cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic D cell,pancreatic D cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic D cell,pancreatic D cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+endothelial cell,endothelial cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic D cell,pancreatic D cell
+pancreatic D cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic stellate cell,pancreatic stellate cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic ductal cell,pancreatic ductal cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,pancreatic D cell
+type B pancreatic cell,type B pancreatic cell
+pancreatic A cell,pancreatic A cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+pancreatic A cell,pancreatic A cell
+pancreatic PP cell,pancreatic PP cell
 pancreatic A cell,pancreatic A cell
 pancreatic D cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic D cell,pancreatic D cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic stellate cell,pancreatic stellate cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
-pancreatic D cell,pancreatic D cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic ductal cell,pancreatic ductal cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic acinar cell,pancreatic acinar cell
-pancreatic D cell,pancreatic D cell
-pancreatic D cell,pancreatic D cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic stellate cell,pancreatic stellate cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic ductal cell,pancreatic ductal cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
-pancreatic A cell,pancreatic A cell
-pancreatic A cell,pancreatic A cell
-pancreatic D cell,pancreatic D cell
 pancreatic stellate cell,pancreatic stellate cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
@@ -1064,6 +1101,7 @@ pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic ductal cell,pancreatic ductal cell
@@ -1071,10 +1109,12 @@ type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
-type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
+type B pancreatic cell,pancreatic D cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic D cell,pancreatic D cell
 pancreatic A cell,pancreatic A cell
@@ -1089,7 +1129,9 @@ pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
 pancreatic D cell,pancreatic D cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
@@ -1109,7 +1151,10 @@ type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+endothelial cell,endothelial cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic stellate cell,pancreatic stellate cell
 type B pancreatic cell,type B pancreatic cell
@@ -1174,8 +1219,10 @@ type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic D cell,pancreatic D cell
 type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
 pancreatic D cell,pancreatic D cell
 pancreatic D cell,pancreatic D cell
+leukocyte,leukocyte
 pancreatic stellate cell,pancreatic stellate cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
@@ -1186,6 +1233,7 @@ pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
@@ -1199,6 +1247,7 @@ type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+leukocyte,leukocyte
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
@@ -1262,11 +1311,13 @@ type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 pancreatic stellate cell,pancreatic stellate cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic stellate cell,pancreatic stellate cell
 type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic D cell,pancreatic D cell
@@ -1289,8 +1340,10 @@ type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
 pancreatic D cell,pancreatic D cell
+endothelial cell,endothelial cell
+endothelial cell,endothelial cell
 type B pancreatic cell,type B pancreatic cell
-pancreatic D cell,pancreatic D cell
+pancreatic D cell,pancreatic A cell
 pancreatic D cell,pancreatic D cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
@@ -1316,6 +1369,7 @@ type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic A cell,pancreatic A cell
@@ -1325,12 +1379,14 @@ type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
+pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
 pancreatic acinar cell,pancreatic acinar cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
@@ -1341,6 +1397,7 @@ type B pancreatic cell,type B pancreatic cell
 pancreatic ductal cell,pancreatic ductal cell
 pancreatic D cell,pancreatic D cell
 pancreatic A cell,pancreatic A cell
+pancreatic PP cell,pancreatic PP cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic A cell,pancreatic A cell
@@ -1357,6 +1414,8 @@ pancreatic stellate cell,pancreatic stellate cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+pancreatic PP cell,pancreatic PP cell
+endothelial cell,endothelial cell
 pancreatic A cell,pancreatic A cell
 pancreatic D cell,pancreatic D cell
 type B pancreatic cell,type B pancreatic cell
@@ -1406,6 +1465,7 @@ type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 pancreatic D cell,pancreatic D cell
+leukocyte,leukocyte
 pancreatic ductal cell,pancreatic ductal cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
@@ -1429,6 +1489,7 @@ type B pancreatic cell,type B pancreatic cell
 pancreatic D cell,pancreatic D cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
+endothelial cell,endothelial cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell
 type B pancreatic cell,type B pancreatic cell

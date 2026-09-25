@@ -1,8 +1,10 @@
 cell_type,f1,precision,recall,support
 T cell,0.9946524064171123,1.0,0.9893617021276596,94.0
-epithelial cell of proximal tubule,0.9996858309770656,0.9993718592964824,1.0,1591.0
-kidney capillary endothelial cell,1.0,1.0,1.0,44.0
-kidney loop of Henle cortical thick ascending limb epithelial cell,0.9736842105263157,0.961038961038961,0.9866666666666667,75.0
-kidney loop of Henle descending limb epithelial cell,0.9152542372881356,0.9642857142857143,0.8709677419354839,31.0
+epithelial cell of proximal tubule,0.9996856334486011,1.0,0.9993714644877436,1591.0
+kidney capillary endothelial cell,0.9772727272727273,0.9772727272727273,0.9772727272727273,44.0
+kidney loop of Henle cortical thick ascending limb epithelial cell,0.9668874172185431,0.9605263157894737,0.9733333333333334,75.0
+kidney loop of Henle descending limb epithelial cell,0.9,0.9310344827586207,0.8709677419354839,31.0
 mononuclear phagocyte,0.9960159362549801,0.9920634920634921,1.0,125.0
-natural killer cell,1.0,1.0,1.0,5.0
+natural killer cell,0.9090909090909091,0.8333333333333334,1.0,5.0
+renal alpha-intercalated cell,0.9655172413793104,0.9333333333333333,1.0,14.0
+renal principal cell,1.0,1.0,1.0,21.0

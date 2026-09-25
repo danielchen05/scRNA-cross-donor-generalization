@@ -1,0 +1,10 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+type B pancreatic cell,3750,17,True,True,True
+pancreatic A cell,2453,17,True,True,True
+pancreatic ductal cell,730,17,True,True,True
+pancreatic acinar cell,443,17,True,True,True
+pancreatic D cell,432,17,True,True,True
+pancreatic stellate cell,347,17,True,True,True
+endothelial cell,165,16,False,True,False
+pancreatic PP cell,131,11,False,True,False
+leukocyte,49,15,False,True,False

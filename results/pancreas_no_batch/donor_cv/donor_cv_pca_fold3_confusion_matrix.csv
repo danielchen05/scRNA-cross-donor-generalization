@@ -1,7 +1,10 @@
-,pancreatic A cell,pancreatic D cell,pancreatic acinar cell,pancreatic ductal cell,pancreatic stellate cell,type B pancreatic cell
-pancreatic A cell,424,0,0,0,0,1
-pancreatic D cell,0,90,0,0,0,1
-pancreatic acinar cell,0,0,25,0,0,0
-pancreatic ductal cell,0,0,0,62,0,0
-pancreatic stellate cell,0,0,0,0,58,1
-type B pancreatic cell,2,0,0,0,0,775
+,endothelial cell,leukocyte,pancreatic A cell,pancreatic D cell,pancreatic PP cell,pancreatic acinar cell,pancreatic ductal cell,pancreatic stellate cell,type B pancreatic cell
+endothelial cell,34,0,0,0,0,0,0,1,0
+leukocyte,0,9,0,0,0,0,0,0,0
+pancreatic A cell,0,0,458,0,1,0,0,0,1
+pancreatic D cell,0,0,0,96,0,0,0,0,4
+pancreatic PP cell,0,0,1,0,22,0,0,0,1
+pancreatic acinar cell,0,0,0,0,0,21,0,0,0
+pancreatic ductal cell,0,0,0,0,0,0,51,0,0
+pancreatic stellate cell,0,0,0,0,0,0,0,57,1
+type B pancreatic cell,0,0,1,3,0,0,0,0,738

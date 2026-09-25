@@ -1,0 +1,57 @@
+dataset_name: kidney
+input_path: data/kidney/kidney.h5ad
+output_path: data/kidney/kidney_benchmark_ready.h5ad
+qc_output_dir: results/preprocessing/kidney
+celltype_col: cell_type
+donor_col: donor_id
+filters: []
+metadata_from_obs:
+  batch: library_preparation_batch
+  sample_id: sample_id
+support:
+  min_cells: 200
+  min_donors: 5
+downsample:
+  group_cols:
+  - donor_id
+  max_cells_per_group: 500
+  random_state: 42
+counts:
+  source: raw
+  target_sum: 10000
+  require_integer_like: true
+hvg:
+  n_top_genes: 1000
+  batch_key: donor_id
+pca:
+  n_comps_compute: 50
+  n_comps_keep: 15
+  random_state: 42
+harmony:
+  enabled: true
+  batch_key: donor_id
+  basis: X_pca
+  key_added: X_harmony
+  n_comps: 15
+  kwargs: {}
+scvi:
+  enabled: true
+  batch_key: donor_id
+  layer: counts
+  key_added: X_scVI
+  n_latent: 15
+  max_epochs: 200
+  early_stopping: true
+  random_state: 42
+  model_kwargs: {}
+  train_kwargs: {}
+expected:
+  n_cells: 8746
+  n_donors: 19
+  n_celltypes: 9
+  n_hvg: 1000
+representations:
+  hvg: hvg
+  pca: X_pca
+  harmony: X_harmony
+  scvi: X_scVI

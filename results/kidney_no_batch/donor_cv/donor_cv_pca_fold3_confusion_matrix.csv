@@ -1,8 +1,10 @@
-,T cell,epithelial cell of proximal tubule,kidney capillary endothelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell,mononuclear phagocyte,natural killer cell
-T cell,43,0,0,0,0,1,0
-epithelial cell of proximal tubule,0,1517,0,0,0,0,0
-kidney capillary endothelial cell,0,0,32,0,0,0,0
-kidney loop of Henle cortical thick ascending limb epithelial cell,0,0,0,32,0,0,0
-kidney loop of Henle descending limb epithelial cell,0,2,0,1,33,0,0
-mononuclear phagocyte,1,0,0,0,0,182,0
-natural killer cell,0,0,0,0,0,0,86
+,T cell,epithelial cell of proximal tubule,kidney capillary endothelial cell,kidney loop of Henle cortical thick ascending limb epithelial cell,kidney loop of Henle descending limb epithelial cell,mononuclear phagocyte,natural killer cell,renal alpha-intercalated cell,renal principal cell
+T cell,43,0,0,0,0,1,0,0,0
+epithelial cell of proximal tubule,0,1516,0,0,0,0,0,0,1
+kidney capillary endothelial cell,0,0,32,0,0,0,0,0,0
+kidney loop of Henle cortical thick ascending limb epithelial cell,0,0,0,32,0,0,0,0,0
+kidney loop of Henle descending limb epithelial cell,0,2,0,0,34,0,0,0,0
+mononuclear phagocyte,1,0,0,0,0,182,0,0,0
+natural killer cell,0,0,0,0,0,0,86,0,0
+renal alpha-intercalated cell,0,0,0,0,0,0,0,49,0
+renal principal cell,0,0,0,1,0,0,0,0,20

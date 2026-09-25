@@ -1,0 +1,75 @@
+{
+  "dataset_name": "kidney",
+  "stages": {
+    "loaded": {
+      "n_cells": 27675,
+      "n_genes": 26791,
+      "n_donors": 19,
+      "n_celltypes": 18
+    },
+    "after_dataset_filters": {
+      "n_cells": 27675,
+      "n_genes": 26791,
+      "n_donors": 19,
+      "n_celltypes": 18
+    },
+    "after_celltype_support_filter": {
+      "n_cells": 26884,
+      "n_genes": 26791,
+      "n_donors": 19,
+      "n_celltypes": 9
+    },
+    "after_downsampling": {
+      "n_cells": 8746,
+      "n_genes": 26791,
+      "n_donors": 19,
+      "n_celltypes": 9
+    },
+    "benchmark_ready": {
+      "n_cells": 8746,
+      "n_genes": 1000,
+      "n_donors": 19,
+      "n_celltypes": 9
+    }
+  },
+  "expected_checks": {
+    "n_cells": {
+      "expected": 8746,
+      "observed": 8746,
+      "ok": true
+    },
+    "n_donors": {
+      "expected": 19,
+      "observed": 19,
+      "ok": true
+    },
+    "n_celltypes": {
+      "expected": 9,
+      "observed": 9,
+      "ok": true
+    },
+    "n_hvg": {
+      "expected": 1000,
+      "observed": 1000,
+      "ok": true
+    }
+  },
+  "representations": {
+    "hvg": [
+      8746,
+      1000
+    ],
+    "pca": [
+      8746,
+      15
+    ],
+    "harmony": [
+      8746,
+      15
+    ],
+    "scvi": [
+      8746,
+      15
+    ]
+  }
+}

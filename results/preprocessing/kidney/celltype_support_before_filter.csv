@@ -1,0 +1,19 @@
+cell_type,n_cells,n_donors,keep_by_cell_count,keep_by_donor_coverage,keep
+epithelial cell of proximal tubule,20983,19,True,True,True
+kidney loop of Henle cortical thick ascending limb epithelial cell,1156,18,True,True,True
+kidney loop of Henle descending limb epithelial cell,1011,19,True,True,True
+mononuclear phagocyte,999,16,True,True,True
+T cell,938,12,True,True,True
+kidney capillary endothelial cell,572,19,True,True,True
+natural killer cell,466,10,True,True,True
+renal principal cell,455,18,True,True,True
+renal alpha-intercalated cell,304,19,True,True,True
+renal beta-intercalated cell,130,18,False,True,False
+mesangial cell,130,16,False,True,False
+kidney connecting tubule epithelial cell,122,14,False,True,False
+kidney distal convoluted tubule epithelial cell,109,18,False,True,False
+unknown,107,9,False,True,False
+B cell,68,11,False,True,False
+parietal epithelial cell,64,15,False,True,False
+kidney cortex collecting duct epithelial cell,45,11,False,True,False
+podocyte,16,6,False,True,False

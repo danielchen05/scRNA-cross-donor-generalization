@@ -1,0 +1,75 @@
+{
+  "dataset_name": "pancreas",
+  "stages": {
+    "loaded": {
+      "n_cells": 245878,
+      "n_genes": 26936,
+      "n_donors": 48,
+      "n_celltypes": 12
+    },
+    "after_dataset_filters": {
+      "n_cells": 88521,
+      "n_genes": 26936,
+      "n_donors": 17,
+      "n_celltypes": 12
+    },
+    "after_celltype_support_filter": {
+      "n_cells": 88174,
+      "n_genes": 26936,
+      "n_donors": 17,
+      "n_celltypes": 9
+    },
+    "after_downsampling": {
+      "n_cells": 8500,
+      "n_genes": 26936,
+      "n_donors": 17,
+      "n_celltypes": 9
+    },
+    "benchmark_ready": {
+      "n_cells": 8500,
+      "n_genes": 1000,
+      "n_donors": 17,
+      "n_celltypes": 9
+    }
+  },
+  "expected_checks": {
+    "n_cells": {
+      "expected": 8500,
+      "observed": 8500,
+      "ok": true
+    },
+    "n_donors": {
+      "expected": 17,
+      "observed": 17,
+      "ok": true
+    },
+    "n_celltypes": {
+      "expected": 9,
+      "observed": 9,
+      "ok": true
+    },
+    "n_hvg": {
+      "expected": 1000,
+      "observed": 1000,
+      "ok": true
+    }
+  },
+  "representations": {
+    "hvg": [
+      8500,
+      1000
+    ],
+    "pca": [
+      8500,
+      15
+    ],
+    "harmony": [
+      8500,
+      15
+    ],
+    "scvi": [
+      8500,
+      15
+    ]
+  }
+}

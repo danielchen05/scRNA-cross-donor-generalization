@@ -1,6 +1,9 @@
 {
   "source_adata_path": "/fastscratch/myscratch/xchen5/all_pbmcs/all_pbmcs_rna.h5ad",
   "source_metadata_path": "/fastscratch/myscratch/xchen5/all_pbmcs/all_pbmcs_metadata.csv",
+  "metadata_id_column": "Unnamed: 0",
+  "metadata_alignment_method": "cell_id_reindex",
+  "source_metadata_order_match_fraction": 0.0,
   "expression_provenance": "contributor-provided normalized/transformed expression",
   "raw_gene_level_counts_available": false,
   "normalization_reapplied": false,

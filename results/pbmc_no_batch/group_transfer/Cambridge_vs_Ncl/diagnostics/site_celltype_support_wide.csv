@@ -1,0 +1,14 @@
+,Cambridge_cells,Ncl_cells,Cambridge_donors,Ncl_donors,log_cell_support_ratio_Cambridge_over_Ncl
+CD14-positive monocyte,353,800,11,12,-0.817353047100142
+"CD16-negative, CD56-bright natural killer cell, human",92,155,11,12,-0.5194370871009092
+"CD16-positive, CD56-dim natural killer cell, human",732,850,11,12,-0.14936107094469403
+T-helper 22 cell,409,260,11,10,0.45233404209970257
+"central memory CD4-positive, alpha-beta T cell",993,122,11,10,2.09312303200709
+"effector CD8-positive, alpha-beta T cell",217,439,10,10,-0.7034388665964929
+"effector memory CD8-positive, alpha-beta T cell",236,356,11,10,-0.41038603192236295
+gamma-delta T cell,147,267,11,10,-0.5952913905561869
+mature NK T cell,76,373,10,12,-1.5856272637403819
+mucosal invariant T cell,157,189,11,10,-0.18496356625679333
+naive B cell,346,278,11,12,0.2184647592626193
+"naive thymus-derived CD4-positive, alpha-beta T cell",667,812,11,10,-0.19657652392948793
+"naive thymus-derived CD8-positive, alpha-beta T cell",402,379,11,10,0.058840500022933395

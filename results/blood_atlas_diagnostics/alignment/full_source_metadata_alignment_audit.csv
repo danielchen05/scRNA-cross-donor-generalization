@@ -1,0 +1,2 @@
+n_obs,n_metadata_rows,obs_names_unique,metadata_ids_unique,same_length,set_equal,n_intersection,intersection_fraction_obs,intersection_fraction_metadata,jaccard_id_overlap,order_match_fraction,safe_for_row_order_assignment,safe_for_id_reindex
+1916367,1916367,True,True,True,True,1916367,1.0,1.0,1.0,0.0,False,True

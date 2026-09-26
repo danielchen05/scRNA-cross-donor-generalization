@@ -1,0 +1,13 @@
+analysis,representation,direction_gap_Cambridge_to_Ncl_minus_reverse
+original,harmony,0.03659059463017689
+original,hvg,0.05138183306846078
+original,pca,0.05219531260513299
+original,scvi,0.04149995586352917
+support matched,harmony,0.053000705067822285
+support matched,hvg,0.0631554623911953
+support matched,pca,0.031993203692575856
+support matched,scvi,0.04850968889025853
+donor-count matched,harmony,0.0347542398736328
+donor-count matched,hvg,0.051327947028420806
+donor-count matched,pca,0.05174652948908076
+donor-count matched,scvi,0.04304728547144754

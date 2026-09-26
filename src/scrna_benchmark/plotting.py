@@ -299,6 +299,203 @@ def plot_batch_covariate_comparison(
     return fig, ax
 
 
+def _coerce_macro_f1_summary(metrics):
+    """Return representation-level macro-F1 mean/std from raw or summarized metrics."""
+    df = _read_df(metrics)
+    if "representation" not in df.columns:
+        raise ValueError("Metrics table must contain a 'representation' column.")
+    df["representation"] = df["representation"].map(canonicalize_representation)
+
+    if {"macro_f1_mean", "macro_f1_std"}.issubset(df.columns):
+        out = df[["representation", "macro_f1_mean", "macro_f1_std"]].copy()
+        return out.drop_duplicates("representation")
+
+    if "macro_f1" not in df.columns:
+        raise ValueError(
+            "Metrics table must contain either macro_f1 or "
+            "macro_f1_mean/macro_f1_std."
+        )
+
+    return (
+        df.groupby("representation", as_index=False)
+        .agg(
+            macro_f1_mean=("macro_f1", "mean"),
+            macro_f1_std=("macro_f1", "std"),
+        )
+        .fillna({"macro_f1_std": 0.0})
+    )
+
+
+def _infer_random_metrics_from_donor_path(donor_metrics):
+    """Infer a sibling random-split metrics file from a donor-CV metrics path."""
+    if not isinstance(donor_metrics, (str, Path)):
+        raise ValueError(
+            "Automatic random-split path inference requires donor metrics to be "
+            "passed as a CSV path. If using DataFrames, pass the random metrics "
+            "explicitly via random_no_batch_metrics/random_with_batch_metrics."
+        )
+
+    donor_path = Path(donor_metrics)
+    if donor_path.parent.name != "donor_cv":
+        raise ValueError(
+            f"Could not infer result root from {donor_path}. Expected a path "
+            "inside a donor_cv/ directory."
+        )
+
+    random_dir = donor_path.parent.parent / "random_split"
+    candidates = [
+        random_dir / "random_split_repeated_metrics.csv",
+        random_dir / "metrics.csv",
+    ]
+    candidates.extend(sorted(random_dir.glob("*repeated*metrics*.csv")))
+
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+
+    raise FileNotFoundError(
+        "Could not find random-split metrics next to donor-CV results. Looked in "
+        f"{random_dir}. Pass the file explicitly if it has a nonstandard name."
+    )
+
+
+def plot_batch_covariate_by_scheme(
+    no_batch_metrics,
+    with_batch_metrics,
+    random_no_batch_metrics=None,
+    random_with_batch_metrics=None,
+    rep_order=DEFAULT_REP_ORDER,
+    rep_labels=DEFAULT_REP_LABELS,
+    out_file=None,
+    title="Batch/source covariate sensitivity across evaluation schemes",
+):
+    """Compare no-covariate vs covariate models *within both evaluation schemes*.
+
+    Parameters
+    ----------
+    no_batch_metrics, with_batch_metrics
+        Donor-CV summary tables or CSV paths. These are intentionally the first
+        two arguments so existing figure cells can be migrated with a minimal
+        function-name change.
+    random_no_batch_metrics, random_with_batch_metrics
+        Repeated random-split metric tables or paths. If omitted and the donor
+        metrics are paths inside ``<result_root>/donor_cv/``, the matching
+        ``<result_root>/random_split/`` files are inferred automatically.
+
+    Notes
+    -----
+    The shared y-axis and side-by-side evaluation panels are deliberate: the
+    visual question is whether adding the batch/source covariate changes the
+    random-vs-donor evaluation story, not merely whether donor-CV F1 moves.
+    """
+    if random_no_batch_metrics is None:
+        random_no_batch_metrics = _infer_random_metrics_from_donor_path(
+            no_batch_metrics
+        )
+    if random_with_batch_metrics is None:
+        random_with_batch_metrics = _infer_random_metrics_from_donor_path(
+            with_batch_metrics
+        )
+
+    summaries = {
+        "random_no": _coerce_macro_f1_summary(random_no_batch_metrics),
+        "random_yes": _coerce_macro_f1_summary(random_with_batch_metrics),
+        "donor_no": _coerce_macro_f1_summary(no_batch_metrics),
+        "donor_yes": _coerce_macro_f1_summary(with_batch_metrics),
+    }
+
+    rep_sets = [set(df["representation"]) for df in summaries.values()]
+    common_reps = [rep for rep in rep_order if all(rep in s for s in rep_sets)]
+    if not common_reps:
+        raise ValueError("No common representations are present in all four inputs.")
+
+    indexed = {
+        key: df.set_index("representation").reindex(common_reps)
+        for key, df in summaries.items()
+    }
+
+    all_lows = []
+    all_highs = []
+    for df in indexed.values():
+        mean = df["macro_f1_mean"].to_numpy(dtype=float)
+        std = df["macro_f1_std"].fillna(0).to_numpy(dtype=float)
+        all_lows.extend((mean - std).tolist())
+        all_highs.extend((mean + std).tolist())
+    lower = max(0.0, float(np.nanmin(all_lows)) - 0.035)
+    upper = min(1.0, float(np.nanmax(all_highs)) + 0.075)
+
+    x = np.arange(len(common_reps))
+    width = 0.36
+    fig, axes = plt.subplots(1, 2, figsize=(12.5, 5.0), sharey=True)
+
+    panel_specs = [
+        (axes[0], "random_no", "random_yes", "A. Random cell-level split"),
+        (axes[1], "donor_no", "donor_yes", "B. Donor-held-out CV"),
+    ]
+
+    legend_handles = None
+    legend_labels = None
+    for ax, key_no, key_yes, panel_title in panel_specs:
+        no_df = indexed[key_no]
+        yes_df = indexed[key_yes]
+        bars_no = ax.bar(
+            x - width / 2,
+            no_df["macro_f1_mean"],
+            width,
+            yerr=no_df["macro_f1_std"].fillna(0),
+            capsize=4,
+            label="No batch/source covariate",
+            edgecolor="black",
+        )
+        bars_yes = ax.bar(
+            x + width / 2,
+            yes_df["macro_f1_mean"],
+            width,
+            yerr=yes_df["macro_f1_std"].fillna(0),
+            capsize=4,
+            label="With batch/source covariate",
+            edgecolor="black",
+        )
+        ax.set_xticks(x)
+        ax.set_xticklabels([rep_labels.get(r, r) for r in common_reps])
+        ax.set_xlabel("Representation")
+        ax.set_title(panel_title)
+        ax.set_ylim(lower, upper)
+
+        # Annotate the quantity the reader actually cares about here: how much
+        # adding the covariate changes F1 within the same evaluation strategy.
+        for i, rep in enumerate(common_reps):
+            no_mean = float(no_df.loc[rep, "macro_f1_mean"])
+            yes_mean = float(yes_df.loc[rep, "macro_f1_mean"])
+            no_sd_value = no_df.loc[rep, "macro_f1_std"]
+            yes_sd_value = yes_df.loc[rep, "macro_f1_std"]
+            no_sd = 0.0 if pd.isna(no_sd_value) else float(no_sd_value)
+            yes_sd = 0.0 if pd.isna(yes_sd_value) else float(yes_sd_value)
+            y = max(no_mean + no_sd, yes_mean + yes_sd) + 0.012
+            delta = yes_mean - no_mean
+            ax.text(i, y, f"Δ {delta:+.3f}", ha="center", va="bottom", fontsize=8)
+
+        if legend_handles is None:
+            legend_handles = [bars_no, bars_yes]
+            legend_labels = [
+                "No batch/source covariate",
+                "With batch/source covariate",
+            ]
+
+    axes[0].set_ylabel("Macro F1")
+    fig.suptitle(title, y=1.02)
+    fig.legend(
+        legend_handles,
+        legend_labels,
+        loc="upper center",
+        bbox_to_anchor=(0.5, 0.995),
+        frameon=False,
+        ncol=2,
+    )
+    fig.tight_layout(rect=(0, 0, 1, 0.90))
+    _save_figure(fig, out_file)
+    return fig, axes
+
 # ============================================================
 # Donor ablation
 # ============================================================

@@ -1,0 +1,27 @@
+Site,cell_type,n_cells,n_donors
+Cambridge,CD14-positive monocyte,353,11
+Cambridge,"CD16-negative, CD56-bright natural killer cell, human",92,11
+Cambridge,"CD16-positive, CD56-dim natural killer cell, human",732,11
+Cambridge,T-helper 22 cell,409,11
+Cambridge,"central memory CD4-positive, alpha-beta T cell",993,11
+Cambridge,"effector CD8-positive, alpha-beta T cell",217,10
+Cambridge,"effector memory CD8-positive, alpha-beta T cell",236,11
+Cambridge,gamma-delta T cell,147,11
+Cambridge,mature NK T cell,76,10
+Cambridge,mucosal invariant T cell,157,11
+Cambridge,naive B cell,346,11
+Cambridge,"naive thymus-derived CD4-positive, alpha-beta T cell",667,11
+Cambridge,"naive thymus-derived CD8-positive, alpha-beta T cell",402,11
+Ncl,CD14-positive monocyte,800,12
+Ncl,"CD16-negative, CD56-bright natural killer cell, human",155,12
+Ncl,"CD16-positive, CD56-dim natural killer cell, human",850,12
+Ncl,T-helper 22 cell,260,10
+Ncl,"central memory CD4-positive, alpha-beta T cell",122,10
+Ncl,"effector CD8-positive, alpha-beta T cell",439,10
+Ncl,"effector memory CD8-positive, alpha-beta T cell",356,10
+Ncl,gamma-delta T cell,267,10
+Ncl,mature NK T cell,373,12
+Ncl,mucosal invariant T cell,189,10
+Ncl,naive B cell,278,12
+Ncl,"naive thymus-derived CD4-positive, alpha-beta T cell",812,10
+Ncl,"naive thymus-derived CD8-positive, alpha-beta T cell",379,10

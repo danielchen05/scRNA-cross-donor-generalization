@@ -1,0 +1,90 @@
+dataset_name: blood_atlas
+
+# Stage 0 creates this manageable checkpoint from the contributor-provided
+# ~1.9M-cell matrix. The full source is intentionally outside the public runner.
+input_path: data/blood_atlas/blood_atlas_subsampled.h5ad
+output_path: data/blood_atlas/blood_atlas_benchmark_ready.h5ad
+qc_output_dir: results/preprocessing/blood_atlas
+
+celltype_col: cell_type
+donor_col: donor_id
+
+filters: []
+metadata_from_obs: {}
+
+# The seven Stage-0 major cell types should all pass this ordinary benchmark
+# support check, so no cells should be removed here.
+support:
+  min_cells: 200
+  min_donors: 5
+  stage: before_downsampling
+
+# Stage 0 already performed the scientifically intended donor x cell-type cap.
+# Do not sample or reorder the 108,682-cell checkpoint again.
+downsample:
+  enabled: false
+  group_cols: [donor_id, cell_type]
+  max_cells_per_group: 100
+  random_state: 0
+  rng: default_rng
+  sample_full_groups: false
+
+gene_filter:
+  exclude_var_if_true: []
+  min_cells: null
+
+# IMPORTANT DATASET-SPECIFIC EXCEPTION:
+# The HCA contributor-generated all_pbmcs matrix contains normalized /
+# transformed expression only. Genuine gene-level raw counts are unavailable.
+#
+# Therefore:
+#   - preserve X exactly as provided;
+#   - do NOT normalize_total;
+#   - do NOT log1p again;
+#   - do NOT create a fake counts layer;
+#   - do NOT run scVI.
+counts:
+  source: X
+  target_sum: 10000
+  require_integer_like: false
+  prepare_from_counts: false
+
+hvg:
+  n_top_genes: 1000
+  batch_key: donor_id
+
+pca:
+  n_comps_compute: 50
+  n_comps_keep: 15
+  random_state: 42
+
+harmony:
+  enabled: true
+  batch_key: donor_id
+  basis: X_pca
+  key_added: X_harmony
+  n_comps: 15
+  kwargs: {}
+
+scvi:
+  enabled: false
+  batch_key: donor_id
+  layer: counts
+  key_added: X_scVI
+  n_latent: 15
+  max_epochs: null
+  early_stopping: true
+  random_state: 42
+  model_kwargs: {}
+  train_kwargs: {}
+
+representations:
+  hvg: hvg
+  pca: X_pca
+  harmony: X_harmony
+
+expected:
+  n_cells: 108682
+  n_donors: 166
+  n_celltypes: 7
+  n_hvg: 1000

@@ -93,7 +93,7 @@ MAIT cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 NK cells,NK cells
-CD4+ T cells,Myeloid cells
+CD4+ T cells,B cells
 TRAV1-2- CD8+ T cells,NK cells
 MAIT cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,Myeloid cells
@@ -628,7 +628,7 @@ CD4+ T cells,CD4+ T cells
 CD4+ T cells,CD4+ T cells
 B cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,B cells
-NK cells,NK cells
+NK cells,TRAV1-2- CD8+ T cells
 B cells,TRAV1-2- CD8+ T cells
 Myeloid cells,NK cells
 MAIT cells,TRAV1-2- CD8+ T cells
@@ -809,7 +809,7 @@ CD4+ T cells,Myeloid cells
 NK cells,NK cells
 gd T cells,MAIT cells
 TRAV1-2- CD8+ T cells,B cells
-CD4+ T cells,CD4+ T cells
+CD4+ T cells,B cells
 NK cells,NK cells
 MAIT cells,TRAV1-2- CD8+ T cells
 MAIT cells,MAIT cells
@@ -976,7 +976,7 @@ TRAV1-2- CD8+ T cells,B cells
 MAIT cells,CD4+ T cells
 MAIT cells,Myeloid cells
 NK cells,NK cells
-Myeloid cells,Myeloid cells
+Myeloid cells,MAIT cells
 Myeloid cells,MAIT cells
 CD4+ T cells,Myeloid cells
 MAIT cells,CD4+ T cells
@@ -1120,7 +1120,7 @@ gd T cells,NK cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 MAIT cells,B cells
 Myeloid cells,TRAV1-2- CD8+ T cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,CD4+ T cells
 NK cells,NK cells
 NK cells,NK cells
@@ -1137,7 +1137,7 @@ TRAV1-2- CD8+ T cells,B cells
 NK cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
 CD4+ T cells,B cells
-B cells,gd T cells
+B cells,B cells
 MAIT cells,B cells
 Myeloid cells,B cells
 NK cells,NK cells
@@ -1209,7 +1209,7 @@ NK cells,NK cells
 Myeloid cells,CD4+ T cells
 gd T cells,B cells
 CD4+ T cells,CD4+ T cells
-TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+TRAV1-2- CD8+ T cells,B cells
 NK cells,NK cells
 B cells,B cells
 Myeloid cells,MAIT cells
@@ -1591,7 +1591,7 @@ MAIT cells,TRAV1-2- CD8+ T cells
 Myeloid cells,gd T cells
 CD4+ T cells,CD4+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
-gd T cells,B cells
+gd T cells,TRAV1-2- CD8+ T cells
 MAIT cells,B cells
 B cells,CD4+ T cells
 CD4+ T cells,B cells
@@ -1700,7 +1700,7 @@ TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,Myeloid cells
 Myeloid cells,B cells
 MAIT cells,NK cells
-gd T cells,TRAV1-2- CD8+ T cells
+gd T cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,gd T cells
 Myeloid cells,NK cells
@@ -1928,7 +1928,7 @@ CD4+ T cells,B cells
 gd T cells,B cells
 B cells,TRAV1-2- CD8+ T cells
 Myeloid cells,TRAV1-2- CD8+ T cells
-CD4+ T cells,Myeloid cells
+CD4+ T cells,gd T cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 B cells,Myeloid cells
 Myeloid cells,B cells
@@ -2614,7 +2614,7 @@ NK cells,NK cells
 NK cells,NK cells
 gd T cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,CD4+ T cells
 CD4+ T cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
@@ -3660,7 +3660,7 @@ TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,MAIT cells
 Myeloid cells,B cells
 MAIT cells,Myeloid cells
-B cells,NK cells
+B cells,Myeloid cells
 TRAV1-2- CD8+ T cells,MAIT cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 gd T cells,Myeloid cells
@@ -3799,7 +3799,7 @@ NK cells,NK cells
 gd T cells,Myeloid cells
 NK cells,NK cells
 NK cells,NK cells
-gd T cells,B cells
+gd T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,CD4+ T cells
 MAIT cells,B cells
@@ -3807,7 +3807,7 @@ CD4+ T cells,Myeloid cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
-gd T cells,TRAV1-2- CD8+ T cells
+gd T cells,CD4+ T cells
 gd T cells,gd T cells
 CD4+ T cells,Myeloid cells
 B cells,Myeloid cells
@@ -3850,7 +3850,7 @@ B cells,CD4+ T cells
 CD4+ T cells,CD4+ T cells
 B cells,CD4+ T cells
 Myeloid cells,CD4+ T cells
-CD4+ T cells,TRAV1-2- CD8+ T cells
+CD4+ T cells,NK cells
 CD4+ T cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,B cells
@@ -3912,7 +3912,7 @@ Myeloid cells,gd T cells
 gd T cells,B cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 B cells,B cells
-B cells,B cells
+B cells,Myeloid cells
 CD4+ T cells,Myeloid cells
 B cells,Myeloid cells
 TRAV1-2- CD8+ T cells,B cells
@@ -3952,13 +3952,13 @@ Myeloid cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 B cells,B cells
 B cells,MAIT cells
-MAIT cells,B cells
+MAIT cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 B cells,Myeloid cells
 TRAV1-2- CD8+ T cells,B cells
 MAIT cells,gd T cells
-TRAV1-2- CD8+ T cells,Myeloid cells
+TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,CD4+ T cells
 B cells,B cells
 TRAV1-2- CD8+ T cells,B cells
@@ -4383,7 +4383,7 @@ MAIT cells,CD4+ T cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,gd T cells
 B cells,NK cells
-CD4+ T cells,TRAV1-2- CD8+ T cells
+CD4+ T cells,Myeloid cells
 B cells,TRAV1-2- CD8+ T cells
 MAIT cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
@@ -4662,7 +4662,7 @@ CD4+ T cells,CD4+ T cells
 B cells,gd T cells
 CD4+ T cells,B cells
 Myeloid cells,CD4+ T cells
-MAIT cells,CD4+ T cells
+MAIT cells,B cells
 gd T cells,B cells
 TRAV1-2- CD8+ T cells,B cells
 NK cells,NK cells
@@ -4706,7 +4706,7 @@ CD4+ T cells,CD4+ T cells
 CD4+ T cells,B cells
 B cells,Myeloid cells
 CD4+ T cells,Myeloid cells
-MAIT cells,NK cells
+MAIT cells,Myeloid cells
 Myeloid cells,Myeloid cells
 gd T cells,gd T cells
 NK cells,NK cells
@@ -4845,7 +4845,7 @@ NK cells,NK cells
 Myeloid cells,CD4+ T cells
 MAIT cells,gd T cells
 CD4+ T cells,MAIT cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,Myeloid cells
 B cells,B cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
@@ -4929,7 +4929,7 @@ gd T cells,B cells
 NK cells,NK cells
 MAIT cells,Myeloid cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
-Myeloid cells,TRAV1-2- CD8+ T cells
+Myeloid cells,B cells
 MAIT cells,TRAV1-2- CD8+ T cells
 MAIT cells,B cells
 gd T cells,Myeloid cells
@@ -5079,7 +5079,7 @@ gd T cells,gd T cells
 MAIT cells,MAIT cells
 gd T cells,B cells
 gd T cells,CD4+ T cells
-MAIT cells,B cells
+MAIT cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 B cells,Myeloid cells
 Myeloid cells,Myeloid cells
@@ -5133,14 +5133,14 @@ MAIT cells,B cells
 NK cells,NK cells
 MAIT cells,Myeloid cells
 Myeloid cells,gd T cells
-Myeloid cells,B cells
+Myeloid cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,B cells
 MAIT cells,Myeloid cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,B cells
 NK cells,NK cells
-TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+TRAV1-2- CD8+ T cells,CD4+ T cells
 Myeloid cells,CD4+ T cells
 B cells,CD4+ T cells
 Myeloid cells,Myeloid cells
@@ -5319,7 +5319,7 @@ TRAV1-2- CD8+ T cells,Myeloid cells
 CD4+ T cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
-CD4+ T cells,CD4+ T cells
+CD4+ T cells,B cells
 gd T cells,B cells
 Myeloid cells,CD4+ T cells
 MAIT cells,B cells
@@ -6007,7 +6007,7 @@ CD4+ T cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,Myeloid cells
-Myeloid cells,B cells
+Myeloid cells,CD4+ T cells
 NK cells,NK cells
 B cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
@@ -6070,7 +6070,7 @@ B cells,TRAV1-2- CD8+ T cells
 MAIT cells,Myeloid cells
 B cells,gd T cells
 Myeloid cells,B cells
-CD4+ T cells,CD4+ T cells
+CD4+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,B cells
 TRAV1-2- CD8+ T cells,gd T cells
 B cells,gd T cells
@@ -7013,7 +7013,7 @@ Myeloid cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 B cells,NK cells
-B cells,gd T cells
+B cells,Myeloid cells
 NK cells,NK cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -7026,7 +7026,7 @@ Myeloid cells,Myeloid cells
 Myeloid cells,CD4+ T cells
 B cells,NK cells
 NK cells,NK cells
-B cells,Myeloid cells
+B cells,MAIT cells
 gd T cells,Myeloid cells
 CD4+ T cells,B cells
 CD4+ T cells,CD4+ T cells
@@ -7120,7 +7120,7 @@ B cells,NK cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,B cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
-gd T cells,MAIT cells
+gd T cells,gd T cells
 gd T cells,B cells
 gd T cells,Myeloid cells
 MAIT cells,B cells
@@ -7213,13 +7213,13 @@ MAIT cells,MAIT cells
 B cells,Myeloid cells
 B cells,CD4+ T cells
 NK cells,NK cells
-gd T cells,CD4+ T cells
+gd T cells,B cells
 CD4+ T cells,B cells
 CD4+ T cells,CD4+ T cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 B cells,TRAV1-2- CD8+ T cells
-TRAV1-2- CD8+ T cells,NK cells
+TRAV1-2- CD8+ T cells,CD4+ T cells
 Myeloid cells,NK cells
 gd T cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
@@ -7354,7 +7354,7 @@ gd T cells,B cells
 CD4+ T cells,B cells
 MAIT cells,CD4+ T cells
 B cells,B cells
-B cells,TRAV1-2- CD8+ T cells
+B cells,Myeloid cells
 NK cells,gd T cells
 Myeloid cells,CD4+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -7470,7 +7470,7 @@ TRAV1-2- CD8+ T cells,CD4+ T cells
 gd T cells,TRAV1-2- CD8+ T cells
 gd T cells,Myeloid cells
 MAIT cells,Myeloid cells
-TRAV1-2- CD8+ T cells,Myeloid cells
+TRAV1-2- CD8+ T cells,B cells
 NK cells,NK cells
 CD4+ T cells,MAIT cells
 gd T cells,B cells
@@ -7518,7 +7518,7 @@ NK cells,NK cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,Myeloid cells
 Myeloid cells,CD4+ T cells
-Myeloid cells,TRAV1-2- CD8+ T cells
+Myeloid cells,MAIT cells
 TRAV1-2- CD8+ T cells,B cells
 gd T cells,gd T cells
 MAIT cells,CD4+ T cells
@@ -7868,7 +7868,7 @@ MAIT cells,B cells
 B cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
-TRAV1-2- CD8+ T cells,B cells
+TRAV1-2- CD8+ T cells,Myeloid cells
 CD4+ T cells,B cells
 gd T cells,CD4+ T cells
 NK cells,NK cells
@@ -7986,7 +7986,7 @@ B cells,B cells
 CD4+ T cells,NK cells
 B cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
-CD4+ T cells,B cells
+CD4+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,gd T cells
 Myeloid cells,Myeloid cells
 gd T cells,TRAV1-2- CD8+ T cells
@@ -8058,7 +8058,7 @@ B cells,TRAV1-2- CD8+ T cells
 Myeloid cells,gd T cells
 B cells,NK cells
 Myeloid cells,CD4+ T cells
-MAIT cells,MAIT cells
+MAIT cells,B cells
 gd T cells,MAIT cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,gd T cells
@@ -8073,7 +8073,7 @@ Myeloid cells,CD4+ T cells
 B cells,NK cells
 NK cells,NK cells
 NK cells,NK cells
-MAIT cells,gd T cells
+MAIT cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
 Myeloid cells,B cells
 TRAV1-2- CD8+ T cells,gd T cells
@@ -8324,7 +8324,7 @@ TRAV1-2- CD8+ T cells,NK cells
 Myeloid cells,B cells
 Myeloid cells,B cells
 NK cells,NK cells
-CD4+ T cells,TRAV1-2- CD8+ T cells
+CD4+ T cells,Myeloid cells
 B cells,CD4+ T cells
 Myeloid cells,Myeloid cells
 B cells,CD4+ T cells
@@ -8436,7 +8436,7 @@ TRAV1-2- CD8+ T cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,B cells
-gd T cells,CD4+ T cells
+gd T cells,Myeloid cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 B cells,TRAV1-2- CD8+ T cells
@@ -8471,7 +8471,7 @@ NK cells,NK cells
 MAIT cells,Myeloid cells
 MAIT cells,Myeloid cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
-CD4+ T cells,TRAV1-2- CD8+ T cells
+CD4+ T cells,CD4+ T cells
 MAIT cells,B cells
 NK cells,NK cells
 NK cells,NK cells
@@ -8675,7 +8675,7 @@ NK cells,NK cells
 B cells,MAIT cells
 CD4+ T cells,Myeloid cells
 TRAV1-2- CD8+ T cells,B cells
-MAIT cells,gd T cells
+MAIT cells,B cells
 Myeloid cells,B cells
 Myeloid cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
@@ -8959,7 +8959,7 @@ NK cells,NK cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 Myeloid cells,B cells
-CD4+ T cells,B cells
+CD4+ T cells,gd T cells
 B cells,CD4+ T cells
 B cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
@@ -9057,7 +9057,7 @@ NK cells,NK cells
 CD4+ T cells,B cells
 B cells,Myeloid cells
 TRAV1-2- CD8+ T cells,B cells
-NK cells,CD4+ T cells
+NK cells,NK cells
 B cells,B cells
 NK cells,NK cells
 gd T cells,CD4+ T cells
@@ -9170,7 +9170,7 @@ Myeloid cells,Myeloid cells
 B cells,B cells
 Myeloid cells,NK cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
-B cells,CD4+ T cells
+B cells,gd T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,Myeloid cells
 MAIT cells,B cells
@@ -9715,7 +9715,7 @@ NK cells,NK cells
 gd T cells,MAIT cells
 NK cells,NK cells
 NK cells,NK cells
-B cells,TRAV1-2- CD8+ T cells
+B cells,Myeloid cells
 CD4+ T cells,B cells
 NK cells,NK cells
 MAIT cells,B cells
@@ -9933,7 +9933,7 @@ CD4+ T cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
 NK cells,NK cells
 NK cells,NK cells
-gd T cells,TRAV1-2- CD8+ T cells
+gd T cells,Myeloid cells
 CD4+ T cells,B cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 B cells,TRAV1-2- CD8+ T cells
@@ -9991,7 +9991,7 @@ TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,NK cells
 NK cells,NK cells
 MAIT cells,TRAV1-2- CD8+ T cells
-gd T cells,B cells
+gd T cells,CD4+ T cells
 B cells,Myeloid cells
 NK cells,NK cells
 B cells,CD4+ T cells
@@ -10198,7 +10198,7 @@ Myeloid cells,MAIT cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 Myeloid cells,Myeloid cells
 gd T cells,Myeloid cells
-B cells,Myeloid cells
+B cells,TRAV1-2- CD8+ T cells
 B cells,B cells
 NK cells,NK cells
 B cells,B cells
@@ -10508,7 +10508,7 @@ NK cells,NK cells
 gd T cells,CD4+ T cells
 MAIT cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,gd T cells
 NK cells,gd T cells
 gd T cells,TRAV1-2- CD8+ T cells
 Myeloid cells,CD4+ T cells
@@ -10843,7 +10843,7 @@ B cells,gd T cells
 B cells,MAIT cells
 MAIT cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
-CD4+ T cells,B cells
+CD4+ T cells,CD4+ T cells
 MAIT cells,CD4+ T cells
 Myeloid cells,gd T cells
 CD4+ T cells,B cells
@@ -11675,7 +11675,7 @@ NK cells,NK cells
 NK cells,NK cells
 Myeloid cells,Myeloid cells
 TRAV1-2- CD8+ T cells,Myeloid cells
-NK cells,CD4+ T cells
+NK cells,gd T cells
 gd T cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
@@ -11708,7 +11708,7 @@ Myeloid cells,gd T cells
 B cells,NK cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
-B cells,gd T cells
+B cells,CD4+ T cells
 NK cells,NK cells
 B cells,TRAV1-2- CD8+ T cells
 Myeloid cells,Myeloid cells
@@ -11956,7 +11956,7 @@ NK cells,NK cells
 MAIT cells,Myeloid cells
 MAIT cells,CD4+ T cells
 MAIT cells,B cells
-TRAV1-2- CD8+ T cells,Myeloid cells
+TRAV1-2- CD8+ T cells,NK cells
 MAIT cells,CD4+ T cells
 Myeloid cells,B cells
 MAIT cells,CD4+ T cells
@@ -12458,7 +12458,7 @@ CD4+ T cells,gd T cells
 MAIT cells,Myeloid cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,CD4+ T cells
-CD4+ T cells,gd T cells
+CD4+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,CD4+ T cells
 Myeloid cells,NK cells
 MAIT cells,gd T cells
@@ -13069,7 +13069,7 @@ MAIT cells,CD4+ T cells
 Myeloid cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 B cells,TRAV1-2- CD8+ T cells
-Myeloid cells,gd T cells
+Myeloid cells,NK cells
 gd T cells,TRAV1-2- CD8+ T cells
 gd T cells,Myeloid cells
 gd T cells,MAIT cells
@@ -13118,7 +13118,7 @@ Myeloid cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 CD4+ T cells,NK cells
 gd T cells,B cells
-MAIT cells,CD4+ T cells
+MAIT cells,B cells
 NK cells,NK cells
 gd T cells,gd T cells
 B cells,B cells
@@ -13192,7 +13192,7 @@ gd T cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 NK cells,NK cells
 Myeloid cells,B cells
-gd T cells,TRAV1-2- CD8+ T cells
+gd T cells,B cells
 Myeloid cells,B cells
 CD4+ T cells,CD4+ T cells
 Myeloid cells,NK cells
@@ -13243,7 +13243,7 @@ gd T cells,TRAV1-2- CD8+ T cells
 B cells,B cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,TRAV1-2- CD8+ T cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,B cells
 B cells,TRAV1-2- CD8+ T cells
 B cells,gd T cells
 gd T cells,Myeloid cells
@@ -13360,7 +13360,7 @@ B cells,B cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 gd T cells,B cells
 MAIT cells,MAIT cells
-Myeloid cells,Myeloid cells
+Myeloid cells,gd T cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 gd T cells,MAIT cells
@@ -14037,7 +14037,7 @@ TRAV1-2- CD8+ T cells,B cells
 CD4+ T cells,Myeloid cells
 gd T cells,CD4+ T cells
 NK cells,NK cells
-MAIT cells,CD4+ T cells
+MAIT cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 Myeloid cells,CD4+ T cells
 NK cells,NK cells
@@ -14166,7 +14166,7 @@ TRAV1-2- CD8+ T cells,Myeloid cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,B cells
 CD4+ T cells,Myeloid cells
-MAIT cells,CD4+ T cells
+MAIT cells,B cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 MAIT cells,CD4+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -14272,7 +14272,7 @@ CD4+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,Myeloid cells
 B cells,TRAV1-2- CD8+ T cells
 MAIT cells,TRAV1-2- CD8+ T cells
-CD4+ T cells,Myeloid cells
+CD4+ T cells,CD4+ T cells
 MAIT cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,CD4+ T cells
@@ -14343,7 +14343,7 @@ Myeloid cells,gd T cells
 gd T cells,CD4+ T cells
 NK cells,NK cells
 gd T cells,B cells
-B cells,CD4+ T cells
+B cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 Myeloid cells,Myeloid cells
@@ -14377,7 +14377,7 @@ MAIT cells,Myeloid cells
 gd T cells,B cells
 gd T cells,gd T cells
 Myeloid cells,B cells
-gd T cells,TRAV1-2- CD8+ T cells
+gd T cells,Myeloid cells
 gd T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,Myeloid cells
 CD4+ T cells,Myeloid cells
@@ -14697,7 +14697,7 @@ CD4+ T cells,B cells
 Myeloid cells,CD4+ T cells
 B cells,gd T cells
 CD4+ T cells,gd T cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,B cells
 Myeloid cells,CD4+ T cells
 gd T cells,CD4+ T cells
 NK cells,NK cells
@@ -15117,7 +15117,7 @@ Myeloid cells,Myeloid cells
 Myeloid cells,Myeloid cells
 B cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
-MAIT cells,NK cells
+MAIT cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
 Myeloid cells,B cells
@@ -15241,7 +15241,7 @@ Myeloid cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 gd T cells,TRAV1-2- CD8+ T cells
 B cells,CD4+ T cells
-Myeloid cells,MAIT cells
+Myeloid cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,B cells
 NK cells,NK cells
 gd T cells,CD4+ T cells
@@ -15324,7 +15324,7 @@ NK cells,NK cells
 TRAV1-2- CD8+ T cells,gd T cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 NK cells,NK cells
-Myeloid cells,TRAV1-2- CD8+ T cells
+Myeloid cells,B cells
 gd T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
@@ -15345,7 +15345,7 @@ Myeloid cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,Myeloid cells
-B cells,CD4+ T cells
+B cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 CD4+ T cells,Myeloid cells
 CD4+ T cells,B cells
@@ -15771,7 +15771,7 @@ MAIT cells,CD4+ T cells
 gd T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,MAIT cells
 B cells,B cells
-MAIT cells,CD4+ T cells
+MAIT cells,MAIT cells
 B cells,NK cells
 NK cells,NK cells
 B cells,Myeloid cells
@@ -15928,7 +15928,7 @@ TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 Myeloid cells,gd T cells
 MAIT cells,Myeloid cells
 TRAV1-2- CD8+ T cells,Myeloid cells
-Myeloid cells,gd T cells
+Myeloid cells,TRAV1-2- CD8+ T cells
 gd T cells,TRAV1-2- CD8+ T cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,gd T cells
@@ -16085,7 +16085,7 @@ MAIT cells,Myeloid cells
 TRAV1-2- CD8+ T cells,gd T cells
 CD4+ T cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
-TRAV1-2- CD8+ T cells,Myeloid cells
+TRAV1-2- CD8+ T cells,CD4+ T cells
 gd T cells,NK cells
 NK cells,NK cells
 Myeloid cells,Myeloid cells
@@ -16159,7 +16159,7 @@ Myeloid cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 Myeloid cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,B cells
 MAIT cells,TRAV1-2- CD8+ T cells
 B cells,B cells
 TRAV1-2- CD8+ T cells,gd T cells
@@ -16488,14 +16488,14 @@ CD4+ T cells,MAIT cells
 B cells,Myeloid cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 gd T cells,gd T cells
-Myeloid cells,NK cells
+Myeloid cells,gd T cells
 NK cells,NK cells
 Myeloid cells,CD4+ T cells
 MAIT cells,Myeloid cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 NK cells,NK cells
-NK cells,gd T cells
+NK cells,NK cells
 CD4+ T cells,NK cells
 NK cells,NK cells
 B cells,gd T cells
@@ -16606,7 +16606,7 @@ gd T cells,CD4+ T cells
 CD4+ T cells,NK cells
 B cells,Myeloid cells
 NK cells,NK cells
-CD4+ T cells,Myeloid cells
+CD4+ T cells,B cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 B cells,CD4+ T cells
 NK cells,NK cells
@@ -16631,7 +16631,7 @@ B cells,TRAV1-2- CD8+ T cells
 gd T cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 MAIT cells,TRAV1-2- CD8+ T cells
-Myeloid cells,CD4+ T cells
+Myeloid cells,Myeloid cells
 TRAV1-2- CD8+ T cells,B cells
 gd T cells,NK cells
 CD4+ T cells,Myeloid cells
@@ -16753,7 +16753,7 @@ NK cells,NK cells
 B cells,CD4+ T cells
 NK cells,NK cells
 MAIT cells,Myeloid cells
-Myeloid cells,MAIT cells
+Myeloid cells,gd T cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 NK cells,NK cells
 NK cells,NK cells
@@ -17202,7 +17202,7 @@ Myeloid cells,gd T cells
 MAIT cells,CD4+ T cells
 CD4+ T cells,CD4+ T cells
 B cells,TRAV1-2- CD8+ T cells
-Myeloid cells,NK cells
+Myeloid cells,B cells
 CD4+ T cells,MAIT cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 gd T cells,Myeloid cells
@@ -17403,7 +17403,7 @@ TRAV1-2- CD8+ T cells,Myeloid cells
 CD4+ T cells,Myeloid cells
 CD4+ T cells,gd T cells
 B cells,gd T cells
-TRAV1-2- CD8+ T cells,CD4+ T cells
+TRAV1-2- CD8+ T cells,gd T cells
 CD4+ T cells,CD4+ T cells
 Myeloid cells,Myeloid cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -18004,7 +18004,7 @@ Myeloid cells,Myeloid cells
 B cells,TRAV1-2- CD8+ T cells
 B cells,B cells
 MAIT cells,CD4+ T cells
-CD4+ T cells,MAIT cells
+CD4+ T cells,B cells
 MAIT cells,Myeloid cells
 CD4+ T cells,NK cells
 NK cells,NK cells
@@ -18216,7 +18216,7 @@ B cells,CD4+ T cells
 CD4+ T cells,MAIT cells
 Myeloid cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,gd T cells
-MAIT cells,TRAV1-2- CD8+ T cells
+MAIT cells,Myeloid cells
 CD4+ T cells,CD4+ T cells
 MAIT cells,Myeloid cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -18239,7 +18239,7 @@ gd T cells,CD4+ T cells
 MAIT cells,B cells
 NK cells,NK cells
 MAIT cells,gd T cells
-Myeloid cells,TRAV1-2- CD8+ T cells
+Myeloid cells,Myeloid cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 NK cells,NK cells
@@ -19889,7 +19889,7 @@ TRAV1-2- CD8+ T cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,gd T cells
 CD4+ T cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,B cells
-Myeloid cells,TRAV1-2- CD8+ T cells
+Myeloid cells,B cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 B cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -19897,7 +19897,7 @@ TRAV1-2- CD8+ T cells,CD4+ T cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 gd T cells,B cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-gd T cells,CD4+ T cells
+gd T cells,gd T cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 B cells,NK cells
 Myeloid cells,Myeloid cells
@@ -19962,7 +19962,7 @@ TRAV1-2- CD8+ T cells,CD4+ T cells
 MAIT cells,B cells
 CD4+ T cells,NK cells
 CD4+ T cells,Myeloid cells
-gd T cells,gd T cells
+gd T cells,CD4+ T cells
 MAIT cells,Myeloid cells
 NK cells,NK cells
 CD4+ T cells,CD4+ T cells
@@ -20116,7 +20116,7 @@ gd T cells,B cells
 MAIT cells,CD4+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,TRAV1-2- CD8+ T cells
-TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+TRAV1-2- CD8+ T cells,CD4+ T cells
 MAIT cells,Myeloid cells
 B cells,CD4+ T cells
 B cells,CD4+ T cells
@@ -20473,7 +20473,7 @@ CD4+ T cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
 Myeloid cells,CD4+ T cells
 NK cells,NK cells
-gd T cells,Myeloid cells
+gd T cells,CD4+ T cells
 B cells,TRAV1-2- CD8+ T cells
 MAIT cells,Myeloid cells
 Myeloid cells,CD4+ T cells
@@ -21166,7 +21166,7 @@ gd T cells,Myeloid cells
 B cells,TRAV1-2- CD8+ T cells
 Myeloid cells,CD4+ T cells
 MAIT cells,TRAV1-2- CD8+ T cells
-B cells,B cells
+B cells,CD4+ T cells
 B cells,TRAV1-2- CD8+ T cells
 gd T cells,Myeloid cells
 gd T cells,NK cells
@@ -21201,7 +21201,7 @@ TRAV1-2- CD8+ T cells,CD4+ T cells
 gd T cells,CD4+ T cells
 B cells,B cells
 Myeloid cells,TRAV1-2- CD8+ T cells
-MAIT cells,gd T cells
+MAIT cells,B cells
 Myeloid cells,Myeloid cells
 Myeloid cells,B cells
 gd T cells,CD4+ T cells
@@ -21239,7 +21239,7 @@ MAIT cells,NK cells
 NK cells,NK cells
 B cells,gd T cells
 CD4+ T cells,CD4+ T cells
-MAIT cells,CD4+ T cells
+MAIT cells,Myeloid cells
 NK cells,NK cells
 MAIT cells,TRAV1-2- CD8+ T cells
 Myeloid cells,TRAV1-2- CD8+ T cells
@@ -21318,7 +21318,7 @@ gd T cells,TRAV1-2- CD8+ T cells
 B cells,TRAV1-2- CD8+ T cells
 Myeloid cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,B cells
-Myeloid cells,TRAV1-2- CD8+ T cells
+Myeloid cells,B cells
 gd T cells,gd T cells
 B cells,Myeloid cells
 Myeloid cells,B cells
@@ -21370,7 +21370,7 @@ TRAV1-2- CD8+ T cells,Myeloid cells
 TRAV1-2- CD8+ T cells,CD4+ T cells
 CD4+ T cells,CD4+ T cells
 gd T cells,Myeloid cells
-CD4+ T cells,TRAV1-2- CD8+ T cells
+CD4+ T cells,B cells
 gd T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,CD4+ T cells
 MAIT cells,TRAV1-2- CD8+ T cells
@@ -21397,7 +21397,7 @@ NK cells,NK cells
 B cells,B cells
 TRAV1-2- CD8+ T cells,Myeloid cells
 NK cells,NK cells
-Myeloid cells,gd T cells
+Myeloid cells,B cells
 Myeloid cells,CD4+ T cells
 B cells,gd T cells
 B cells,gd T cells
@@ -21434,7 +21434,7 @@ B cells,Myeloid cells
 NK cells,TRAV1-2- CD8+ T cells
 TRAV1-2- CD8+ T cells,B cells
 gd T cells,Myeloid cells
-CD4+ T cells,TRAV1-2- CD8+ T cells
+CD4+ T cells,Myeloid cells
 NK cells,NK cells
 TRAV1-2- CD8+ T cells,B cells
 Myeloid cells,B cells
@@ -21492,7 +21492,7 @@ CD4+ T cells,Myeloid cells
 CD4+ T cells,B cells
 NK cells,NK cells
 B cells,NK cells
-TRAV1-2- CD8+ T cells,Myeloid cells
+TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 CD4+ T cells,B cells
 gd T cells,CD4+ T cells
 CD4+ T cells,B cells
@@ -21565,7 +21565,7 @@ CD4+ T cells,CD4+ T cells
 CD4+ T cells,Myeloid cells
 TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 MAIT cells,TRAV1-2- CD8+ T cells
-CD4+ T cells,TRAV1-2- CD8+ T cells
+CD4+ T cells,CD4+ T cells
 gd T cells,TRAV1-2- CD8+ T cells
 B cells,B cells
 CD4+ T cells,Myeloid cells

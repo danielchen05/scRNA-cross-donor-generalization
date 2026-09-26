@@ -13,12 +13,16 @@ DEFAULT_CONFIGS = [
     Path("configs/preprocessing/pancreas.yaml"),
     Path("configs/preprocessing/lung.yaml"),
     Path("configs/preprocessing/pbmc.yaml"),
+    Path("configs/preprocessing/blood_atlas.yaml"),
 ]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Run kidney + pancreas + lung + PBMC preprocessing."
+        description=(
+            "Run all standard public preprocessing workflows. "
+            "Blood Atlas Stage 0 is intentionally excluded."
+        )
     )
     parser.add_argument(
         "--force",
@@ -28,6 +32,7 @@ def main() -> None:
     args = parser.parse_args()
 
     root = bootstrap_repo()
+
     for config in DEFAULT_CONFIGS:
         cmd = [
             sys.executable,
@@ -35,10 +40,16 @@ def main() -> None:
             "--config",
             str(config),
         ]
+
         if args.force:
             cmd.append("--force")
+
         print("\n$", " ".join(cmd))
-        subprocess.run(cmd, cwd=root, check=True)
+        subprocess.run(
+            cmd,
+            cwd=root,
+            check=True,
+        )
 
 
 if __name__ == "__main__":

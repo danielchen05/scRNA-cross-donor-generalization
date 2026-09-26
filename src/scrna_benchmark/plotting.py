@@ -373,16 +373,23 @@ def load_per_class_f1_matrix(
 ):
     """
     Load mean per-class F1 tables saved by run_donor_cv_experiment().
+
+    Representations without an output file are skipped. This allows datasets
+    to use different valid representation sets (e.g. Blood Atlas has no scVI).
     """
     donor_cv_dir = Path(donor_cv_dir)
 
     parts = []
+    available_reps = []
 
     for rep in rep_order:
         path = (
             donor_cv_dir
             / f"{scheme_label}_{rep}_mean_per_class_f1.csv"
         )
+
+        if not path.exists():
+            continue
 
         df = pd.read_csv(path)
 
@@ -393,14 +400,27 @@ def load_per_class_f1_matrix(
         )
 
         parts.append(series)
+        available_reps.append(rep)
+
+    if not parts:
+        raise FileNotFoundError(
+            f"No per-class F1 files found in {donor_cv_dir} "
+            f"for representations: {list(rep_order)}"
+        )
 
     matrix = pd.concat(parts, axis=1)
 
-    matrix["mean_f1"] = matrix[rep_order].mean(axis=1)
+    matrix["mean_f1"] = (
+        matrix[available_reps]
+        .mean(axis=1)
+    )
 
     matrix = (
         matrix
-        .sort_values("mean_f1", ascending=False)
+        .sort_values(
+            "mean_f1",
+            ascending=False,
+        )
         .drop(columns="mean_f1")
     )
 
@@ -418,33 +438,83 @@ def plot_per_class_f1_heatmap(
     """Plot cell type x representation mean F1 heatmap."""
     matrix = f1_matrix.copy()
 
-    fig_height = max(6, 0.45 * len(matrix))
-    fig, ax = plt.subplots(figsize=(7.5, fig_height))
+    # Keep only representations actually present in this dataset.
+    available_reps = [
+        rep
+        for rep in rep_order
+        if rep in matrix.columns
+    ]
+
+    if not available_reps:
+        raise ValueError(
+            "No requested representations are present in f1_matrix."
+        )
+
+    fig_height = max(
+        6,
+        0.45 * len(matrix),
+    )
+
+    fig, ax = plt.subplots(
+        figsize=(7.5, fig_height)
+    )
 
     im = ax.imshow(
-        matrix[rep_order].values,
+        matrix[available_reps].values,
         aspect="auto",
         vmin=0,
         vmax=1,
         cmap="viridis",
     )
 
-    ax.set_xticks(np.arange(len(rep_order)))
-    ax.set_xticklabels([rep_labels[r] for r in rep_order])
+    ax.set_xticks(
+        np.arange(
+            len(available_reps)
+        )
+    )
 
-    ax.set_yticks(np.arange(len(matrix.index)))
-    ax.set_yticklabels(matrix.index)
+    ax.set_xticklabels(
+        [
+            rep_labels[r]
+            for r in available_reps
+        ]
+    )
 
-    ax.set_xlabel("Representation")
-    ax.set_ylabel("Cell type")
-    ax.set_title(title)
+    ax.set_yticks(
+        np.arange(
+            len(matrix.index)
+        )
+    )
 
-    cbar = fig.colorbar(im, ax=ax)
-    cbar.set_label("Mean per-class F1")
+    ax.set_yticklabels(
+        matrix.index
+    )
+
+    ax.set_xlabel(
+        "Representation"
+    )
+    ax.set_ylabel(
+        "Cell type"
+    )
+    ax.set_title(
+        title
+    )
+
+    cbar = fig.colorbar(
+        im,
+        ax=ax,
+    )
+    cbar.set_label(
+        "Mean per-class F1"
+    )
 
     if annotate:
-        for i in range(matrix.shape[0]):
-            for j, rep in enumerate(rep_order):
+        for i in range(
+            matrix.shape[0]
+        ):
+            for j, rep in enumerate(
+                available_reps
+            ):
                 val = matrix.iloc[i][rep]
 
                 ax.text(
@@ -454,14 +524,20 @@ def plot_per_class_f1_heatmap(
                     ha="center",
                     va="center",
                     fontsize=7,
-                    color="white" if val < 0.45 else "black",
+                    color=(
+                        "white"
+                        if val < 0.45
+                        else "black"
+                    ),
                 )
 
     fig.tight_layout()
-    _save_figure(fig, out_file)
+    _save_figure(
+        fig,
+        out_file,
+    )
 
     return fig, ax
-
 
 # ============================================================
 # Pooled confusion matrix

@@ -1,0 +1,82 @@
+{
+  "dataset_name": "blood_atlas",
+  "stages": {
+    "loaded": {
+      "n_cells": 108682,
+      "n_genes": 36601,
+      "n_donors": 166,
+      "n_celltypes": 7
+    },
+    "after_dataset_filters": {
+      "n_cells": 108682,
+      "n_genes": 36601,
+      "n_donors": 166,
+      "n_celltypes": 7
+    },
+    "after_celltype_support_filter": {
+      "n_cells": 108682,
+      "n_genes": 36601,
+      "n_donors": 166,
+      "n_celltypes": 7
+    },
+    "after_downsampling": {
+      "n_cells": 108682,
+      "n_genes": 36601,
+      "n_donors": 166,
+      "n_celltypes": 7
+    },
+    "after_gene_filtering": {
+      "n_cells": 108682,
+      "n_genes": 36601,
+      "n_donors": 166,
+      "n_celltypes": 7
+    },
+    "benchmark_ready": {
+      "n_cells": 108682,
+      "n_genes": 1000,
+      "n_donors": 166,
+      "n_celltypes": 7
+    }
+  },
+  "expected_checks": {
+    "n_cells": {
+      "expected": 108682,
+      "observed": 108682,
+      "ok": true
+    },
+    "n_donors": {
+      "expected": 166,
+      "observed": 166,
+      "ok": true
+    },
+    "n_celltypes": {
+      "expected": 7,
+      "observed": 7,
+      "ok": true
+    },
+    "n_hvg": {
+      "expected": 1000,
+      "observed": 1000,
+      "ok": true
+    }
+  },
+  "representations": {
+    "hvg": [
+      108682,
+      1000
+    ],
+    "pca": [
+      108682,
+      15
+    ],
+    "harmony": [
+      108682,
+      15
+    ]
+  },
+  "expression_provenance": {
+    "prepare_from_counts": false,
+    "counts_source": "X",
+    "scvi_enabled": false
+  }
+}

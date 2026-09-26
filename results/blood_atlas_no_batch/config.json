@@ -12,8 +12,8 @@
     "pca": "X_pca",
     "harmony": "X_harmony"
   },
-  "min_cells": 200,
-  "min_donors": 5,
+  "min_cells": null,
+  "min_donors": null,
   "run_random_split": true,
   "run_donor_cv": true,
   "run_group_transfer": false,
@@ -33,6 +33,6 @@
     120
   ],
   "donor_ablation_n_repeats": 5,
-  "save_filtered_adata": true,
+  "save_filtered_adata": false,
   "verbose": true
 }

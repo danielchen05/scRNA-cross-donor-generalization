@@ -278,7 +278,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,B cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,MAIT cells,MAIT cells
+1,MAIT cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,CD4+ T cells
 1,MAIT cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -456,7 +456,7 @@ fold,y_true,y_pred
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,NK cells
 1,Myeloid cells,Myeloid cells
-1,CD4+ T cells,Myeloid cells
+1,CD4+ T cells,CD4+ T cells
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -839,7 +839,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,TRAV1-2- CD8+ T cells
+1,Myeloid cells,Myeloid cells
 1,B cells,B cells
 1,gd T cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -1029,7 +1029,7 @@ fold,y_true,y_pred
 1,gd T cells,NK cells
 1,NK cells,NK cells
 1,B cells,Myeloid cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,B cells,CD4+ T cells
 1,NK cells,NK cells
 1,CD4+ T cells,gd T cells
@@ -1153,7 +1153,7 @@ fold,y_true,y_pred
 1,Myeloid cells,CD4+ T cells
 1,MAIT cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,NK cells
-1,gd T cells,TRAV1-2- CD8+ T cells
+1,gd T cells,B cells
 1,B cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,B cells,CD4+ T cells
@@ -1557,7 +1557,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,B cells
 1,CD4+ T cells,CD4+ T cells
 1,CD4+ T cells,Myeloid cells
-1,TRAV1-2- CD8+ T cells,B cells
+1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,MAIT cells,NK cells
 1,gd T cells,TRAV1-2- CD8+ T cells
@@ -1831,7 +1831,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,B cells
 1,NK cells,NK cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,Myeloid cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,NK cells,NK cells
@@ -1880,7 +1880,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,NK cells
 1,CD4+ T cells,gd T cells
-1,TRAV1-2- CD8+ T cells,Myeloid cells
+1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,MAIT cells,gd T cells
 1,B cells,Myeloid cells
 1,Myeloid cells,CD4+ T cells
@@ -1968,7 +1968,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,B cells
 1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,B cells
 1,NK cells,NK cells
 1,B cells,B cells
 1,Myeloid cells,CD4+ T cells
@@ -2049,7 +2049,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,B cells,Myeloid cells
 1,CD4+ T cells,gd T cells
-1,MAIT cells,Myeloid cells
+1,MAIT cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,gd T cells
 1,Myeloid cells,Myeloid cells
 1,MAIT cells,CD4+ T cells
@@ -2148,7 +2148,7 @@ fold,y_true,y_pred
 1,B cells,B cells
 1,NK cells,NK cells
 1,Myeloid cells,B cells
-1,B cells,B cells
+1,B cells,CD4+ T cells
 1,Myeloid cells,NK cells
 1,B cells,B cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
@@ -2315,7 +2315,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,gd T cells
 1,CD4+ T cells,CD4+ T cells
 1,B cells,B cells
-1,CD4+ T cells,CD4+ T cells
+1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,Myeloid cells,CD4+ T cells
@@ -2482,7 +2482,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,CD4+ T cells,B cells
 1,B cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,B cells
+1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,B cells
 1,gd T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -2783,7 +2783,7 @@ fold,y_true,y_pred
 1,B cells,gd T cells
 1,MAIT cells,Myeloid cells
 1,CD4+ T cells,B cells
-1,B cells,Myeloid cells
+1,B cells,gd T cells
 1,NK cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,B cells,B cells
@@ -2837,7 +2837,7 @@ fold,y_true,y_pred
 1,Myeloid cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,gd T cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,B cells,CD4+ T cells
@@ -2902,7 +2902,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,gd T cells
 1,CD4+ T cells,gd T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,MAIT cells,CD4+ T cells
+1,MAIT cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,gd T cells
 1,CD4+ T cells,CD4+ T cells
 1,Myeloid cells,B cells
@@ -2916,7 +2916,7 @@ fold,y_true,y_pred
 1,B cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,Myeloid cells
 1,NK cells,NK cells
@@ -3093,7 +3093,7 @@ fold,y_true,y_pred
 1,gd T cells,CD4+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,TRAV1-2- CD8+ T cells
+1,CD4+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,gd T cells
 1,B cells,CD4+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
@@ -3153,7 +3153,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,B cells
 1,CD4+ T cells,B cells
 1,CD4+ T cells,B cells
-1,Myeloid cells,TRAV1-2- CD8+ T cells
+1,Myeloid cells,Myeloid cells
 1,Myeloid cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,NK cells
 1,TRAV1-2- CD8+ T cells,NK cells
@@ -3249,7 +3249,7 @@ fold,y_true,y_pred
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,NK cells
 1,Myeloid cells,CD4+ T cells
-1,TRAV1-2- CD8+ T cells,Myeloid cells
+1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,B cells
 1,Myeloid cells,NK cells
@@ -3262,7 +3262,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,Myeloid cells
 1,CD4+ T cells,Myeloid cells
 1,NK cells,NK cells
-1,B cells,B cells
+1,B cells,TRAV1-2- CD8+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,B cells,Myeloid cells
 1,MAIT cells,Myeloid cells
@@ -3430,7 +3430,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,CD4+ T cells
 1,CD4+ T cells,NK cells
 1,Myeloid cells,B cells
-1,MAIT cells,B cells
+1,MAIT cells,CD4+ T cells
 1,NK cells,NK cells
 1,gd T cells,gd T cells
 1,B cells,B cells
@@ -3442,7 +3442,7 @@ fold,y_true,y_pred
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,B cells,Myeloid cells
+1,B cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,gd T cells
 1,gd T cells,NK cells
 1,CD4+ T cells,Myeloid cells
@@ -3536,7 +3536,7 @@ fold,y_true,y_pred
 1,MAIT cells,Myeloid cells
 1,Myeloid cells,CD4+ T cells
 1,CD4+ T cells,Myeloid cells
-1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+1,TRAV1-2- CD8+ T cells,B cells
 1,NK cells,NK cells
 1,CD4+ T cells,Myeloid cells
 1,gd T cells,B cells
@@ -3617,7 +3617,7 @@ fold,y_true,y_pred
 1,MAIT cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,gd T cells,CD4+ T cells
-1,MAIT cells,B cells
+1,MAIT cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,CD4+ T cells
 1,NK cells,NK cells
@@ -4045,7 +4045,7 @@ fold,y_true,y_pred
 1,B cells,B cells
 1,MAIT cells,B cells
 1,TRAV1-2- CD8+ T cells,B cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,gd T cells
 1,Myeloid cells,CD4+ T cells
 1,gd T cells,Myeloid cells
 1,gd T cells,Myeloid cells
@@ -4138,7 +4138,7 @@ fold,y_true,y_pred
 1,gd T cells,B cells
 1,MAIT cells,CD4+ T cells
 1,Myeloid cells,CD4+ T cells
-1,CD4+ T cells,NK cells
+1,CD4+ T cells,B cells
 1,NK cells,NK cells
 1,Myeloid cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
@@ -4226,7 +4226,7 @@ fold,y_true,y_pred
 1,gd T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,MAIT cells,NK cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -4620,7 +4620,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,NK cells
 1,MAIT cells,B cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,B cells
+1,TRAV1-2- CD8+ T cells,gd T cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,Myeloid cells
 1,Myeloid cells,B cells
@@ -4697,13 +4697,13 @@ fold,y_true,y_pred
 1,CD4+ T cells,B cells
 1,gd T cells,gd T cells
 1,NK cells,NK cells
-1,gd T cells,NK cells
+1,gd T cells,MAIT cells
 1,gd T cells,CD4+ T cells
 1,gd T cells,CD4+ T cells
 1,CD4+ T cells,gd T cells
 1,B cells,CD4+ T cells
 1,NK cells,NK cells
-1,CD4+ T cells,TRAV1-2- CD8+ T cells
+1,CD4+ T cells,CD4+ T cells
 1,NK cells,NK cells
 1,Myeloid cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,NK cells
@@ -4891,7 +4891,7 @@ fold,y_true,y_pred
 1,gd T cells,B cells
 1,CD4+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,CD4+ T cells
 1,NK cells,NK cells
 1,Myeloid cells,MAIT cells
 1,gd T cells,CD4+ T cells
@@ -4907,7 +4907,7 @@ fold,y_true,y_pred
 1,Myeloid cells,B cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,B cells,CD4+ T cells
-1,CD4+ T cells,B cells
+1,CD4+ T cells,CD4+ T cells
 1,CD4+ T cells,Myeloid cells
 1,CD4+ T cells,Myeloid cells
 1,Myeloid cells,NK cells
@@ -5137,9 +5137,9 @@ fold,y_true,y_pred
 1,Myeloid cells,Myeloid cells
 1,CD4+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,NK cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,B cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,gd T cells,TRAV1-2- CD8+ T cells
+1,gd T cells,B cells
 1,MAIT cells,gd T cells
 1,CD4+ T cells,Myeloid cells
 1,B cells,Myeloid cells
@@ -5304,7 +5304,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,B cells
 1,CD4+ T cells,CD4+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,Myeloid cells
+1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,CD4+ T cells,CD4+ T cells
@@ -5419,7 +5419,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,Myeloid cells,Myeloid cells
-1,TRAV1-2- CD8+ T cells,CD4+ T cells
+1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,NK cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
@@ -5487,7 +5487,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,gd T cells,Myeloid cells
 1,Myeloid cells,gd T cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,Myeloid cells
 1,MAIT cells,NK cells
 1,NK cells,NK cells
 1,CD4+ T cells,gd T cells
@@ -5577,7 +5577,7 @@ fold,y_true,y_pred
 1,Myeloid cells,CD4+ T cells
 1,Myeloid cells,CD4+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
-1,B cells,B cells
+1,B cells,Myeloid cells
 1,MAIT cells,B cells
 1,Myeloid cells,CD4+ T cells
 1,B cells,gd T cells
@@ -5652,7 +5652,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,CD4+ T cells
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,MAIT cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,gd T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,NK cells,NK cells
@@ -5694,7 +5694,7 @@ fold,y_true,y_pred
 1,B cells,B cells
 1,B cells,B cells
 1,B cells,TRAV1-2- CD8+ T cells
-1,B cells,B cells
+1,B cells,TRAV1-2- CD8+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
@@ -5748,7 +5748,7 @@ fold,y_true,y_pred
 1,MAIT cells,CD4+ T cells
 1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
-1,B cells,Myeloid cells
+1,B cells,gd T cells
 1,B cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,MAIT cells
 1,MAIT cells,B cells
@@ -5892,7 +5892,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,B cells
 1,CD4+ T cells,gd T cells
 1,Myeloid cells,Myeloid cells
-1,CD4+ T cells,CD4+ T cells
+1,CD4+ T cells,Myeloid cells
 1,CD4+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
@@ -5932,7 +5932,7 @@ fold,y_true,y_pred
 1,Myeloid cells,CD4+ T cells
 1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,MAIT cells,Myeloid cells
+1,MAIT cells,gd T cells
 1,gd T cells,Myeloid cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,Myeloid cells
@@ -6347,7 +6347,7 @@ fold,y_true,y_pred
 1,Myeloid cells,B cells
 1,B cells,Myeloid cells
 1,NK cells,NK cells
-1,TRAV1-2- CD8+ T cells,Myeloid cells
+1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,NK cells
 1,gd T cells,NK cells
 1,B cells,MAIT cells
@@ -6395,7 +6395,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,Myeloid cells,CD4+ T cells
-1,TRAV1-2- CD8+ T cells,gd T cells
+1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,gd T cells,Myeloid cells
@@ -6567,7 +6567,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,B cells
 1,MAIT cells,NK cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
-1,gd T cells,gd T cells
+1,gd T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,MAIT cells,CD4+ T cells
 1,B cells,B cells
@@ -6640,7 +6640,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
-1,B cells,CD4+ T cells
+1,B cells,B cells
 1,NK cells,NK cells
 1,Myeloid cells,CD4+ T cells
 1,B cells,Myeloid cells
@@ -6889,7 +6889,7 @@ fold,y_true,y_pred
 1,B cells,B cells
 1,NK cells,NK cells
 1,MAIT cells,NK cells
-1,gd T cells,B cells
+1,gd T cells,gd T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,CD4+ T cells,B cells
@@ -6955,7 +6955,7 @@ fold,y_true,y_pred
 1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,B cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,B cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,gd T cells
 1,Myeloid cells,B cells
@@ -6981,7 +6981,7 @@ fold,y_true,y_pred
 1,Myeloid cells,CD4+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
-1,gd T cells,CD4+ T cells
+1,gd T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
@@ -7282,7 +7282,7 @@ fold,y_true,y_pred
 1,gd T cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,B cells
-1,TRAV1-2- CD8+ T cells,CD4+ T cells
+1,TRAV1-2- CD8+ T cells,gd T cells
 1,gd T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,B cells
@@ -7378,7 +7378,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,MAIT cells,gd T cells
 1,gd T cells,Myeloid cells
-1,TRAV1-2- CD8+ T cells,Myeloid cells
+1,TRAV1-2- CD8+ T cells,gd T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,B cells
 1,Myeloid cells,CD4+ T cells
@@ -7437,7 +7437,7 @@ fold,y_true,y_pred
 1,Myeloid cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,NK cells
-1,NK cells,Myeloid cells
+1,NK cells,NK cells
 1,Myeloid cells,CD4+ T cells
 1,NK cells,NK cells
 1,CD4+ T cells,B cells
@@ -7487,7 +7487,7 @@ fold,y_true,y_pred
 1,MAIT cells,B cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,B cells
 1,gd T cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,gd T cells,CD4+ T cells
@@ -7835,7 +7835,7 @@ fold,y_true,y_pred
 1,gd T cells,Myeloid cells
 1,gd T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
-1,B cells,gd T cells
+1,B cells,NK cells
 1,B cells,Myeloid cells
 1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,gd T cells
@@ -7877,7 +7877,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,CD4+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,NK cells,B cells
-1,B cells,CD4+ T cells
+1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,B cells
 1,NK cells,NK cells
 1,CD4+ T cells,B cells
@@ -7891,13 +7891,13 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,gd T cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
-1,B cells,Myeloid cells
+1,B cells,CD4+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,B cells,MAIT cells
-1,Myeloid cells,TRAV1-2- CD8+ T cells
+1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,CD4+ T cells,CD4+ T cells
 1,B cells,Myeloid cells
@@ -8142,7 +8142,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,B cells,Myeloid cells
 1,gd T cells,CD4+ T cells
-1,gd T cells,TRAV1-2- CD8+ T cells
+1,gd T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
@@ -8282,7 +8282,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,B cells
-1,gd T cells,gd T cells
+1,gd T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,gd T cells,CD4+ T cells
 1,B cells,gd T cells
@@ -8388,7 +8388,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,B cells,CD4+ T cells
-1,B cells,B cells
+1,B cells,Myeloid cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -8432,7 +8432,7 @@ fold,y_true,y_pred
 1,gd T cells,gd T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
-1,gd T cells,TRAV1-2- CD8+ T cells
+1,gd T cells,NK cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,B cells
 1,NK cells,NK cells
@@ -8479,7 +8479,7 @@ fold,y_true,y_pred
 1,gd T cells,gd T cells
 1,Myeloid cells,CD4+ T cells
 1,MAIT cells,B cells
-1,CD4+ T cells,CD4+ T cells
+1,CD4+ T cells,gd T cells
 1,Myeloid cells,CD4+ T cells
 1,Myeloid cells,B cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -8568,7 +8568,7 @@ fold,y_true,y_pred
 1,MAIT cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,gd T cells
 1,gd T cells,CD4+ T cells
-1,NK cells,MAIT cells
+1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -8720,10 +8720,10 @@ fold,y_true,y_pred
 1,MAIT cells,Myeloid cells
 1,B cells,Myeloid cells
 1,gd T cells,Myeloid cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,CD4+ T cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
-1,MAIT cells,gd T cells
+1,MAIT cells,Myeloid cells
 1,MAIT cells,CD4+ T cells
 1,gd T cells,Myeloid cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -8822,7 +8822,7 @@ fold,y_true,y_pred
 1,gd T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
-1,NK cells,CD4+ T cells
+1,NK cells,NK cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,CD4+ T cells
@@ -8887,7 +8887,7 @@ fold,y_true,y_pred
 1,MAIT cells,B cells
 1,CD4+ T cells,CD4+ T cells
 1,B cells,CD4+ T cells
-1,B cells,CD4+ T cells
+1,B cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,gd T cells,B cells
@@ -9039,7 +9039,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,B cells
 1,MAIT cells,NK cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,CD4+ T cells,CD4+ T cells
@@ -9348,7 +9348,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,NK cells
 1,NK cells,NK cells
 1,MAIT cells,B cells
-1,CD4+ T cells,MAIT cells
+1,CD4+ T cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,CD4+ T cells
 1,NK cells,NK cells
@@ -9546,7 +9546,7 @@ fold,y_true,y_pred
 1,B cells,CD4+ T cells
 1,gd T cells,B cells
 1,NK cells,NK cells
-1,CD4+ T cells,Myeloid cells
+1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,CD4+ T cells
 1,MAIT cells,MAIT cells
 1,B cells,CD4+ T cells
@@ -9837,7 +9837,7 @@ fold,y_true,y_pred
 1,gd T cells,B cells
 1,gd T cells,gd T cells
 1,NK cells,NK cells
-1,gd T cells,TRAV1-2- CD8+ T cells
+1,gd T cells,B cells
 1,Myeloid cells,Myeloid cells
 1,Myeloid cells,B cells
 1,NK cells,NK cells
@@ -9954,7 +9954,7 @@ fold,y_true,y_pred
 1,gd T cells,CD4+ T cells
 1,CD4+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,gd T cells
-1,CD4+ T cells,gd T cells
+1,CD4+ T cells,B cells
 1,CD4+ T cells,Myeloid cells
 1,B cells,B cells
 1,NK cells,NK cells
@@ -10211,7 +10211,7 @@ fold,y_true,y_pred
 1,MAIT cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,B cells
-1,NK cells,Myeloid cells
+1,NK cells,NK cells
 1,CD4+ T cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,B cells,CD4+ T cells
@@ -10419,7 +10419,7 @@ fold,y_true,y_pred
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,B cells
-1,gd T cells,CD4+ T cells
+1,gd T cells,B cells
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
@@ -10556,7 +10556,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,MAIT cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,B cells
+1,Myeloid cells,gd T cells
 1,B cells,NK cells
 1,NK cells,NK cells
 1,NK cells,NK cells
@@ -10824,7 +10824,7 @@ fold,y_true,y_pred
 1,B cells,B cells
 1,CD4+ T cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
-1,B cells,B cells
+1,B cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,B cells
@@ -10892,7 +10892,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,Myeloid cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,B cells
 1,MAIT cells,B cells
 1,Myeloid cells,CD4+ T cells
 1,MAIT cells,MAIT cells
@@ -11100,7 +11100,7 @@ fold,y_true,y_pred
 1,gd T cells,B cells
 1,gd T cells,CD4+ T cells
 1,B cells,Myeloid cells
-1,B cells,gd T cells
+1,B cells,B cells
 1,B cells,gd T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,B cells,NK cells
@@ -11172,7 +11172,7 @@ fold,y_true,y_pred
 1,B cells,MAIT cells
 1,MAIT cells,MAIT cells
 1,B cells,Myeloid cells
-1,CD4+ T cells,NK cells
+1,CD4+ T cells,MAIT cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,Myeloid cells
 1,Myeloid cells,CD4+ T cells
@@ -11193,7 +11193,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,NK cells
 1,NK cells,NK cells
 1,CD4+ T cells,CD4+ T cells
-1,B cells,CD4+ T cells
+1,B cells,Myeloid cells
 1,NK cells,NK cells
 1,Myeloid cells,gd T cells
 1,NK cells,NK cells
@@ -11474,7 +11474,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,MAIT cells,B cells
 1,MAIT cells,Myeloid cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,Myeloid cells
 1,B cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
@@ -11617,7 +11617,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,gd T cells,CD4+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,B cells
+1,CD4+ T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,CD4+ T cells
@@ -11744,7 +11744,7 @@ fold,y_true,y_pred
 1,gd T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,Myeloid cells
+1,CD4+ T cells,B cells
 1,gd T cells,CD4+ T cells
 1,B cells,B cells
 1,gd T cells,CD4+ T cells
@@ -11898,7 +11898,7 @@ fold,y_true,y_pred
 1,gd T cells,CD4+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,Myeloid cells
-1,gd T cells,TRAV1-2- CD8+ T cells
+1,gd T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,gd T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,B cells,B cells
@@ -12393,7 +12393,7 @@ fold,y_true,y_pred
 1,MAIT cells,Myeloid cells
 1,CD4+ T cells,Myeloid cells
 1,gd T cells,MAIT cells
-1,TRAV1-2- CD8+ T cells,CD4+ T cells
+1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,CD4+ T cells
 1,MAIT cells,B cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -12549,7 +12549,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,B cells
 1,Myeloid cells,Myeloid cells
 1,MAIT cells,Myeloid cells
-1,B cells,gd T cells
+1,B cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,CD4+ T cells,CD4+ T cells
@@ -12577,7 +12577,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,gd T cells
+1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,gd T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,MAIT cells,CD4+ T cells
@@ -12602,7 +12602,7 @@ fold,y_true,y_pred
 1,B cells,B cells
 1,Myeloid cells,Myeloid cells
 1,NK cells,NK cells
-1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,NK cells,NK cells
 1,gd T cells,gd T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -12777,7 +12777,7 @@ fold,y_true,y_pred
 1,MAIT cells,B cells
 1,NK cells,NK cells
 1,Myeloid cells,B cells
-1,TRAV1-2- CD8+ T cells,Myeloid cells
+1,TRAV1-2- CD8+ T cells,B cells
 1,NK cells,NK cells
 1,CD4+ T cells,B cells
 1,gd T cells,TRAV1-2- CD8+ T cells
@@ -12819,7 +12819,7 @@ fold,y_true,y_pred
 1,Myeloid cells,Myeloid cells
 1,gd T cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,gd T cells
+1,TRAV1-2- CD8+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,B cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,B cells
@@ -12884,7 +12884,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,Myeloid cells
-1,TRAV1-2- CD8+ T cells,CD4+ T cells
+1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,B cells,Myeloid cells
@@ -13033,7 +13033,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,NK cells
 1,CD4+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,CD4+ T cells
+1,CD4+ T cells,B cells
 1,NK cells,NK cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,B cells
@@ -13107,7 +13107,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,Myeloid cells
 1,CD4+ T cells,B cells
-1,CD4+ T cells,CD4+ T cells
+1,CD4+ T cells,gd T cells
 1,Myeloid cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,gd T cells
@@ -13547,7 +13547,7 @@ fold,y_true,y_pred
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,B cells,Myeloid cells
 1,NK cells,NK cells
-1,CD4+ T cells,B cells
+1,CD4+ T cells,gd T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,CD4+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
@@ -13696,7 +13696,7 @@ fold,y_true,y_pred
 1,MAIT cells,NK cells
 1,CD4+ T cells,B cells
 1,gd T cells,Myeloid cells
-1,B cells,B cells
+1,B cells,CD4+ T cells
 1,gd T cells,B cells
 1,B cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,MAIT cells
@@ -13936,7 +13936,7 @@ fold,y_true,y_pred
 1,gd T cells,B cells
 1,CD4+ T cells,gd T cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
-1,MAIT cells,gd T cells
+1,MAIT cells,Myeloid cells
 1,Myeloid cells,gd T cells
 1,NK cells,NK cells
 1,gd T cells,NK cells
@@ -14016,7 +14016,7 @@ fold,y_true,y_pred
 1,Myeloid cells,B cells
 1,NK cells,NK cells
 1,Myeloid cells,Myeloid cells
-1,B cells,CD4+ T cells
+1,B cells,Myeloid cells
 1,MAIT cells,NK cells
 1,gd T cells,B cells
 1,Myeloid cells,CD4+ T cells
@@ -14066,7 +14066,7 @@ fold,y_true,y_pred
 1,Myeloid cells,B cells
 1,NK cells,NK cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,NK cells
 1,B cells,Myeloid cells
@@ -14095,7 +14095,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,B cells,gd T cells
 1,MAIT cells,Myeloid cells
-1,B cells,MAIT cells
+1,B cells,gd T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -14140,7 +14140,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,MAIT cells,MAIT cells
 1,Myeloid cells,gd T cells
-1,gd T cells,CD4+ T cells
+1,gd T cells,gd T cells
 1,CD4+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,Myeloid cells,gd T cells
@@ -14262,7 +14262,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,gd T cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+1,TRAV1-2- CD8+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,Myeloid cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,B cells
@@ -14326,7 +14326,7 @@ fold,y_true,y_pred
 1,gd T cells,CD4+ T cells
 1,Myeloid cells,CD4+ T cells
 1,CD4+ T cells,MAIT cells
-1,Myeloid cells,gd T cells
+1,Myeloid cells,B cells
 1,gd T cells,B cells
 1,TRAV1-2- CD8+ T cells,NK cells
 1,NK cells,NK cells
@@ -14527,7 +14527,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,Myeloid cells
 1,CD4+ T cells,CD4+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,CD4+ T cells
+1,TRAV1-2- CD8+ T cells,gd T cells
 1,MAIT cells,B cells
 1,NK cells,NK cells
 1,MAIT cells,B cells
@@ -14676,7 +14676,7 @@ fold,y_true,y_pred
 1,B cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,Myeloid cells
 1,MAIT cells,B cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,Myeloid cells
 1,gd T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,gd T cells,CD4+ T cells
@@ -14781,7 +14781,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,Myeloid cells
 1,B cells,Myeloid cells
-1,gd T cells,NK cells
+1,gd T cells,gd T cells
 1,MAIT cells,NK cells
 1,CD4+ T cells,B cells
 1,Myeloid cells,Myeloid cells
@@ -14926,7 +14926,7 @@ fold,y_true,y_pred
 1,gd T cells,Myeloid cells
 1,Myeloid cells,CD4+ T cells
 1,B cells,B cells
-1,Myeloid cells,B cells
+1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,Myeloid cells,NK cells
@@ -15247,7 +15247,7 @@ fold,y_true,y_pred
 1,B cells,Myeloid cells
 1,MAIT cells,CD4+ T cells
 1,NK cells,NK cells
-1,CD4+ T cells,NK cells
+1,CD4+ T cells,B cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,Myeloid cells
 1,gd T cells,TRAV1-2- CD8+ T cells
@@ -15333,7 +15333,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,CD4+ T cells,Myeloid cells
 1,NK cells,NK cells
-1,NK cells,Myeloid cells
+1,NK cells,NK cells
 1,NK cells,NK cells
 1,gd T cells,B cells
 1,CD4+ T cells,NK cells
@@ -15351,7 +15351,7 @@ fold,y_true,y_pred
 1,MAIT cells,B cells
 1,Myeloid cells,CD4+ T cells
 1,Myeloid cells,CD4+ T cells
-1,Myeloid cells,gd T cells
+1,Myeloid cells,CD4+ T cells
 1,gd T cells,CD4+ T cells
 1,Myeloid cells,B cells
 1,CD4+ T cells,Myeloid cells
@@ -15419,7 +15419,7 @@ fold,y_true,y_pred
 1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,Myeloid cells
 1,B cells,CD4+ T cells
-1,MAIT cells,CD4+ T cells
+1,MAIT cells,MAIT cells
 1,Myeloid cells,Myeloid cells
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -15552,7 +15552,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,MAIT cells,gd T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,Myeloid cells
+1,Myeloid cells,CD4+ T cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,B cells
@@ -15793,7 +15793,7 @@ fold,y_true,y_pred
 1,MAIT cells,Myeloid cells
 1,NK cells,NK cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,Myeloid cells
+1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,B cells
 1,TRAV1-2- CD8+ T cells,NK cells
 1,NK cells,NK cells
@@ -15895,7 +15895,7 @@ fold,y_true,y_pred
 1,MAIT cells,B cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,gd T cells
 1,CD4+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
@@ -16086,7 +16086,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,CD4+ T cells
 1,B cells,B cells
 1,NK cells,NK cells
-1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,MAIT cells,gd T cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,NK cells
@@ -16150,7 +16150,7 @@ fold,y_true,y_pred
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,gd T cells
 1,CD4+ T cells,CD4+ T cells
-1,B cells,gd T cells
+1,B cells,B cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,Myeloid cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -16227,7 +16227,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,B cells,B cells
 1,MAIT cells,gd T cells
-1,Myeloid cells,B cells
+1,Myeloid cells,Myeloid cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,Myeloid cells
@@ -16268,7 +16268,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,Myeloid cells
 1,Myeloid cells,B cells
 1,B cells,NK cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,Myeloid cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -16360,7 +16360,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,CD4+ T cells
 1,gd T cells,B cells
 1,TRAV1-2- CD8+ T cells,gd T cells
-1,B cells,B cells
+1,B cells,Myeloid cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -17131,7 +17131,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
 1,gd T cells,CD4+ T cells
-1,MAIT cells,TRAV1-2- CD8+ T cells
+1,MAIT cells,CD4+ T cells
 1,CD4+ T cells,B cells
 1,gd T cells,B cells
 1,NK cells,NK cells
@@ -17185,7 +17185,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,B cells
-1,NK cells,TRAV1-2- CD8+ T cells
+1,NK cells,NK cells
 1,Myeloid cells,CD4+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
@@ -17225,7 +17225,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,MAIT cells
 1,MAIT cells,MAIT cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,MAIT cells,TRAV1-2- CD8+ T cells
+1,MAIT cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,Myeloid cells,CD4+ T cells
 1,MAIT cells,Myeloid cells
@@ -17458,7 +17458,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
-1,gd T cells,Myeloid cells
+1,gd T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -17661,7 +17661,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,TRAV1-2- CD8+ T cells,NK cells
 1,Myeloid cells,Myeloid cells
-1,Myeloid cells,B cells
+1,Myeloid cells,CD4+ T cells
 1,CD4+ T cells,Myeloid cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -17730,7 +17730,7 @@ fold,y_true,y_pred
 1,Myeloid cells,CD4+ T cells
 1,CD4+ T cells,NK cells
 1,gd T cells,NK cells
-1,CD4+ T cells,CD4+ T cells
+1,CD4+ T cells,Myeloid cells
 1,NK cells,NK cells
 1,CD4+ T cells,CD4+ T cells
 1,CD4+ T cells,gd T cells
@@ -17745,7 +17745,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,CD4+ T cells
 1,NK cells,NK cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,gd T cells,CD4+ T cells
+1,gd T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,NK cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -17786,7 +17786,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,Myeloid cells
 1,Myeloid cells,CD4+ T cells
-1,B cells,CD4+ T cells
+1,B cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,B cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -17827,7 +17827,7 @@ fold,y_true,y_pred
 1,Myeloid cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
-1,Myeloid cells,gd T cells
+1,Myeloid cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,B cells,B cells
 1,gd T cells,CD4+ T cells
@@ -17979,7 +17979,7 @@ fold,y_true,y_pred
 1,gd T cells,NK cells
 1,B cells,Myeloid cells
 1,CD4+ T cells,CD4+ T cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,B cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -17998,7 +17998,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,B cells
-1,B cells,Myeloid cells
+1,B cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,CD4+ T cells
 1,Myeloid cells,CD4+ T cells
 1,Myeloid cells,Myeloid cells
@@ -18253,7 +18253,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,MAIT cells
 1,NK cells,NK cells
-1,gd T cells,B cells
+1,gd T cells,Myeloid cells
 1,NK cells,NK cells
 1,gd T cells,Myeloid cells
 1,gd T cells,gd T cells
@@ -18963,7 +18963,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,B cells,Myeloid cells
 1,gd T cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,Myeloid cells
+1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,MAIT cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,NK cells,NK cells
@@ -18991,7 +18991,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,B cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,CD4+ T cells
+1,CD4+ T cells,Myeloid cells
 1,gd T cells,CD4+ T cells
 1,B cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -19100,7 +19100,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,gd T cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,Myeloid cells
+1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,MAIT cells,NK cells
 1,B cells,TRAV1-2- CD8+ T cells
@@ -19227,7 +19227,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,NK cells,NK cells
 1,gd T cells,TRAV1-2- CD8+ T cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,B cells
 1,NK cells,NK cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -19301,7 +19301,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,CD4+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,MAIT cells,NK cells
 1,B cells,Myeloid cells
 1,MAIT cells,Myeloid cells
@@ -19385,7 +19385,7 @@ fold,y_true,y_pred
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,MAIT cells,CD4+ T cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,B cells
+1,CD4+ T cells,Myeloid cells
 1,B cells,B cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,Myeloid cells,Myeloid cells
@@ -20127,7 +20127,7 @@ fold,y_true,y_pred
 1,B cells,MAIT cells
 1,gd T cells,Myeloid cells
 1,Myeloid cells,TRAV1-2- CD8+ T cells
-1,MAIT cells,CD4+ T cells
+1,MAIT cells,B cells
 1,gd T cells,B cells
 1,NK cells,NK cells
 1,NK cells,NK cells
@@ -20141,9 +20141,9 @@ fold,y_true,y_pred
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,B cells,B cells
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
-1,B cells,TRAV1-2- CD8+ T cells
+1,B cells,B cells
 1,Myeloid cells,Myeloid cells
-1,CD4+ T cells,Myeloid cells
+1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,B cells,B cells
 1,Myeloid cells,Myeloid cells
@@ -20202,7 +20202,7 @@ fold,y_true,y_pred
 1,gd T cells,gd T cells
 1,B cells,CD4+ T cells
 1,CD4+ T cells,Myeloid cells
-1,Myeloid cells,CD4+ T cells
+1,Myeloid cells,B cells
 1,B cells,B cells
 1,Myeloid cells,CD4+ T cells
 1,MAIT cells,CD4+ T cells
@@ -20246,7 +20246,7 @@ fold,y_true,y_pred
 1,gd T cells,TRAV1-2- CD8+ T cells
 1,CD4+ T cells,MAIT cells
 1,Myeloid cells,CD4+ T cells
-1,CD4+ T cells,B cells
+1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,gd T cells,CD4+ T cells
@@ -20370,7 +20370,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,B cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+1,TRAV1-2- CD8+ T cells,Myeloid cells
 1,TRAV1-2- CD8+ T cells,B cells
 1,TRAV1-2- CD8+ T cells,NK cells
 1,NK cells,NK cells
@@ -20492,7 +20492,7 @@ fold,y_true,y_pred
 1,MAIT cells,Myeloid cells
 1,MAIT cells,B cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-1,TRAV1-2- CD8+ T cells,CD4+ T cells
+1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,Myeloid cells,B cells
 1,MAIT cells,Myeloid cells
 1,NK cells,NK cells
@@ -20537,7 +20537,7 @@ fold,y_true,y_pred
 1,CD4+ T cells,TRAV1-2- CD8+ T cells
 1,TRAV1-2- CD8+ T cells,CD4+ T cells
 1,CD4+ T cells,gd T cells
-1,B cells,Myeloid cells
+1,B cells,gd T cells
 1,NK cells,NK cells
 1,B cells,B cells
 1,CD4+ T cells,B cells
@@ -20893,7 +20893,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,B cells,NK cells
 1,B cells,CD4+ T cells
-1,Myeloid cells,MAIT cells
+1,Myeloid cells,CD4+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
 1,MAIT cells,CD4+ T cells
@@ -21404,7 +21404,7 @@ fold,y_true,y_pred
 1,NK cells,NK cells
 1,B cells,gd T cells
 1,gd T cells,CD4+ T cells
-1,CD4+ T cells,TRAV1-2- CD8+ T cells
+1,CD4+ T cells,Myeloid cells
 1,NK cells,NK cells
 1,MAIT cells,B cells
 1,B cells,gd T cells
@@ -21567,7 +21567,7 @@ fold,y_true,y_pred
 1,Myeloid cells,TRAV1-2- CD8+ T cells
 1,gd T cells,Myeloid cells
 1,MAIT cells,TRAV1-2- CD8+ T cells
-1,CD4+ T cells,Myeloid cells
+1,CD4+ T cells,CD4+ T cells
 1,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 1,NK cells,NK cells
 1,NK cells,NK cells
@@ -21854,7 +21854,7 @@ fold,y_true,y_pred
 2,MAIT cells,CD4+ T cells
 2,CD4+ T cells,B cells
 2,NK cells,NK cells
-2,TRAV1-2- CD8+ T cells,CD4+ T cells
+2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,CD4+ T cells
 2,NK cells,NK cells
@@ -22262,7 +22262,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,B cells
 2,B cells,CD4+ T cells
-2,TRAV1-2- CD8+ T cells,gd T cells
+2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,Myeloid cells,NK cells
 2,CD4+ T cells,gd T cells
@@ -22588,7 +22588,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,MAIT cells
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,CD4+ T cells,CD4+ T cells
-2,TRAV1-2- CD8+ T cells,CD4+ T cells
+2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,gd T cells,NK cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,Myeloid cells
@@ -22922,7 +22922,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,gd T cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,B cells,Myeloid cells
-2,B cells,gd T cells
+2,B cells,TRAV1-2- CD8+ T cells
 2,B cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,NK cells
@@ -22935,7 +22935,7 @@ fold,y_true,y_pred
 2,B cells,B cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,MAIT cells,MAIT cells
-2,MAIT cells,CD4+ T cells
+2,MAIT cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,Myeloid cells,CD4+ T cells
@@ -23033,7 +23033,7 @@ fold,y_true,y_pred
 2,Myeloid cells,B cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,CD4+ T cells
 2,Myeloid cells,MAIT cells
 2,MAIT cells,gd T cells
 2,Myeloid cells,NK cells
@@ -23451,7 +23451,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,CD4+ T cells
 2,CD4+ T cells,Myeloid cells
-2,CD4+ T cells,B cells
+2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,CD4+ T cells,B cells
@@ -23467,7 +23467,7 @@ fold,y_true,y_pred
 2,B cells,Myeloid cells
 2,Myeloid cells,CD4+ T cells
 2,B cells,Myeloid cells
-2,B cells,TRAV1-2- CD8+ T cells
+2,B cells,B cells
 2,B cells,CD4+ T cells
 2,B cells,CD4+ T cells
 2,gd T cells,Myeloid cells
@@ -23750,7 +23750,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,NK cells,NK cells
 2,gd T cells,Myeloid cells
-2,TRAV1-2- CD8+ T cells,CD4+ T cells
+2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,CD4+ T cells,B cells
@@ -23832,7 +23832,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,NK cells,NK cells
 2,B cells,CD4+ T cells
-2,NK cells,Myeloid cells
+2,NK cells,B cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,B cells,NK cells
 2,TRAV1-2- CD8+ T cells,B cells
@@ -24231,7 +24231,7 @@ fold,y_true,y_pred
 2,MAIT cells,B cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,Myeloid cells
-2,MAIT cells,B cells
+2,MAIT cells,CD4+ T cells
 2,Myeloid cells,gd T cells
 2,TRAV1-2- CD8+ T cells,MAIT cells
 2,CD4+ T cells,gd T cells
@@ -24294,7 +24294,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,MAIT cells
 2,NK cells,NK cells
 2,CD4+ T cells,Myeloid cells
-2,B cells,Myeloid cells
+2,B cells,CD4+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,Myeloid cells,Myeloid cells
@@ -24380,7 +24380,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,CD4+ T cells,CD4+ T cells
 2,B cells,Myeloid cells
-2,TRAV1-2- CD8+ T cells,B cells
+2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,NK cells
@@ -24485,7 +24485,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,CD4+ T cells
 2,gd T cells,MAIT cells
 2,Myeloid cells,B cells
-2,gd T cells,CD4+ T cells
+2,gd T cells,Myeloid cells
 2,CD4+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,NK cells,NK cells
@@ -24997,7 +24997,7 @@ fold,y_true,y_pred
 2,Myeloid cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,Myeloid cells
 2,B cells,CD4+ T cells
 2,gd T cells,B cells
 2,CD4+ T cells,gd T cells
@@ -25130,7 +25130,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,Myeloid cells,MAIT cells
-2,B cells,CD4+ T cells
+2,B cells,gd T cells
 2,NK cells,NK cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -25192,7 +25192,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,Myeloid cells,MAIT cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
-2,MAIT cells,TRAV1-2- CD8+ T cells
+2,MAIT cells,Myeloid cells
 2,NK cells,NK cells
 2,B cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,gd T cells
@@ -25328,7 +25328,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,NK cells,NK cells
 2,Myeloid cells,Myeloid cells
-2,Myeloid cells,CD4+ T cells
+2,Myeloid cells,MAIT cells
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,MAIT cells,Myeloid cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -25380,7 +25380,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,Myeloid cells,gd T cells
 2,gd T cells,TRAV1-2- CD8+ T cells
-2,B cells,B cells
+2,B cells,CD4+ T cells
 2,Myeloid cells,MAIT cells
 2,TRAV1-2- CD8+ T cells,B cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -25573,7 +25573,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,CD4+ T cells
 2,B cells,CD4+ T cells
-2,NK cells,Myeloid cells
+2,NK cells,NK cells
 2,MAIT cells,B cells
 2,CD4+ T cells,Myeloid cells
 2,NK cells,NK cells
@@ -25685,7 +25685,7 @@ fold,y_true,y_pred
 2,MAIT cells,CD4+ T cells
 2,Myeloid cells,Myeloid cells
 2,CD4+ T cells,NK cells
-2,gd T cells,B cells
+2,gd T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,CD4+ T cells
@@ -25795,7 +25795,7 @@ fold,y_true,y_pred
 2,B cells,B cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,NK cells,NK cells
-2,B cells,gd T cells
+2,B cells,Myeloid cells
 2,NK cells,NK cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,CD4+ T cells
@@ -26702,7 +26702,7 @@ fold,y_true,y_pred
 2,Myeloid cells,CD4+ T cells
 2,B cells,Myeloid cells
 2,gd T cells,Myeloid cells
-2,B cells,B cells
+2,B cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,CD4+ T cells
 2,B cells,B cells
 2,B cells,Myeloid cells
@@ -26925,7 +26925,7 @@ fold,y_true,y_pred
 2,B cells,Myeloid cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,NK cells
-2,MAIT cells,CD4+ T cells
+2,MAIT cells,Myeloid cells
 2,gd T cells,CD4+ T cells
 2,CD4+ T cells,CD4+ T cells
 2,NK cells,NK cells
@@ -27079,7 +27079,7 @@ fold,y_true,y_pred
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,B cells,B cells
 2,gd T cells,CD4+ T cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,Myeloid cells
 2,B cells,CD4+ T cells
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
@@ -27145,7 +27145,7 @@ fold,y_true,y_pred
 2,gd T cells,CD4+ T cells
 2,MAIT cells,B cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
-2,B cells,Myeloid cells
+2,B cells,B cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,B cells
 2,TRAV1-2- CD8+ T cells,gd T cells
@@ -27386,7 +27386,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,B cells
 2,NK cells,NK cells
 2,NK cells,NK cells
-2,gd T cells,CD4+ T cells
+2,gd T cells,Myeloid cells
 2,NK cells,NK cells
 2,gd T cells,NK cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -27688,7 +27688,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,MAIT cells,B cells
 2,Myeloid cells,B cells
-2,B cells,gd T cells
+2,B cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,CD4+ T cells,Myeloid cells
@@ -28094,7 +28094,7 @@ fold,y_true,y_pred
 2,MAIT cells,B cells
 2,Myeloid cells,B cells
 2,MAIT cells,B cells
-2,B cells,B cells
+2,B cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,gd T cells,B cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -28292,7 +28292,7 @@ fold,y_true,y_pred
 2,Myeloid cells,CD4+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-2,CD4+ T cells,Myeloid cells
+2,CD4+ T cells,CD4+ T cells
 2,B cells,CD4+ T cells
 2,NK cells,NK cells
 2,NK cells,NK cells
@@ -28794,7 +28794,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,B cells,gd T cells
 2,CD4+ T cells,Myeloid cells
-2,gd T cells,TRAV1-2- CD8+ T cells
+2,gd T cells,NK cells
 2,MAIT cells,Myeloid cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
@@ -29246,7 +29246,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,B cells,Myeloid cells
 2,NK cells,NK cells
-2,Myeloid cells,gd T cells
+2,Myeloid cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,MAIT cells,B cells
 2,B cells,TRAV1-2- CD8+ T cells
@@ -29450,7 +29450,7 @@ fold,y_true,y_pred
 2,B cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,B cells,CD4+ T cells
-2,TRAV1-2- CD8+ T cells,CD4+ T cells
+2,TRAV1-2- CD8+ T cells,B cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,Myeloid cells,CD4+ T cells
@@ -29580,9 +29580,9 @@ fold,y_true,y_pred
 2,Myeloid cells,Myeloid cells
 2,B cells,gd T cells
 2,B cells,CD4+ T cells
-2,Myeloid cells,CD4+ T cells
+2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
-2,MAIT cells,TRAV1-2- CD8+ T cells
+2,MAIT cells,B cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,CD4+ T cells
 2,MAIT cells,CD4+ T cells
@@ -29600,7 +29600,7 @@ fold,y_true,y_pred
 2,gd T cells,CD4+ T cells
 2,gd T cells,CD4+ T cells
 2,NK cells,NK cells
-2,gd T cells,NK cells
+2,gd T cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,CD4+ T cells
 2,B cells,Myeloid cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -29715,7 +29715,7 @@ fold,y_true,y_pred
 2,MAIT cells,B cells
 2,Myeloid cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
-2,MAIT cells,gd T cells
+2,MAIT cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,NK cells,NK cells
 2,NK cells,NK cells
@@ -29737,7 +29737,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,CD4+ T cells,Myeloid cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
-2,B cells,TRAV1-2- CD8+ T cells
+2,B cells,Myeloid cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
@@ -29886,7 +29886,7 @@ fold,y_true,y_pred
 2,Myeloid cells,CD4+ T cells
 2,Myeloid cells,CD4+ T cells
 2,Myeloid cells,B cells
-2,gd T cells,B cells
+2,gd T cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -29978,7 +29978,7 @@ fold,y_true,y_pred
 2,B cells,CD4+ T cells
 2,B cells,gd T cells
 2,Myeloid cells,CD4+ T cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,Myeloid cells
 2,Myeloid cells,B cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,B cells
@@ -30468,7 +30468,7 @@ fold,y_true,y_pred
 2,Myeloid cells,Myeloid cells
 2,Myeloid cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,B cells
-2,B cells,CD4+ T cells
+2,B cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,B cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,gd T cells,B cells
@@ -30707,12 +30707,12 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,B cells
 2,Myeloid cells,B cells
 2,B cells,TRAV1-2- CD8+ T cells
-2,CD4+ T cells,Myeloid cells
+2,CD4+ T cells,B cells
 2,NK cells,NK cells
 2,MAIT cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,CD4+ T cells,CD4+ T cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,gd T cells
 2,B cells,NK cells
 2,MAIT cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -30772,7 +30772,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,B cells
 2,B cells,CD4+ T cells
 2,CD4+ T cells,Myeloid cells
-2,Myeloid cells,CD4+ T cells
+2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,NK cells,NK cells
 2,CD4+ T cells,Myeloid cells
@@ -31060,7 +31060,7 @@ fold,y_true,y_pred
 2,B cells,CD4+ T cells
 2,CD4+ T cells,B cells
 2,CD4+ T cells,B cells
-2,gd T cells,CD4+ T cells
+2,gd T cells,gd T cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,TRAV1-2- CD8+ T cells,MAIT cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -31076,7 +31076,7 @@ fold,y_true,y_pred
 2,MAIT cells,CD4+ T cells
 2,Myeloid cells,B cells
 2,TRAV1-2- CD8+ T cells,MAIT cells
-2,MAIT cells,gd T cells
+2,MAIT cells,TRAV1-2- CD8+ T cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,B cells,Myeloid cells
 2,CD4+ T cells,NK cells
@@ -31611,7 +31611,7 @@ fold,y_true,y_pred
 2,Myeloid cells,Myeloid cells
 2,Myeloid cells,gd T cells
 2,CD4+ T cells,CD4+ T cells
-2,Myeloid cells,gd T cells
+2,Myeloid cells,B cells
 2,gd T cells,NK cells
 2,B cells,gd T cells
 2,NK cells,NK cells
@@ -31841,7 +31841,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,CD4+ T cells,gd T cells
 2,Myeloid cells,CD4+ T cells
-2,CD4+ T cells,gd T cells
+2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,gd T cells,Myeloid cells
 2,gd T cells,Myeloid cells
 2,gd T cells,B cells
@@ -31862,13 +31862,13 @@ fold,y_true,y_pred
 2,B cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,gd T cells,B cells
-2,Myeloid cells,Myeloid cells
+2,Myeloid cells,gd T cells
 2,MAIT cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,B cells,CD4+ T cells
 2,B cells,Myeloid cells
 2,MAIT cells,CD4+ T cells
-2,TRAV1-2- CD8+ T cells,B cells
+2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,CD4+ T cells,B cells
 2,B cells,MAIT cells
 2,MAIT cells,CD4+ T cells
@@ -31981,9 +31981,9 @@ fold,y_true,y_pred
 2,MAIT cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,B cells
-2,gd T cells,Myeloid cells
+2,gd T cells,gd T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
-2,B cells,TRAV1-2- CD8+ T cells
+2,B cells,Myeloid cells
 2,Myeloid cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,gd T cells,CD4+ T cells
@@ -32841,7 +32841,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-2,CD4+ T cells,NK cells
+2,CD4+ T cells,gd T cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,B cells
 2,CD4+ T cells,Myeloid cells
@@ -32880,7 +32880,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,NK cells,NK cells
 2,MAIT cells,Myeloid cells
-2,gd T cells,Myeloid cells
+2,gd T cells,CD4+ T cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,gd T cells,gd T cells
 2,Myeloid cells,gd T cells
@@ -32943,7 +32943,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,MAIT cells,B cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
-2,B cells,CD4+ T cells
+2,B cells,B cells
 2,CD4+ T cells,Myeloid cells
 2,CD4+ T cells,Myeloid cells
 2,CD4+ T cells,CD4+ T cells
@@ -34071,7 +34071,7 @@ fold,y_true,y_pred
 2,B cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,gd T cells,CD4+ T cells
-2,TRAV1-2- CD8+ T cells,MAIT cells
+2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -34095,7 +34095,7 @@ fold,y_true,y_pred
 2,gd T cells,B cells
 2,NK cells,NK cells
 2,MAIT cells,B cells
-2,MAIT cells,CD4+ T cells
+2,MAIT cells,MAIT cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,Myeloid cells,CD4+ T cells
 2,gd T cells,Myeloid cells
@@ -34131,7 +34131,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,B cells
 2,B cells,Myeloid cells
 2,CD4+ T cells,CD4+ T cells
-2,gd T cells,TRAV1-2- CD8+ T cells
+2,gd T cells,Myeloid cells
 2,Myeloid cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,B cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -34225,7 +34225,7 @@ fold,y_true,y_pred
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,B cells
 2,NK cells,NK cells
-2,Myeloid cells,B cells
+2,Myeloid cells,CD4+ T cells
 2,NK cells,NK cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,gd T cells,CD4+ T cells
@@ -34398,10 +34398,10 @@ fold,y_true,y_pred
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,Myeloid cells,NK cells
-2,gd T cells,B cells
+2,gd T cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,gd T cells,Myeloid cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,B cells
 2,Myeloid cells,MAIT cells
 2,CD4+ T cells,CD4+ T cells
@@ -35572,7 +35572,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,Myeloid cells
 2,gd T cells,CD4+ T cells
 2,B cells,Myeloid cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,Myeloid cells
 2,Myeloid cells,B cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -35636,7 +35636,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,Myeloid cells,CD4+ T cells
 2,NK cells,NK cells
-2,Myeloid cells,Myeloid cells
+2,Myeloid cells,CD4+ T cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,Myeloid cells
 2,NK cells,NK cells
@@ -35781,7 +35781,7 @@ fold,y_true,y_pred
 2,Myeloid cells,gd T cells
 2,CD4+ T cells,MAIT cells
 2,NK cells,NK cells
-2,gd T cells,MAIT cells
+2,gd T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,MAIT cells,B cells
@@ -36528,7 +36528,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,MAIT cells,gd T cells
-2,MAIT cells,Myeloid cells
+2,MAIT cells,MAIT cells
 2,NK cells,NK cells
 2,CD4+ T cells,CD4+ T cells
 2,NK cells,NK cells
@@ -36544,7 +36544,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,NK cells,NK cells
 2,NK cells,NK cells
-2,MAIT cells,CD4+ T cells
+2,MAIT cells,Myeloid cells
 2,Myeloid cells,CD4+ T cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,Myeloid cells
@@ -36868,7 +36868,7 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
-2,Myeloid cells,gd T cells
+2,Myeloid cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,Myeloid cells,Myeloid cells
 2,gd T cells,B cells
@@ -36949,10 +36949,10 @@ fold,y_true,y_pred
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,CD4+ T cells,CD4+ T cells
-2,B cells,Myeloid cells
+2,B cells,B cells
 2,MAIT cells,B cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-2,CD4+ T cells,gd T cells
+2,CD4+ T cells,Myeloid cells
 2,Myeloid cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,CD4+ T cells,B cells
@@ -37201,7 +37201,7 @@ fold,y_true,y_pred
 2,Myeloid cells,Myeloid cells
 2,B cells,B cells
 2,B cells,Myeloid cells
-2,gd T cells,Myeloid cells
+2,gd T cells,B cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,Myeloid cells,gd T cells
 2,Myeloid cells,B cells
@@ -37378,7 +37378,7 @@ fold,y_true,y_pred
 2,B cells,TRAV1-2- CD8+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,NK cells,NK cells
-2,MAIT cells,TRAV1-2- CD8+ T cells
+2,MAIT cells,CD4+ T cells
 2,CD4+ T cells,NK cells
 2,gd T cells,Myeloid cells
 2,CD4+ T cells,Myeloid cells
@@ -37394,7 +37394,7 @@ fold,y_true,y_pred
 2,gd T cells,gd T cells
 2,B cells,NK cells
 2,gd T cells,B cells
-2,MAIT cells,Myeloid cells
+2,MAIT cells,CD4+ T cells
 2,NK cells,NK cells
 2,B cells,Myeloid cells
 2,Myeloid cells,Myeloid cells
@@ -37447,7 +37447,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,B cells,CD4+ T cells
 2,Myeloid cells,MAIT cells
-2,MAIT cells,B cells
+2,MAIT cells,CD4+ T cells
 2,CD4+ T cells,B cells
 2,MAIT cells,NK cells
 2,NK cells,NK cells
@@ -37464,7 +37464,7 @@ fold,y_true,y_pred
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,gd T cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
-2,Myeloid cells,TRAV1-2- CD8+ T cells
+2,Myeloid cells,CD4+ T cells
 2,MAIT cells,B cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,Myeloid cells
@@ -37569,7 +37569,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,CD4+ T cells
 2,Myeloid cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
-2,B cells,Myeloid cells
+2,B cells,CD4+ T cells
 2,CD4+ T cells,NK cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,CD4+ T cells
@@ -37870,7 +37870,7 @@ fold,y_true,y_pred
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,Myeloid cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
-2,MAIT cells,gd T cells
+2,MAIT cells,CD4+ T cells
 2,B cells,Myeloid cells
 2,Myeloid cells,CD4+ T cells
 2,gd T cells,B cells
@@ -37920,7 +37920,7 @@ fold,y_true,y_pred
 2,B cells,Myeloid cells
 2,gd T cells,NK cells
 2,NK cells,NK cells
-2,NK cells,TRAV1-2- CD8+ T cells
+2,NK cells,NK cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,B cells
@@ -38000,9 +38000,9 @@ fold,y_true,y_pred
 2,NK cells,NK cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,B cells,Myeloid cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,Myeloid cells
 2,B cells,CD4+ T cells
-2,B cells,Myeloid cells
+2,B cells,gd T cells
 2,Myeloid cells,CD4+ T cells
 2,CD4+ T cells,gd T cells
 2,CD4+ T cells,gd T cells
@@ -38289,7 +38289,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,Myeloid cells
 2,NK cells,NK cells
-2,Myeloid cells,Myeloid cells
+2,Myeloid cells,MAIT cells
 2,NK cells,NK cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,B cells,B cells
@@ -38373,7 +38373,7 @@ fold,y_true,y_pred
 2,Myeloid cells,Myeloid cells
 2,gd T cells,CD4+ T cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
-2,B cells,MAIT cells
+2,B cells,gd T cells
 2,gd T cells,B cells
 2,B cells,B cells
 2,NK cells,NK cells
@@ -39117,7 +39117,7 @@ fold,y_true,y_pred
 2,MAIT cells,gd T cells
 2,gd T cells,Myeloid cells
 2,gd T cells,Myeloid cells
-2,B cells,TRAV1-2- CD8+ T cells
+2,B cells,Myeloid cells
 2,B cells,gd T cells
 2,B cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -39340,7 +39340,7 @@ fold,y_true,y_pred
 2,gd T cells,CD4+ T cells
 2,NK cells,NK cells
 2,MAIT cells,Myeloid cells
-2,NK cells,NK cells
+2,NK cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,MAIT cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -39448,7 +39448,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,NK cells
 2,Myeloid cells,MAIT cells
-2,MAIT cells,gd T cells
+2,MAIT cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,B cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,CD4+ T cells,CD4+ T cells
@@ -39568,7 +39568,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,Myeloid cells,CD4+ T cells
 2,B cells,gd T cells
-2,B cells,B cells
+2,B cells,CD4+ T cells
 2,NK cells,NK cells
 2,B cells,Myeloid cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
@@ -39631,7 +39631,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,gd T cells
 2,gd T cells,Myeloid cells
 2,CD4+ T cells,B cells
-2,MAIT cells,B cells
+2,MAIT cells,Myeloid cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,NK cells,NK cells
@@ -39666,7 +39666,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,CD4+ T cells,B cells
 2,MAIT cells,gd T cells
-2,CD4+ T cells,TRAV1-2- CD8+ T cells
+2,CD4+ T cells,NK cells
 2,gd T cells,CD4+ T cells
 2,B cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,B cells
@@ -39938,7 +39938,7 @@ fold,y_true,y_pred
 2,CD4+ T cells,gd T cells
 2,Myeloid cells,gd T cells
 2,gd T cells,gd T cells
-2,MAIT cells,Myeloid cells
+2,MAIT cells,B cells
 2,gd T cells,NK cells
 2,CD4+ T cells,B cells
 2,CD4+ T cells,gd T cells
@@ -39993,7 +39993,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,gd T cells,gd T cells
-2,B cells,Myeloid cells
+2,B cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,B cells
 2,CD4+ T cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -40074,7 +40074,7 @@ fold,y_true,y_pred
 2,MAIT cells,gd T cells
 2,B cells,NK cells
 2,NK cells,NK cells
-2,gd T cells,CD4+ T cells
+2,gd T cells,Myeloid cells
 2,NK cells,NK cells
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,TRAV1-2- CD8+ T cells,B cells
@@ -40086,7 +40086,7 @@ fold,y_true,y_pred
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
-2,MAIT cells,B cells
+2,MAIT cells,CD4+ T cells
 2,Myeloid cells,Myeloid cells
 2,B cells,Myeloid cells
 2,CD4+ T cells,CD4+ T cells
@@ -40129,7 +40129,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,gd T cells,MAIT cells
 2,NK cells,NK cells
-2,NK cells,B cells
+2,NK cells,NK cells
 2,B cells,B cells
 2,NK cells,NK cells
 2,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -40699,7 +40699,7 @@ fold,y_true,y_pred
 2,Myeloid cells,NK cells
 2,NK cells,NK cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
-2,MAIT cells,TRAV1-2- CD8+ T cells
+2,MAIT cells,B cells
 2,B cells,B cells
 2,MAIT cells,B cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -41255,7 +41255,7 @@ fold,y_true,y_pred
 2,MAIT cells,CD4+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-2,MAIT cells,B cells
+2,MAIT cells,MAIT cells
 2,gd T cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,B cells
 2,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -41357,7 +41357,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,MAIT cells
 2,CD4+ T cells,MAIT cells
-2,Myeloid cells,CD4+ T cells
+2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,Myeloid cells,CD4+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -41375,7 +41375,7 @@ fold,y_true,y_pred
 2,gd T cells,B cells
 2,TRAV1-2- CD8+ T cells,Myeloid cells
 2,B cells,TRAV1-2- CD8+ T cells
-2,Myeloid cells,gd T cells
+2,Myeloid cells,TRAV1-2- CD8+ T cells
 2,B cells,NK cells
 2,NK cells,NK cells
 2,B cells,CD4+ T cells
@@ -41614,12 +41614,12 @@ fold,y_true,y_pred
 2,Myeloid cells,B cells
 2,gd T cells,Myeloid cells
 2,NK cells,NK cells
-2,TRAV1-2- CD8+ T cells,B cells
+2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,Myeloid cells
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,NK cells,NK cells
 2,gd T cells,Myeloid cells
-2,CD4+ T cells,B cells
+2,CD4+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,B cells,CD4+ T cells
@@ -41670,7 +41670,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,MAIT cells,CD4+ T cells
-2,TRAV1-2- CD8+ T cells,CD4+ T cells
+2,TRAV1-2- CD8+ T cells,B cells
 2,MAIT cells,Myeloid cells
 2,gd T cells,B cells
 2,B cells,gd T cells
@@ -41782,7 +41782,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,NK cells,NK cells
 2,gd T cells,B cells
-2,CD4+ T cells,CD4+ T cells
+2,CD4+ T cells,gd T cells
 2,Myeloid cells,CD4+ T cells
 2,B cells,B cells
 2,NK cells,NK cells
@@ -41854,7 +41854,7 @@ fold,y_true,y_pred
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,B cells,TRAV1-2- CD8+ T cells
 2,gd T cells,CD4+ T cells
-2,Myeloid cells,TRAV1-2- CD8+ T cells
+2,Myeloid cells,gd T cells
 2,MAIT cells,CD4+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -41968,7 +41968,7 @@ fold,y_true,y_pred
 2,Myeloid cells,CD4+ T cells
 2,MAIT cells,TRAV1-2- CD8+ T cells
 2,MAIT cells,B cells
-2,TRAV1-2- CD8+ T cells,CD4+ T cells
+2,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 2,NK cells,NK cells
 2,CD4+ T cells,Myeloid cells
 2,B cells,NK cells
@@ -42155,7 +42155,7 @@ fold,y_true,y_pred
 2,gd T cells,gd T cells
 2,MAIT cells,B cells
 2,NK cells,NK cells
-2,MAIT cells,TRAV1-2- CD8+ T cells
+2,MAIT cells,CD4+ T cells
 2,NK cells,NK cells
 2,TRAV1-2- CD8+ T cells,CD4+ T cells
 2,NK cells,NK cells
@@ -42558,7 +42558,7 @@ fold,y_true,y_pred
 2,B cells,CD4+ T cells
 2,TRAV1-2- CD8+ T cells,gd T cells
 2,B cells,B cells
-2,B cells,B cells
+2,B cells,Myeloid cells
 2,MAIT cells,B cells
 2,gd T cells,Myeloid cells
 2,B cells,CD4+ T cells
@@ -43592,11 +43592,11 @@ fold,y_true,y_pred
 3,Myeloid cells,Myeloid cells
 3,CD4+ T cells,CD4+ T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
-3,B cells,TRAV1-2- CD8+ T cells
+3,B cells,B cells
 3,Myeloid cells,B cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
-3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+3,TRAV1-2- CD8+ T cells,B cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,B cells,B cells
@@ -44051,7 +44051,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,gd T cells,CD4+ T cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
-3,gd T cells,Myeloid cells
+3,gd T cells,B cells
 3,NK cells,NK cells
 3,Myeloid cells,B cells
 3,B cells,Myeloid cells
@@ -45501,7 +45501,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,B cells,B cells
 3,MAIT cells,Myeloid cells
 3,gd T cells,TRAV1-2- CD8+ T cells
@@ -45737,7 +45737,7 @@ fold,y_true,y_pred
 3,gd T cells,B cells
 3,gd T cells,gd T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
-3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+3,TRAV1-2- CD8+ T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,gd T cells
 3,Myeloid cells,Myeloid cells
@@ -46186,7 +46186,7 @@ fold,y_true,y_pred
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,Myeloid cells
-3,NK cells,Myeloid cells
+3,NK cells,NK cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,gd T cells,B cells
 3,MAIT cells,CD4+ T cells
@@ -46251,7 +46251,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,B cells,CD4+ T cells
 3,gd T cells,Myeloid cells
-3,B cells,CD4+ T cells
+3,B cells,TRAV1-2- CD8+ T cells
 3,gd T cells,gd T cells
 3,gd T cells,CD4+ T cells
 3,NK cells,NK cells
@@ -46336,7 +46336,7 @@ fold,y_true,y_pred
 3,Myeloid cells,B cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
-3,TRAV1-2- CD8+ T cells,MAIT cells
+3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,B cells
 3,B cells,CD4+ T cells
 3,Myeloid cells,CD4+ T cells
@@ -46404,7 +46404,7 @@ fold,y_true,y_pred
 3,B cells,CD4+ T cells
 3,MAIT cells,B cells
 3,TRAV1-2- CD8+ T cells,B cells
-3,gd T cells,TRAV1-2- CD8+ T cells
+3,gd T cells,Myeloid cells
 3,CD4+ T cells,Myeloid cells
 3,gd T cells,Myeloid cells
 3,NK cells,NK cells
@@ -46439,7 +46439,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
-3,B cells,Myeloid cells
+3,B cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -46828,7 +46828,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,MAIT cells,CD4+ T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
-3,B cells,CD4+ T cells
+3,B cells,MAIT cells
 3,NK cells,NK cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,B cells,TRAV1-2- CD8+ T cells
@@ -46992,7 +46992,7 @@ fold,y_true,y_pred
 3,B cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,B cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,gd T cells,CD4+ T cells
 3,MAIT cells,Myeloid cells
@@ -47029,10 +47029,10 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,CD4+ T cells,CD4+ T cells
 3,NK cells,NK cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,B cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,B cells
-3,Myeloid cells,B cells
+3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,NK cells,NK cells
@@ -47094,7 +47094,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,B cells,TRAV1-2- CD8+ T cells
-3,Myeloid cells,B cells
+3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,gd T cells
 3,CD4+ T cells,CD4+ T cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
@@ -47448,7 +47448,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,B cells,CD4+ T cells
 3,gd T cells,CD4+ T cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,B cells
 3,CD4+ T cells,Myeloid cells
 3,gd T cells,B cells
 3,NK cells,NK cells
@@ -47459,7 +47459,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,Myeloid cells
 3,Myeloid cells,Myeloid cells
 3,NK cells,NK cells
-3,CD4+ T cells,TRAV1-2- CD8+ T cells
+3,CD4+ T cells,Myeloid cells
 3,NK cells,NK cells
 3,gd T cells,CD4+ T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -47530,7 +47530,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
-3,gd T cells,Myeloid cells
+3,gd T cells,gd T cells
 3,gd T cells,Myeloid cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,B cells,CD4+ T cells
@@ -47767,7 +47767,7 @@ fold,y_true,y_pred
 3,gd T cells,Myeloid cells
 3,gd T cells,Myeloid cells
 3,gd T cells,gd T cells
-3,CD4+ T cells,gd T cells
+3,CD4+ T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,gd T cells
@@ -48400,7 +48400,7 @@ fold,y_true,y_pred
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,MAIT cells,MAIT cells
-3,Myeloid cells,CD4+ T cells
+3,Myeloid cells,MAIT cells
 3,gd T cells,B cells
 3,MAIT cells,gd T cells
 3,NK cells,NK cells
@@ -48568,7 +48568,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,B cells,gd T cells
 3,B cells,CD4+ T cells
-3,Myeloid cells,gd T cells
+3,Myeloid cells,MAIT cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -48863,7 +48863,7 @@ fold,y_true,y_pred
 3,B cells,MAIT cells
 3,NK cells,NK cells
 3,gd T cells,CD4+ T cells
-3,Myeloid cells,TRAV1-2- CD8+ T cells
+3,Myeloid cells,CD4+ T cells
 3,NK cells,NK cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,B cells,CD4+ T cells
@@ -49316,7 +49316,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,Myeloid cells
 3,NK cells,NK cells
 3,gd T cells,TRAV1-2- CD8+ T cells
-3,B cells,gd T cells
+3,B cells,Myeloid cells
 3,NK cells,NK cells
 3,NK cells,NK cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -49526,7 +49526,7 @@ fold,y_true,y_pred
 3,MAIT cells,CD4+ T cells
 3,CD4+ T cells,CD4+ T cells
 3,gd T cells,Myeloid cells
-3,TRAV1-2- CD8+ T cells,B cells
+3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,NK cells,NK cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -49537,7 +49537,7 @@ fold,y_true,y_pred
 3,gd T cells,gd T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,Myeloid cells
-3,MAIT cells,B cells
+3,MAIT cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
@@ -49553,7 +49553,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,B cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,gd T cells
 3,B cells,Myeloid cells
 3,CD4+ T cells,B cells
 3,NK cells,NK cells
@@ -49744,7 +49744,7 @@ fold,y_true,y_pred
 3,Myeloid cells,gd T cells
 3,Myeloid cells,B cells
 3,CD4+ T cells,gd T cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,gd T cells,B cells
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
@@ -49820,7 +49820,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,B cells,CD4+ T cells
-3,MAIT cells,B cells
+3,MAIT cells,gd T cells
 3,Myeloid cells,NK cells
 3,NK cells,NK cells
 3,CD4+ T cells,B cells
@@ -50142,7 +50142,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,gd T cells,B cells
 3,NK cells,NK cells
-3,Myeloid cells,CD4+ T cells
+3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,B cells,gd T cells
 3,gd T cells,B cells
 3,MAIT cells,CD4+ T cells
@@ -50625,7 +50625,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,B cells
 3,MAIT cells,MAIT cells
 3,MAIT cells,B cells
-3,CD4+ T cells,Myeloid cells
+3,CD4+ T cells,gd T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,CD4+ T cells,CD4+ T cells
@@ -50650,7 +50650,7 @@ fold,y_true,y_pred
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,B cells,B cells
 3,NK cells,NK cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,B cells
 3,B cells,gd T cells
 3,NK cells,NK cells
 3,TRAV1-2- CD8+ T cells,gd T cells
@@ -50699,8 +50699,8 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,gd T cells,B cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
+3,B cells,TRAV1-2- CD8+ T cells
 3,B cells,B cells
-3,B cells,Myeloid cells
 3,gd T cells,B cells
 3,B cells,Myeloid cells
 3,Myeloid cells,Myeloid cells
@@ -50841,7 +50841,7 @@ fold,y_true,y_pred
 3,B cells,gd T cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,gd T cells
-3,CD4+ T cells,B cells
+3,CD4+ T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,NK cells,NK cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -51199,7 +51199,7 @@ fold,y_true,y_pred
 3,Myeloid cells,B cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
-3,Myeloid cells,CD4+ T cells
+3,Myeloid cells,B cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,B cells
 3,B cells,TRAV1-2- CD8+ T cells
@@ -51367,7 +51367,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,B cells
 3,gd T cells,gd T cells
 3,MAIT cells,CD4+ T cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,Myeloid cells,Myeloid cells
 3,Myeloid cells,B cells
 3,MAIT cells,CD4+ T cells
@@ -51638,7 +51638,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,B cells,gd T cells
-3,gd T cells,B cells
+3,gd T cells,Myeloid cells
 3,B cells,CD4+ T cells
 3,CD4+ T cells,CD4+ T cells
 3,MAIT cells,Myeloid cells
@@ -51734,7 +51734,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,B cells,Myeloid cells
-3,Myeloid cells,CD4+ T cells
+3,Myeloid cells,Myeloid cells
 3,MAIT cells,NK cells
 3,CD4+ T cells,Myeloid cells
 3,Myeloid cells,CD4+ T cells
@@ -52057,7 +52057,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,gd T cells,CD4+ T cells
-3,TRAV1-2- CD8+ T cells,gd T cells
+3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,Myeloid cells,B cells
 3,Myeloid cells,gd T cells
 3,gd T cells,gd T cells
@@ -52675,7 +52675,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,CD4+ T cells
-3,B cells,Myeloid cells
+3,B cells,B cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
 3,CD4+ T cells,Myeloid cells
 3,Myeloid cells,gd T cells
@@ -52849,7 +52849,7 @@ fold,y_true,y_pred
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,B cells,Myeloid cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
-3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+3,TRAV1-2- CD8+ T cells,B cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -53556,7 +53556,7 @@ fold,y_true,y_pred
 3,gd T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
-3,B cells,CD4+ T cells
+3,B cells,Myeloid cells
 3,B cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,Myeloid cells,gd T cells
@@ -53815,7 +53815,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,TRAV1-2- CD8+ T cells,gd T cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,B cells
 3,CD4+ T cells,MAIT cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,CD4+ T cells,B cells
@@ -53890,7 +53890,7 @@ fold,y_true,y_pred
 3,gd T cells,Myeloid cells
 3,B cells,B cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-3,TRAV1-2- CD8+ T cells,Myeloid cells
+3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,Myeloid cells,Myeloid cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -53917,7 +53917,7 @@ fold,y_true,y_pred
 3,Myeloid cells,Myeloid cells
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,CD4+ T cells
 3,NK cells,NK cells
 3,Myeloid cells,Myeloid cells
 3,NK cells,NK cells
@@ -54238,7 +54238,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,B cells,Myeloid cells
 3,CD4+ T cells,Myeloid cells
-3,TRAV1-2- CD8+ T cells,Myeloid cells
+3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,B cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -54507,7 +54507,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,B cells
 3,B cells,B cells
 3,Myeloid cells,CD4+ T cells
-3,Myeloid cells,TRAV1-2- CD8+ T cells
+3,Myeloid cells,CD4+ T cells
 3,NK cells,NK cells
 3,MAIT cells,CD4+ T cells
 3,B cells,B cells
@@ -54573,10 +54573,10 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,B cells,Myeloid cells
-3,MAIT cells,B cells
+3,MAIT cells,Myeloid cells
 3,CD4+ T cells,gd T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
-3,MAIT cells,TRAV1-2- CD8+ T cells
+3,MAIT cells,gd T cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,Myeloid cells
 3,MAIT cells,Myeloid cells
@@ -54828,7 +54828,7 @@ fold,y_true,y_pred
 3,B cells,Myeloid cells
 3,Myeloid cells,Myeloid cells
 3,B cells,CD4+ T cells
-3,CD4+ T cells,TRAV1-2- CD8+ T cells
+3,CD4+ T cells,MAIT cells
 3,B cells,gd T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,B cells,TRAV1-2- CD8+ T cells
@@ -54920,7 +54920,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,CD4+ T cells
-3,CD4+ T cells,B cells
+3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,Myeloid cells
 3,gd T cells,gd T cells
@@ -55045,7 +55045,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,gd T cells
 3,B cells,CD4+ T cells
 3,CD4+ T cells,Myeloid cells
-3,B cells,CD4+ T cells
+3,B cells,B cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,NK cells,NK cells
 3,CD4+ T cells,MAIT cells
@@ -55266,7 +55266,7 @@ fold,y_true,y_pred
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,Myeloid cells,CD4+ T cells
-3,Myeloid cells,gd T cells
+3,Myeloid cells,CD4+ T cells
 3,B cells,CD4+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,B cells
@@ -55840,7 +55840,7 @@ fold,y_true,y_pred
 3,Myeloid cells,NK cells
 3,MAIT cells,gd T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
-3,gd T cells,B cells
+3,gd T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,TRAV1-2- CD8+ T cells,B cells
@@ -55899,7 +55899,7 @@ fold,y_true,y_pred
 3,Myeloid cells,gd T cells
 3,NK cells,NK cells
 3,MAIT cells,Myeloid cells
-3,MAIT cells,B cells
+3,MAIT cells,Myeloid cells
 3,NK cells,NK cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -55927,7 +55927,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,B cells
 3,NK cells,NK cells
 3,gd T cells,B cells
-3,MAIT cells,Myeloid cells
+3,MAIT cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,CD4+ T cells
 3,CD4+ T cells,Myeloid cells
@@ -56038,7 +56038,7 @@ fold,y_true,y_pred
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,B cells
-3,CD4+ T cells,B cells
+3,CD4+ T cells,CD4+ T cells
 3,B cells,CD4+ T cells
 3,CD4+ T cells,CD4+ T cells
 3,B cells,CD4+ T cells
@@ -56066,7 +56066,7 @@ fold,y_true,y_pred
 3,MAIT cells,Myeloid cells
 3,B cells,B cells
 3,B cells,CD4+ T cells
-3,B cells,TRAV1-2- CD8+ T cells
+3,B cells,Myeloid cells
 3,gd T cells,CD4+ T cells
 3,B cells,Myeloid cells
 3,B cells,TRAV1-2- CD8+ T cells
@@ -56371,7 +56371,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,B cells,B cells
 3,NK cells,NK cells
-3,B cells,Myeloid cells
+3,B cells,TRAV1-2- CD8+ T cells
 3,gd T cells,Myeloid cells
 3,MAIT cells,CD4+ T cells
 3,Myeloid cells,CD4+ T cells
@@ -56388,12 +56388,12 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,NK cells,NK cells
-3,MAIT cells,CD4+ T cells
+3,MAIT cells,gd T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,B cells
 3,CD4+ T cells,Myeloid cells
-3,gd T cells,TRAV1-2- CD8+ T cells
+3,gd T cells,gd T cells
 3,NK cells,NK cells
 3,CD4+ T cells,gd T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -56431,7 +56431,7 @@ fold,y_true,y_pred
 3,B cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,gd T cells
 3,Myeloid cells,gd T cells
 3,NK cells,NK cells
 3,CD4+ T cells,gd T cells
@@ -56507,7 +56507,7 @@ fold,y_true,y_pred
 3,B cells,CD4+ T cells
 3,Myeloid cells,Myeloid cells
 3,NK cells,NK cells
-3,TRAV1-2- CD8+ T cells,Myeloid cells
+3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,gd T cells
 3,MAIT cells,B cells
 3,CD4+ T cells,B cells
@@ -56579,7 +56579,7 @@ fold,y_true,y_pred
 3,B cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
 3,B cells,CD4+ T cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,B cells
 3,NK cells,NK cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,B cells,TRAV1-2- CD8+ T cells
@@ -56630,7 +56630,7 @@ fold,y_true,y_pred
 3,B cells,gd T cells
 3,B cells,B cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
-3,MAIT cells,B cells
+3,MAIT cells,gd T cells
 3,gd T cells,B cells
 3,B cells,CD4+ T cells
 3,Myeloid cells,CD4+ T cells
@@ -56690,7 +56690,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,NK cells,NK cells
-3,gd T cells,B cells
+3,gd T cells,CD4+ T cells
 3,B cells,Myeloid cells
 3,NK cells,NK cells
 3,CD4+ T cells,Myeloid cells
@@ -56821,7 +56821,7 @@ fold,y_true,y_pred
 3,B cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,CD4+ T cells
 3,CD4+ T cells,Myeloid cells
-3,CD4+ T cells,B cells
+3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,B cells
 3,NK cells,NK cells
 3,MAIT cells,CD4+ T cells
@@ -57267,7 +57267,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,gd T cells,gd T cells
 3,NK cells,NK cells
-3,TRAV1-2- CD8+ T cells,Myeloid cells
+3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,NK cells,NK cells
 3,Myeloid cells,B cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -57964,7 +57964,7 @@ fold,y_true,y_pred
 3,MAIT cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,gd T cells,Myeloid cells
-3,CD4+ T cells,gd T cells
+3,CD4+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,B cells,MAIT cells
 3,gd T cells,TRAV1-2- CD8+ T cells
@@ -58368,7 +58368,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,MAIT cells,Myeloid cells
-3,gd T cells,TRAV1-2- CD8+ T cells
+3,gd T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,Myeloid cells,gd T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -58556,7 +58556,7 @@ fold,y_true,y_pred
 3,B cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,gd T cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
-3,Myeloid cells,TRAV1-2- CD8+ T cells
+3,Myeloid cells,gd T cells
 3,gd T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,gd T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -58888,7 +58888,7 @@ fold,y_true,y_pred
 3,gd T cells,Myeloid cells
 3,B cells,CD4+ T cells
 3,MAIT cells,Myeloid cells
-3,MAIT cells,B cells
+3,MAIT cells,TRAV1-2- CD8+ T cells
 3,gd T cells,B cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -59053,7 +59053,7 @@ fold,y_true,y_pred
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,CD4+ T cells
-3,TRAV1-2- CD8+ T cells,B cells
+3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,NK cells,NK cells
 3,NK cells,NK cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -59827,7 +59827,7 @@ fold,y_true,y_pred
 3,gd T cells,gd T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-3,CD4+ T cells,TRAV1-2- CD8+ T cells
+3,CD4+ T cells,B cells
 3,CD4+ T cells,B cells
 3,B cells,MAIT cells
 3,CD4+ T cells,B cells
@@ -59983,7 +59983,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,B cells
 3,B cells,CD4+ T cells
-3,gd T cells,B cells
+3,gd T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,Myeloid cells
@@ -60070,7 +60070,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,Myeloid cells
 3,gd T cells,B cells
-3,CD4+ T cells,B cells
+3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,B cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,Myeloid cells
@@ -60302,7 +60302,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,gd T cells,gd T cells
-3,Myeloid cells,CD4+ T cells
+3,Myeloid cells,B cells
 3,gd T cells,CD4+ T cells
 3,NK cells,NK cells
 3,CD4+ T cells,CD4+ T cells
@@ -60450,7 +60450,7 @@ fold,y_true,y_pred
 3,Myeloid cells,gd T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,Myeloid cells
-3,Myeloid cells,B cells
+3,Myeloid cells,CD4+ T cells
 3,B cells,B cells
 3,gd T cells,CD4+ T cells
 3,gd T cells,CD4+ T cells
@@ -60508,7 +60508,7 @@ fold,y_true,y_pred
 3,Myeloid cells,B cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,gd T cells,B cells
-3,CD4+ T cells,B cells
+3,CD4+ T cells,Myeloid cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,CD4+ T cells
 3,Myeloid cells,MAIT cells
@@ -60521,7 +60521,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,gd T cells,Myeloid cells
 3,B cells,TRAV1-2- CD8+ T cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,MAIT cells
 3,gd T cells,TRAV1-2- CD8+ T cells
@@ -61094,7 +61094,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,Myeloid cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,Myeloid cells
-3,Myeloid cells,MAIT cells
+3,Myeloid cells,Myeloid cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,Myeloid cells
 3,Myeloid cells,Myeloid cells
@@ -61163,7 +61163,7 @@ fold,y_true,y_pred
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,B cells
 3,NK cells,NK cells
-3,CD4+ T cells,CD4+ T cells
+3,CD4+ T cells,Myeloid cells
 3,gd T cells,B cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,gd T cells,B cells
@@ -61293,7 +61293,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,Myeloid cells
 3,Myeloid cells,CD4+ T cells
 3,NK cells,NK cells
-3,B cells,B cells
+3,B cells,CD4+ T cells
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,Myeloid cells
@@ -61318,7 +61318,7 @@ fold,y_true,y_pred
 3,gd T cells,Myeloid cells
 3,NK cells,NK cells
 3,CD4+ T cells,Myeloid cells
-3,B cells,TRAV1-2- CD8+ T cells
+3,B cells,gd T cells
 3,B cells,B cells
 3,MAIT cells,Myeloid cells
 3,MAIT cells,CD4+ T cells
@@ -61330,7 +61330,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,Myeloid cells
 3,NK cells,NK cells
 3,CD4+ T cells,Myeloid cells
-3,CD4+ T cells,Myeloid cells
+3,CD4+ T cells,gd T cells
 3,Myeloid cells,B cells
 3,CD4+ T cells,B cells
 3,gd T cells,TRAV1-2- CD8+ T cells
@@ -61732,7 +61732,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,CD4+ T cells,Myeloid cells
 3,Myeloid cells,Myeloid cells
-3,gd T cells,B cells
+3,gd T cells,Myeloid cells
 3,Myeloid cells,B cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,B cells
@@ -61781,7 +61781,7 @@ fold,y_true,y_pred
 3,B cells,Myeloid cells
 3,MAIT cells,Myeloid cells
 3,Myeloid cells,Myeloid cells
-3,TRAV1-2- CD8+ T cells,Myeloid cells
+3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
 3,gd T cells,Myeloid cells
@@ -61877,7 +61877,7 @@ fold,y_true,y_pred
 3,Myeloid cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
 3,Myeloid cells,B cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,NK cells,NK cells
 3,Myeloid cells,NK cells
 3,NK cells,gd T cells
@@ -61909,7 +61909,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,gd T cells,B cells
 3,NK cells,NK cells
-3,TRAV1-2- CD8+ T cells,CD4+ T cells
+3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,MAIT cells,MAIT cells
 3,CD4+ T cells,Myeloid cells
 3,NK cells,NK cells
@@ -61959,7 +61959,7 @@ fold,y_true,y_pred
 3,Myeloid cells,Myeloid cells
 3,gd T cells,CD4+ T cells
 3,gd T cells,CD4+ T cells
-3,TRAV1-2- CD8+ T cells,NK cells
+3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,B cells,CD4+ T cells
 3,CD4+ T cells,CD4+ T cells
@@ -62246,7 +62246,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,B cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,B cells,B cells
-3,gd T cells,TRAV1-2- CD8+ T cells
+3,gd T cells,Myeloid cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
 3,B cells,gd T cells
 3,gd T cells,B cells
@@ -62284,14 +62284,14 @@ fold,y_true,y_pred
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,MAIT cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
-3,B cells,MAIT cells
+3,B cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,gd T cells
 3,CD4+ T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
 3,Myeloid cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-3,CD4+ T cells,gd T cells
+3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,Myeloid cells
@@ -62632,7 +62632,7 @@ fold,y_true,y_pred
 3,B cells,Myeloid cells
 3,CD4+ T cells,Myeloid cells
 3,gd T cells,Myeloid cells
-3,TRAV1-2- CD8+ T cells,Myeloid cells
+3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,B cells,B cells
 3,gd T cells,B cells
 3,NK cells,NK cells
@@ -63063,7 +63063,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,CD4+ T cells
 3,NK cells,gd T cells
 3,B cells,B cells
-3,B cells,CD4+ T cells
+3,B cells,TRAV1-2- CD8+ T cells
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,B cells
 3,MAIT cells,CD4+ T cells
@@ -63181,7 +63181,7 @@ fold,y_true,y_pred
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,B cells,CD4+ T cells
 3,Myeloid cells,CD4+ T cells
-3,gd T cells,Myeloid cells
+3,gd T cells,CD4+ T cells
 3,NK cells,NK cells
 3,Myeloid cells,B cells
 3,NK cells,NK cells
@@ -63436,7 +63436,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,NK cells
 3,MAIT cells,Myeloid cells
 3,NK cells,NK cells
-3,gd T cells,MAIT cells
+3,gd T cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,MAIT cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,gd T cells,B cells
@@ -63473,7 +63473,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,MAIT cells
 3,CD4+ T cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,CD4+ T cells
-3,TRAV1-2- CD8+ T cells,B cells
+3,TRAV1-2- CD8+ T cells,CD4+ T cells
 3,B cells,CD4+ T cells
 3,CD4+ T cells,CD4+ T cells
 3,MAIT cells,TRAV1-2- CD8+ T cells
@@ -63531,7 +63531,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,CD4+ T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,B cells
-3,TRAV1-2- CD8+ T cells,MAIT cells
+3,TRAV1-2- CD8+ T cells,NK cells
 3,gd T cells,CD4+ T cells
 3,Myeloid cells,B cells
 3,NK cells,NK cells
@@ -63607,7 +63607,7 @@ fold,y_true,y_pred
 3,MAIT cells,CD4+ T cells
 3,gd T cells,B cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-3,NK cells,MAIT cells
+3,NK cells,NK cells
 3,Myeloid cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,CD4+ T cells,B cells
@@ -63653,7 +63653,7 @@ fold,y_true,y_pred
 3,CD4+ T cells,gd T cells
 3,B cells,MAIT cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
-3,CD4+ T cells,CD4+ T cells
+3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,NK cells
 3,MAIT cells,CD4+ T cells
 3,Myeloid cells,CD4+ T cells
@@ -63785,7 +63785,7 @@ fold,y_true,y_pred
 3,Myeloid cells,B cells
 3,gd T cells,B cells
 3,Myeloid cells,B cells
-3,NK cells,MAIT cells
+3,NK cells,NK cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,NK cells,gd T cells
 3,B cells,B cells
@@ -64075,7 +64075,7 @@ fold,y_true,y_pred
 3,gd T cells,CD4+ T cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,B cells,CD4+ T cells
-3,B cells,Myeloid cells
+3,B cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,B cells
 3,CD4+ T cells,B cells
 3,NK cells,NK cells
@@ -64268,7 +64268,7 @@ fold,y_true,y_pred
 3,gd T cells,TRAV1-2- CD8+ T cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,TRAV1-2- CD8+ T cells
-3,CD4+ T cells,TRAV1-2- CD8+ T cells
+3,CD4+ T cells,MAIT cells
 3,NK cells,NK cells
 3,NK cells,NK cells
 3,Myeloid cells,CD4+ T cells
@@ -64279,7 +64279,7 @@ fold,y_true,y_pred
 3,NK cells,NK cells
 3,MAIT cells,MAIT cells
 3,NK cells,NK cells
-3,Myeloid cells,Myeloid cells
+3,Myeloid cells,B cells
 3,gd T cells,gd T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
 3,NK cells,NK cells
@@ -64357,7 +64357,7 @@ fold,y_true,y_pred
 3,B cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,Myeloid cells
 3,B cells,TRAV1-2- CD8+ T cells
-3,CD4+ T cells,Myeloid cells
+3,CD4+ T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,B cells
 3,MAIT cells,gd T cells
 3,Myeloid cells,B cells
@@ -64538,7 +64538,7 @@ fold,y_true,y_pred
 3,Myeloid cells,TRAV1-2- CD8+ T cells
 3,Myeloid cells,Myeloid cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-3,MAIT cells,gd T cells
+3,MAIT cells,B cells
 3,CD4+ T cells,B cells
 3,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 3,CD4+ T cells,gd T cells
@@ -64686,7 +64686,7 @@ fold,y_true,y_pred
 3,gd T cells,Myeloid cells
 3,Myeloid cells,B cells
 3,Myeloid cells,CD4+ T cells
-3,B cells,Myeloid cells
+3,B cells,MAIT cells
 3,MAIT cells,gd T cells
 3,B cells,TRAV1-2- CD8+ T cells
 3,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -64990,7 +64990,7 @@ fold,y_true,y_pred
 4,B cells,Myeloid cells
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,CD4+ T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
@@ -65073,7 +65073,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,Myeloid cells,TRAV1-2- CD8+ T cells
+4,Myeloid cells,Myeloid cells
 4,NK cells,NK cells
 4,B cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -65097,7 +65097,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,B cells
 4,gd T cells,Myeloid cells
 4,CD4+ T cells,CD4+ T cells
-4,gd T cells,TRAV1-2- CD8+ T cells
+4,gd T cells,Myeloid cells
 4,Myeloid cells,B cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -65221,7 +65221,7 @@ fold,y_true,y_pred
 4,Myeloid cells,gd T cells
 4,gd T cells,B cells
 4,MAIT cells,CD4+ T cells
-4,CD4+ T cells,TRAV1-2- CD8+ T cells
+4,CD4+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,B cells
 4,CD4+ T cells,Myeloid cells
@@ -65343,7 +65343,7 @@ fold,y_true,y_pred
 4,MAIT cells,CD4+ T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,CD4+ T cells
-4,TRAV1-2- CD8+ T cells,CD4+ T cells
+4,TRAV1-2- CD8+ T cells,B cells
 4,NK cells,NK cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,Myeloid cells
@@ -65408,7 +65408,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,CD4+ T cells
 4,NK cells,NK cells
 4,B cells,B cells
-4,Myeloid cells,TRAV1-2- CD8+ T cells
+4,Myeloid cells,B cells
 4,Myeloid cells,Myeloid cells
 4,gd T cells,B cells
 4,NK cells,NK cells
@@ -65652,7 +65652,7 @@ fold,y_true,y_pred
 4,B cells,B cells
 4,MAIT cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
-4,TRAV1-2- CD8+ T cells,gd T cells
+4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,CD4+ T cells,CD4+ T cells
@@ -65716,7 +65716,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,B cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,Myeloid cells
-4,Myeloid cells,CD4+ T cells
+4,Myeloid cells,B cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
@@ -66064,7 +66064,7 @@ fold,y_true,y_pred
 4,B cells,gd T cells
 4,Myeloid cells,Myeloid cells
 4,MAIT cells,CD4+ T cells
-4,B cells,B cells
+4,B cells,CD4+ T cells
 4,NK cells,NK cells
 4,B cells,MAIT cells
 4,NK cells,NK cells
@@ -66154,7 +66154,7 @@ fold,y_true,y_pred
 4,Myeloid cells,CD4+ T cells
 4,Myeloid cells,B cells
 4,B cells,CD4+ T cells
-4,Myeloid cells,Myeloid cells
+4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,CD4+ T cells
 4,NK cells,NK cells
@@ -66750,7 +66750,7 @@ fold,y_true,y_pred
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,Myeloid cells,CD4+ T cells
-4,CD4+ T cells,gd T cells
+4,CD4+ T cells,B cells
 4,MAIT cells,CD4+ T cells
 4,CD4+ T cells,Myeloid cells
 4,B cells,CD4+ T cells
@@ -66993,7 +66993,7 @@ fold,y_true,y_pred
 4,gd T cells,CD4+ T cells
 4,gd T cells,B cells
 4,Myeloid cells,Myeloid cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,CD4+ T cells
 4,gd T cells,gd T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,gd T cells,B cells
@@ -67133,7 +67133,7 @@ fold,y_true,y_pred
 4,NK cells,CD4+ T cells
 4,CD4+ T cells,CD4+ T cells
 4,NK cells,NK cells
-4,Myeloid cells,gd T cells
+4,Myeloid cells,Myeloid cells
 4,CD4+ T cells,MAIT cells
 4,gd T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -67236,7 +67236,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,Myeloid cells,MAIT cells
+4,Myeloid cells,Myeloid cells
 4,CD4+ T cells,Myeloid cells
 4,CD4+ T cells,Myeloid cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -67422,7 +67422,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,CD4+ T cells,CD4+ T cells
 4,MAIT cells,B cells
-4,MAIT cells,Myeloid cells
+4,MAIT cells,CD4+ T cells
 4,Myeloid cells,MAIT cells
 4,gd T cells,Myeloid cells
 4,Myeloid cells,B cells
@@ -67770,7 +67770,7 @@ fold,y_true,y_pred
 4,Myeloid cells,Myeloid cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,B cells
-4,NK cells,gd T cells
+4,NK cells,NK cells
 4,B cells,CD4+ T cells
 4,gd T cells,gd T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -68247,7 +68247,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,B cells
 4,MAIT cells,Myeloid cells
 4,NK cells,NK cells
-4,TRAV1-2- CD8+ T cells,CD4+ T cells
+4,TRAV1-2- CD8+ T cells,gd T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
@@ -68373,7 +68373,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,NK cells,NK cells
 4,gd T cells,B cells
-4,CD4+ T cells,MAIT cells
+4,CD4+ T cells,Myeloid cells
 4,CD4+ T cells,Myeloid cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,B cells
@@ -68459,7 +68459,7 @@ fold,y_true,y_pred
 4,B cells,B cells
 4,TRAV1-2- CD8+ T cells,gd T cells
 4,B cells,B cells
-4,B cells,Myeloid cells
+4,B cells,CD4+ T cells
 4,MAIT cells,gd T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,B cells
@@ -68516,7 +68516,7 @@ fold,y_true,y_pred
 4,Myeloid cells,CD4+ T cells
 4,gd T cells,Myeloid cells
 4,Myeloid cells,CD4+ T cells
-4,CD4+ T cells,TRAV1-2- CD8+ T cells
+4,CD4+ T cells,Myeloid cells
 4,NK cells,NK cells
 4,CD4+ T cells,gd T cells
 4,MAIT cells,CD4+ T cells
@@ -68580,7 +68580,7 @@ fold,y_true,y_pred
 4,B cells,B cells
 4,B cells,CD4+ T cells
 4,NK cells,NK cells
-4,gd T cells,gd T cells
+4,gd T cells,B cells
 4,Myeloid cells,B cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -68634,7 +68634,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
-4,CD4+ T cells,Myeloid cells
+4,CD4+ T cells,gd T cells
 4,NK cells,NK cells
 4,gd T cells,MAIT cells
 4,NK cells,NK cells
@@ -69033,7 +69033,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,MAIT cells,B cells
-4,Myeloid cells,gd T cells
+4,Myeloid cells,MAIT cells
 4,MAIT cells,MAIT cells
 4,MAIT cells,Myeloid cells
 4,NK cells,NK cells
@@ -69094,7 +69094,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,CD4+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,CD4+ T cells,CD4+ T cells
 4,Myeloid cells,Myeloid cells
@@ -69125,7 +69125,7 @@ fold,y_true,y_pred
 4,Myeloid cells,B cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,gd T cells,CD4+ T cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,CD4+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,gd T cells,Myeloid cells
 4,Myeloid cells,gd T cells
@@ -69309,7 +69309,7 @@ fold,y_true,y_pred
 4,gd T cells,B cells
 4,B cells,CD4+ T cells
 4,NK cells,Myeloid cells
-4,MAIT cells,gd T cells
+4,MAIT cells,Myeloid cells
 4,B cells,gd T cells
 4,MAIT cells,Myeloid cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
@@ -69600,7 +69600,7 @@ fold,y_true,y_pred
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,B cells,CD4+ T cells
 4,NK cells,NK cells
-4,gd T cells,B cells
+4,gd T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,B cells
 4,gd T cells,Myeloid cells
 4,NK cells,NK cells
@@ -69810,7 +69810,7 @@ fold,y_true,y_pred
 4,Myeloid cells,MAIT cells
 4,TRAV1-2- CD8+ T cells,gd T cells
 4,B cells,B cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,B cells
 4,MAIT cells,MAIT cells
 4,CD4+ T cells,B cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -69874,7 +69874,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,B cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,MAIT cells
-4,Myeloid cells,B cells
+4,Myeloid cells,Myeloid cells
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -70050,11 +70050,11 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,CD4+ T cells,Myeloid cells
 4,MAIT cells,B cells
-4,gd T cells,Myeloid cells
+4,gd T cells,B cells
 4,CD4+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
-4,CD4+ T cells,Myeloid cells
+4,CD4+ T cells,B cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,gd T cells,Myeloid cells
 4,B cells,Myeloid cells
@@ -70225,7 +70225,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,B cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,CD4+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -70293,8 +70293,8 @@ fold,y_true,y_pred
 4,CD4+ T cells,gd T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,CD4+ T cells,CD4+ T cells
-4,B cells,TRAV1-2- CD8+ T cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,Myeloid cells
+4,B cells,MAIT cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,NK cells,NK cells
 4,MAIT cells,B cells
@@ -70354,7 +70354,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,B cells
 4,CD4+ T cells,Myeloid cells
 4,Myeloid cells,CD4+ T cells
-4,TRAV1-2- CD8+ T cells,B cells
+4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,CD4+ T cells,B cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
@@ -70501,7 +70501,7 @@ fold,y_true,y_pred
 4,MAIT cells,Myeloid cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,CD4+ T cells,CD4+ T cells
 4,Myeloid cells,B cells
 4,B cells,TRAV1-2- CD8+ T cells
@@ -70788,7 +70788,7 @@ fold,y_true,y_pred
 4,gd T cells,B cells
 4,B cells,Myeloid cells
 4,CD4+ T cells,CD4+ T cells
-4,gd T cells,gd T cells
+4,gd T cells,B cells
 4,CD4+ T cells,Myeloid cells
 4,Myeloid cells,Myeloid cells
 4,B cells,B cells
@@ -70929,7 +70929,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,gd T cells
 4,Myeloid cells,gd T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
-4,CD4+ T cells,TRAV1-2- CD8+ T cells
+4,CD4+ T cells,B cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,MAIT cells,CD4+ T cells
 4,Myeloid cells,B cells
@@ -71406,7 +71406,7 @@ fold,y_true,y_pred
 4,B cells,CD4+ T cells
 4,Myeloid cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,gd T cells,TRAV1-2- CD8+ T cells
+4,gd T cells,gd T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,B cells
 4,NK cells,NK cells
@@ -71840,7 +71840,7 @@ fold,y_true,y_pred
 4,B cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,CD4+ T cells
 4,B cells,gd T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,B cells,Myeloid cells
@@ -72391,7 +72391,7 @@ fold,y_true,y_pred
 4,B cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,B cells
-4,TRAV1-2- CD8+ T cells,gd T cells
+4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -72464,7 +72464,7 @@ fold,y_true,y_pred
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,gd T cells,CD4+ T cells
-4,gd T cells,Myeloid cells
+4,gd T cells,B cells
 4,gd T cells,CD4+ T cells
 4,CD4+ T cells,B cells
 4,NK cells,NK cells
@@ -72725,7 +72725,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,MAIT cells,gd T cells
 4,Myeloid cells,Myeloid cells
-4,CD4+ T cells,gd T cells
+4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,CD4+ T cells,Myeloid cells
@@ -72867,7 +72867,7 @@ fold,y_true,y_pred
 4,B cells,CD4+ T cells
 4,gd T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,NK cells,gd T cells
+4,NK cells,NK cells
 4,gd T cells,Myeloid cells
 4,Myeloid cells,B cells
 4,NK cells,NK cells
@@ -73358,7 +73358,7 @@ fold,y_true,y_pred
 4,B cells,gd T cells
 4,Myeloid cells,gd T cells
 4,gd T cells,MAIT cells
-4,CD4+ T cells,B cells
+4,CD4+ T cells,CD4+ T cells
 4,gd T cells,Myeloid cells
 4,CD4+ T cells,Myeloid cells
 4,MAIT cells,CD4+ T cells
@@ -73376,7 +73376,7 @@ fold,y_true,y_pred
 4,B cells,CD4+ T cells
 4,Myeloid cells,gd T cells
 4,B cells,gd T cells
-4,NK cells,MAIT cells
+4,NK cells,NK cells
 4,gd T cells,B cells
 4,NK cells,NK cells
 4,Myeloid cells,CD4+ T cells
@@ -73554,7 +73554,7 @@ fold,y_true,y_pred
 4,gd T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,MAIT cells,gd T cells
-4,gd T cells,TRAV1-2- CD8+ T cells
+4,gd T cells,B cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
@@ -73619,7 +73619,7 @@ fold,y_true,y_pred
 4,gd T cells,Myeloid cells
 4,MAIT cells,B cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
-4,TRAV1-2- CD8+ T cells,gd T cells
+4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,B cells
 4,NK cells,NK cells
 4,gd T cells,Myeloid cells
@@ -73711,10 +73711,10 @@ fold,y_true,y_pred
 4,CD4+ T cells,gd T cells
 4,B cells,Myeloid cells
 4,B cells,CD4+ T cells
-4,Myeloid cells,TRAV1-2- CD8+ T cells
+4,Myeloid cells,B cells
 4,B cells,gd T cells
 4,gd T cells,Myeloid cells
-4,Myeloid cells,CD4+ T cells
+4,Myeloid cells,Myeloid cells
 4,CD4+ T cells,CD4+ T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,gd T cells,Myeloid cells
@@ -73755,7 +73755,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,NK cells,NK cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
-4,gd T cells,TRAV1-2- CD8+ T cells
+4,gd T cells,gd T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
@@ -73801,7 +73801,7 @@ fold,y_true,y_pred
 4,Myeloid cells,B cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,Myeloid cells,gd T cells
-4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,B cells,Myeloid cells
 4,B cells,Myeloid cells
@@ -73835,7 +73835,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-4,NK cells,NK cells
+4,NK cells,Myeloid cells
 4,Myeloid cells,Myeloid cells
 4,MAIT cells,CD4+ T cells
 4,MAIT cells,gd T cells
@@ -73961,7 +73961,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,B cells
 4,gd T cells,B cells
 4,gd T cells,CD4+ T cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,Myeloid cells
 4,B cells,Myeloid cells
 4,NK cells,NK cells
 4,NK cells,NK cells
@@ -74379,7 +74379,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,CD4+ T cells
 4,MAIT cells,Myeloid cells
 4,gd T cells,Myeloid cells
 4,NK cells,NK cells
@@ -74409,7 +74409,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,MAIT cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
-4,CD4+ T cells,Myeloid cells
+4,CD4+ T cells,B cells
 4,gd T cells,gd T cells
 4,B cells,B cells
 4,gd T cells,CD4+ T cells
@@ -74517,7 +74517,7 @@ fold,y_true,y_pred
 4,gd T cells,CD4+ T cells
 4,NK cells,NK cells
 4,CD4+ T cells,Myeloid cells
-4,gd T cells,gd T cells
+4,gd T cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,gd T cells,CD4+ T cells
 4,B cells,Myeloid cells
@@ -74551,7 +74551,7 @@ fold,y_true,y_pred
 4,B cells,Myeloid cells
 4,Myeloid cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,CD4+ T cells,TRAV1-2- CD8+ T cells
+4,CD4+ T cells,gd T cells
 4,NK cells,NK cells
 4,CD4+ T cells,CD4+ T cells
 4,NK cells,NK cells
@@ -74606,7 +74606,7 @@ fold,y_true,y_pred
 4,gd T cells,B cells
 4,Myeloid cells,CD4+ T cells
 4,MAIT cells,Myeloid cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,Myeloid cells
 4,Myeloid cells,CD4+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,B cells,Myeloid cells
@@ -74620,7 +74620,7 @@ fold,y_true,y_pred
 4,Myeloid cells,B cells
 4,B cells,CD4+ T cells
 4,MAIT cells,CD4+ T cells
-4,gd T cells,CD4+ T cells
+4,gd T cells,B cells
 4,gd T cells,B cells
 4,Myeloid cells,CD4+ T cells
 4,NK cells,NK cells
@@ -75239,7 +75239,7 @@ fold,y_true,y_pred
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,B cells,gd T cells
 4,gd T cells,B cells
-4,TRAV1-2- CD8+ T cells,B cells
+4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,MAIT cells,NK cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
@@ -75354,7 +75354,7 @@ fold,y_true,y_pred
 4,Myeloid cells,CD4+ T cells
 4,gd T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,TRAV1-2- CD8+ T cells,gd T cells
+4,TRAV1-2- CD8+ T cells,B cells
 4,Myeloid cells,gd T cells
 4,B cells,gd T cells
 4,NK cells,NK cells
@@ -75580,7 +75580,7 @@ fold,y_true,y_pred
 4,B cells,gd T cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
-4,B cells,Myeloid cells
+4,B cells,gd T cells
 4,NK cells,NK cells
 4,gd T cells,Myeloid cells
 4,gd T cells,TRAV1-2- CD8+ T cells
@@ -75713,7 +75713,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,B cells
 4,Myeloid cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-4,B cells,gd T cells
+4,B cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,CD4+ T cells
@@ -75751,7 +75751,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,gd T cells
 4,MAIT cells,Myeloid cells
-4,CD4+ T cells,MAIT cells
+4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,Myeloid cells
 4,B cells,CD4+ T cells
 4,NK cells,NK cells
@@ -75950,11 +75950,11 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,B cells,Myeloid cells
 4,Myeloid cells,Myeloid cells
-4,Myeloid cells,Myeloid cells
+4,Myeloid cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,NK cells,NK cells
 4,gd T cells,CD4+ T cells
-4,B cells,Myeloid cells
+4,B cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
 4,NK cells,NK cells
@@ -76063,7 +76063,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,MAIT cells,gd T cells
+4,MAIT cells,CD4+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,B cells,CD4+ T cells
 4,MAIT cells,CD4+ T cells
@@ -76075,7 +76075,7 @@ fold,y_true,y_pred
 4,B cells,gd T cells
 4,NK cells,NK cells
 4,gd T cells,TRAV1-2- CD8+ T cells
-4,MAIT cells,MAIT cells
+4,MAIT cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,B cells
@@ -76114,7 +76114,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,B cells,CD4+ T cells
-4,CD4+ T cells,B cells
+4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,CD4+ T cells
 4,Myeloid cells,CD4+ T cells
 4,Myeloid cells,B cells
@@ -76302,7 +76302,7 @@ fold,y_true,y_pred
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,gd T cells,CD4+ T cells
-4,gd T cells,Myeloid cells
+4,gd T cells,CD4+ T cells
 4,MAIT cells,Myeloid cells
 4,MAIT cells,gd T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
@@ -76536,7 +76536,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,CD4+ T cells
-4,CD4+ T cells,gd T cells
+4,CD4+ T cells,B cells
 4,NK cells,NK cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -76601,7 +76601,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,Myeloid cells,gd T cells
+4,Myeloid cells,CD4+ T cells
 4,CD4+ T cells,B cells
 4,NK cells,NK cells
 4,Myeloid cells,CD4+ T cells
@@ -76891,7 +76891,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,CD4+ T cells,gd T cells
 4,B cells,gd T cells
-4,gd T cells,CD4+ T cells
+4,gd T cells,MAIT cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,CD4+ T cells
 4,NK cells,NK cells
@@ -77086,7 +77086,7 @@ fold,y_true,y_pred
 4,gd T cells,Myeloid cells
 4,B cells,Myeloid cells
 4,CD4+ T cells,CD4+ T cells
-4,TRAV1-2- CD8+ T cells,Myeloid cells
+4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,CD4+ T cells,Myeloid cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
@@ -77607,7 +77607,7 @@ fold,y_true,y_pred
 4,MAIT cells,B cells
 4,B cells,Myeloid cells
 4,NK cells,NK cells
-4,B cells,MAIT cells
+4,B cells,B cells
 4,NK cells,NK cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,B cells
@@ -77879,11 +77879,11 @@ fold,y_true,y_pred
 4,B cells,CD4+ T cells
 4,B cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,gd T cells
-4,TRAV1-2- CD8+ T cells,gd T cells
+4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,gd T cells,CD4+ T cells
 4,B cells,B cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
-4,Myeloid cells,B cells
+4,Myeloid cells,CD4+ T cells
 4,gd T cells,gd T cells
 4,MAIT cells,B cells
 4,Myeloid cells,gd T cells
@@ -78002,7 +78002,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,MAIT cells,gd T cells
 4,NK cells,NK cells
-4,CD4+ T cells,CD4+ T cells
+4,CD4+ T cells,gd T cells
 4,B cells,CD4+ T cells
 4,NK cells,NK cells
 4,Myeloid cells,Myeloid cells
@@ -78171,7 +78171,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,gd T cells,CD4+ T cells
 4,gd T cells,Myeloid cells
-4,NK cells,NK cells
+4,NK cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,CD4+ T cells,Myeloid cells
 4,gd T cells,TRAV1-2- CD8+ T cells
@@ -78219,7 +78219,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
-4,CD4+ T cells,gd T cells
+4,CD4+ T cells,CD4+ T cells
 4,MAIT cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -78377,7 +78377,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,NK cells,NK cells
 4,B cells,TRAV1-2- CD8+ T cells
-4,B cells,Myeloid cells
+4,B cells,TRAV1-2- CD8+ T cells
 4,B cells,CD4+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
@@ -78750,7 +78750,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,B cells
-4,Myeloid cells,MAIT cells
+4,Myeloid cells,CD4+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,gd T cells
 4,B cells,B cells
@@ -78950,7 +78950,7 @@ fold,y_true,y_pred
 4,B cells,gd T cells
 4,gd T cells,CD4+ T cells
 4,B cells,CD4+ T cells
-4,gd T cells,Myeloid cells
+4,gd T cells,CD4+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,gd T cells
@@ -78991,7 +78991,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
-4,CD4+ T cells,gd T cells
+4,CD4+ T cells,Myeloid cells
 4,Myeloid cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
@@ -79384,7 +79384,7 @@ fold,y_true,y_pred
 4,gd T cells,B cells
 4,B cells,Myeloid cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
-4,CD4+ T cells,Myeloid cells
+4,CD4+ T cells,B cells
 4,MAIT cells,gd T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,B cells,B cells
@@ -79404,7 +79404,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,B cells,Myeloid cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
-4,gd T cells,Myeloid cells
+4,gd T cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,MAIT cells,B cells
 4,NK cells,NK cells
@@ -79447,7 +79447,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,B cells
-4,MAIT cells,B cells
+4,MAIT cells,CD4+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,CD4+ T cells
 4,B cells,B cells
@@ -79563,7 +79563,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,Myeloid cells,CD4+ T cells
 4,MAIT cells,CD4+ T cells
-4,TRAV1-2- CD8+ T cells,Myeloid cells
+4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,MAIT cells,CD4+ T cells
 4,gd T cells,gd T cells
 4,NK cells,NK cells
@@ -79722,7 +79722,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
-4,TRAV1-2- CD8+ T cells,B cells
+4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,gd T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,gd T cells,NK cells
@@ -79957,7 +79957,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,B cells,Myeloid cells
 4,NK cells,NK cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,gd T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,B cells,Myeloid cells
@@ -80308,7 +80308,7 @@ fold,y_true,y_pred
 4,B cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,MAIT cells,CD4+ T cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,MAIT cells,B cells
 4,CD4+ T cells,gd T cells
@@ -81195,7 +81195,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,CD4+ T cells,gd T cells
-4,TRAV1-2- CD8+ T cells,gd T cells
+4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
 4,B cells,CD4+ T cells
 4,NK cells,NK cells
@@ -81363,7 +81363,7 @@ fold,y_true,y_pred
 4,Myeloid cells,B cells
 4,gd T cells,CD4+ T cells
 4,NK cells,NK cells
-4,B cells,B cells
+4,B cells,Myeloid cells
 4,CD4+ T cells,gd T cells
 4,B cells,CD4+ T cells
 4,NK cells,NK cells
@@ -81390,7 +81390,7 @@ fold,y_true,y_pred
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,NK cells,NK cells
-4,Myeloid cells,TRAV1-2- CD8+ T cells
+4,Myeloid cells,Myeloid cells
 4,MAIT cells,Myeloid cells
 4,Myeloid cells,Myeloid cells
 4,Myeloid cells,Myeloid cells
@@ -81402,7 +81402,7 @@ fold,y_true,y_pred
 4,B cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,B cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
-4,gd T cells,CD4+ T cells
+4,gd T cells,gd T cells
 4,Myeloid cells,gd T cells
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,B cells,Myeloid cells
@@ -81412,7 +81412,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,B cells
 4,gd T cells,B cells
 4,Myeloid cells,B cells
-4,CD4+ T cells,Myeloid cells
+4,CD4+ T cells,gd T cells
 4,Myeloid cells,Myeloid cells
 4,B cells,CD4+ T cells
 4,NK cells,NK cells
@@ -81436,7 +81436,7 @@ fold,y_true,y_pred
 4,Myeloid cells,gd T cells
 4,CD4+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,gd T cells
-4,CD4+ T cells,TRAV1-2- CD8+ T cells
+4,CD4+ T cells,CD4+ T cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,B cells
 4,B cells,TRAV1-2- CD8+ T cells
@@ -81607,7 +81607,7 @@ fold,y_true,y_pred
 4,MAIT cells,CD4+ T cells
 4,B cells,Myeloid cells
 4,MAIT cells,CD4+ T cells
-4,gd T cells,gd T cells
+4,gd T cells,B cells
 4,CD4+ T cells,Myeloid cells
 4,gd T cells,B cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -81707,7 +81707,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,CD4+ T cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,B cells
 4,gd T cells,B cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,Myeloid cells,MAIT cells
@@ -81792,7 +81792,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,NK cells,NK cells
 4,Myeloid cells,Myeloid cells
-4,CD4+ T cells,CD4+ T cells
+4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,gd T cells
 4,CD4+ T cells,B cells
 4,CD4+ T cells,B cells
@@ -81901,7 +81901,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,MAIT cells,B cells
-4,CD4+ T cells,TRAV1-2- CD8+ T cells
+4,CD4+ T cells,B cells
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,B cells
@@ -82252,7 +82252,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,MAIT cells
 4,MAIT cells,B cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
-4,MAIT cells,gd T cells
+4,MAIT cells,CD4+ T cells
 4,gd T cells,Myeloid cells
 4,gd T cells,CD4+ T cells
 4,B cells,B cells
@@ -82264,7 +82264,7 @@ fold,y_true,y_pred
 4,gd T cells,gd T cells
 4,B cells,gd T cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,B cells,Myeloid cells
+4,B cells,B cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -82283,14 +82283,14 @@ fold,y_true,y_pred
 4,Myeloid cells,MAIT cells
 4,gd T cells,CD4+ T cells
 4,MAIT cells,CD4+ T cells
-4,CD4+ T cells,Myeloid cells
+4,CD4+ T cells,B cells
 4,Myeloid cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,gd T cells
 4,CD4+ T cells,gd T cells
 4,MAIT cells,CD4+ T cells
 4,B cells,B cells
 4,MAIT cells,CD4+ T cells
-4,CD4+ T cells,CD4+ T cells
+4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
 4,CD4+ T cells,B cells
 4,B cells,TRAV1-2- CD8+ T cells
@@ -82672,7 +82672,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,gd T cells,B cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-4,MAIT cells,gd T cells
+4,MAIT cells,Myeloid cells
 4,CD4+ T cells,CD4+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
@@ -82816,7 +82816,7 @@ fold,y_true,y_pred
 4,gd T cells,CD4+ T cells
 4,gd T cells,gd T cells
 4,NK cells,NK cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,gd T cells
 4,gd T cells,Myeloid cells
 4,CD4+ T cells,gd T cells
 4,gd T cells,CD4+ T cells
@@ -82993,7 +82993,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
 4,gd T cells,CD4+ T cells
-4,TRAV1-2- CD8+ T cells,B cells
+4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,NK cells,NK cells
 4,Myeloid cells,CD4+ T cells
 4,B cells,B cells
@@ -83153,7 +83153,7 @@ fold,y_true,y_pred
 4,Myeloid cells,B cells
 4,CD4+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,Myeloid cells,TRAV1-2- CD8+ T cells
+4,Myeloid cells,B cells
 4,gd T cells,Myeloid cells
 4,B cells,gd T cells
 4,MAIT cells,CD4+ T cells
@@ -83604,7 +83604,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,CD4+ T cells
 4,NK cells,NK cells
-4,B cells,CD4+ T cells
+4,B cells,gd T cells
 4,Myeloid cells,B cells
 4,CD4+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -84085,7 +84085,7 @@ fold,y_true,y_pred
 4,Myeloid cells,B cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,MAIT cells
-4,B cells,Myeloid cells
+4,B cells,CD4+ T cells
 4,CD4+ T cells,B cells
 4,NK cells,NK cells
 4,MAIT cells,B cells
@@ -84401,7 +84401,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,CD4+ T cells
-4,CD4+ T cells,B cells
+4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,B cells
 4,TRAV1-2- CD8+ T cells,B cells
 4,gd T cells,Myeloid cells
@@ -84515,7 +84515,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,CD4+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,Myeloid cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,MAIT cells
 4,NK cells,NK cells
 4,MAIT cells,CD4+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
@@ -84583,7 +84583,7 @@ fold,y_true,y_pred
 4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
 4,gd T cells,Myeloid cells
-4,gd T cells,Myeloid cells
+4,gd T cells,CD4+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -84931,7 +84931,7 @@ fold,y_true,y_pred
 4,B cells,CD4+ T cells
 4,Myeloid cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,B cells
-4,Myeloid cells,Myeloid cells
+4,Myeloid cells,B cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,gd T cells
 4,NK cells,NK cells
@@ -85055,7 +85055,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
-4,MAIT cells,Myeloid cells
+4,MAIT cells,CD4+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -85173,7 +85173,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,Myeloid cells
 4,CD4+ T cells,gd T cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,CD4+ T cells
 4,gd T cells,Myeloid cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,B cells
@@ -85202,7 +85202,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,MAIT cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,B cells
 4,CD4+ T cells,CD4+ T cells
 4,B cells,gd T cells
 4,NK cells,NK cells
@@ -85228,7 +85228,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,gd T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,gd T cells
-4,Myeloid cells,gd T cells
+4,Myeloid cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,Myeloid cells
 4,MAIT cells,TRAV1-2- CD8+ T cells
 4,B cells,gd T cells
@@ -85303,7 +85303,7 @@ fold,y_true,y_pred
 4,NK cells,NK cells
 4,Myeloid cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
-4,B cells,CD4+ T cells
+4,B cells,TRAV1-2- CD8+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,Myeloid cells
@@ -85446,7 +85446,7 @@ fold,y_true,y_pred
 4,CD4+ T cells,Myeloid cells
 4,Myeloid cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
-4,TRAV1-2- CD8+ T cells,gd T cells
+4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,Myeloid cells,CD4+ T cells
 4,gd T cells,CD4+ T cells
@@ -85471,7 +85471,7 @@ fold,y_true,y_pred
 4,B cells,CD4+ T cells
 4,CD4+ T cells,CD4+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
-4,MAIT cells,TRAV1-2- CD8+ T cells
+4,MAIT cells,B cells
 4,Myeloid cells,B cells
 4,B cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -85608,7 +85608,7 @@ fold,y_true,y_pred
 4,B cells,B cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
-4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,TRAV1-2- CD8+ T cells,CD4+ T cells
 4,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -86048,7 +86048,7 @@ fold,y_true,y_pred
 4,gd T cells,CD4+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,B cells,Myeloid cells
+4,B cells,B cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,MAIT cells,B cells
 4,CD4+ T cells,B cells
@@ -86143,7 +86143,7 @@ fold,y_true,y_pred
 4,Myeloid cells,B cells
 4,B cells,B cells
 4,NK cells,NK cells
-4,MAIT cells,Myeloid cells
+4,MAIT cells,TRAV1-2- CD8+ T cells
 4,B cells,Myeloid cells
 4,NK cells,NK cells
 4,B cells,CD4+ T cells
@@ -86224,7 +86224,7 @@ fold,y_true,y_pred
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,NK cells,NK cells
 4,NK cells,NK cells
-4,Myeloid cells,B cells
+4,Myeloid cells,CD4+ T cells
 4,B cells,TRAV1-2- CD8+ T cells
 4,Myeloid cells,B cells
 4,Myeloid cells,MAIT cells
@@ -86353,7 +86353,7 @@ fold,y_true,y_pred
 4,TRAV1-2- CD8+ T cells,Myeloid cells
 4,Myeloid cells,B cells
 4,MAIT cells,B cells
-4,gd T cells,B cells
+4,gd T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,TRAV1-2- CD8+ T cells
 4,gd T cells,CD4+ T cells
 4,B cells,CD4+ T cells
@@ -86526,7 +86526,7 @@ fold,y_true,y_pred
 4,gd T cells,B cells
 4,Myeloid cells,Myeloid cells
 4,CD4+ T cells,TRAV1-2- CD8+ T cells
-4,B cells,TRAV1-2- CD8+ T cells
+4,B cells,MAIT cells
 4,Myeloid cells,CD4+ T cells
 4,CD4+ T cells,MAIT cells
 4,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -87302,7 +87302,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,gd T cells,Myeloid cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
-5,gd T cells,Myeloid cells
+5,gd T cells,NK cells
 5,Myeloid cells,CD4+ T cells
 5,B cells,Myeloid cells
 5,CD4+ T cells,CD4+ T cells
@@ -87482,7 +87482,7 @@ fold,y_true,y_pred
 5,B cells,CD4+ T cells
 5,B cells,NK cells
 5,CD4+ T cells,CD4+ T cells
-5,TRAV1-2- CD8+ T cells,B cells
+5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,MAIT cells,Myeloid cells
 5,NK cells,NK cells
 5,NK cells,CD4+ T cells
@@ -87630,7 +87630,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
-5,TRAV1-2- CD8+ T cells,Myeloid cells
+5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,B cells
 5,Myeloid cells,CD4+ T cells
@@ -87640,7 +87640,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,MAIT cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
-5,Myeloid cells,B cells
+5,Myeloid cells,CD4+ T cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,gd T cells,CD4+ T cells
@@ -87706,7 +87706,7 @@ fold,y_true,y_pred
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,B cells,B cells
 5,MAIT cells,CD4+ T cells
-5,CD4+ T cells,TRAV1-2- CD8+ T cells
+5,CD4+ T cells,B cells
 5,B cells,NK cells
 5,NK cells,NK cells
 5,gd T cells,CD4+ T cells
@@ -87718,7 +87718,7 @@ fold,y_true,y_pred
 5,gd T cells,CD4+ T cells
 5,NK cells,NK cells
 5,B cells,B cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,B cells
 5,gd T cells,CD4+ T cells
 5,CD4+ T cells,gd T cells
 5,B cells,B cells
@@ -87838,7 +87838,7 @@ fold,y_true,y_pred
 5,MAIT cells,CD4+ T cells
 5,Myeloid cells,B cells
 5,NK cells,NK cells
-5,TRAV1-2- CD8+ T cells,B cells
+5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,MAIT cells,Myeloid cells
 5,CD4+ T cells,gd T cells
 5,Myeloid cells,Myeloid cells
@@ -87914,7 +87914,7 @@ fold,y_true,y_pred
 5,MAIT cells,NK cells
 5,Myeloid cells,NK cells
 5,CD4+ T cells,B cells
-5,Myeloid cells,CD4+ T cells
+5,Myeloid cells,B cells
 5,CD4+ T cells,Myeloid cells
 5,CD4+ T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -88115,7 +88115,7 @@ fold,y_true,y_pred
 5,MAIT cells,Myeloid cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
-5,CD4+ T cells,B cells
+5,CD4+ T cells,NK cells
 5,MAIT cells,Myeloid cells
 5,Myeloid cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,B cells
@@ -88353,10 +88353,10 @@ fold,y_true,y_pred
 5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,Myeloid cells
-5,CD4+ T cells,gd T cells
+5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,B cells,B cells
 5,B cells,Myeloid cells
-5,B cells,gd T cells
+5,B cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,Myeloid cells
 5,Myeloid cells,B cells
 5,CD4+ T cells,Myeloid cells
@@ -88484,7 +88484,7 @@ fold,y_true,y_pred
 5,Myeloid cells,Myeloid cells
 5,Myeloid cells,MAIT cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
-5,MAIT cells,CD4+ T cells
+5,MAIT cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,B cells
 5,B cells,B cells
@@ -88559,7 +88559,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,gd T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
-5,MAIT cells,CD4+ T cells
+5,MAIT cells,B cells
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -88634,7 +88634,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,CD4+ T cells,NK cells
 5,gd T cells,Myeloid cells
-5,gd T cells,TRAV1-2- CD8+ T cells
+5,gd T cells,B cells
 5,NK cells,NK cells
 5,CD4+ T cells,Myeloid cells
 5,Myeloid cells,Myeloid cells
@@ -88730,7 +88730,7 @@ fold,y_true,y_pred
 5,B cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,NK cells
-5,NK cells,Myeloid cells
+5,NK cells,NK cells
 5,B cells,CD4+ T cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
@@ -89049,7 +89049,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,B cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,CD4+ T cells
-5,MAIT cells,TRAV1-2- CD8+ T cells
+5,MAIT cells,gd T cells
 5,B cells,NK cells
 5,MAIT cells,B cells
 5,Myeloid cells,NK cells
@@ -89252,7 +89252,7 @@ fold,y_true,y_pred
 5,Myeloid cells,Myeloid cells
 5,B cells,B cells
 5,NK cells,NK cells
-5,gd T cells,MAIT cells
+5,gd T cells,Myeloid cells
 5,B cells,B cells
 5,B cells,B cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -89260,7 +89260,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
-5,TRAV1-2- CD8+ T cells,gd T cells
+5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,NK cells
@@ -89300,7 +89300,7 @@ fold,y_true,y_pred
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,Myeloid cells
-5,CD4+ T cells,gd T cells
+5,CD4+ T cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
 5,B cells,B cells
 5,NK cells,NK cells
@@ -89319,7 +89319,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,Myeloid cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,Myeloid cells
-5,CD4+ T cells,TRAV1-2- CD8+ T cells
+5,CD4+ T cells,Myeloid cells
 5,NK cells,NK cells
 5,Myeloid cells,Myeloid cells
 5,B cells,Myeloid cells
@@ -89362,7 +89362,7 @@ fold,y_true,y_pred
 5,gd T cells,gd T cells
 5,CD4+ T cells,CD4+ T cells
 5,Myeloid cells,B cells
-5,NK cells,B cells
+5,NK cells,gd T cells
 5,TRAV1-2- CD8+ T cells,B cells
 5,MAIT cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -89370,7 +89370,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,Myeloid cells
 5,gd T cells,Myeloid cells
-5,gd T cells,Myeloid cells
+5,gd T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,gd T cells,Myeloid cells
 5,gd T cells,TRAV1-2- CD8+ T cells
@@ -89431,7 +89431,7 @@ fold,y_true,y_pred
 5,B cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,Myeloid cells,B cells
-5,TRAV1-2- CD8+ T cells,Myeloid cells
+5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,NK cells
 5,MAIT cells,CD4+ T cells
 5,MAIT cells,gd T cells
@@ -89439,7 +89439,7 @@ fold,y_true,y_pred
 5,Myeloid cells,CD4+ T cells
 5,NK cells,NK cells
 5,CD4+ T cells,B cells
-5,B cells,CD4+ T cells
+5,B cells,gd T cells
 5,B cells,B cells
 5,MAIT cells,CD4+ T cells
 5,gd T cells,Myeloid cells
@@ -89567,7 +89567,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
-5,CD4+ T cells,Myeloid cells
+5,CD4+ T cells,gd T cells
 5,B cells,CD4+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,gd T cells,CD4+ T cells
@@ -90036,7 +90036,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,CD4+ T cells,Myeloid cells
 5,B cells,B cells
-5,gd T cells,Myeloid cells
+5,gd T cells,MAIT cells
 5,Myeloid cells,Myeloid cells
 5,B cells,Myeloid cells
 5,Myeloid cells,Myeloid cells
@@ -90431,7 +90431,7 @@ fold,y_true,y_pred
 5,MAIT cells,Myeloid cells
 5,MAIT cells,Myeloid cells
 5,MAIT cells,gd T cells
-5,gd T cells,Myeloid cells
+5,gd T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,NK cells
 5,gd T cells,gd T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
@@ -90647,7 +90647,7 @@ fold,y_true,y_pred
 5,MAIT cells,B cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
-5,MAIT cells,CD4+ T cells
+5,MAIT cells,gd T cells
 5,B cells,Myeloid cells
 5,CD4+ T cells,Myeloid cells
 5,B cells,B cells
@@ -91124,7 +91124,7 @@ fold,y_true,y_pred
 5,Myeloid cells,B cells
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
-5,gd T cells,NK cells
+5,gd T cells,MAIT cells
 5,gd T cells,Myeloid cells
 5,Myeloid cells,Myeloid cells
 5,MAIT cells,B cells
@@ -91317,7 +91317,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,NK cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,CD4+ T cells
-5,MAIT cells,gd T cells
+5,MAIT cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,B cells
 5,NK cells,NK cells
 5,NK cells,NK cells
@@ -91634,7 +91634,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,MAIT cells,gd T cells
 5,TRAV1-2- CD8+ T cells,gd T cells
-5,gd T cells,B cells
+5,gd T cells,CD4+ T cells
 5,B cells,B cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,NK cells
@@ -91764,7 +91764,7 @@ fold,y_true,y_pred
 5,gd T cells,B cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,B cells
-5,CD4+ T cells,gd T cells
+5,CD4+ T cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -91794,7 +91794,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,Myeloid cells
 5,MAIT cells,CD4+ T cells
 5,MAIT cells,B cells
-5,B cells,gd T cells
+5,B cells,CD4+ T cells
 5,Myeloid cells,CD4+ T cells
 5,B cells,CD4+ T cells
 5,Myeloid cells,Myeloid cells
@@ -91811,7 +91811,7 @@ fold,y_true,y_pred
 5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,CD4+ T cells
 5,gd T cells,B cells
 5,B cells,NK cells
 5,NK cells,NK cells
@@ -91976,7 +91976,7 @@ fold,y_true,y_pred
 5,MAIT cells,B cells
 5,Myeloid cells,CD4+ T cells
 5,MAIT cells,Myeloid cells
-5,Myeloid cells,CD4+ T cells
+5,Myeloid cells,B cells
 5,MAIT cells,gd T cells
 5,CD4+ T cells,CD4+ T cells
 5,NK cells,NK cells
@@ -92260,7 +92260,7 @@ fold,y_true,y_pred
 5,B cells,Myeloid cells
 5,CD4+ T cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
-5,gd T cells,MAIT cells
+5,gd T cells,CD4+ T cells
 5,gd T cells,gd T cells
 5,gd T cells,Myeloid cells
 5,B cells,MAIT cells
@@ -92344,7 +92344,7 @@ fold,y_true,y_pred
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,B cells,B cells
 5,NK cells,NK cells
-5,TRAV1-2- CD8+ T cells,B cells
+5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,B cells,NK cells
 5,Myeloid cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
@@ -92365,7 +92365,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,CD4+ T cells,NK cells
 5,NK cells,NK cells
-5,Myeloid cells,TRAV1-2- CD8+ T cells
+5,Myeloid cells,CD4+ T cells
 5,MAIT cells,MAIT cells
 5,B cells,B cells
 5,gd T cells,CD4+ T cells
@@ -92463,7 +92463,7 @@ fold,y_true,y_pred
 5,Myeloid cells,MAIT cells
 5,CD4+ T cells,Myeloid cells
 5,B cells,CD4+ T cells
-5,MAIT cells,TRAV1-2- CD8+ T cells
+5,MAIT cells,B cells
 5,MAIT cells,NK cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
@@ -92950,7 +92950,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,gd T cells
 5,B cells,Myeloid cells
-5,NK cells,gd T cells
+5,NK cells,NK cells
 5,gd T cells,gd T cells
 5,NK cells,NK cells
 5,MAIT cells,CD4+ T cells
@@ -93032,7 +93032,7 @@ fold,y_true,y_pred
 5,Myeloid cells,gd T cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
-5,TRAV1-2- CD8+ T cells,CD4+ T cells
+5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,B cells,Myeloid cells
 5,MAIT cells,B cells
 5,B cells,gd T cells
@@ -93141,7 +93141,7 @@ fold,y_true,y_pred
 5,gd T cells,B cells
 5,CD4+ T cells,gd T cells
 5,CD4+ T cells,CD4+ T cells
-5,CD4+ T cells,B cells
+5,CD4+ T cells,Myeloid cells
 5,MAIT cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,B cells,Myeloid cells
@@ -93286,7 +93286,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,B cells
-5,CD4+ T cells,CD4+ T cells
+5,CD4+ T cells,B cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,NK cells,NK cells
@@ -93449,7 +93449,7 @@ fold,y_true,y_pred
 5,Myeloid cells,Myeloid cells
 5,Myeloid cells,CD4+ T cells
 5,Myeloid cells,Myeloid cells
-5,CD4+ T cells,MAIT cells
+5,CD4+ T cells,B cells
 5,CD4+ T cells,MAIT cells
 5,gd T cells,CD4+ T cells
 5,MAIT cells,B cells
@@ -93549,7 +93549,7 @@ fold,y_true,y_pred
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,gd T cells,B cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
-5,MAIT cells,gd T cells
+5,MAIT cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,B cells,CD4+ T cells
 5,MAIT cells,Myeloid cells
@@ -93689,7 +93689,7 @@ fold,y_true,y_pred
 5,MAIT cells,Myeloid cells
 5,MAIT cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,gd T cells
-5,TRAV1-2- CD8+ T cells,CD4+ T cells
+5,TRAV1-2- CD8+ T cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,CD4+ T cells,B cells
@@ -94011,7 +94011,7 @@ fold,y_true,y_pred
 5,gd T cells,gd T cells
 5,B cells,NK cells
 5,CD4+ T cells,B cells
-5,CD4+ T cells,TRAV1-2- CD8+ T cells
+5,CD4+ T cells,B cells
 5,Myeloid cells,gd T cells
 5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,B cells
@@ -94218,7 +94218,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,CD4+ T cells,gd T cells
 5,gd T cells,CD4+ T cells
-5,NK cells,B cells
+5,NK cells,NK cells
 5,MAIT cells,CD4+ T cells
 5,CD4+ T cells,Myeloid cells
 5,CD4+ T cells,NK cells
@@ -94299,7 +94299,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,B cells,CD4+ T cells
-5,CD4+ T cells,Myeloid cells
+5,CD4+ T cells,MAIT cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,NK cells
 5,B cells,NK cells
@@ -94379,7 +94379,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,Myeloid cells,Myeloid cells
 5,gd T cells,CD4+ T cells
-5,Myeloid cells,Myeloid cells
+5,Myeloid cells,B cells
 5,Myeloid cells,NK cells
 5,gd T cells,Myeloid cells
 5,NK cells,NK cells
@@ -94543,7 +94543,7 @@ fold,y_true,y_pred
 5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,B cells,NK cells
-5,B cells,MAIT cells
+5,B cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,Myeloid cells
 5,MAIT cells,NK cells
 5,CD4+ T cells,gd T cells
@@ -94637,7 +94637,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,CD4+ T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
-5,B cells,NK cells
+5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,gd T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -94901,7 +94901,7 @@ fold,y_true,y_pred
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,B cells
 5,B cells,gd T cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,B cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,B cells
@@ -95203,7 +95203,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,NK cells,NK cells
 5,NK cells,NK cells
-5,MAIT cells,B cells
+5,MAIT cells,gd T cells
 5,gd T cells,Myeloid cells
 5,Myeloid cells,gd T cells
 5,MAIT cells,CD4+ T cells
@@ -95246,7 +95246,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,Myeloid cells,gd T cells
 5,NK cells,NK cells
-5,gd T cells,gd T cells
+5,gd T cells,NK cells
 5,NK cells,NK cells
 5,B cells,B cells
 5,Myeloid cells,NK cells
@@ -95313,7 +95313,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,gd T cells
 5,B cells,Myeloid cells
 5,Myeloid cells,NK cells
-5,Myeloid cells,TRAV1-2- CD8+ T cells
+5,Myeloid cells,B cells
 5,NK cells,NK cells
 5,gd T cells,NK cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
@@ -95402,7 +95402,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,gd T cells,Myeloid cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
-5,B cells,B cells
+5,B cells,MAIT cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,Myeloid cells
 5,B cells,CD4+ T cells
@@ -95413,7 +95413,7 @@ fold,y_true,y_pred
 5,B cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,CD4+ T cells
 5,NK cells,NK cells
-5,gd T cells,TRAV1-2- CD8+ T cells
+5,gd T cells,MAIT cells
 5,NK cells,NK cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
@@ -95453,7 +95453,7 @@ fold,y_true,y_pred
 5,B cells,CD4+ T cells
 5,CD4+ T cells,Myeloid cells
 5,B cells,CD4+ T cells
-5,MAIT cells,Myeloid cells
+5,MAIT cells,MAIT cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,Myeloid cells
 5,gd T cells,TRAV1-2- CD8+ T cells
@@ -96108,10 +96108,10 @@ fold,y_true,y_pred
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,B cells,CD4+ T cells
-5,Myeloid cells,NK cells
+5,Myeloid cells,gd T cells
 5,NK cells,NK cells
 5,gd T cells,gd T cells
-5,Myeloid cells,gd T cells
+5,Myeloid cells,B cells
 5,gd T cells,Myeloid cells
 5,B cells,CD4+ T cells
 5,B cells,Myeloid cells
@@ -96346,7 +96346,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,gd T cells,gd T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
-5,Myeloid cells,B cells
+5,Myeloid cells,CD4+ T cells
 5,Myeloid cells,gd T cells
 5,NK cells,NK cells
 5,Myeloid cells,gd T cells
@@ -96506,7 +96506,7 @@ fold,y_true,y_pred
 5,Myeloid cells,Myeloid cells
 5,NK cells,NK cells
 5,MAIT cells,Myeloid cells
-5,NK cells,gd T cells
+5,NK cells,NK cells
 5,Myeloid cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
 5,gd T cells,B cells
@@ -96527,7 +96527,7 @@ fold,y_true,y_pred
 5,B cells,B cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,Myeloid cells
-5,TRAV1-2- CD8+ T cells,CD4+ T cells
+5,TRAV1-2- CD8+ T cells,B cells
 5,CD4+ T cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,CD4+ T cells,Myeloid cells
@@ -96643,7 +96643,7 @@ fold,y_true,y_pred
 5,gd T cells,CD4+ T cells
 5,CD4+ T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,gd T cells
-5,TRAV1-2- CD8+ T cells,B cells
+5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,MAIT cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,CD4+ T cells
@@ -96704,7 +96704,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,gd T cells
 5,MAIT cells,CD4+ T cells
 5,NK cells,NK cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,gd T cells
 5,gd T cells,CD4+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,B cells,NK cells
@@ -96719,7 +96719,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,B cells
 5,CD4+ T cells,CD4+ T cells
 5,NK cells,NK cells
-5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+5,TRAV1-2- CD8+ T cells,NK cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
@@ -96738,7 +96738,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,B cells,B cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
-5,Myeloid cells,B cells
+5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,gd T cells,Myeloid cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,B cells
@@ -96818,7 +96818,7 @@ fold,y_true,y_pred
 5,MAIT cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,gd T cells,NK cells
-5,TRAV1-2- CD8+ T cells,B cells
+5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,NK cells,NK cells
 5,gd T cells,B cells
 5,gd T cells,B cells
@@ -96912,14 +96912,14 @@ fold,y_true,y_pred
 5,CD4+ T cells,B cells
 5,CD4+ T cells,Myeloid cells
 5,B cells,B cells
-5,Myeloid cells,gd T cells
+5,Myeloid cells,CD4+ T cells
 5,B cells,B cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,B cells,B cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,NK cells
 5,Myeloid cells,Myeloid cells
-5,MAIT cells,TRAV1-2- CD8+ T cells
+5,MAIT cells,B cells
 5,MAIT cells,CD4+ T cells
 5,B cells,CD4+ T cells
 5,B cells,B cells
@@ -96997,7 +96997,7 @@ fold,y_true,y_pred
 5,B cells,TRAV1-2- CD8+ T cells
 5,gd T cells,NK cells
 5,B cells,TRAV1-2- CD8+ T cells
-5,gd T cells,Myeloid cells
+5,gd T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,MAIT cells
 5,B cells,Myeloid cells
 5,gd T cells,Myeloid cells
@@ -97091,7 +97091,7 @@ fold,y_true,y_pred
 5,gd T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,NK cells
 5,NK cells,NK cells
-5,NK cells,gd T cells
+5,NK cells,NK cells
 5,Myeloid cells,CD4+ T cells
 5,B cells,B cells
 5,MAIT cells,Myeloid cells
@@ -97119,7 +97119,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,NK cells
-5,B cells,CD4+ T cells
+5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
 5,gd T cells,Myeloid cells
@@ -97476,7 +97476,7 @@ fold,y_true,y_pred
 5,B cells,CD4+ T cells
 5,CD4+ T cells,gd T cells
 5,B cells,gd T cells
-5,gd T cells,MAIT cells
+5,gd T cells,CD4+ T cells
 5,MAIT cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,NK cells
 5,CD4+ T cells,B cells
@@ -97723,7 +97723,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,MAIT cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
-5,B cells,B cells
+5,B cells,MAIT cells
 5,Myeloid cells,CD4+ T cells
 5,Myeloid cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,NK cells
@@ -97742,7 +97742,7 @@ fold,y_true,y_pred
 5,B cells,Myeloid cells
 5,Myeloid cells,CD4+ T cells
 5,NK cells,NK cells
-5,CD4+ T cells,TRAV1-2- CD8+ T cells
+5,CD4+ T cells,Myeloid cells
 5,CD4+ T cells,B cells
 5,B cells,gd T cells
 5,TRAV1-2- CD8+ T cells,gd T cells
@@ -97805,7 +97805,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,B cells
 5,B cells,NK cells
 5,MAIT cells,B cells
-5,CD4+ T cells,CD4+ T cells
+5,CD4+ T cells,NK cells
 5,Myeloid cells,CD4+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,B cells,B cells
@@ -98334,7 +98334,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,B cells
 5,CD4+ T cells,CD4+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
-5,gd T cells,Myeloid cells
+5,gd T cells,NK cells
 5,CD4+ T cells,CD4+ T cells
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -98412,7 +98412,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
-5,CD4+ T cells,gd T cells
+5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,B cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,Myeloid cells
@@ -98527,7 +98527,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,Myeloid cells
-5,gd T cells,gd T cells
+5,gd T cells,CD4+ T cells
 5,B cells,Myeloid cells
 5,MAIT cells,Myeloid cells
 5,MAIT cells,B cells
@@ -98819,7 +98819,7 @@ fold,y_true,y_pred
 5,gd T cells,CD4+ T cells
 5,B cells,Myeloid cells
 5,NK cells,NK cells
-5,NK cells,Myeloid cells
+5,NK cells,NK cells
 5,B cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,B cells
 5,MAIT cells,CD4+ T cells
@@ -99190,7 +99190,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,gd T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,gd T cells
 5,Myeloid cells,B cells
 5,gd T cells,CD4+ T cells
 5,MAIT cells,Myeloid cells
@@ -99656,7 +99656,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,B cells
 5,CD4+ T cells,NK cells
 5,NK cells,NK cells
-5,MAIT cells,MAIT cells
+5,MAIT cells,Myeloid cells
 5,MAIT cells,CD4+ T cells
 5,NK cells,gd T cells
 5,MAIT cells,Myeloid cells
@@ -99760,7 +99760,7 @@ fold,y_true,y_pred
 5,Myeloid cells,NK cells
 5,NK cells,NK cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
-5,Myeloid cells,TRAV1-2- CD8+ T cells
+5,Myeloid cells,CD4+ T cells
 5,B cells,MAIT cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,Myeloid cells,NK cells
@@ -99996,7 +99996,7 @@ fold,y_true,y_pred
 5,Myeloid cells,Myeloid cells
 5,gd T cells,CD4+ T cells
 5,Myeloid cells,gd T cells
-5,TRAV1-2- CD8+ T cells,gd T cells
+5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,Myeloid cells
 5,Myeloid cells,NK cells
 5,NK cells,NK cells
@@ -100304,7 +100304,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,CD4+ T cells
-5,TRAV1-2- CD8+ T cells,Myeloid cells
+5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,NK cells,NK cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -100403,7 +100403,7 @@ fold,y_true,y_pred
 5,gd T cells,Myeloid cells
 5,Myeloid cells,Myeloid cells
 5,Myeloid cells,NK cells
-5,MAIT cells,gd T cells
+5,MAIT cells,CD4+ T cells
 5,CD4+ T cells,Myeloid cells
 5,gd T cells,MAIT cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
@@ -100695,7 +100695,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
-5,CD4+ T cells,TRAV1-2- CD8+ T cells
+5,CD4+ T cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,NK cells,NK cells
@@ -101069,7 +101069,7 @@ fold,y_true,y_pred
 5,gd T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,NK cells
 5,NK cells,NK cells
-5,MAIT cells,CD4+ T cells
+5,MAIT cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,MAIT cells,Myeloid cells
@@ -101100,7 +101100,7 @@ fold,y_true,y_pred
 5,gd T cells,B cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
-5,B cells,CD4+ T cells
+5,B cells,MAIT cells
 5,NK cells,NK cells
 5,CD4+ T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -101188,7 +101188,7 @@ fold,y_true,y_pred
 5,gd T cells,B cells
 5,NK cells,NK cells
 5,B cells,B cells
-5,gd T cells,B cells
+5,gd T cells,gd T cells
 5,B cells,Myeloid cells
 5,Myeloid cells,CD4+ T cells
 5,CD4+ T cells,B cells
@@ -101307,7 +101307,7 @@ fold,y_true,y_pred
 5,MAIT cells,B cells
 5,gd T cells,Myeloid cells
 5,CD4+ T cells,B cells
-5,B cells,NK cells
+5,B cells,TRAV1-2- CD8+ T cells
 5,B cells,Myeloid cells
 5,gd T cells,CD4+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
@@ -101318,7 +101318,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,gd T cells,gd T cells
 5,CD4+ T cells,CD4+ T cells
-5,Myeloid cells,CD4+ T cells
+5,Myeloid cells,MAIT cells
 5,CD4+ T cells,NK cells
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,B cells
@@ -101527,7 +101527,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,NK cells,NK cells
-5,MAIT cells,B cells
+5,MAIT cells,NK cells
 5,NK cells,NK cells
 5,CD4+ T cells,Myeloid cells
 5,B cells,Myeloid cells
@@ -101535,7 +101535,7 @@ fold,y_true,y_pred
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,B cells,B cells
-5,Myeloid cells,Myeloid cells
+5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,B cells
@@ -101600,7 +101600,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,B cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,NK cells
-5,CD4+ T cells,B cells
+5,CD4+ T cells,gd T cells
 5,B cells,Myeloid cells
 5,CD4+ T cells,CD4+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
@@ -101810,7 +101810,7 @@ fold,y_true,y_pred
 5,NK cells,Myeloid cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,gd T cells,NK cells
-5,Myeloid cells,CD4+ T cells
+5,Myeloid cells,B cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,CD4+ T cells,gd T cells
@@ -101859,14 +101859,14 @@ fold,y_true,y_pred
 5,Myeloid cells,CD4+ T cells
 5,Myeloid cells,NK cells
 5,NK cells,NK cells
-5,B cells,CD4+ T cells
+5,B cells,B cells
 5,gd T cells,NK cells
 5,MAIT cells,Myeloid cells
 5,Myeloid cells,MAIT cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,NK cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,B cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,Myeloid cells
 5,CD4+ T cells,gd T cells
@@ -102487,7 +102487,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,CD4+ T cells
 5,NK cells,NK cells
-5,CD4+ T cells,CD4+ T cells
+5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,gd T cells,Myeloid cells
 5,Myeloid cells,B cells
@@ -102546,7 +102546,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,gd T cells
 5,NK cells,NK cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
-5,NK cells,Myeloid cells
+5,NK cells,NK cells
 5,CD4+ T cells,CD4+ T cells
 5,Myeloid cells,NK cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
@@ -102618,7 +102618,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,gd T cells,gd T cells
 5,MAIT cells,MAIT cells
-5,Myeloid cells,Myeloid cells
+5,Myeloid cells,gd T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,Myeloid cells,NK cells
 5,Myeloid cells,CD4+ T cells
@@ -102627,7 +102627,7 @@ fold,y_true,y_pred
 5,MAIT cells,CD4+ T cells
 5,NK cells,NK cells
 5,gd T cells,TRAV1-2- CD8+ T cells
-5,MAIT cells,CD4+ T cells
+5,MAIT cells,Myeloid cells
 5,Myeloid cells,CD4+ T cells
 5,NK cells,NK cells
 5,B cells,NK cells
@@ -102683,7 +102683,7 @@ fold,y_true,y_pred
 5,MAIT cells,CD4+ T cells
 5,gd T cells,Myeloid cells
 5,NK cells,NK cells
-5,Myeloid cells,CD4+ T cells
+5,Myeloid cells,Myeloid cells
 5,Myeloid cells,CD4+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
@@ -102819,9 +102819,9 @@ fold,y_true,y_pred
 5,Myeloid cells,MAIT cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,Myeloid cells,gd T cells
-5,Myeloid cells,CD4+ T cells
+5,Myeloid cells,B cells
 5,gd T cells,Myeloid cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,B cells
 5,MAIT cells,B cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,CD4+ T cells
@@ -102881,7 +102881,7 @@ fold,y_true,y_pred
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,B cells
 5,Myeloid cells,B cells
-5,CD4+ T cells,Myeloid cells
+5,CD4+ T cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,CD4+ T cells,gd T cells
 5,MAIT cells,NK cells
@@ -103157,7 +103157,7 @@ fold,y_true,y_pred
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,B cells
 5,NK cells,NK cells
-5,B cells,B cells
+5,B cells,gd T cells
 5,B cells,CD4+ T cells
 5,Myeloid cells,gd T cells
 5,MAIT cells,B cells
@@ -103530,7 +103530,7 @@ fold,y_true,y_pred
 5,Myeloid cells,B cells
 5,CD4+ T cells,B cells
 5,gd T cells,CD4+ T cells
-5,CD4+ T cells,CD4+ T cells
+5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,CD4+ T cells
 5,B cells,Myeloid cells
@@ -103689,7 +103689,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,B cells
 5,B cells,NK cells
-5,MAIT cells,TRAV1-2- CD8+ T cells
+5,MAIT cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,B cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
@@ -103803,7 +103803,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,B cells,CD4+ T cells
 5,Myeloid cells,CD4+ T cells
-5,Myeloid cells,TRAV1-2- CD8+ T cells
+5,Myeloid cells,B cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
@@ -104053,7 +104053,7 @@ fold,y_true,y_pred
 5,B cells,CD4+ T cells
 5,CD4+ T cells,B cells
 5,CD4+ T cells,Myeloid cells
-5,MAIT cells,Myeloid cells
+5,MAIT cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
@@ -104617,7 +104617,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,gd T cells,Myeloid cells
 5,CD4+ T cells,Myeloid cells
-5,Myeloid cells,Myeloid cells
+5,Myeloid cells,gd T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,NK cells
@@ -104637,7 +104637,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,B cells
 5,NK cells,NK cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
-5,CD4+ T cells,B cells
+5,CD4+ T cells,gd T cells
 5,Myeloid cells,Myeloid cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,B cells
@@ -104783,7 +104783,7 @@ fold,y_true,y_pred
 5,TRAV1-2- CD8+ T cells,gd T cells
 5,NK cells,NK cells
 5,Myeloid cells,MAIT cells
-5,gd T cells,B cells
+5,gd T cells,Myeloid cells
 5,CD4+ T cells,CD4+ T cells
 5,B cells,CD4+ T cells
 5,NK cells,NK cells
@@ -105270,7 +105270,7 @@ fold,y_true,y_pred
 5,Myeloid cells,TRAV1-2- CD8+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,TRAV1-2- CD8+ T cells,NK cells
-5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
+5,TRAV1-2- CD8+ T cells,MAIT cells
 5,TRAV1-2- CD8+ T cells,NK cells
 5,NK cells,NK cells
 5,gd T cells,TRAV1-2- CD8+ T cells
@@ -105555,7 +105555,7 @@ fold,y_true,y_pred
 5,CD4+ T cells,CD4+ T cells
 5,CD4+ T cells,CD4+ T cells
 5,MAIT cells,gd T cells
-5,TRAV1-2- CD8+ T cells,MAIT cells
+5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,MAIT cells,B cells
 5,B cells,CD4+ T cells
 5,MAIT cells,B cells
@@ -105605,7 +105605,7 @@ fold,y_true,y_pred
 5,B cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,CD4+ T cells,B cells
-5,TRAV1-2- CD8+ T cells,B cells
+5,TRAV1-2- CD8+ T cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
 5,CD4+ T cells,Myeloid cells
 5,B cells,Myeloid cells
@@ -105638,7 +105638,7 @@ fold,y_true,y_pred
 5,Myeloid cells,CD4+ T cells
 5,MAIT cells,TRAV1-2- CD8+ T cells
 5,Myeloid cells,Myeloid cells
-5,MAIT cells,TRAV1-2- CD8+ T cells
+5,MAIT cells,Myeloid cells
 5,Myeloid cells,CD4+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,NK cells,NK cells
@@ -105891,7 +105891,7 @@ fold,y_true,y_pred
 5,gd T cells,NK cells
 5,gd T cells,Myeloid cells
 5,B cells,gd T cells
-5,TRAV1-2- CD8+ T cells,CD4+ T cells
+5,TRAV1-2- CD8+ T cells,B cells
 5,CD4+ T cells,CD4+ T cells
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,MAIT cells,Myeloid cells
@@ -106014,7 +106014,7 @@ fold,y_true,y_pred
 5,B cells,gd T cells
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,gd T cells
-5,Myeloid cells,B cells
+5,Myeloid cells,CD4+ T cells
 5,B cells,TRAV1-2- CD8+ T cells
 5,B cells,NK cells
 5,MAIT cells,B cells
@@ -106410,7 +106410,7 @@ fold,y_true,y_pred
 5,NK cells,NK cells
 5,B cells,Myeloid cells
 5,CD4+ T cells,CD4+ T cells
-5,MAIT cells,B cells
+5,MAIT cells,gd T cells
 5,NK cells,NK cells
 5,TRAV1-2- CD8+ T cells,MAIT cells
 5,CD4+ T cells,NK cells
@@ -106428,7 +106428,7 @@ fold,y_true,y_pred
 5,B cells,NK cells
 5,CD4+ T cells,B cells
 5,gd T cells,gd T cells
-5,CD4+ T cells,CD4+ T cells
+5,CD4+ T cells,gd T cells
 5,MAIT cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,NK cells
 5,B cells,Myeloid cells
@@ -106454,7 +106454,7 @@ fold,y_true,y_pred
 5,Myeloid cells,Myeloid cells
 5,gd T cells,CD4+ T cells
 5,Myeloid cells,Myeloid cells
-5,B cells,TRAV1-2- CD8+ T cells
+5,B cells,Myeloid cells
 5,B cells,CD4+ T cells
 5,B cells,CD4+ T cells
 5,TRAV1-2- CD8+ T cells,NK cells
@@ -107278,7 +107278,7 @@ fold,y_true,y_pred
 5,Myeloid cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,Myeloid cells
 5,B cells,CD4+ T cells
-5,gd T cells,gd T cells
+5,gd T cells,CD4+ T cells
 5,Myeloid cells,B cells
 5,Myeloid cells,Myeloid cells
 5,gd T cells,NK cells
@@ -107933,7 +107933,7 @@ fold,y_true,y_pred
 5,gd T cells,TRAV1-2- CD8+ T cells
 5,CD4+ T cells,Myeloid cells
 5,MAIT cells,gd T cells
-5,gd T cells,gd T cells
+5,gd T cells,Myeloid cells
 5,B cells,Myeloid cells
 5,CD4+ T cells,TRAV1-2- CD8+ T cells
 5,gd T cells,CD4+ T cells
@@ -108204,7 +108204,7 @@ fold,y_true,y_pred
 5,MAIT cells,Myeloid cells
 5,TRAV1-2- CD8+ T cells,CD4+ T cells
 5,NK cells,NK cells
-5,gd T cells,Myeloid cells
+5,gd T cells,NK cells
 5,B cells,Myeloid cells
 5,MAIT cells,CD4+ T cells
 5,MAIT cells,TRAV1-2- CD8+ T cells

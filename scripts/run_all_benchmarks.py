@@ -15,6 +15,8 @@ DEFAULT_CONFIGS = [
     Path("configs/benchmarks/lung_with_batch.yaml"),
     Path("configs/benchmarks/pbmc_no_batch.yaml"),
     Path("configs/benchmarks/pbmc_with_site.yaml"),
+    Path("configs/benchmarks/blood_atlas_no_batch.yaml"),
+    Path("configs/benchmarks/blood_atlas_with_batch.yaml"),
 ]
 
 
@@ -30,6 +32,7 @@ def main() -> None:
     args = parser.parse_args()
 
     root = bootstrap_repo()
+
     for config in DEFAULT_CONFIGS:
         cmd = [
             sys.executable,
@@ -37,10 +40,16 @@ def main() -> None:
             "--config",
             str(config),
         ]
+
         if args.clean_output:
             cmd.append("--clean-output")
+
         print("\n$", " ".join(cmd))
-        subprocess.run(cmd, cwd=root, check=True)
+        subprocess.run(
+            cmd,
+            cwd=root,
+            check=True,
+        )
 
 
 if __name__ == "__main__":

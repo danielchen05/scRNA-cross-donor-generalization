@@ -1,8 +1,8 @@
 ,B cells,CD4+ T cells,MAIT cells,Myeloid cells,NK cells,TRAV1-2- CD8+ T cells,gd T cells
-B cells,330,1087,0,817,173,853,0
-CD4+ T cells,326,1128,0,823,171,872,0
-MAIT cells,244,767,0,609,158,634,0
-Myeloid cells,335,1077,0,834,208,864,2
-NK cells,5,0,0,29,3241,18,0
-TRAV1-2- CD8+ T cells,341,1155,0,815,147,857,0
-gd T cells,313,885,0,616,172,829,2
+B cells,323,1181,0,765,172,819,0
+CD4+ T cells,304,1227,0,761,171,857,0
+MAIT cells,235,831,0,559,158,629,0
+Myeloid cells,329,1183,0,772,207,829,0
+NK cells,4,1,0,7,3244,37,0
+TRAV1-2- CD8+ T cells,331,1258,0,771,147,808,0
+gd T cells,283,953,0,598,170,813,0

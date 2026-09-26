@@ -1,0 +1,18 @@
+{
+  "source_adata_path": "/fastscratch/myscratch/xchen5/all_pbmcs/all_pbmcs_rna.h5ad",
+  "source_metadata_path": "/fastscratch/myscratch/xchen5/all_pbmcs/all_pbmcs_metadata.csv",
+  "expression_provenance": "contributor-provided normalized/transformed expression",
+  "raw_gene_level_counts_available": false,
+  "normalization_reapplied": false,
+  "scvi_supported": false,
+  "min_cells_per_celltype": 5000,
+  "min_donors_per_celltype": 20,
+  "max_cells_per_donor_celltype": 100,
+  "subsample_seed": 0,
+  "n_cells_final": 108682,
+  "n_genes_final": 36601,
+  "n_donors_final": 166,
+  "n_cell_types_final": 7,
+  "n_batches_final": 14,
+  "output_h5ad": "/users/xchen5/scRNA-cross-donor-generalization/data/blood_atlas/blood_atlas_subsampled.h5ad"
+}

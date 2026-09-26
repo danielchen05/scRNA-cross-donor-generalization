@@ -1,0 +1,37 @@
+{
+  "analysis": "synthetic_label_floor_control",
+  "source_dataset": "PBMC Stephenson benchmark-ready object",
+  "adata_path": "data/PBMC_Stephenson/stephenson_benchmark_ready.h5ad",
+  "celltype_col_used_only_for_class_count": "cell_type",
+  "donor_col": "patient_id",
+  "representations": {
+    "hvg": "hvg",
+    "pca": "X_pca",
+    "harmony": "X_harmony",
+    "scvi": "X_scVI"
+  },
+  "n_cells": 10107,
+  "n_donors": 23,
+  "n_classes": 13,
+  "chance_macro_f1": 0.07692307692307693,
+  "label_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "random_split_seeds": [
+    42
+  ],
+  "n_folds": 5,
+  "donor_fold_seed": 42,
+  "test_size": 0.2,
+  "batch_covariate": null,
+  "note": "Synthetic labels are generated independently within every donor, with per-class counts differing by at most one cell. Frozen PBMC expression and representations are reused without retraining."
+}

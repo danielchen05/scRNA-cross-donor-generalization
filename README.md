@@ -22,11 +22,11 @@ Representations are prepared before classifier splitting, so donor-held-out eval
 
 Random cell-level splitting yields higher macro F1 across all evaluated representations in PBMC and lung. Smaller gaps occur in high-performance cohorts and in the synthetic-label floor control, showing why evaluation gaps should be interpreted alongside absolute performance.
 
-**Figure 1 — Evaluation design.** [Notebook](manuscript_figures/notebooks/Figure1_motivation.ipynb)
+**Figure 1 - Evaluation design.**
 
 ![Evaluation design](figures/manuscript/figure1_motivation.png)
 
-**Figure 4 — Evaluation gaps across cohorts and performance regimes.** [Notebook](manuscript_figures/notebooks/Figure4_ceiling_floor.ipynb)
+**Figure 4 - Evaluation gaps across cohorts and performance regimes.**
 
 ![Evaluation gaps and boundary conditions](figures/manuscript/figure4_boundary_conditions.png)
 
@@ -38,6 +38,15 @@ Expression matrices are excluded from GitHub. See [data/README.md](data/README.m
 Saved metrics, predictions, preprocessing summaries, and figure caches are in [results/](results). The complete working inputs and lung GLMM results are available on Zenodo.
 
 ## Reproduction
+
+### Required packages
+
+Use Python 3.12 with the following packages:
+
+```bash
+pip install numpy pandas scipy matplotlib==3.11.1 scikit-learn pyyaml anndata scanpy harmonypy scvi-tools statsmodels jupyterlab ipykernel
+pip install -e .
+```
 
 ### Figures from saved results
 

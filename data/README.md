@@ -1,6 +1,6 @@
 # Data
 
-Expression data are excluded from GitHub. All datasets are available with the repository snapshot on Zenodo. See the [main README](../README.md#data-availability) for data sources and availability.
+Expression data are excluded from GitHub. All datasets are available with the repository snapshot on Zenodo.
 
 ## Expected files
 

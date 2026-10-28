@@ -1,88 +1,59 @@
-# Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation
+# Cross-donor generalization in single-cell classification
 
-This project examines how evaluation design affects cell-type classification performance in single-cell RNA sequencing. We compare random cell-level splitting, where training and test cells can share donors, with donor-held-out cross-validation across five biological cohorts.
+**Random cell-level splits can overestimate performance on unseen donors.** Across PBMC and lung, random splitting yields higher macro F1 than donor-held-out evaluation, even after technical covariate adjustment and donor-level modeling. Gaps are smaller near perfect or chance-level classification. **Evaluation should hold out donors when claims concern generalization to new individuals.**
 
-**Status:** analyses are finalized and the manuscript is in preparation. A complete data and results deposit on Zenodo is planned.
+## Manuscript
+
+**Title:** *Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type*  
+**Authors:** Xingyi Chen, Jiabei Li, Alexis Battle  
+**Venue:** bioRxiv (2026)  
+**DOI:** https://doi.org/10.64898/2026.10.26.761949
+
+If you use this code or these analyses, please cite the manuscript above.
 
 ## Study overview
 
-| Cohort | Cells | Donors | Cell types |
-| --- | ---: | ---: | ---: |
-| PBMC | 10,107 | 23 | 13 |
-| Lung | 83,966 | 104 | 31 |
-| Kidney | 8,746 | 19 | 9 |
-| Pancreas | 8,500 | 17 | 9 |
-| Blood Atlas | 108,682 | 166 | 7 |
+We compare five repeated 80/20 random cell-level splits with five-fold donor-held-out cross-validation using logistic regression. Benchmarks span PBMC, lung, kidney, pancreas, and Blood Atlas, with HVG, PCA, Harmony, and scVI representations where available. Macro F1 is the primary metric. Additional analyses include technical covariates, donor ablation, correctness mixed models, cross-site transfer, and randomized-label controls.
 
-The benchmark uses logistic regression with HVG, PCA, Harmony, and scVI representations; Blood Atlas excludes scVI because raw counts are unavailable. Biological cohorts use five repeated 80/20 cell-level splits and five donor-held-out folds, with macro F1 as the primary metric. Additional analyses include site/batch covariates, donor ablation, correctness mixed models, cross-site transfer, and a synthetic-label floor control.
+Representations are constructed before classifier splitting, so the comparison measures classifier generalization conditional on shared cohort-level representations. Held-out donors may contribute to representation construction.
 
-Representations are prepared before classifier splitting, so donor-held-out evaluation measures classifier generalization conditional on these shared representations.
+![Evaluation gaps across cohorts and performance regimes](figures/main/figure4_boundary_conditions.png)
 
-## Key findings and figures
+## Data
 
-Random cell-level splitting yields higher macro F1 across all evaluated representations in PBMC and lung. Smaller gaps occur in high-performance cohorts and in the synthetic-label floor control, showing why evaluation gaps should be interpreted alongside absolute performance.
-
-**Figure 1 - Evaluation design.**
-
-![Evaluation design](figures/manuscript/figure1_motivation.png)
-
-**Figure 4 - Evaluation gaps across cohorts and performance regimes.**
-
-![Evaluation gaps and boundary conditions](figures/manuscript/figure4_boundary_conditions.png)
-
-
-## Data availability
-
-Expression matrices are excluded from GitHub. See [data/README.md](data/README.md) for expected filenames. Complete processed inputs are documented on Zenodo.
-
-Saved metrics, predictions, preprocessing summaries, and figure caches are in [results/](results). The complete working inputs and lung GLMM results are available on Zenodo.
+**The `data/` folder is deposited on [Zenodo](https://zenodo.org/records/19717558/).** Download and restore data files under the repository's `data/` directory. Expression matrices are excluded from GitHub; expected paths and preprocessing inputs are listed in [data/README.md](data/README.md). Saved numerical results and figure caches are in [results/](results/).
 
 ## Reproduction
 
-### Required packages
-
-Use Python 3.12 with the following packages:
+Use Python 3.12 and run from the repository root:
 
 ```bash
-pip install numpy pandas scipy matplotlib==3.11.1 scikit-learn pyyaml anndata scanpy harmonypy scvi-tools statsmodels jupyterlab ipykernel
-pip install -e .
+python -m pip install numpy pandas scipy matplotlib==3.11.1 scikit-learn pyyaml anndata scanpy harmonypy scvi-tools statsmodels jupyterlab ipykernel
+python -m pip install -e .
 ```
 
-### Figures from saved results
-
-Run the notebooks in [manuscript_figures/notebooks/](manuscript_figures/notebooks). They export PNGs at **350 DPI** to `figures/manuscript/`.
-
-Figures 1 and 4 and supplementary figures S2, S4, and S5 can use the tracked results and caches. Run the supplementary setup cell before the selected figure cells. Figures 2, 3, S1, and S3 require the corresponding H5AD inputs; Figure 3 also requires the lung GLMM results.
-
-### Full-analysis reproduction
-
-Arrange the inputs as described in [data/README.md](data/README.md), then run:
+With benchmark-ready inputs restored from Zenodo:
 
 ```bash
-python scripts/run_all_preprocessing.py
 python scripts/run_all_benchmarks.py
 python scripts/run_correctness_glmm.py --benchmark-config configs/benchmarks/pbmc_no_batch.yaml --site-col Site
 python scripts/run_correctness_glmm.py --benchmark-config configs/benchmarks/lung_no_batch.yaml --site-col batch
 python scripts/run_synthetic_floor.py
 ```
 
-These commands write analysis outputs; use a separate copy for new runs. Skip preprocessing when benchmark-ready objects are available. PBMC requires its existing subsampled checkpoint and scVI embedding; Blood Atlas requires its [Stage-0 checkpoint](notebooks/preprocessing/blood_atlas_stage0_subsample.ipynb). Additional PBMC transfer diagnostics are in [this notebook](notebooks/figures/pbmc_manuscript_figures.ipynb).
+To rebuild benchmark-ready inputs, arrange the preprocessing inputs documented in [data/README.md](data/README.md), then run `python scripts/run_all_preprocessing.py`. PBMC requires its existing subsampled checkpoint and scVI embedding; Blood Atlas requires the [Stage-0 checkpoint](notebooks/preprocessing/blood_atlas_stage0_subsample.ipynb). Use a separate working copy for new runs because commands write analysis outputs.
+
+Run [notebooks/figures/](notebooks/figures/) to recreate manuscript figures; PNG and TIFF exports at 350 DPI go to `figures/main/` and `figures/supplementary/`. Figures 2, 3, S1, and S3 require benchmark-ready H5AD inputs. PBMC matching analyses for Figure S4 are in [notebooks/diagnostics/pbmc_transfer_diagnostics.ipynb](notebooks/diagnostics/pbmc_transfer_diagnostics.ipynb).
 
 ## Repository layout
 
-| Directory | Contents |
+| Path | Contents |
 | --- | --- |
-| `configs/` | Preprocessing and benchmark settings |
-| `src/`, `scripts/` | Analysis code and command-line runners |
-| `data/` | Local expression inputs, excluded from Git |
-| `results/` | Saved numerical outputs and figure caches |
-| `notebooks/` | QC, component figures, and diagnostics |
-| `manuscript_figures/notebooks/` | Final manuscript figure notebooks |
-| `figures/` | Exported figures |
+| `configs/preprocessing/`, `configs/benchmarks/` | Cohort preprocessing and evaluation settings |
+| `src/scrna_benchmark/`, `scripts/` | Analysis code and command-line runners |
+| `data/` | Data documentation and local inputs restored from Zenodo |
+| `notebooks/preprocessing/` | QC and Blood Atlas Stage-0 preparation |
+| `notebooks/figures/`, `notebooks/diagnostics/` | Manuscript figures and PBMC transfer diagnostics |
+| `results/` | Metrics, predictions, preprocessing summaries, and figure caches |
+| `figures/main/`, `figures/supplementary/` | Exported manuscript figures |
 | `archive/` | Historical course-project materials |
-
-## Citation and license
-
-Citation is coming soon.
-
-Code is available under the [MIT License](LICENSE).

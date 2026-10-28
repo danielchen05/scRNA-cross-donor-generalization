@@ -1,4 +1,4 @@
-# Cross-donor generalization in single-cell classification
+# Cross-donor generalization in single-cell classification of cell-type
 
 **Random cell-level splits can overestimate performance on unseen donors.** Across PBMC and lung, random splitting yields higher macro F1 than donor-held-out evaluation, even after technical covariate adjustment and donor-level modeling. Gaps are smaller near perfect or chance-level classification. **Evaluation should hold out donors when claims concern generalization to new individuals.**
 

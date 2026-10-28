@@ -21,7 +21,7 @@ Representations are constructed before classifier splitting, so the comparison m
 
 ## Data
 
-**The `data/` folder is deposited on [Zenodo](https://zenodo.org/records/19717558/).** Download and restore data files under the repository's `data/` directory. Expression matrices are excluded from GitHub; expected paths and preprocessing inputs are listed in [data/README.md](data/README.md). Saved numerical results and figure caches are in [results/](results/).
+**The `data/` folder is deposited on [Zenodo](https://doi.org/10.5281/zenodo.19717558).** Download and restore data files under the repository's `data/` directory. Expression matrices are excluded from GitHub; expected paths and preprocessing inputs are listed in [data/README.md](data/README.md). Saved numerical results and figure caches are in [results/](results/).
 
 ## Reproduction
 
